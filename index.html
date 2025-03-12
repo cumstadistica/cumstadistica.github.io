@@ -3,138 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cumstat</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            width: 100vw;
-            font-family: 'Times New Roman', serif;
+    <title>Cumstadística</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
         }
-        /* Barra superior */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: navy;
-            color: white;
-            padding: 15px 20px;
-        }
-        .navbar .logo {
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-        .navbar ul {
-            list-style: none;
-            display: flex;
-            padding: 0;
-            margin: 0;
-        }
-        .navbar ul li {
-            margin: 0 15px;
-        }
-        .navbar ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1em;
-        }
-        .navbar ul li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Contenido principal */
-        .main-content {
-            display: flex;
-            flex: 1;
-        }
-        .left {
-            width: 50%;
-            background-color: blue;
-        }
-        .right {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 20px;
-            background-color: white;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 80%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        /* Contenido extra */
-        .extra-content {
-            padding: 40px;
-            text-align: center;
-            background-color: #f5f5f5;
-        }
-        .extra-content p {
-            font-size: 1.2em;
-            max-width: 800px;
-            margin: auto;
-        }
-
-        /* Pie de página */
-        .footer {
-            background-color: navy;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            font-size: 1em;
-        }
-        .footer a {
-            color: white;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            showSection('home');
+        });
+    </script>
 </head>
 <body>
-
     <!-- Barra de navegación -->
     <nav class="navbar">
-        <div class="logo">CUMSTADISTICA</div>
+        <div class="logo">CUMSTADÍSTICA</div>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#" onclick="showSection('home')">Inicio</a></li>
+            <li><a href="#" onclick="showSection('about')">Acerca de</a></li>
+            <li><a href="#" onclick="showSection('contact')">Contacto</a></li>
         </ul>
     </nav>
 
-    <!-- Contenido principal -->
-    <div class="main-content">
-        <div class="left"></div>
-        <div class="right">
-            <h1>CUMSTADISTICA</h1>
+    <!-- Sección Inicio -->
+    <section id="home" class="section">
+        <div class="main-content">
+            <h1>Bienvenido a Cumstadística</h1>
+            <p>La estadística no es solo números, es poder. Aquí exploramos los datos y los transformamos en información útil para el análisis y la toma de decisiones.</p>
             <img src="CUMSTAT.jpg" alt="CUMSTAT Image">
         </div>
-    </div>
+    </section>
 
-    <!-- Contenido adicional -->
-    <div class="extra-content">
-        <h2>Bienvenido a Cumstadística</h2>
-        <p>La estadística no es solo números, es poder. Aquí exploramos los datos y los transformamos en información útil para el análisis y la toma de decisiones. Sigue descubriendo más sobre nuestro trabajo.</p>
-    </div>
+    <!-- Sección Acerca de -->
+    <section id="about" class="section" style="display: none;">
+        <div class="main-content">
+            <h1>Acerca de Cumstadística</h1>
+            <p>Bienvenido a Cumstadística, el único sitio web donde la estadística y la lógica se mezclan con insultos gratuitos, referencias culturales fuera de lugar y consejos de vida que probablemente arruinen la tuya.</p>
+            <h2>¿Quiénes somos?</h2>
+            <p><strong>C:</strong> La máquina de la lógica. Si hay una forma óptima de hacer algo, la encontrará, la criticará y luego te dirá que eres un inútil por no haberlo visto antes.</p>
+            <p><strong>J:</strong> Maestro de las palabras y diplomático de Cumstadística. Puede venderte cualquier idea con tal de que suene razonable, aunque sea una estafa piramidal.</p>
+            <p><strong>U:</strong> La memoria encarnada y el más pachamamesco del grupo (aunque lo niegue). Cree que todo lo comercial es basura y que el arte de verdad es una película muda serbo-croata de 12 horas sobre la pesca artesanal.</p>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="section" style="display: none;">
+        <div class="main-content">
+            <h1>Contacto</h1>
+            <p>Puedes contactarnos a través de nuestro correo: <strong>contacto@cumstadistica.com</strong></p>
+            <p>O seguirnos en redes sociales (cuando las tengamos, claro).</p>
+        </div>
+    </section>
 
     <!-- Pie de página -->
     <footer class="footer">
         <p>&copy; 2025 Cumstadística. Todos los derechos reservados.</p>
         <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
     </footer>
-
 </body>
 </html>
