@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  </div>
+  {% include header.html %}  <!-- This inserts the header into the post layout -->
+
+  <main>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <p><small>Published on {{ page.date | date: "%B %d, %Y" }}</small></p>
+      {{ content }}
+    </article>
+
+    <br>
+    <br>
+
+    <div class="post-navigation">
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="last-post">
+          Anterior: {{ page.previous.title }}
+        </a>
+      {% endif %}
+    </div>
+
+    <br>
+
+    <div class="post-navigation">
+      {% if page.next %}
+        <a href="{{ page.next.url }}" class="next-post">
+          Siguiente: {{ page.next.title }}
+        </a>
+      {% endif %}
+    </div>
+  </main>
+  </main>
+
+  {% include footer.html %}  <!-- Inserts the footer from _includes -->
+
+</body>
+</html>

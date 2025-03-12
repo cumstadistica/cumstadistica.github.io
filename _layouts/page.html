@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+
+  {% include header.html %}  <!-- Inserts the header from _includes -->
+
+  <main class="container">
+    <!--<h1>{{ page.title }}</h1> -->
+    <div class="content">
+      {{ content }}  <!-- This inserts the content of the page -->
+    </div>
+  </main>
+
+  {% include footer.html %}  <!-- Inserts the footer from _includes -->
+
+</body>
+</html>
