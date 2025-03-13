@@ -20,14 +20,7 @@
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="navbar">
-        <div class="logo">CUMSTADÍSTICA</div>
-        <ul>
-            <li><a href="#" onclick="showSection('home')">Inicio</a></li>
-            <li><a href="#" onclick="showSection('about')">Acerca de</a></li>
-            <li><a href="#" onclick="showSection('contact')">Contacto</a></li>
-        </ul>
-    </nav>
+    {% include header.html %}
 
     <!-- Sección Inicio -->
     <section id="home" class="section">
@@ -36,6 +29,13 @@
             <p>La estadística no es solo números, es poder. Aquí exploramos los datos y los transformamos en información útil para el análisis y la toma de decisiones.</p>
             <img src="CUMSTAT.jpg" alt="CUMSTAT Image">
         </div>
+        {% for post in site.posts %}
+        <br>
+        <div class="main-content">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+        </div>
+        {% endfor %}
     </section>
 
     <!-- Sección Acerca de -->
@@ -50,19 +50,8 @@
         </div>
     </section>
 
-    <!-- Sección Contacto -->
-    <section id="contact" class="section" style="display: none;">
-        <div class="main-content">
-            <h1>Contacto</h1>
-            <p>Puedes contactarnos a través de nuestro correo: <strong>contacto@cumstadistica.com</strong></p>
-            <p>O seguirnos en redes sociales (cuando las tengamos, claro).</p>
-        </div>
-    </section>
-
     <!-- Pie de página -->
-    <footer class="footer">
-        <p>&copy; 2025 Cumstadística. Todos los derechos reservados.</p>
-        <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
-    </footer>
+    {% include footer.html %}
+
 </body>
 </html>
