@@ -4,31 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cumstadística</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>
-        function showSection(sectionId) {
-            document.querySelectorAll('.section').forEach(section => {
-                section.style.display = 'none';
-            });
-            document.getElementById(sectionId).style.display = 'block';
-        }
-        
-        document.addEventListener("DOMContentLoaded", function() {
-            showSection('home');
-        });
-    </script>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <!-- Barra de navegación -->
     <nav class="navbar">
     <div class="logo" onclick="window.location.href='/'">CUMSTADÍSTICA</div>
     <ul>
         <li><a href="/elfactodiario">El Facto Diario</a></li>
-        <li><a href="#" onclick="showSection('about')">Acerca de</a></li>
+        <li><a href="/acercade">Acerca de</a></li>
         <li><a href="/contacto">Contacto</a></li>
     </ul>
 </nav>
-
     <!-- Sección Inicio -->
     <section id="home" class="section">
         <div class="main-content">
@@ -37,7 +24,16 @@
             <img src="CUMSTAT.jpg" alt="CUMSTAT Image">
         </div>
         
-        <br>
+
+        <div class="main-content">
+        <h2><a href="/meme/2025/03/10/a-veces-la-miro.html">A veces la miro</a></h2>
+        <p><video controls="">
+  <source src="/assets/a_veces_la_miro.mp4" type="video/mp4" />
+</video>
+</p>
+        </div>
+        
+
         <div class="main-content">
         <h2><a href="/sitcom/2025/03/10/sitcom-episodio-piloto.html">Episodio Piloto: Una hora menos en Canarias, una hora más en J</a></h2>
         <p><h2 id="escena-1-el-piso-de-j-c-y-u">Escena 1: El piso de J, C y U</h2>
@@ -48,17 +44,6 @@
         
     </section>
 
-    <!-- Sección Acerca de -->
-    <section id="about" class="section" style="display: none;">
-        <div class="main-content">
-            <h1>Acerca de Cumstadística</h1>
-            <p>Bienvenido a Cumstadística, el único sitio web donde la estadística y la lógica se mezclan con insultos gratuitos, referencias culturales fuera de lugar y consejos de vida que probablemente arruinen la tuya.</p>
-            <h2>¿Quiénes somos?</h2>
-            <p><strong>C:</strong> La máquina de la lógica. Si hay una forma óptima de hacer algo, la encontrará, la criticará y luego te dirá que eres un inútil por no haberlo visto antes.</p>
-            <p><strong>J:</strong> Maestro de las palabras y diplomático de Cumstadística. Puede venderte cualquier idea con tal de que suene razonable, aunque sea una estafa piramidal.</p>
-            <p><strong>U:</strong> La memoria encarnada y el más pachamamesco del grupo (aunque lo niegue). Cree que todo lo comercial es basura y que el arte de verdad es una película muda serbo-croata de 12 horas sobre la pesca artesanal.</p>
-        </div>
-    </section>
 
     <!-- Pie de página -->
     <footer class="footer">

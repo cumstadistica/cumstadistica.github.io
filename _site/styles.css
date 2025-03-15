@@ -57,6 +57,7 @@ body {
     align-items: center;
     padding: 50px 20px;
     min-height: 80vh;
+    margin-bottom: 10px; 
 }
 
 .main-content {
@@ -65,7 +66,7 @@ body {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 0 auto; /* Zentriert das Element horizontal */
+    margin: 0.5% 5%;
 }
 
 h1 {
@@ -83,6 +84,13 @@ img {
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10%px;
 }
 
 /* Pie de página */
@@ -103,4 +111,26 @@ img {
 
 .footer a:hover {
     color: gold;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .section {
+        padding: 2%;
+    }
+    
+    .main-content {
+        max-width: 90%;
+        padding: 7.5% 5%;
+        border-radius: 10px;
+    }
+    
+    
 }
