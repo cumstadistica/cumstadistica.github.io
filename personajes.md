@@ -30,13 +30,18 @@ U es un alma artística atrapada en un mundo de números y estadísticas. Filós
 ### El Loco de Fortnite
 Nadie sabe de dónde vino ni por qué grita "¡FORTNITE!" en los momentos más inoportunos, pero ahí está, en las sombras, esperando su oportunidad para sembrar el caos. Hay teorías que sugieren que es un viajero del tiempo atrapado en un bucle eterno de partidas en solitario, condenado a recordar la Temporada 2 del Capítulo 1 como la mejor época de la humanidad. Otros dicen que fue un ingeniero brillante que, tras una mala decisión en la bolsa de las criptomonedas, perdió todo y se convirtió en un ser errante. Lo único seguro es que, cuando menos te lo esperas, aparece... y grita... y luego desaparece, dejando un leve eco de desesperación en el aire.
 
+<img src="EL LOCO DEL FORNITE.jpg" alt="Foto de C" width="200">
+
 
 ### Sesa
 Sesa es un enigma en sí mismo: un nini con ambición selectiva, un estratega en el League of Legends que rara vez acierta una skillshot, y un hombre que ha hecho del "mañana lo hago" su lema de vida. Para él, la procrastinación es un arte, y el Excel solo existe para hacer que ChatGPT le haga los deberes. Su mayor hazaña hasta ahora ha sido sobrevivir a las embestidas verbales de C, quien ha intentado convertirlo en una persona funcional con más insistencia que un testigo de Jehová en tu puerta. A pesar de todo, tiene su encanto y siempre está dispuesto a salir de fiesta, aunque eso implique endeudarse con tragos que alguien más acaba pagando.
 
+<img src="SESA.jpg" alt="Foto de C" width="200">
 
 ### Gurb
 Nadie sabe realmente quién es Gurb ni por qué está aquí. Se dice que una vez intentó integrarse en la sociedad humana, pero al descubrir la existencia del Excel y las horas de oficina, decidió mantenerse en un plano de existencia intermedio. Gurb es un ser místico, una entidad errante que observa los errores de los demás con una mezcla de compasión y burla silenciosa. Solo aparece cuando la trama lo requiere, como un Deus Ex Machina que soluciona problemas sin que nadie entienda cómo. Es el verdadero espíritu de la Cumstadística: una presencia inefable que deja más preguntas que respuestas.
+
+<img src="GURB.jpg" alt="Foto de C" width="200">
 
 ### Calvo Cuñao
 
