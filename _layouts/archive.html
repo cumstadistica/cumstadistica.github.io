@@ -12,38 +12,34 @@
 
   <main>
 
+
+
 <h1>{{ page.title }}</h1>
 
-{% if page.categories and page.categories.size > 0 %}
-  <h2>More in {{ page.categories | first }}</h2>
-  <ul>
-    {% assign category = page.categories | first %}
-    {% for post in site.posts %}
-      {% if post.categories contains category and post.url != page.url %}
-        <div class="main-content">
-            </div class="section">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                <small>{{ post.date | date: "%B %d, %Y" }}</small>
-                {{ post.excerpt }}
-            </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </ul>
-{% else %}
-  <h2>All Posts</h2>
-  <ul>
-    {% for post in site.posts %}
-      {% if post.url != page.url %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <small>{{ post.date | date: "%B %d, %Y" }}</small>
-            {{ post.excerpt }}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+<div class="section">
+    <div class="main-content">
+        <div style="font-size: 1.5em;">
+            {{ content }}
+    </div>
+</div>
+
+
+
+{% for post in site.posts %}
+{% if post.tags contains page.tag or post.categories contains page.category %}
+<div class="section">
+    <div class="main-content">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <small>{{ post.date | date: "%B %d, %Y" }}</small>
+        {{ post.excerpt }}
+    </div>
+</div>
 {% endif %}
+{% endfor %}
+
+
+<p><a href="/tags/">← Back to all tags & categories</a></p>
+
 </main>
 
     {% include footer.html %}  <!-- Inserts the footer from _includes -->

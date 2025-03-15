@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto</title>
+  <title>Filtrar por etiqueta</title>
   <link rel="stylesheet" href="/main.css">
 </head>
 <body>
@@ -17,11 +17,40 @@
 </nav>  <!-- Inserts the header from _includes -->
 
   <main class="section">
-    <h1>Contacto</h1>
+    <h1>Filtrar por etiqueta</h1>
     <div class="main-content">
-      <p>Puedes contactarnos a través de nuestro correo: <strong>contacto@cumstadistica.com</strong></p>
+      <!-- Mostrar todos los tags como enlaces -->
+<div>
+  
+  <a href="/tags">Todos</a>
+  
+  <div class="tag-button"><a href="#sitcom">sitcom</a> (1)</div>
+  
+  <div class="tag-button"><a href="#meme">meme</a> (1)</div>
+  
+  
 
-<p>O seguirnos en <a href="https://youtu.be/gra-sIV1n4U?si=wfgocfaeR-GKYkA6">redes sociales</a>.</p>
+
+</div>
+
+<hr />
+
+<!-- Mostrar posts agrupados por tag -->
+
+<h2 id="sitcom"><a href="/tags/sitcom">sitcom</a></h2>
+<div>
+  
+    <div><a href="/sitcom/2025/03/10/sitcom-episodio-piloto.html">Episodio Piloto: Una hora menos en Canarias, una hora más en J</a> - 2025-03-10</div>
+  
+  </div>
+
+<h2 id="meme"><a href="/tags/meme">meme</a></h2>
+<div>
+  
+    <div><a href="/meme/2025/03/10/a-veces-la-miro.html">A veces la miro</a> - 2025-03-10</div>
+  
+  </div>
+
   <!-- This inserts the content of the page -->
     </div>
   </main>
