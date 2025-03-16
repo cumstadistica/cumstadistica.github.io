@@ -1,8 +1,12 @@
 ---
 layout: archive
-title: "Cumstadísta: La Sitcom"
+title: "Cumstadística: La Sitcom"
 category: sitcom
 permalink: /tags/sitcom/
 ---
 
-Cada mes, un nuevo episodio de la sitcom
+SILENCIO
+
+![Gato Pachón](/assets/gato-fanegas.jpg)
+
+SILENCIO EMPEZÓ MI TELENOVELA
