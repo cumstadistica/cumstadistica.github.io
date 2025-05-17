@@ -31,6 +31,12 @@ safe: false
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-optional-front-matter
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 markdown: kramdown
 
@@ -45,9 +51,22 @@ kramdown:
     line_numbers: true      # Show line numbers in code blocks
   smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"] # Use smart quotes for apostrophes
 
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: '/categories/:name/'
+    tag: '/tags/:name/'
+
 feed:
   path: feed.xml
   excerpt_only: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
