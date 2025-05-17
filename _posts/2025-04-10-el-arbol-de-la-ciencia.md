@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1. El árbol de la ciencia, Pío Baroja."
+title: "El árbol de la ciencia, Pío Baroja."
 date:   2025-04-10 0:00:00 +0100
 categories: comentario
 author: u
@@ -10,7 +10,6 @@ author: u
 
 ## Reseñas literarias de U
 
-
 El árbol de la ciencia es, para mí, un libro algo peculiar. El relato trascurre lentamente, aunque realmente abarque unos quince años de la vida de Andrés Hurtado, el protagonista.
 
 De las cosas que más me han impresionado de este libro y de la manera de escribir que tiene el autor, podría nombrar dos: Por una parte, los párrafos son a menudo muy escuetos, pero la narración se siente fluida y ágil, muy fácil de leer. Por otra, y esta en específico creo que es la que hace brillar a esta novela frente a otras de la misma calaña, son los personajes secundarios. El autor describe de una manera que roza lo burlesco, copiosamente aunque no tengan más de dos líneas de diálogo, a cualquiera de las personas que aparecen en el libro. Estas descripciones le aportan una vida y un interés muy ricos a la historia. Personajes como el del propio Andrés Hurtado o Lulú están excepcionalmente bien escritos en su complejidad.
@@ -19,12 +18,9 @@ Ahora bien, el libro, a mi parecer, también flaquea en algunos aspectos. Se nar
 
 La historia se divide en dos partes principales, divididas por un interludio filosófico entre Andrés y su tío Iturrioz, donde analizan la manera de pensar del joven. Esta parte, aun densa y pesada, me ha gustado mucho. La primera es bastante buena, pero algo lenta. La segunda es más densa en acontecimientos, y se hace más liviana.
 
-
 *Si Pío Baroja le hubiera dado este libro a C para que lo corrigiera, este le hubiera dicho que pasara la tijera.*
 
-
 En general, me ha gustado la manera en la que el personaje de Andrés evoluciona, y me parece realmente excelente la manera en la que se cuenta. Bien es cierto que hubiera agradecido un poco más de trama y menos rodeos, pero al final tengo que darle mis respetos a don Pío Baroja.
-
 
 #### Apunte de C
 

@@ -7,4 +7,3 @@ author: u
 ---
 
 !["Sexualidad"](/assets/sexualidad.jpg)
-
