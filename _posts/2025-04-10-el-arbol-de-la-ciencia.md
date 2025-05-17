@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Reseñas literarias de U"
+title: "1. El árbol de la ciencia, Pío Baroja."
 date:   2025-04-10 0:00:00 +0100
-categories: critica
+categories: comentario
 author: u
 ---
 
 ![El Árbol de la Ciencia](/assets/arbol-ciencia.jpeg)
 
-## 1. El árbol de la ciencia, Pío Baroja.
+## Reseñas literarias de U
 
 
 El árbol de la ciencia es, para mí, un libro algo peculiar. El relato trascurre lentamente, aunque realmente abarque unos quince años de la vida de Andrés Hurtado, el protagonista.
