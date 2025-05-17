@@ -12,8 +12,6 @@ permalink: /tags/
   {% for tag in site.tags %}
   <div class="tag-button"><a href="#{{ tag[0] }}">{{ tag[0] }}</a> ({{ tag[1] | size }})</div>
   {% endfor %}
-
-
 </div>
 
 <hr>
