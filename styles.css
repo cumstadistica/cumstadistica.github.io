@@ -27,7 +27,8 @@ body {
 }
 
 .navbar ul {
-    list-style: none; /* Punkte entfernen */
+    list-style: none;
+    /* Punkte entfernen */
     display: flex;
     padding: 0;
     margin: 0;
@@ -85,7 +86,7 @@ ul {
     align-items: center;
     padding: 1px 20px;
     min-height: 60vh;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 .main-content {
@@ -99,6 +100,7 @@ ul {
 
 h1 {
     font-size: 2.5em;
+    margin-bottom: 1rem;
     color: navy;
 }
 
@@ -133,6 +135,7 @@ video {
 }
 
 .tag-button {
+    display: inline-block;
     background-color: gray;
     color: black;
     border: none;
@@ -190,12 +193,12 @@ video {
         padding: 2%;
         max-width: 100%;
     }
-    
+
     .main-content {
         max-width: 90%;
         padding: 7.5% 5%;
         border-radius: 10px;
     }
-    
-    
+
+
 }

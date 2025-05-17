@@ -43,8 +43,6 @@ markdown: kramdown
 kramdown:
   input: GFM           # GitHub-Flavored Markdown (optional, useful for tables etc.)
   hard_wrap: false     # Recommended: avoid inserting <br> on line breaks
-  parse_block_html: true
-  parse_span_html: true
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: "highlight" # CSS class for syntax highlighting
