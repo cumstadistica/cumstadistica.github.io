@@ -1,52 +1,70 @@
 ---
+
 layout: page
 title: "Test de Personalidad Cumstatística"
 ---
 
-# Test de Personalidad Cumstatística  
+## Test de Personalidad Cumstatística
 
-Responde con sinceridad para descubrir tu perfil en **las dos dimensiones Cumstatísticas**.
+**1. Alguien te dice que el póker es solo cuestión de azar. ¿Cómo reaccionas?**
 
-<form id="cumstatTest">
-  <p><b>1. Alguien te dice que el póker es solo cuestión de azar. ¿Cómo reaccionas?</b></p>
-  <input type="radio" name="q1" value="A:1,K:-0.5,C:0"> a) Explicas que es un juego de estrategia. (+10% Estrategia, -5% Comercial)<br>
-  <input type="radio" name="q1" value="A:0,K:0.7,C:0.3"> b) Te ríes y dices que todo es comercial. (+70% Caos, +30% Autenticidad)<br>
-  <input type="radio" name="q1" value="A:0.5,K:0,C:0.5"> c) "Pues eso era, buenas noches". (+50% Estrategia, +50% Autenticidad)<br>
-  <input type="radio" name="q1" value="A:0,K:1,C:-0.5"> d) Apuestas para demostrar tu punto. (+100% Caos, -50% Autenticidad)<br>
+- <input type="radio" name="q1" value="Estrategia:0.1,Comercial:-0.05"> a) Explicas que es un juego de estrategia.
+- <input type="radio" name="q1" value="Caos:0.7,Autenticidad:0.3"> b) Te ríes y dices que todo es comercial.
+- <input type="radio" name="q1" value="Estrategia:0.5,Autenticidad:0.5"> c) "Pues eso era, buenas noches".
+- <input type="radio" name="q1" value="Caos:1,Autenticidad:-0.5"> d) Apuestas para demostrar tu punto.
 
-  <p><b>2. ¿Cuál es tu elección de comida cuando vas a un sitio nuevo?</b></p>
-  <input type="radio" name="q2" value="E:0.3,C:0.2,A:0">Pizza prosciutto; en su defecto un filete empanao o el menu para niños<br>
-  <input type="radio" name="q2" value="E:0,C:0.2,A:0.8">Una ensalada de semillas de chía con edamames y aguacate<br>
-  <input type="radio" name="q2" value="E:0.6,C:0,A:0.4"> c) Algo gourmet para fardar<br>
-  <input type="radio" name="q2" value="E:0,C:0.7,A:-0.3"><br>
+**2. ¿Cuál es tu elección de comida cuando vas a un sitio nuevo?**
 
-  <!-- Más preguntas aquí siguiendo el mismo formato -->
+- <input type="radio" name="q2" value="Estrategia:0.3,Comercial:0.2"> a) Pizza prosciutto; en su defecto un filete empanao o menú infantil.
+- <input type="radio" name="q2" value="Autenticidad:0.8,Comercial:0.2"> b) Una ensalada de semillas de chía con edamames y aguacate.
+- <input type="radio" name="q2" value="Estrategia:0.6,Autenticidad:0.4"> c) Algo gourmet para fardar.
+- <input type="radio" name="q2" value="Caos:0.7,Autenticidad:-0.3"> d) Lo más barato, preferiblemente grasiento.
 
-  <br>
-  <button type="button" onclick="calcularResultado()">Ver resultado</button>
-</form>
+<br>
+<button type="button" onclick="calcularResultado()">Ver resultado</button>
 
-<h2 id="resultado"></h2>
+## <span id="resultado"></span>
 
 <script>
+const cumstadisticos = [
+  {nombre: "C", Estrategia: 0.9, Caos: 0.1, Comercial: 0.2, Autenticidad: 0.8},
+  {nombre: "U", Estrategia: 0.2, Caos: 0.8, Comercial: 0.1, Autenticidad: 0.9},
+  {nombre: "J", Estrategia: 0.5, Caos: 0.5, Comercial: 0.8, Autenticidad: 0.2}
+];
+
 function calcularResultado() {
-    let dimensiones = { Estrategia: 0, Caos: 0, Comercial: 0, Autenticidad: 0 };
-    let preguntas = document.querySelectorAll('input[type="radio"]:checked');
+  const dimensiones = { Estrategia: 0, Caos: 0, Comercial: 0, Autenticidad: 0 };
+  const preguntas = document.querySelectorAll('input[type="radio"]:checked');
 
-    preguntas.forEach(p => {
-        let valores = p.value.split(",");
-        valores.forEach(v => {
-            let [clave, valor] = v.split(":");
-            dimensiones[clave] += parseFloat(valor);
-        });
+  preguntas.forEach(p => {
+    const valores = p.value.split(",");
+    valores.forEach(v => {
+      const [clave, valor] = v.split(":");
+      dimensiones[clave] += parseFloat(valor);
     });
+  });
 
-    let resultadoTexto = `
-      🔵 **Estrategia: ${(dimensiones.Estrategia * 100).toFixed(1)}%** vs. **Caos: ${(dimensiones.Caos * 100).toFixed(1)}%**<br>
-      🟢 **Comercial: ${(dimensiones.Comercial * 100).toFixed(1)}%** vs. **Autenticidad: ${(dimensiones.Autenticidad * 100).toFixed(1)}%**
-    `;
+  const resultadoTexto = `
+    🔵 <b>Estrategia: ${(dimensiones.Estrategia * 100).toFixed(1)}%</b> vs. <b>Caos: ${(dimensiones.Caos * 100).toFixed(1)}%</b><br>
+    🟢 <b>Comercial: ${(dimensiones.Comercial * 100).toFixed(1)}%</b> vs. <b>Autenticidad: ${(dimensiones.Autenticidad * 100).toFixed(1)}%</b><br>
+  `;
 
-    document.getElementById("resultado").innerHTML = resultadoTexto;
+  let masCercano = cumstadisticos[0];
+  let distanciaMin = Infinity;
+
+  cumstadisticos.forEach(c => {
+    const distancia = Math.sqrt(
+      Math.pow(c.Estrategia - dimensiones.Estrategia, 2) +
+      Math.pow(c.Caos - dimensiones.Caos, 2) +
+      Math.pow(c.Comercial - dimensiones.Comercial, 2) +
+      Math.pow(c.Autenticidad - dimensiones.Autenticidad, 2)
+    );
+    if (distancia < distanciaMin) {
+      distanciaMin = distancia;
+      masCercano = c;
+    }
+  });
+
+  document.getElementById("resultado").innerHTML = resultadoTexto + `<br><b>Tu Cumstadístico más parecido es: ${masCercano.nombre}</b>`;
 }
 </script>
-
