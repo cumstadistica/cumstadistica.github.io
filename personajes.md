@@ -63,6 +63,7 @@ Calvo Cuñao es la prueba de que la falta de pelo no está relacionada con la fa
 ![Calvo Cuñao](assets/wolverine-calvo.jpg)
 
 Personaje secundario. Tío de J
+
 Hizo bonding con C (le enseñó a pescar)
 
 ### Enjuto Mojamuto
