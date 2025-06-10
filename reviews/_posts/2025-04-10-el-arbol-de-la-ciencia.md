@@ -2,7 +2,8 @@
 layout: post
 title: "El árbol de la ciencia, Pío Baroja."
 date:   2025-04-10 0:00:00 +0100
-categories: comentario
+tags: comentarioliterario
+categories: reviews
 author: u
 ---
 
@@ -22,8 +23,7 @@ La historia se divide en dos partes principales, divididas por un interludio fil
 
 En general, me ha gustado la manera en la que el personaje de Andrés evoluciona, y me parece realmente excelente la manera en la que se cuenta. Bien es cierto que hubiera agradecido un poco más de trama y menos rodeos, pero al final tengo que darle mis respetos a don Pío Baroja.
 
-#### Apunte de C
+### Apunte de C
 
-*A ver U, no puedo rebatir nada porque el libro me lo leí hace 3 años, pero yo podría como un punto a favor de Pío Baroja que una vida anodina se haga entretenida de leer*
-
-*Sobre el comentario de la tijera: no sé U, a mí no se me hizo pesado el libro, o mejor dicho recuerdo que se me haya hecho pesado. También hay que tener en cuenta en 1911 aún no se había inventado el déficit de atención*
+> A ver U, no puedo rebatir nada porque el libro me lo leí hace 3 años, pero yo podría como un punto a favor de Pío Baroja que una vida anodina se haga entretenida de leer
+> Sobre el comentario de la tijera: no sé U, a mí no se me hizo pesado el libro, o mejor dicho recuerdo que se me haya hecho pesado. También hay que tener en cuenta en 1911 aún no se había inventado el déficit de atención
