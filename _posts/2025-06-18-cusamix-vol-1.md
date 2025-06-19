@@ -1,5 +1,5 @@
 ---
-title: CusaMix: Comercial Vol. 1
+title: CusaMix Comercial Vol. 1
 categories: cusamix
 author: c j
 layout: post
