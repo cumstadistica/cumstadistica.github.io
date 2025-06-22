@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Facto diario número 10."
-date:   2025-05-23 0:00:00 +0100
+date:   2025-05-21 0:00:00 +0100
 categories: elfactodiario
 author: c
 tags: fernandoalonso
