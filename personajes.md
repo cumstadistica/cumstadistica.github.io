@@ -60,7 +60,7 @@ Nadie sabe realmente quién es Gurb ni por qué está aquí. Se dice que una vez
 
 Calvo Cuñao es la prueba de que la falta de pelo no está relacionada con la falta de opiniones. Este hombre es una fuente inagotable de verdades absolutas, datos de dudosa procedencia y teorías infalibles que se desmoronan con el más mínimo análisis. Lo puedes encontrar en la barra de cualquier bar, con una caña en la mano y una postura de superioridad adquirida tras años de debatir sin pruebas pero con mucha seguridad. Su conocimiento abarca desde el cambio climático (“eso son chorradas, antes hacía más calor”) hasta economía global (“los bancos siempre ganan, pero yo sé cómo joderlos”). Se niega a usar protector solar porque ‘es cosa de modernos’ y cree firmemente en que cualquier problema se soluciona con ‘un par de hostias bien dadas’. Pese a todo, hay algo reconfortante en su presencia: no importa qué tema saques, él siempre tiene una opinión, y nunca, nunca dudará de que tiene razón.
 
-![Calvo Cuñao](assets/wolverine-calvo.jpg)
+![Calvo Cuñao](/assets/wolverine-calvo.jpg)
 
 Personaje secundario. Tío de J
 
@@ -69,4 +69,4 @@ Hizo bonding con C (le enseñó a pescar)
 ### Enjuto Mojamuto
 
 Enjuto es la representación viva del individuo cuya existencia depende de la estabilidad del WiFi. Su hábitat natural es una habitación oscura, iluminada únicamente por el resplandor de tres monitores y el zumbido de un PC con más RGB que potencia real. No sale mucho de casa, pero lo compensa con su conocimiento enciclopédico de foros oscuros y su habilidad para detectar cuándo alguien está equivocado en internet (y hacérselo saber con una actitud pasivo-agresiva). Se dice que una vez intentó salir a la calle, pero la realidad tenía menos FPS de los que esperaba y decidió volver. Su frase de guerra es: “Me está dando lag” en cualquier contexto, incluso cuando no tiene sentido.
-![Enjuto Mojamuto](assets/enjuto-mojamuto.webp)
+![Enjuto Mojamuto](/assets/enjuto-mojamuto.webp)
