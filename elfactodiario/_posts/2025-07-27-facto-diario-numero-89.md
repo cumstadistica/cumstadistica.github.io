@@ -1,5 +1,5 @@
 ---
-title: Facto diario número 89:
+title: Facto diario número 89.
 categories: elfactodiario
 author: u
 layout: post

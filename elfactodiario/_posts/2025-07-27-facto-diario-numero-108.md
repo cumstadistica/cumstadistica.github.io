@@ -3,7 +3,7 @@ title: Facto diario número 108.
 categories: elfactodiario
 author: c
 layout: post
-tags:malaga
+tags: malaga
 date: 2025-07-27 10:12:53 +00:00
 ---
 De como se redescubrió la Alcazaba de #malaga
