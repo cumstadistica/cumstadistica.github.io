@@ -16,4 +16,4 @@ Brevísima historia de los límites de velocidad en España
 
 Foto: el monstruo de las galletas multado en dortmund
 
-![2025_07_27_17_10_26_untitled-1.webp](assets/2025_07_27_17_10_26_untitled-1.webp)
+![2025_07_27_17_10_26_untitled-1.webp](/assets/2025_07_27_17_10_26_untitled-1.webp)

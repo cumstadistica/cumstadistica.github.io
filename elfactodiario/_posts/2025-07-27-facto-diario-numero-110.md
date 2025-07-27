@@ -13,4 +13,4 @@ Churchill creía que era necesario tratar justamente a los enemigos derrotados, 
 
 Foto adjunta para mayor comprensión del intercambio.
 
-![2025_07_27_16_48_28_untitled-1.webp](assets/2025_07_27_16_48_28_untitled-1.webp)
+![2025_07_27_16_48_28_untitled-1.webp](/assets/2025_07_27_16_48_28_untitled-1.webp)
