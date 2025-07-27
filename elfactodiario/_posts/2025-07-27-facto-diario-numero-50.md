@@ -7,7 +7,7 @@ date: 2025-07-27 09:24:38 +00:00
 ---
 El Milagro de la Catedral de Colonia
 
-![2025_07_27_09_25_57_untitled-1.webp](assets/2025_07_27_09_25_57_untitled-1.webp)
+![2025_07_27_09_25_57_untitled-1.webp](/assets/2025_07_27_09_25_57_untitled-1.webp)
 
 Durante la SGM, Colonia fue bombardeada 262 veces. Y como se ve en la imagen, todos los edificios fueron reducidos a escombros excepto la catedral 
 
