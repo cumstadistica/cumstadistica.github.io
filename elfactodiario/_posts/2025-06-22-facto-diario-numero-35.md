@@ -1,5 +1,5 @@
 ---
-title: Facto diario número 35:
+title: Facto diario número 35.
 categories: elfactodiario
 author: c
 layout: post

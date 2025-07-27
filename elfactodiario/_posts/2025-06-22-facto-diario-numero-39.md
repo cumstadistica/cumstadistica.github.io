@@ -1,5 +1,5 @@
 ---
-title: Facto diario número 39:
+title: Facto diario número 39.
 categories: elfactodiario
 author: u
 layout: post
