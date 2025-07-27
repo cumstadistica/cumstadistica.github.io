@@ -1,5 +1,5 @@
 ---
-title: Facto diario numero 42:
+title: Facto diario numero 42.
 categories: elfactodiario
 author: u
 layout: post
