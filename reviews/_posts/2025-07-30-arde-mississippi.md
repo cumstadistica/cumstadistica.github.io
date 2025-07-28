@@ -3,7 +3,7 @@ title: Arde Mississippi
 categories: reviews
 author: c
 layout: post
-date: 2025-07-27 08:12:27 +00:00
+date: 2025-07-30 08:12:27 +00:00
 ---
 O para los amigos, un Nerdi y Jose Luis Ábalos solucionan el racismo.
 
