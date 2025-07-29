@@ -9,7 +9,7 @@ Imagínate un lago tan grande que hasta le llamaban "mar", y hoy es poco más qu
 
 ¿El resultado? Una catástrofe ambiental de manual. Hoy en día, tienes nubes de polvo tóxico sobrevolando las ciudades, pueblos tragando arena como si fuera el desayuno, y un paisaje que parece sacado de una peli postapocalíptica. Barcos varados en medio del desierto, oxidados y olvidados, mientras los cuatro desgraciados que quedan ahí sobreviven a base de respirar polvo y pescar recuerdos.
 
-!2025_07_27_09_51_33_untitled-1.webp
+![Several rusted ships stranded on dry, cracked earth where water once covered the Aral Sea, surrounded by a barren desert landscape under a pale sky, evoking a sense of abandonment and environmental loss](/assets/2025_07_27_09_51_33_untitled-1.webp)
 
 Y los rusos, a lo suyo, mirando para otro lado como si no fuera con ellos. Total, mientras sigan plantando su algodón y puedan presumir de alguna que otra cosecha, el Mar de Aral les importa lo mismo que a ti te importa la cría del escarabajo pelotero.
 
