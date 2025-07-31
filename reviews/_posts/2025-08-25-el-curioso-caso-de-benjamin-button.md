@@ -4,7 +4,7 @@ categories: reviews
 tags: reviewsdej
 author: j
 layout: post
-date: 2025-07-30 20:45:44 +00:00
+date: 2025-08-25 20:45:44 +00:00
 ---
 
 Si, el curioso caso del pibe que envejecía hacia atrás. Locura. Una película conmovedora sobre el paso del tiempo, la vejez y el amor. Supongo que la enseñanza que he sacado yo es que hay que tener paciencia en la vida, que todo llega. No hay que forzar las cosas.

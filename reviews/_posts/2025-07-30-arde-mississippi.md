@@ -7,7 +7,7 @@ date: 2025-07-30 08:12:27 +00:00
 ---
 O para los amigos, un Nerdi y Jose Luis Ábalos solucionan el racismo.
 
-La peli comienza presentándonos a los protagonistas, 2 investigadores el FBI: 
+La peli comienza presentándonos a los protagonistas, 2 investigadores el FBI:
 
 El Nerdi (interpretado por el jovencisimo Willem Dafoe) y un tipo calvo reventado de la vida, que se llama Mr Anderson pero para nosotros será Jose Luis Ábalos aka. El Putas. El Nerdi es un caramelito de 24 años que no tiene ni media ostia y es el jefe de El Putas, que tiene más años que el Sol y envidia al Nerdi porque cree que él debería ser el jefe.
 

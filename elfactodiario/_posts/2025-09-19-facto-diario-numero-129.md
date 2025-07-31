@@ -11,7 +11,10 @@ A colación del facto de la lactosa, me ha parecido de recibo mostrar un experim
 
 El caso es que he probado de todo: H&S, usar champus menos corrosivos, duchas con agua menos caliente... y nada me ha funcionado al 100%, y yo ya me estaba desesperando. Mr GPT tampoco me daba ninguna solución
 
-Buscando por YT encontré el video de este maestro: {% youtube SVqDO3PSeG0 %}
+Buscando por YT encontré el video de este maestro:
+
+{% youtube SVqDO3PSeG0 %}
+
 Básicamente dice:
    - no comas azúcares, harinas y mierdas
    - estate 5 minutos al sol

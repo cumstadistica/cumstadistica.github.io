@@ -5,7 +5,7 @@ author: j
 layout: post
 date: 2025-06-22 14:51:45 +00:00
 ---
-Acabamos (el 25 Abril de 2024) de recuperar el contacto con la Voyager I
+A día de hoy, el 25 Abril de 2024, acabamos de recuperar el contacto con la Voyager I
 
 Fue lanzada el 5 de septiembre de 1977
 
