@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Episodio Piloto: Una hora menos en Canarias, una hora más en J"
-date:   2025-03-10 2:12:12 +0100
 categories: sitcom
 ---
 

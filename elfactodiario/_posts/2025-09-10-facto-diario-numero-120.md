@@ -3,7 +3,6 @@ title: Facto diario número 120.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 17:10:17 +00:00
 ---
 Brevísima historia de los límites de velocidad en España
 - Aunque el país llevaba teniendo autovías desde los 60-70, la introdución por primera vez de un límite de velocidad de 130km/h fue en 1974 por la crisis del petróleo. Y súmale que en esa época las autovías eran mucho peores y los coches eran una lata con 4 ruedas, sin cinturón ni otras medidas de seguridad

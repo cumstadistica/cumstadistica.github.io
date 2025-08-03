@@ -3,7 +3,6 @@ title: Facto diario número 54.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 09:28:07 +00:00
 ---
 Las croquetas son un clásico atemporal de la cocina española, sin embargo he de advertir a los cumstateros de q las inventó francia. De hecho, sólo llego a España 200 años después, y porque sirvio como una receta de aprovechamiento durante las hambrunas de la mal llamada gripe española y la guerra civil
 

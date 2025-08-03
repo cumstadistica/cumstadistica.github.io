@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Facto diario número 6."
-date:   2025-05-17 0:00:00 +0100
 categories: elfactodiario
 author: c
 ---

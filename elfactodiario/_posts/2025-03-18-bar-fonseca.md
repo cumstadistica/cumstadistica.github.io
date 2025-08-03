@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Facto diario número 2."
-date:   2025-03-18 0:00:00 +0100
 categories: elfactodiario
 author: j
 ---

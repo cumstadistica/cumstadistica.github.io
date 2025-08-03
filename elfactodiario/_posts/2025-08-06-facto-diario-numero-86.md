@@ -3,7 +3,6 @@ title: Facto diario número 86.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 09:53:32 +00:00
 ---
 El castillo de Disney está inspirado en el Alcázar de Segovia
 

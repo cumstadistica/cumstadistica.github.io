@@ -3,7 +3,6 @@ title: Facto diario número 73.
 categories: elfactodiario
 author: j
 layout: post
-date: 2025-07-27 09:39:37 +00:00
 ---
 El 73 es el número de Sheldon Cooper.
 Esta vez facto chambero.

@@ -4,7 +4,6 @@ categories: elfactodiario
 tags: musicote
 author: c
 layout: post
-date: 2025-07-27 10:08:06 +00:00
 ---
 Qué tienen en común, el vocalista de Triana, Camarón y Ray Heredia?
 Los 3 eran unos genios del flamenco y murieron trágicamente y muy jóvenes

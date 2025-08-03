@@ -3,7 +3,6 @@ title: Facto diario número 124.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 17:13:51 +00:00
 ---
 Por qué son tan dramáticos los juicios en EEUU?
 

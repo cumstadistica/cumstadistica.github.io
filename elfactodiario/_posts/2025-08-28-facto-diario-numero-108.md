@@ -4,7 +4,6 @@ categories: elfactodiario
 author: c
 layout: post
 tags: malaga
-date: 2025-07-27 10:12:53 +00:00
 ---
 De como se redescubrió la Alcazaba de #malaga
 Tras la reconquista de Málaga, la Alcazaba pasa a manos de la corona hispánica, que básicamente no hacen nada con ella hasta que en 1749 la usaron como cárcel para mujeres gitanas en la Gran Redada.

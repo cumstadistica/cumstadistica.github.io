@@ -3,7 +3,6 @@ title: Facto diario número 91.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 09:57:04 +00:00
 ---
 En EEUU está baniado comerciar con futuros de cebollas por la Onion Futures Act. Esta se promulgo en 1958, porque dos comerciantes de cebollas, Sam Siegel y Vicente Kosuga se hicieron con el 98% de las cebollas disponibles.
 Con esa posición de dominancia, los comerciales amenazaron a los granjeros para que vendieran sus cebollas, bajo la amenaza de inundar el mercado de cebollas de bajo precio.

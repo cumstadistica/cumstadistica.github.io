@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "El árbol de la ciencia, Pío Baroja."
-date:   2025-04-10 0:00:00 +0100
 tags: comentarioliterario
 categories: reviews
 author: u

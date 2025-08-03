@@ -3,7 +3,6 @@ title: CusaMix Comercial Vol. 1
 categories: cusamix
 author: c j
 layout: page
-date: 2025-06-18 16:39:50 +00:00
 ---
 
 

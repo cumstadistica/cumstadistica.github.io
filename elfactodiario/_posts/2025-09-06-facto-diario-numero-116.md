@@ -3,7 +3,6 @@ title: Facto diario número 116.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 16:58:34 +00:00
 ---
 El poli de la izquierda, Seth Rogen, no sólo hace de policía, sino que también es el guionista prinicipal de Superbad.
 

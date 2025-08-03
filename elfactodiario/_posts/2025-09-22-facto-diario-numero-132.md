@@ -3,7 +3,6 @@ title: Facto diario 132.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 17:19:49 +00:00
 ---
 Tanto el uso de tablas de plástico como de madera está contraindicado. Siendo las de plástico mucho peor, las de madera también producen residuos perjudiciales por las resinas utilizadas para barnizarlas.
 

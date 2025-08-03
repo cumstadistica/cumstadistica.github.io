@@ -3,7 +3,6 @@ title: Facto diario número 66(6).
 categories: elfactodiario
 author: u
 layout: post
-date: 2025-07-27 09:35:17 +00:00
 ---
 En la biblia, Dios castiga a menudo actos que ahora reconocemos como normales, con desmesurada dureza. Dos ejemplos son los siguientes:
 

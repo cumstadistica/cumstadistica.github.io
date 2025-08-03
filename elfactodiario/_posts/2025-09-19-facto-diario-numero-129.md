@@ -3,7 +3,6 @@ title: Facto diario número 129.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 17:18:26 +00:00
 ---
 Acabar con la caspa es fácil, en verdad.
 

@@ -3,7 +3,6 @@ title: Facto diario número 57.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 09:29:29 +00:00
 ---
 La industria pornográfica ha sido en gran parte la creadora del internet tal y como lo conocemos hoy en día 
 

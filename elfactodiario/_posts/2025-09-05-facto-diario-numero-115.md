@@ -3,7 +3,6 @@ title: Facto diario número 115.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 16:56:17 +00:00
 ---
 Por qué las llamadas de spam preguntan por Dulce cuando llaman a U?
 No sé si J está al tanto, pero el caso es que a U le llaman mucho de Spam y preguntan por una tal Dulce, bastante raro la verdad.

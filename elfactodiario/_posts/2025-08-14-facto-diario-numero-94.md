@@ -3,7 +3,6 @@ title: Facto diario número 94.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 09:59:37 +00:00
 ---
 La carrera por alcanzar la Antártida  
 

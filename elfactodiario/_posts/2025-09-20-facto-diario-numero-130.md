@@ -3,7 +3,6 @@ title: Facto diario número 130.
 categories: elfactodiario
 author: j
 layout: post
-date: 2025-07-27 17:18:54 +00:00
 ---
 Cuando Nikola Tesla inventó las centrales hidroeléctricas.
 

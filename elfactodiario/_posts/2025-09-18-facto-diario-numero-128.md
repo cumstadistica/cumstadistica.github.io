@@ -3,7 +3,6 @@ title: Facto diario número 128.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 17:17:12 +00:00
 ---
 El líquido de piscina que cambia de color cuando reacciona con pis es un invento del gobierno.
 

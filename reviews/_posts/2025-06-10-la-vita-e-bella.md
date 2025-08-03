@@ -4,7 +4,6 @@ categories: reviews
 tags: reviewsdej
 author: j
 layout: post
-date: 2025-06-10 20:45:44 +00:00
 ---
 Una película que te toca la fibra sensible y te hace ver de los horrores de la guerra, el odio y el genocidio, pero que también te enseña de como el amor y algo de suerte logran sobrevivir a veces incluso en los entornos más hinospitos.
 Unos personajes carismáticos y resilientes, que se desviven por la felicidad de sus seres queridos en el seno de la Italia fascista.

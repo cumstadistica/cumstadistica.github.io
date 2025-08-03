@@ -3,7 +3,6 @@ title: Facto diario número 75.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 09:40:36 +00:00
 ---
 Los romanos utilizaban orina humana para limpiarse los dientes. El pis contiene amoniaco y este ayudaba a blanquear los piños y mantener la boca limpia.
 

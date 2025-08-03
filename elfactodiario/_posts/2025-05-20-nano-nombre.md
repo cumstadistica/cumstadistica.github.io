@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Facto diario número 9."
-date:   2025-05-20 0:00:00 +0100
 categories: elfactodiario
 author: j
 tags: fernandoalonso

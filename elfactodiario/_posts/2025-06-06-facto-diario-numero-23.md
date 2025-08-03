@@ -3,7 +3,6 @@ title: Facto diario número 23.
 categories: elfactodiario
 author: j
 layout: post
-date: 2025-06-22 14:36:09 +00:00
 ---
 La canción anterior contiene al menos dos veces la palabra "who" en su letra
 

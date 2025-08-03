@@ -4,7 +4,6 @@ categories: elfactodiario
 tags: duolingo
 author: j
 layout: post
-date: 2025-07-27 08:59:24 +00:00
 ---
 Datos. No opiniones.
 

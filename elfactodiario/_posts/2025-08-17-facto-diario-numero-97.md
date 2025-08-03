@@ -3,7 +3,6 @@ title: Facto diario número 97.
 categories: elfactodiario
 author: j
 layout: post
-date: 2025-07-27 10:02:42 +00:00
 ---
 Conoce a Valisi Alexandrovich , el hombre al que debes la vida. Este señor fue oficial de mando de un submarino soviético durante la crisis de los misiles de Cuba, en plena guerra fría.
 

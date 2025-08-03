@@ -3,7 +3,6 @@ title: Facto diario número 96.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 10:01:58 +00:00
 ---
 El artículo más raro del catálogo de Volkswagen
 

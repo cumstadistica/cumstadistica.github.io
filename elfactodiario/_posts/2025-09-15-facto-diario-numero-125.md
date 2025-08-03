@@ -3,7 +3,6 @@ title: Facto diario 125.
 categories: elfactodiario
 author: j
 layout: post
-date: 2025-07-27 17:15:19 +00:00
 ---
 Posiblemente el mayor fraude de la música comercial
 

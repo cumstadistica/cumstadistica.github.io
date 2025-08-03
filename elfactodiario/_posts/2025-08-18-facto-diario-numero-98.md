@@ -3,7 +3,6 @@ title: Facto diario número 98.
 categories: elfactodiario
 author: j
 layout: post
-date: 2025-07-27 10:05:14 +00:00
 ---
 En "Padre de Familia" hacen un chiste cambiando "Huey Lewis and the News" por "Huey Lewis and the Jews" y diciendo que duraron muy poco juntos, esto es una referencia a la canción "The Power of Love", ya que una de las primeras estrofas de la canción versa "we dont need money"
 

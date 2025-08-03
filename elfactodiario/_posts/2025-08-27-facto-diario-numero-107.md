@@ -3,7 +3,6 @@ title: Facto diario número 107.
 categories: elfactodiario
 author: c
 layout: post
-date: 2025-07-27 10:11:47 +00:00
 ---
 El mejor sitio para abrir un nuevo bar
 
