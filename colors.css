@@ -1,174 +1,31 @@
-/* Grundlegende Stile */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+:root {
+  /* —— brand palette —— */
+  --brand-red-500: #e53935;
+  --brand-blue-500: #1e88e5;
+  --brand-green-500: #43a047;
+
+  /* —— grayscale —— */
+  --gray-900: #121212;
+  --gray-100: #f5f5f5;
+
+  --telegram: #122131;
+  --site-background-color: #000F1D;
+  --content-separator-color: #000F1D;
+  --tg-link-color: #357999;
+  --tg-link-color-visited: #F45F8B;
+
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0.5em 0;
-}
-
-p {
-    margin: 0 0 1em;
-    line-height: 1.6;
-}
-
-/* Container */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-/* Header */
-header {
-    padding-top: 30px;
-    min-height: 70px;
-}
-
-header a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-header ul {
-    padding: 0;
-    list-style: none;
-}
-
-header li {
-    display: inline;
-    padding: 0 20px 0 20px;
-}
-
-header #branding {
-    float: left;
-}
-
-header #branding h1 {
-    margin: 0;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
-/* Showcase */
-#showcase {
-    min-height: 400px;
-    text-align: center;
-}
-
-#showcase h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
-}
-
-#showcase p {
-    font-size: 20px;
-}
-
-/* Newsletter */
-#newsletter {
-    padding: 15px;
-}
-
-#newsletter h1 {
-    float: left;
-}
-
-#newsletter form {
-    float: right;
-    margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-    padding: 4px;
-    height: 25px;
-    width: 250px;
-}
-
-/* Boxes */
-#boxes {
-    margin-top: 20px;
-}
-
-#boxes .box {
-    float: left;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
-}
-
-#boxes .box img {
-    width: 90px;
-}
-
-/* Sidebar */
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-aside#sidebar .quote {
-    font-style: italic;
-    margin: 20px 0;
-}
-
-/* Main Content */
-article#main-col {
-    float: left;
-    width: 65%;
-}
-
-/* Services */
-ul#services {
-    list-style: none;
-    padding: 0;
-}
-
-ul#services li {
-    margin: 5px 0;
-    padding: 20px;
-    border: 1px solid;
-}
-
-ul#services li:hover {
-}
-
-/* Footer */
-footer {
-    padding: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    header #branding, header nav, header nav li, #newsletter h1, #newsletter form {
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-
-    #showcase h1 {
-        margin-top: 40px;
-    }
-
-    #boxes .box {
-        width: 100%;
-        padding: 10px;
-    }
-
-    article#main-col, aside#sidebar {
-        float: none;
-        width: 100%;
-    }
+:root {
+  --content-box:       var(--telegram);
+  --content-separator: var(--content-separator-color);
+  --site-background:  var(--site-background-color);
+  --text-color:        white;
+  --banner-text-color:  white;
+  --link-color-basic:        var(--tg-link-color);
+  --link-color-visited:     var(--tg-link-color-visited);
+  --background-color:  var(--gray-100);
+  --primary-color:     var(--brand-blue-500);
+  --danger-color:      var(--brand-red-500);
+  --success-color:     var(--brand-green-500);
 }

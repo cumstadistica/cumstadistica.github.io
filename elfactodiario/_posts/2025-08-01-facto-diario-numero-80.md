@@ -1,7 +1,7 @@
 ---
 title: Facto diario número 80.
 categories: elfactodiario
-author: j
+author: c
 layout: post
 ---
 El famoso "hotel" S'cándalo cerró por sentencia judicial.

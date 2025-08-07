@@ -12,13 +12,13 @@
     {% include header.html %}
     <!-- Sección Inicio -->
     <section id="home" class="section">
-        <div class="main-content">
+        <div id="home" class="main-content">
             <h1>Bienvenido a Cumstadística</h1>
             <p>La estadística no es solo números, es poder. Aquí exploramos los datos y los transformamos en información
                 útil para el análisis y la toma de decisiones.</p>
             <img src="/assets/CUMSTAT.jpg" alt="CUMSTAT Image">
         </div>
-        <div class="main-content">
+        <div id="home" class="main-content">
             <h2>Estás más perdido que un ciego en un tiroteo?</h2>
             <h3>Por aquí puedes empezar</h3>
             <div class="button-list">
@@ -26,17 +26,17 @@
                 <a class="tag-button" href="/tags/">Explora por etiquetas</a>
             </div>
         </div>
+            
 
-
+    <div class="post-list">
         {% for post in site.posts %}
-
-        <div class="main-content">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.content }}</p>
-        </div>
+            {% include post-card.html post=post full=false %}
         {% endfor %}
+    </div>
+
     </section>
 
+    
 
     <!-- Pie de página -->
     {% include footer.html %}

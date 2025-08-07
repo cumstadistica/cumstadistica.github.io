@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
+    background: var(--site-background);
     color: #333;
     display: flex;
     flex-direction: column;
@@ -83,25 +83,171 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 1px 20px;
-    min-height: 60vh;
-    margin-bottom: 5px;
+    padding: 1px 0px;
 }
 
 .main-content {
-    width: 800px;
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 0.5% 2%;
+    width: var(--post-width);
+    background: var(--content-box);
+    color: var(--text-color);
+    padding: var(--content-padding);
+    /* border-radius: 10px; */
+    box-shadow: 4px 0px 10px rgba(14, 198, 211, 0.1);
+    margin: 0;
+    border-bottom: 4px dashed var(--content-separator);
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+
+#home.main-content {
+    width: var(--home-width);
+    margin: 0 auto;
+    box-shadow: 
+    4px 0px 10px rgba(14, 198, 211, 0.1),
+    -4px 0px 10px rgba(14, 198, 211, 0.1);
+}
+
+
+a {
+  color: var(--link-color-basic);        /* bright blue */
+  text-decoration: underline;   /* keep the underline for clarity */
+  white-space: normal;
+}
+
+a:link    { color: var(--link-color-basic); }   /* default */
+a:visited { color: var(--link-color-visited); }
+
+.post-header {
+  display: flex;
+ 
+  flex-direction: column;
+  gap: var(--post-header-gap);
+  padding: 0 0;
+
+  &.profile--c   { color:#fff; border-color:#1976d2; }
+  &.profile--j  { color:#311b92; border-color:#ad1457; }
+  &.profile--u   { color:#fff; border-color:#1976d2; }
+  &.profile--default{ color:#263238; border-color:#90a4ae; }
+}
+
+
+.post-card-sidebar {
+    width: var(--sidebar-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--content-box);
+    border-bottom: 4px dashed var(--content-separator);
+    color: white;
+    border-right: var(--content-box) ridge 4px;
+
+    &.profile--c   { 
+        background: #670e14; 
+        box-shadow: -4px 0px 5px #2e061d;
+    }
+    &.profile--j  { 
+        background: #062e17; 
+        box-shadow: -4px 0px 5px #062e17;
+    }
+    &.profile--u   { 
+        background: #bd8717; 
+        box-shadow: -4px 0px 5px #2e2b06;
+    }
+    &.profile--default{ 
+        background: #263238; 
+        box-shadow: -4px 0px 5px #263238;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .post-card-sidebar {
+        padding: calc(var(--content-padding)/2) 0;
+    }
+}
+
+
+
+.avatar { 
+    width:var(--avatar-size);
+    height:var(--avatar-size);
+    border-radius:10%;
+    object-fit:fill; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .avatar {
+        position: absolute;
+        left: calc(var(--content-padding)*1.5);
+        
+    }
+    
+}
+
+.post-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.post-card {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .post-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+
+
+.post-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--content-box);
+    padding: var(--content-padding) 0 0 0;
+    box-shadow: -4px 0 10px -6px rgba(14, 198, 211, 0.4),
+                4px 0 10px -6px rgba(14, 198, 211, 0.4);
+}
+
+.previous-post, .next-post {
+    align-self: center;
+    width: var(--post-width);
+    background: var(--content-box);
+    color: var(--text-color);
+    padding: 0 var(--content-padding) var(--content-padding) var(--content-padding);
+    /* border-radius: 10px; */
+    margin: 0% 2%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
 }
 
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 1rem;
-    color: navy;
+  white-space: normal;
+  font-size: var(--title-size);
+  margin-bottom: 1rem;
+  color: var(--text-color);
 }
 
 h2 {
@@ -109,8 +255,8 @@ h2 {
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.6;
+    font-size: var(--text-size);
+    line-height: var(--text-height);
 }
 
 img {
@@ -149,6 +295,10 @@ video {
     gap: 1%;
     margin-top: 20px;
     align-self: center;
+}
+
+.tag-button:visited {
+    color: var(--text-color);
 }
 
 .tag-button:hover {
@@ -196,7 +346,7 @@ video {
 
     .main-content {
         max-width: 90%;
-        padding: 7.5% 5%;
+        padding: 2% 5% 7.5% 5%;
         border-radius: 10px;
     }
 

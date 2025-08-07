@@ -11,37 +11,31 @@
   {% include header.html %}  <!-- This inserts the header into the post layout -->
 
   <main>
-    <article>
-      <h1>{{ page.title }}</h1>
-      <div class="section">
-      <p><small>Publicado en {{ page.date | date: "%B %d, %Y" }}</small></p>
-      <div class="main-content">
-        {{ content }}
-      </div>
-      </div>
-    </article>
+    {% include post-card.html post=page full=true %}
+    
+    <div class="section">
+      <div class="post-navigation">
 
-    <br>
-    <br>
+        {% if page.previous %}
+        <div class="previous-post">
+            <a href="{{ page.previous.url }}" class="last-post">
+              Anterior: {{ page.previous.title }}
+            </a>
+        </div>
+        {% endif %}
 
-    <div class="post-navigation">
-      {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="last-post">
-          Anterior: {{ page.previous.title }}
-        </a>
-      {% endif %}
+        {% if page.next %}
+        <div class="next-post">
+            <a href="{{ page.next.url }}" class="next-post">
+              Siguiente: {{ page.next.title }}
+            </a>
+        </div>
+        {% endif %}
+      </div>
     </div>
 
-    <br>
 
-    <div class="post-navigation">
-      {% if page.next %}
-        <a href="{{ page.next.url }}" class="next-post">
-          Siguiente: {{ page.next.title }}
-        </a>
-      {% endif %}
-    </div>
-  </main>
+
   </main>
 
   {% include footer.html %}  <!-- Inserts the footer from _includes -->

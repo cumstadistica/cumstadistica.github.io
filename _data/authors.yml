@@ -1,0 +1,23 @@
+c:
+  name: "Cusa"
+  profile_class: "profile--c"      # clase CSS extra
+  tagline: "El maestro"
+  avatar: "/assets/CUSA.jpg"
+
+j:
+  name: "Jose"
+  profile_class: "profile--j"
+  tagline: "El jefe"
+  avatar: "/assets/jose.webp"
+
+u:
+  name: "UgoBugo"
+  profile_class: "profile--u"
+  tagline: "Usuario genérico"
+  avatar: "/assets/UGO.jpg"
+
+default:
+  name: "Equipo de Cumstat"
+  profile_class: "profile--default"
+  tagline: "Línea editorial"
+  avatar: "/assets/CUMSTAT.jpg"
