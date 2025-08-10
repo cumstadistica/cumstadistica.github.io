@@ -21,7 +21,6 @@
 title: Cumstadistica
 description: >- # this means to ignore newlines until "baseurl:"
   Página web oficial del trío cumstadístico
-baseurl: / # the subpath of your site, e.g. /blog
 url:  https://cumstadistica.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 safe: false
@@ -61,6 +60,11 @@ jekyll-archives:
   permalinks:
     category: '/categories/:name/'
     tag: '/tags/:name/'
+
+
+liquid:
+  strict_filters    : true
+  strict_variables  : true
 
 feed:
   path: feed.xml
