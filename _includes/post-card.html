@@ -1,5 +1,7 @@
-{% assign post = include.post %}
-{% assign profile = site.data.authors[post.author] | default: site.data.authors.default %}
+{%- assign post = include.post | default: page -%}
+{%- assign author_key = post.author | default: "default" -%}
+{%- assign profile = site.data.authors[author_key] | default: site.data.authors.default -%}
+
 
 <div class="post-card-container">
   <article class="post-card">

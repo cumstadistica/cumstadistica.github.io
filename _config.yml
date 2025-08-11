@@ -61,11 +61,6 @@ jekyll-archives:
     category: '/categories/:name/'
     tag: '/tags/:name/'
 
-
-liquid:
-  strict_filters    : true
-  strict_variables  : true
-
 feed:
   path: feed.xml
   excerpt_only: false
