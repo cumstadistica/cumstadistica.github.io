@@ -1,7 +1,7 @@
 ---
 title: La vita e bella
 categories: reviews
-tags: reviewsdej
+tags: reviewsdej cine
 author: j
 layout: post
 ---

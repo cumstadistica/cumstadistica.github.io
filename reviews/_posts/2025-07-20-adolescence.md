@@ -1,7 +1,7 @@
 ---
 title: Adolescence
 categories: reviews
-tags: reviewsdej
+tags: reviewsdej cine
 author: j
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 title: La teoría del todo
 categories: reviews
-tags: reviewsdej
+tags: reviewsdej cine
 author: j
 layout: post
 ---

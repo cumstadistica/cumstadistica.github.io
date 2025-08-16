@@ -1,7 +1,7 @@
 ---
 title: The Curious Case of Benjamin Button
 categories: reviews
-tags: reviewsdej
+tags: reviewsdej cine
 author: j
 layout: post
 ---

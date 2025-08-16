@@ -1,7 +1,7 @@
 ---
 title: Interstellar
 categories: reviews
-tags: reviewsdej nolan
+tags: reviewsdej nolan cine
 author: j
 layout: post
 ---

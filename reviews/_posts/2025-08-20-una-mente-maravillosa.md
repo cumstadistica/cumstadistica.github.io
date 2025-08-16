@@ -1,6 +1,7 @@
 ---
 title: Una mente maravillosa
 categories: reviews
+tags: cine
 author: c
 layout: post
 ---

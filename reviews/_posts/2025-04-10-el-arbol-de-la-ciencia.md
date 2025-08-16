@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "El árbol de la ciencia, Pío Baroja."
-tags: comentarioliterario
+tags: comentarioliterario libro
 categories: reviews
 author: u
 ---

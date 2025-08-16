@@ -1,7 +1,7 @@
 ---
 title: El Irlandés
 categories: reviews
-tags: reviewsdej
+tags: reviewsdej cine scorsese deniro
 author: j
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Arde Mississippi
-categories: reviews
+categories: reviews cine
 author: c
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 title: Dead Poets Society
 categories: reviews
-tags: reviewsdej
+tags: reviewsdej cine
 author: j
 layout: post
 ---
