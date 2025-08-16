@@ -82,7 +82,7 @@ ul {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding: 1px 0px;
 }
 
@@ -177,8 +177,8 @@ a:visited { color: var(--link-color-visited); }
     height:var(--avatar-size);
     border-radius:10%;
     object-fit:fill; 
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top: calc((var(--sidebar-width) - var(--avatar-size))/2);
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -226,7 +226,7 @@ a:visited { color: var(--link-color-visited); }
 
 .previous-post, .next-post {
     align-self: center;
-    width: var(--post-width);
+    width: var(--home-width);
     background: var(--content-box);
     color: var(--text-color);
     padding: 0 var(--content-padding) var(--content-padding) var(--content-padding);

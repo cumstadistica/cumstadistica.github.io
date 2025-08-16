@@ -50,6 +50,12 @@ kramdown:
   smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"] # Use smart quotes for apostrophes
 
 
+sass:
+  load_paths:
+    - _sass
+  style: compressed
+
+
 jekyll-archives:
   enabled:
     - categories

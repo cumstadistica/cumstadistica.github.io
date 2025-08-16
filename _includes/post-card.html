@@ -6,33 +6,35 @@
 <div class="post-card-container">
   <article class="post-card">
       <div class="post-card-sidebar {{ profile.profile_class }}">
-        <header class="post-card-sidebar-header">
 
-            <h3 class="post-category">
-              {% if post.categories %}
-                <a href="{{ site.url }}/tags/{{ post.categories | first | slugify }}">{{ post.categories | first }}</a>
-              {% else %}
-                <span class="no-category">Sin categoría</span>
-              {% endif %}
-            </h3>
-        </header>
         
         <img class="avatar" src="{{ profile.avatar }}" alt="{{ profile.name }}"></img>
 
-        <small class="post-meta">
-          Por {{ profile.name }} • {{ post.date | date: "%d %b %Y" }}
-        </small>
+        <div class="post-card-content">
+          <header class="post-card-sidebar-header">
+              <h3 class="post-category">
+                {% if post.categories %}
+                  <a href="{{ site.url }}/tags/{{ post.categories | first | slugify }}">{{ post.categories | first }}</a>
+                {% else %}
+                  <span class="no-category">Sin categoría</span>
+                {% endif %}
+              </h3>
+          </header>
 
-        <div class="post-metadata">
-            {% if post.tags and post.tags.size > 0 %}
-            <div class="post-tags">
-              <strong>Etiquetas:</strong>
-              {% for tag in post.tags %}
-              <a href="{{ site.url }}/tags/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
-              {% endfor %}
-            </div>
-            {% endif %}
+          <small class="post-meta">
+            Por {{ profile.name }} • {{ post.date | date: "%d %b %Y" }}
+          </small>
 
+          <div class="post-metadata">
+              {% if post.tags and post.tags.size > 0 %}
+              <div class="post-tags">
+                <strong>Etiquetas:</strong>
+                {% for tag in post.tags %}
+                <a href="{{ site.url }}/tags/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              </div>
+              {% endif %}
+          </div>
         </div>
     </div>
     <div class="main-content">
