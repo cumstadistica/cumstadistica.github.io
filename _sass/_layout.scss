@@ -8,21 +8,26 @@
   --text-height: 1.6;
   --post-header-gap: 1rem;
   --avatar-size: 128px;
+  --sidebar-shadow-position: -4px;
 
 
 }
 
 @media (max-width: 768px) {
   :root {
-    --post-width: 100%;
-    --sidebar-width: 100%;
+    --home-width: 97%;
+    --post-width: var(--home-width);
+    --sidebar-width: var(--home-width);
+    --content-container-left-padding: 2%;
+    --content-container-right-padding: 1%;
     --content-padding: 20px;
-    --home-width: 100%;
+    --content-border-radius: 10px;
     --title-size: 1.75rem;
     --text-size: 1rem;
     --text-height: 1.5;
     --post-header-gap: 0;
     --avatar-size: 64px;
+    --sidebar-shadow-position: 4px;
 
   }
 }
