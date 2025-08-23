@@ -2,6 +2,7 @@
 title: Duro como la vida misma
 author: c
 categories: meme
+layout: post
 ---
 
 Mi ma: El pan no esta tan duro

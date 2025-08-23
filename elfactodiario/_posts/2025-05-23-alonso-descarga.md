@@ -2,6 +2,7 @@
 layout: post
 title: "Facto diario número 12."
 categories: elfactodiario
+author: c
 ---
 
 // MEJORAR FACTO

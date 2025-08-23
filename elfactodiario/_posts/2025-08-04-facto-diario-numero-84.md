@@ -1,8 +1,9 @@
 ---
 title: Facto diario numero 84.
 categories: elfactodiario
-author: c j
+author: c
 layout: post
+tags: j
 ---
 Imagínate un lago tan grande que hasta le llamaban "mar", y hoy es poco más que un desguace de arena y barcos oxidados en medio de Asia. Ese era el Mar de Aral, uno de los lagos más grandes del mundo... hasta que llegaron los rusos con sus ideas brillantes: “¿Un mar en medio del desierto? Nah, mejor montamos un campo de algodón gigante.” ¿Qué podía salir mal, no? Pues nada, que se ponen a desviar los ríos que lo alimentaban, con la gracia y la precisión de un chimpancé con un martillo, y al final lo dejan más seco que el papo de la reina isabel II.
 
