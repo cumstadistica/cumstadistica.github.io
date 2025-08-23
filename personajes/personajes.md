@@ -2,41 +2,28 @@
 layout: page
 title: Glosario de Personajes
 permalink: /personajes
+categories: personajes
+layout: page
 ---
 
-## C
+{% assign post_urls = "/personajes/c.html,/personajes/u.html,/personajes/j.html" | split: "," %}
 
-#### *el maquiavélico mini-hombre*
+{% for post_url in post_urls %}
+  {% for page in site.pages %}
+    {% if page.url == post_url %}
 
-Cusalo, o C para los amigos (se pronuncia *'CU'*), es un individuo de tamaño de bosillo pero peligrosamente eficiente. A simple vista parece inofensivo, casi entrañable, pero lo cierto es que C es una mente maquinando 24/7, afilada por años de agravios por su estatura y por su sueño secreto: la dominación mundial.
+## [{{ page.title }}]({{ page.url }})
 
-Su plato favorito es el arroz a la cubana, no por falta de paladar, sino porque para C, menos es más. Con tomate, huevo y plátano frito, C te construye un imperio.
+{{ page.content }}
 
-C olvida, pero no perdona. Guarda agravios como quien colecciona estampitas, esperando el momento exacto para devolvértelo con intereses. Vive desconectado del mundo moderno, como un monje medieval con Wi-Fi, y cree que TikTok y el Anime es una prueba de que el mundo merece caer.
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
-En resumen: C no grita, susurra. No ataca, planea. No folla, se masturba. Y cuando te des cuenta, ya es demasiado tarde.
-La máquina de la lógica. Si hay una forma óptima de hacer algo, la encontrará, la criticará y luego te dirá que eres un inútil por no haberlo visto antes.
+---
+<br>
 
-![Foto de C](/assets/CUSA.jpg)
-
-## J
-
-#### *el Maestro y Señor de las Galletas Dinoaurus y las picsas prosiuto*
-
-Maestro de las palabras y diplomático de Cumstadística. Puede venderte cualquier idea con tal de que suene razonable, aunque sea una estafa piramidal.
-
-J es el equilibrio perfecto entre inteligencia y carisma. Si C es la lógica pura, J es la comunicación encarnada. Sabe cómo hablar con la gente, cómo caer bien y cómo salir de cualquier situación con una mezcla de ingenio y labia. Antes era un nerd solitario, pero Belmez lo transformó en un hombre del pueblo, un tipo capaz de conectar con cualquiera. Su debilidad: el Sputnik (vodka con cerveza), las galletas Dinosaurus y su fidelidad ciega a la pizza prosciutto. En lo académico, J tiene la extraña habilidad de absorber conocimientos sin parecer que estudia, lo que le ha valido el respeto (y la envidia) de sus compañeros. También es un firme defensor del derecho a ligar en cualquier circunstancia, porque “el que perdona, murió en la cruz” y “ninguna mujer es fea por donde se mea” son principios fundamentales en su doctrina.
-
-![J](/assets/FOTO%20PAL%20LINKEDIN.jpg)
-
-## U
-
-#### *la voz de la Razón y la Pachamama*
-
-La memoria encarnada y el más pachamamesco del grupo (aunque lo niegue). Cree que todo lo comercial es basura y que el arte de verdad es una película muda serbo-croata de 12 horas sobre la pesca artesanal.
-U es un alma artística atrapada en un mundo de números y estadísticas. Filósofo del Excel, poeta de la Cumstadística y lector compulsivo de literatura rusa, es el único que puede recitar párrafos enteros de Crimen y castigo en ruso sin perder el aliento. Pero no te confundas: aunque le encante la literatura y lo abstracto, también tiene una mente aguda y creativa que le permite entender conceptos complejos con facilidad. Es el que siempre tiene una reflexión inesperada, el que ve más allá de los datos y encuentra el significado oculto en todo. Se dice que nunca tuvo madera de atleta, pero lo cierto es que ha canalizado esa energía en su guitarra, donde su interpretación de El Vito ya es legendaria. Su eterna pelea con los Custateros es la capitalización de la “D” en “Dios”, pero sigue firme en su lucha. Y, por supuesto, siempre está ardido porque todo le parece demasiado comercial.
-
-![U](/assets/UGO.jpg)
+## Personajes Secundarios
 
 ### El Loco de Fortnite
 

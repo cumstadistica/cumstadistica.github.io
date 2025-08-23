@@ -22,7 +22,7 @@
           </header>
 
           <small class="post-meta">
-            Por {{ profile.name }} • {{ post.date | date: "%d %b %Y" }}
+            Por <a href="{{ profile.url }}" class="post-author">{{ profile.name }}</a> • {{ post.date | date: "%d %b %Y" }}
           </small>
 
           <div class="post-metadata">

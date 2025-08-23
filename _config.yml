@@ -60,9 +60,7 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layouts:
-    category: archive
-    tag: archive
+  layouts: {categories: post, tags: archive}
   permalinks:
     category: '/categories/:name/'
     tag: '/tags/:name/'
