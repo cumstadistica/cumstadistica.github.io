@@ -17,3 +17,5 @@ Apunte de J:
 Adicional al facto quiero sugerir que el mar de aral es un lago endorreico
 
 Porque el suelo está saturado (no chupa agua) y no tiene salidas para que haya escorrentía
+
+Podcast de FDV sobre el tema: [El desastre de Aral](https://diazvillanueva.com/el-desastre-de-aral/)

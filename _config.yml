@@ -55,12 +55,18 @@ sass:
     - _sass
   style: compressed
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 jekyll-archives:
   enabled:
     - categories
     - tags
-  layouts: {categories: post, tags: archive}
+  layouts: {categories: post, tags: archive, default: post}
   permalinks:
     category: '/categories/:name/'
     tag: '/tags/:name/'
