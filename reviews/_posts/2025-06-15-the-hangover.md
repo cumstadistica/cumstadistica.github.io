@@ -1,7 +1,7 @@
 ---
 title: The Hangover
 categories: reviews
-tags: reviewsdej cine
+tags: cine comedia
 author: j
 layout: post
 ---
