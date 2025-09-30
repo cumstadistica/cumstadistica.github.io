@@ -1,5 +1,5 @@
 ---
-title: Una mente maravillosa
+title: Una mente maravillosa (C)
 categories: reviews
 tags: cine
 author: c
@@ -13,3 +13,5 @@ El argumento gira en torno a la lucha de Nash contra la esquizofrenia a lo largo
 La película se toma **muchas** licencias artísticas para hacer la historia más entretenida. Sin embargo, la trama se hace un poco lenta y parece ir sin rumbo al principio, aunque se compensa por la magistral actuación de Crowe.
 
 Le doy un **7**, para compensar que en [IMDB](https://www.imdb.com/de/title/tt0268978/) tiene un 8.2 y ya me parece fliparse.
+
+[Link a la review de J](/reviews/_posts/2025-10-15-una-mente-maravillosa.md)
