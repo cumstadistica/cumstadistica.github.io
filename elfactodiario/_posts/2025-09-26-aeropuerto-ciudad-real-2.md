@@ -1,6 +1,6 @@
 ---
 title: "Facto diario número 136"
-autor: j
+author: j
 categories: elfactodiario
 tags: CiudadReal
 ---

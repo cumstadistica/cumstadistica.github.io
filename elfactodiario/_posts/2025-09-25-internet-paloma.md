@@ -1,6 +1,6 @@
 ---
 title: "Facto diario número 135"
-autor: j
+author: j
 categories: elfactodiario
 ---
 

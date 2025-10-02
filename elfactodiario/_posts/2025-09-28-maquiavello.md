@@ -1,6 +1,6 @@
 ---
 title: "Facto diario número 138"
-autor: j
+author: j
 categories: elfactodiario
 tags: efectomandela
 ---

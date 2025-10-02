@@ -1,6 +1,6 @@
 ---
 title: "Facto diario número 134"
-autor: j
+author: j
 tags: efectomandela
 categories: elfactodiario
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Facto diario número 137"
-autor: j
+author: j
 categories: elfactodiario
 ---
 

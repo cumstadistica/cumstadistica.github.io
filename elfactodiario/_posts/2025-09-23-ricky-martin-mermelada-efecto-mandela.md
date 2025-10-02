@@ -1,6 +1,6 @@
 ---
 title: "Facto diario número 133"
-autor: c
+author: c
 tags: efectomandela
 categories: elfactodiario
 layout: post
