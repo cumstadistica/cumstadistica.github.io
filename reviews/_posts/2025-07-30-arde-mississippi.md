@@ -3,6 +3,7 @@ title: Arde Mississippi
 categories: reviews cine
 author: c
 layout: post
+nota: 8.1
 ---
 O para los amigos, un Nerdi y Jose Luis Ábalos solucionan el racismo.
 

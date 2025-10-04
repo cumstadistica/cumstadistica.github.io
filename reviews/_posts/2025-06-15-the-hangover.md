@@ -4,6 +4,7 @@ categories: reviews
 tags: cine comedia
 author: j
 layout: post
+nota: 6
 ---
 
 Una película entretenida y graciosa, con un final apoteósico que es de los pocos que te deja viendo los créditos finales y con imágenes hilarantes de tíos metiéndole el pito a un tigre.

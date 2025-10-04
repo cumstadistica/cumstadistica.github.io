@@ -1,6 +1,6 @@
 ---
 title: Chip caminando al ritmo de Bee Gees
-author: j
+author: c
 categories: meme
 layout: post
 tags: musicote

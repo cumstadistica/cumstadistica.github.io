@@ -4,6 +4,7 @@ categories: reviews
 tags: lugar
 author: c
 layout: post
+nota: 7.5
 ---
 
 ## Honesta review de Phantasialand

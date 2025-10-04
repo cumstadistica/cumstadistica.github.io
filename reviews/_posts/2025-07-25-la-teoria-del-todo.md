@@ -4,6 +4,7 @@ categories: reviews
 tags: reviewsdej cine
 author: j
 layout: post
+nota: 8.7
 ---
 
 

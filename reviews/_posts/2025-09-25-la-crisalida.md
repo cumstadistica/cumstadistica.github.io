@@ -2,6 +2,7 @@
 title: "La crisálida"
 author: u
 tags: libro
+nota: 7.5
 ---
 
 

@@ -37,6 +37,8 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-webp
+  - jekyll_img
 
 markdown: kramdown
 

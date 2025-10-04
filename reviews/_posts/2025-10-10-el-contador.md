@@ -2,6 +2,7 @@
 title: "El Contador"
 author: j
 tags: cine
+nota: 8
 ---
 
 

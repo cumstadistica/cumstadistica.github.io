@@ -1,5 +1,5 @@
 ---
-title: "Efecto gastrocolico"
+title: "Efecto gastrocólico"
 author: c
 categories: elfactodiario
 ---

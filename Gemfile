@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-optional-front-matter", "~> 0.2"
   gem "jekyll-remote-theme", "~> 0.4"
   gem "jekyll-include-cache", "~> 0.2"
+  gem "jekyll-webp", "~> 1.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

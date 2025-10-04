@@ -2,6 +2,7 @@
 title: "Todos los hombres del presidente"
 author: c
 tags: cine
+nota: 7.7
 ---
 
 ![Todos los hombres del presidente](/reviews/_assets/todos-los-hombres-del-presidente.png)
