@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Cumstadística</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Cumstadística</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elfactodiario</title>
+      <link>http://localhost:1313/categories/elfactodiario/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/elfactodiario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Null</title>
+      <link>http://localhost:1313/categories/null/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/null/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meme</title>
+      <link>http://localhost:1313/categories/meme/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/meme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reviews</title>
+      <link>http://localhost:1313/categories/reviews/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/reviews/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cine</title>
+      <link>http://localhost:1313/categories/cine/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Musicote</title>
+      <link>http://localhost:1313/categories/musicote/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/musicote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cas</title>
+      <link>http://localhost:1313/categories/cas/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sitcom</title>
+      <link>http://localhost:1313/categories/sitcom/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/sitcom/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

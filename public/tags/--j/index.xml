@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>- J on Cumstadística</title>
+    <link>http://localhost:1313/tags/--j/</link>
+    <description>Recent content in - J on Cumstadística</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/--j/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facto diario numero 84.</title>
+      <link>http://localhost:1313/post/elfactodiario/2025-08-04-facto-diario-numero-84/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/elfactodiario/2025-08-04-facto-diario-numero-84/</guid>
+      <description>&lt;p&gt;Imagínate un lago tan grande que hasta le llamaban &amp;ldquo;mar&amp;rdquo;, y hoy es poco más que un desguace de arena y barcos oxidados en medio de Asia. Ese era el Mar de Aral, uno de los lagos más grandes del mundo&amp;hellip; hasta que llegaron los rusos con sus ideas brillantes: “¿Un mar en medio del desierto? Nah, mejor montamos un campo de algodón gigante.” ¿Qué podía salir mal, no? Pues nada, que se ponen a desviar los ríos que lo alimentaban, con la gracia y la precisión de un chimpancé con un martillo, y al final lo dejan más seco que el papo de la reina isabel II.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La vida de J</title>
+      <link>http://localhost:1313/post/meme/2025-05-21-la-vida-de-j/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/meme/2025-05-21-la-vida-de-j/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/j-greentext.jpg&#34; alt=&#34;j greentext&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

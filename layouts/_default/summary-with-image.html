@@ -1,0 +1,80 @@
+{{/* Warning: Keep the original warning if this is called as a partial */}}
+{{ partials.Include "func/warn.html" `You are currently using 'partial "summary-with-image"'...` }}
+
+{{ $authorName := .Params.author | default "default" | lower }}
+{{ $imgName := printf "images/authors/%s.webp" $authorName }}
+{{ $imgPath := $imgName | absURL }}
+
+<article class="mb4">
+  <div class="flex flex-column flex-row-ns bg-custom-card br3 shadow-4 pa3 pa4-ns">
+    
+    {{/* --- SIDEBAR (Left) --- */}}
+    {{/* Shows Avatar, Categories, Tags */}}
+    <div class="w-100 w-20-ns mr3-ns mb3 mb0-ns flex flex-column items-center tc">
+      
+      {{/* 1. Avatar Image */}}
+      {{ $avatar := .Params.avatar | default .Params.featured_image }}
+      {{ if $avatar }}
+        <a href="{{.RelPermalink}}" class="db grow">
+              {{ $defaultImg := "images/authors/default.jpg" | absURL }}
+          <img src="{{ $imgPath }}" 
+          onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
+          class="br0 h4 br3 w4 object-fill"
+          alt="{{ $authorName }}">
+        </a>
+      {{ end }}
+
+      {{/* 2. Categories */}}
+      {{ with .Params.categories }}
+        <div class="mt3 f7 ttu tracked silver">
+          {{ range . }}
+            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="link silver dim db mb2">
+              {{ . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{/* 3. Tags */}}
+      {{ with .Params.tags }}
+        <div class="mt2 flex flex-wrap justify-center">
+          {{ range . }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="f7 link white-80 bg-white-10 br2 ph2 pv1 mb1 mr1 dim">
+              #{{ . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      <div class="f7 silver mb3">
+        Plumilla: {{ .Params.author | default .Site.Params.author }} | {{ .Date.Format "Jan 2, 2006" }}
+      </div>
+      
+    </div>
+
+    {{/* --- CONTENT (Right) --- */}}
+    <div class="w-100 w-80-ns pl3-ns bl-ns b--white-10">
+      
+      {{/* Title */}}
+      <h1 class="f3 fw6 mt0 lh-title">
+        <a href="{{.RelPermalink}}" class="color-inherit dim link white">
+          {{ .Title }}
+        </a>
+      </h1>
+
+      {{/* Summary Text */}}
+      <div class="f6 f5-l lh-copy white-80 mb3">
+        {{ .Summary }}
+      </div>
+
+      {{/* Author & Date Metadata */}}
+
+      {{/* Read More Button */}}
+      <a href="{{.RelPermalink}}" class="dib f6 fw6 ba b--white-20 bg-white-10 white br2 ph3 pv2 link dim">
+        {{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }} &rarr;
+      </a>
+      
+    </div>
+
+  </div>
+</article>

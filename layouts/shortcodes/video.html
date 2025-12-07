@@ -1,0 +1,10 @@
+{{/* Check if a named parameter "src" exists, otherwise use the first position argument */}}
+{{ $src := .Get "src" | default (.Get 0) }}
+
+<div class="video-container">
+    <video controls preload="metadata" style="width: 100%; height: auto; border-radius: 8px;">
+        {{/* absURL ensures the link works from any page depth */}}
+        <source src="{{ $src | absURL }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>

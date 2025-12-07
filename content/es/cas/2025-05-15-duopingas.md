@@ -1,0 +1,10 @@
+---
+author: j
+categories: ["cas"]
+date: "2025-05-15T00:00:00Z"
+title: Alcancé los 700 días de racha en duo pingas
+---
+
+{{< figure src="/assets/duopingas-700.jpg" alt="Duopingas" >}}
+
+Felicitaciones de parte de toda Cumstadística, enhorabuena J! 👏👏👏

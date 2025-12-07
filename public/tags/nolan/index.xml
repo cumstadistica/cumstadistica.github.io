@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nolan on Cumstadística</title>
+    <link>http://localhost:1313/tags/nolan/</link>
+    <description>Recent content in Nolan on Cumstadística</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nolan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El caballero oscuro</title>
+      <link>http://localhost:1313/reviews/2025-09-30-el-caballero-oscuro/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/reviews/2025-09-30-el-caballero-oscuro/</guid>
+      <description>&lt;p&gt;Peliculón de Christopher Nolan, y mira que no me suelen gustar las pelis de superhéroes, las veo algo planas, pero aquí Nolan se saca la polla y se la menea por la mesa. Muy buena historia a tres bandas entre los personajes principales, y muy bueno el debate que la peli te plantea sobre la moral y la correctitud y sobre si el fin justifica o no los medios. Dicho sea de paso, Nicolás Maquiavello nunca pronuncio está frase realmente. Es un efecto Mandela. Concateno con &lt;a href=&#34;http://localhost:1313/elfactodiario/_posts/2025-09-28-maquiavello.md&#34;&gt;facto&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interstellar</title>
+      <link>http://localhost:1313/reviews/2025-08-10-interstellar/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/reviews/2025-08-10-interstellar/</guid>
+      <description>&lt;p&gt;Gran película de Christopher Nolan que no se si habla del abandono o de los viajes en el tiempo o de el espacio exterior. El caso es que está muy bien.&#xA;Nota: 9.4/10&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+---
+author: j
+categories: ["reviews"]
+date: "2025-07-25T00:00:00Z"
+nota: 8.7
+tags: ["reviewsdej", "cine"]
+title: La teoría del todo
+---
+
+
+Buena peli sobre la vida de Stephen Hawking, dramática y entretenida y me gusta como pese a todo Stephen se lo toma todo a coña. Buena actitud. Un poco putero el vegetal pero bueno. Está muy bien la peli, se habla poco de física para ser una peli sobre un físico, eso me gusta.
+
+Nota: 8.7/10
+
+[Link IMDB](https://www.imdb.com/es-es/title/tt2980516/)

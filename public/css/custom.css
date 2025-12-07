@@ -1,0 +1,100 @@
+/* =========================================
+   1. BACKGROUNDS (Your Custom Palette)
+   ========================================= */
+
+/* Main Site Background - #000F1D */
+body, html, .bg-white, .bg-near-white, .bg-light-gray {
+  background-color: #000F1D !important;
+  color: #ffffff !important;
+}
+
+/* Content/Card Background - #122131 (Telegram Color) */
+.bg-custom-card, article, aside, .pa3, .pa4 {
+  /* We target generic containers to force the card color where needed */
+  background-color: transparent; 
+}
+
+/* Specifically force the card color on the main content areas */
+/* Adjust this selector based on your HTML structure */
+.main-content, .post-card, .bg-custom-card {
+    background-color: #122131 !important;
+}
+
+/* =========================================
+   2. TYPOGRAPHY (Fixing Readability)
+   ========================================= */
+
+/* Primary Text: Force Black text to White */
+.black, .black-90, .black-80, .near-black, .dark-gray {
+  color: #ffffff !important;
+}
+
+/* Secondary Text: Force Dark Grey to "Whiter Grey" */
+/* This fixes the dates, summaries, and descriptions */
+.mid-gray, .gray, .black-60, .black-70 {
+  color: #d1d1d1 !important; /* Light Silver */
+}
+
+/* Even lighter grey for very faint text */
+.silver, .light-gray {
+  color: #f5f5f5 !important; /* Near White */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .title {
+  color: #ffffff !important;
+}
+
+/* =========================================
+   3. LINKS & INTERACTION
+   ========================================= */
+
+/* Standard Links - #357999 */
+a, .link {
+  color: #357999 !important;
+  transition: opacity 0.2s ease;
+}
+
+a:hover, .link:hover {
+  color: gold !important;
+  opacity: 1 !important;
+}
+
+/* Navigation Bar - Force to Site Background */
+header, nav, .bg-black {
+  background-color: #000F1D !important;
+}
+
+/* --- Profile Sidebar Colors --- */
+/* Matches your _post.scss logic */
+
+/* Default (Dark Blue/Grey) */
+.bg-profile-default {
+  background-color: #122131 !important;
+}
+
+/* Red (profile--c) */
+.bg-profile-c {
+  background-color: #670e14 !important;
+  box-shadow: -4px 5px #2e061d !important;
+}
+
+/* Green (profile--j) */
+.bg-profile-j {
+  background-color: #062e17 !important;
+  box-shadow: -4px 5px #001a0d !important;
+}
+
+/* Gold/Brown (profile--u) */
+.bg-profile-u {
+  background-color: #bd8717 !important;
+  box-shadow: -4px 5px #2e2b06 !important;
+}
+
+/* Avatar Styling */
+.sidebar-avatar {
+  width: 128px;
+  height: 128px;
+  object-fit: fill;
+  border-radius: 0;
+}

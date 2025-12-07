@@ -1,0 +1,22 @@
+{{ define "header" }}{{ partials.Include "site-navigation.html" . }}{{ end }}
+
+{{ define "main" }}
+  <div class="flex-l mt2 mw9 center ph3">
+
+    {{ partial "sidebar.html" . }}
+
+    <article class="w-100 w-80-l ml4-l pv5 ph3 ph4-ns bg-custom-card br3 shadow-4">
+      <header>
+        <h1 class="f1 white bg-custom-card pa3 br3">
+          {{ .Title }}
+        </h1>
+      </header>
+      
+      {{/* Content: Changed default color from 'mid-gray' to 'white' */}}
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | compare.Default "white" }}">
+        {{ .Content }}
+      </div>
+    </article>
+    
+  </div>
+{{ end }}

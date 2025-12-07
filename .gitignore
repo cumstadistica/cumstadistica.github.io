@@ -3,4 +3,5 @@ Gemfile.lock
 .sass-cache/
 .venv/
 __pycache__/
+.public/
 

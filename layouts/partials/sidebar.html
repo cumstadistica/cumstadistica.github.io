@@ -1,0 +1,53 @@
+{{/* 1. Determine the Profile Class (default, c, j, u) */}}
+{{ $profileType := .Params.profile_type | default "default" }}
+{{ $bgClass := printf "bg-profile-%s" $profileType }}
+
+
+{{ $authorName := .Params.author | default "default" | lower }}
+{{ $imgName := printf "images/authors/%s.webp" $authorName }}
+{{ $imgPath := $imgName | absURL }}
+
+<aside class="w-100 w-20-l mb4 mb0-l">
+  
+  <div class="{{ $bgClass }} pa3 br3 white tc mb3">
+    
+    {{ $defaultImg := "images/authors/default.jpg" | absURL }}
+    <img src="{{ $imgPath }}" 
+     onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
+     class="sidebar-avatar mb3 br0" 
+     alt="{{ $authorName }}">
+
+    {{/* Author Name */}}
+    <h3 class="f4 fw6 mv2">{{ .Params.author | default .Site.Author.name }}</h3>
+    
+    <!-- {{/* Optional Description */}}
+    <p class="f6 silver lh-copy measure center">
+      {{ .Params.author_description | default "Author description goes here." }}
+    </p> -->
+  </div>
+
+
+  {{/* We wrap your snippet in a card style */}}
+  <div class="bg-custom-card pa3 br3 white shadow-4">
+    
+    {{/* Logic to get related posts in the same section */}}
+    {{ $section := where .Site.RegularPages "Section" .Section }}
+    
+    <h1 class="f5 fw6 ttu tracked silver mb3">{{ i18n "more" | default "More Posts" }}</h1>
+    
+    <ul class="list pl0">
+      {{/* Range through the first 5 posts in this section */}}
+      {{ range first 5 $section }}
+        {{/* Exclude the current post from the list */}}
+        {{ if ne .Permalink $.Permalink }}
+          <li class="mb3 pb2 bb b--white-10">
+            <a href="{{ .RelPermalink }}" class="link white dim f6 lh-title">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+
+  </div>
+</aside>

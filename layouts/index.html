@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+  {{ $mainSections := site.Params.mainSections | compare.Default (collections.Slice "post") }}
+  
+  {{ $pages := collections.Where site.RegularPages "Section" "in" $mainSections }}
+  {{ $paginator := .Paginate $pages }}
+  {{ if eq $paginator.PageNumber 1 }}
+      <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "white" }}">
+        {{ .Content }}
+      </article>
+  {{ end }}
+
+  {{ if gt $paginator.TotalNumberOfElements 0 }}
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+
+      <section class="w-100 mw8 center mb5">
+        {{ range $paginator.Pages }}
+          <div class="w-100 mb4 relative">
+            {{ .Render "summary-with-image" }}
+          </div>
+        {{ end }}
+      </section>
+
+      {{/* 5. Render the Navigation Buttons (Next / Prev) */}}
+      <div class="flex justify-center">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+
+    </div>
+  {{ end }}
+{{ end }}
