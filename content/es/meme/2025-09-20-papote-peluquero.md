@@ -1,6 +1,6 @@
 ---
 author: j
-categories: ["meme"]
+categories: [meme]
 date: "2025-09-20T00:00:00Z"
 title: El corte de Papote
 ---

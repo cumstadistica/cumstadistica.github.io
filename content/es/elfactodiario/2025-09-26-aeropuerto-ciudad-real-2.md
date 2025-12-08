@@ -16,4 +16,4 @@ En un lugar de la mancha, entre puertollano y ciudad real, se encuentra el marav
 
 ### Apunte de C
 
-- El trolaco de jota ya hizo un facto sobre el aeropuerto de Ciudad Real: [Facto Diario Número 46](/elfactodiario/_posts/2025-06-28-facto-diario-numero-46.md)
+- El trolaco de jota ya hizo un facto sobre el aeropuerto de Ciudad Real: [Facto Diario Número 46](2025-06-28-facto-diario-numero-46.md)
