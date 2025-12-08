@@ -25,6 +25,9 @@ changefreq = "monthly"
 priority = 0.5
 filename = "sitemap.xml"
 
+[taxonomies]
+author = "author"
+
 [params]
 text_color = ""
 author = ""

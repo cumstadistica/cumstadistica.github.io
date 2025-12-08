@@ -15,7 +15,7 @@
       {{/* 1. Avatar Image */}}
       {{ $avatar := .Params.avatar | default .Params.featured_image }}
       {{ if $avatar }}
-        <a href="{{.RelPermalink}}" class="db grow">
+        <a href="/author/{{ $authorName }}" class="db grow">
               {{ $defaultImg := "images/authors/default.jpg" | absURL }}
           <img src="{{ $imgPath }}" 
           onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
