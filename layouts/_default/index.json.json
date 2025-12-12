@@ -1,6 +1,7 @@
 {{- /* Initialize empty slices for the lists */ -}}
 {{- $categoriesList := slice -}}
 {{- $authorList := slice -}}
+{{- $langList := slice -}}
 
 {{- /* 1. Process Categories */ -}}
 {{- if .Site.Taxonomies.categories -}}
@@ -20,15 +21,16 @@
   {{- range $name, $taxonomy := .Site.Taxonomies.author -}}
     {{- $authorPage := site.GetPage (printf "author/%s" $name) -}}
     {{- $details := dict 
-        "name" ($name | humanize | title) 
+        "name" ($name | humanize | title)
+        "code" $name 
         "count" (len $taxonomy) 
         "url" (printf "/author/%s/" ($name | urlize) | absURL)
     -}}
     {{- if $authorPage -}}
       {{- $details = merge $details (dict 
           "name" $authorPage.Title
-          "bio" $authorPage.Params.bio
-          "image" $authorPage.Params.profile_image
+          "slogan" $authorPage.Params.slogan
+          "image" $authorPage.Params.image
           "telegram" $authorPage.Params.telegram
       ) -}}
     {{- end -}}
@@ -36,5 +38,13 @@
   {{- end -}}
 {{- end -}}
 
-{{- /* 3. Combine and Output Single JSON */ -}}
-{{- dict "categories" $categoriesList "author" $authorList | jsonify -}}
+
+{{ range .Site.Languages }}
+    {{- $details := dict 
+        "code" $.Lang
+    -}}
+{{- $langList = $langList | append $details -}}
+{{ end }}
+
+
+{{- dict "category" $categoriesList "author" $authorList "lang" $langList | jsonify -}}
