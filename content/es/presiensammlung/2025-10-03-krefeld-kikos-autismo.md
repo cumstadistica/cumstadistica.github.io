@@ -1,6 +1,5 @@
 ---
 author: c
-categories: ["null"]
 date: "2025-10-03T00:00:00Z"
 tags: ["alemania", "experiencias", "surrealistas", "kikos", "krefeld", "viajes"]
 title: El Niño, Los Kikos y La Madre Soltera

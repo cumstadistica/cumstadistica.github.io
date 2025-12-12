@@ -1,0 +1,7 @@
+{{ with .Page }}
+  <h1>{{ .Title }}</h1>
+  <figure>
+    <img src="{{ .Params.image }}" alt="{{ .Params.Title }}"/>
+  </figure>
+  <h3>{{ .Params.slogan }}</h3>
+{{ end }}

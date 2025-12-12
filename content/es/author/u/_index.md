@@ -1,14 +1,11 @@
 ---
-title: "U"
-layout: archive
-author: u
-permalink: /personajes/u.html
-date: 2024-06-10
+title: Ugo Bugo
+telegram: Ugo_Bugo
+slogan: la voz de la Razón (y la Pachamama)
+image: "/images/authors/u.jpg"
 ---
 
-{{< figure src="/personajes/assets/UGO.jpg" alt="Foto de U" >}}
-
-### *la voz de la Razón (y la Pachamama)*
+{{< authorbio >}}
 
 U, pronunciado «/u/»,  es el más pachamamesco del grupo por decisión popular, aunque esto no signifique que sea un hippie de pura cepa, sino simplemente el menos comercial de todos. Del mismo modo, es, por goleada, el que tiene mejor memoria —solo porque C y J son unos peces y tienen la capacidad de concentracion de una ameba con Alzheimer. U aprovecha esto a su favor, para burlarse de los cumstadísticos cuando repiten un meme en el grupo o no recuerdan algo que claramente ha pasado.
 

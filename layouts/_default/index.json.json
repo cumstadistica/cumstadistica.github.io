@@ -1,15 +1,40 @@
-{{- $list := slice -}}
-{{- /* Debug: Alle verfügbaren Taxonomien anzeigen */ -}}
-{{- warnf "Taxonomies: %v" .Site.Taxonomies -}}
+{{- /* Initialize empty slices for the lists */ -}}
+{{- $categoriesList := slice -}}
+{{- $authorList := slice -}}
+
+{{- /* 1. Process Categories */ -}}
 {{- if .Site.Taxonomies.categories -}}
   {{- range $name, $taxonomy := .Site.Taxonomies.categories -}}
     {{- $details := dict 
         "name" ($name | humanize | title) 
         "slug" ($name | urlize)
-        "count" $taxonomy.Count 
-        "url" (printf "/%s/" ($name | urlize) | absURL)
+        "count" (len $taxonomy) 
+        "url" (printf "/categories/%s/" ($name | urlize) | absURL)
     -}}
-    {{- $list = $list | append $details -}}
+    {{- $categoriesList = $categoriesList | append $details -}}
   {{- end -}}
 {{- end -}}
-{{- dict "categories" $list | jsonify -}}
+
+{{- /* 2. Process Authors */ -}}
+{{- if .Site.Taxonomies.author -}}
+  {{- range $name, $taxonomy := .Site.Taxonomies.author -}}
+    {{- $authorPage := site.GetPage (printf "author/%s" $name) -}}
+    {{- $details := dict 
+        "name" ($name | humanize | title) 
+        "count" (len $taxonomy) 
+        "url" (printf "/author/%s/" ($name | urlize) | absURL)
+    -}}
+    {{- if $authorPage -}}
+      {{- $details = merge $details (dict 
+          "name" $authorPage.Title
+          "bio" $authorPage.Params.bio
+          "image" $authorPage.Params.profile_image
+          "telegram" $authorPage.Params.telegram
+      ) -}}
+    {{- end -}}
+    {{- $authorList = $authorList | append $details -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3. Combine and Output Single JSON */ -}}
+{{- dict "categories" $categoriesList "author" $authorList | jsonify -}}

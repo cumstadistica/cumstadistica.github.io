@@ -1,12 +1,11 @@
 ---
-title: "C"
-layout: archive
-author: c
+title: Cusa
+telegram: gonperezramirez
+slogan: el maquiavélico mini-hombre
+image: "/images/authors/c.webp"
 ---
 
-{{< figure src="/personajes/assets/CUSA.jpg" alt="Foto de C" >}}
-
-### *el maquiavélico mini-hombre*
+{{< authorbio >}}
 
 Cusalo, o C para los amigos (se pronuncia *'CU'*), es un individuo de tamaño de bosillo pero peligrosamente eficiente. A simple vista parece inofensivo, casi entrañable, pero lo cierto es que C es una mente maquinando 24/7, afilada por años de agravios por su estatura y por su sueño secreto: la dominación mundial.
 
