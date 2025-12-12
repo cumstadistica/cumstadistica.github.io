@@ -1,6 +1,7 @@
 ---
 author: c
-categories: ["reviews", "cine"]
+categories: ["reviews"]
+tags: ["cine", "drama", "racismo"]
 date: "2025-07-30T00:00:00Z"
 nota: 8.1
 title: Arde Mississippi
