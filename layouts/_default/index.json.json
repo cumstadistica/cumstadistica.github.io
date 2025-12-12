@@ -1,0 +1,15 @@
+{{- $list := slice -}}
+{{- /* Debug: Alle verfügbaren Taxonomien anzeigen */ -}}
+{{- warnf "Taxonomies: %v" .Site.Taxonomies -}}
+{{- if .Site.Taxonomies.categories -}}
+  {{- range $name, $taxonomy := .Site.Taxonomies.categories -}}
+    {{- $details := dict 
+        "name" ($name | humanize | title) 
+        "slug" ($name | urlize)
+        "count" $taxonomy.Count 
+        "url" (printf "/%s/" ($name | urlize) | absURL)
+    -}}
+    {{- $list = $list | append $details -}}
+  {{- end -}}
+{{- end -}}
+{{- dict "categories" $list | jsonify -}}

@@ -25,8 +25,14 @@ changefreq = "monthly"
 priority = 0.5
 filename = "sitemap.xml"
 
-[taxonomies]
-author = "author"
+[outputs]
+  home = ['html', 'rss', 'json']
+  page = ['html']
+  rss = ['rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']
+
 
 [params]
 text_color = ""
