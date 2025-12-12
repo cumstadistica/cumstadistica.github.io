@@ -7,3 +7,5 @@ tags: ["bob-esponja"]
 ---
 
 {{< figure src="/images/calamardo-mirando-a-bob-patricio.jpg" alt="La verdadera cumstadistica" >}}
+
+{{< figure src="/images/alexby-rubius-willyrex.jpg" alt="La verdadera cumstadistica 2" >}}
