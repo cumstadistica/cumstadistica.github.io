@@ -1,9 +1,0 @@
-{
-    "markdown.validate.ignoredLinks": [
-        "/tags/{{ tag[0] }}/"
-    ],
-    "files.associations": {
-        "*.json.json": "gohtml"
-    }
-    
-}

@@ -5,4 +5,4 @@ Gemfile.lock
 __pycache__/
 .public/
 public/
-
+.vscode/settings.json
