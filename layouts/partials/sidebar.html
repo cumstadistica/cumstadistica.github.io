@@ -7,6 +7,13 @@
   {{- $authorName = index $authorName 0 -}}
 {{- end -}}
 {{ $imgName := printf "images/authors/%s.webp" $authorName }}
+
+{{- $authorPage := site.GetPage (printf "author/%s" $authorName) -}}
+{{- $slogan := "" -}}
+{{- if $authorPage -}}
+  {{- $slogan = $authorPage.Params.slogan -}}
+{{- end -}}
+
 {{ $imgPath := $imgName | absURL }}
 
 <aside class="w-100 w-20-l mb4 mb0-l">
@@ -20,12 +27,11 @@
      alt="{{ $authorName }}">
 
     {{/* Author Name */}}
-    <h3 class="f4 fw6 mv2">{{ .Params.author | default .Site.Author.name }}</h3>
+    <h3 class="f4 fw6 mv2">{{ $authorName | default .Site.Author.name }}</h3>
     
-    <!-- {{/* Optional Description */}}
     <p class="f6 silver lh-copy measure center">
-      {{ .Params.author_description | default "Author description goes here." }}
-    </p> -->
+      <em>{{ $slogan | default "Author description goes here." }}</em>
+    </p>
   </div>
 
 
