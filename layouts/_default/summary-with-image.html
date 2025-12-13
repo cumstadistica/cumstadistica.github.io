@@ -5,10 +5,11 @@
 {{- if (reflect.IsSlice $authorName) -}}
   {{- $authorName = index $authorName 0 -}}
 {{- end -}}
-{{ $imgName := printf "images/authors/%s.webp" $authorName }}
-{{ $imgPath := $imgName | absURL }}
-{{ $imgName := printf "images/authors/%s.webp" $authorName }}
-{{ $imgPath := $imgName | absURL }}
+{{- $authorPage := site.GetPage (printf "author/%s" $authorName) -}}
+{{- $authorImage := "" -}}
+{{- if $authorPage -}}
+  {{- $authorImage = $authorPage.Params.image -}}
+{{- end -}}
 
 <article class="mb4">
   <div class="flex flex-column flex-row-ns bg-custom-card br3 shadow-4 pa3 pa4-ns">
@@ -22,7 +23,7 @@
       {{ if $avatar }}
         <a href="/author/{{ $authorName }}" class="db grow">
               {{ $defaultImg := "images/authors/default.jpg" | absURL }}
-          <img src="{{ $imgPath }}" 
+          <img src="{{ $authorImage }}" 
           onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
           class="br0 h4 br3 w4 object-fill"
           alt="{{ $authorName }}">
