@@ -1,5 +1,6 @@
 {{- /* Initialize empty slices for the lists */ -}}
 {{- $categoriesList := slice -}}
+{{- $tagsList := slice -}}
 {{- $authorList := slice -}}
 {{- $langList := slice -}}
 
@@ -13,6 +14,18 @@
         "url" (printf "/categories/%s/" ($name | urlize) | absURL)
     -}}
     {{- $categoriesList = $categoriesList | append $details -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if .Site.Taxonomies.tags -}}
+  {{- range $name, $taxonomy := .Site.Taxonomies.tags -}}
+    {{- $details := dict 
+        "name" ($name | humanize | title) 
+        "slug" ($name | urlize)
+        "count" (len $taxonomy) 
+        "url" (printf "/tags/%s/" ($name | urlize) | absURL)
+    -}}
+    {{- $tagsList = $tagsList | append $details -}}
   {{- end -}}
 {{- end -}}
 
@@ -47,4 +60,4 @@
 {{ end }}
 
 
-{{- dict "category" $categoriesList "author" $authorList "lang" $langList | jsonify -}}
+{{- dict "category" $categoriesList "tag" $tagsList "author" $authorList "lang" $langList | jsonify -}}
