@@ -1,6 +1,5 @@
 ---
-title: Día 0 y Día 1: Máquinas y Puerto de Algeciras
-categories: ['elfactodiario']
+title: J en Nueva Jovenlandia
 tags: ['viaje', 'malaga', 'caterpillar', 'algeciras', 'puerto', 'fiesta', 'diario']
 author: ['j']
 date: 2025-12-13 15:04:26 +01:00
@@ -16,6 +15,8 @@ date: 2025-12-13 15:04:26 +01:00
 {{< figure src="/images/2025_12_13_14_04_16_untitled-5.webp" alt="{2025_12_13_14_04_16_untitled-5}" >}}
 
 {{< figure src="/images/2025_12_13_14_04_16_untitled-6.webp" alt="{2025_12_13_14_04_16_untitled-6}" >}}
+
+{{< video src="/videos/video_2025-12-13_15-10-52.mp4" >}}
 
 ### Día 0. Máquinas
 
