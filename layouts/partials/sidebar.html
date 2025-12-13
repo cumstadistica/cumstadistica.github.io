@@ -2,8 +2,10 @@
 {{ $profileType := .Params.profile_type | default "default" }}
 {{ $bgClass := printf "bg-profile-%s" $profileType }}
 
-
-{{ $authorName := .Params.author | default "default" | lower }}
+{{- $authorName := .Params.author -}}
+{{- if (reflect.IsSlice $authorName) -}}
+  {{- $authorName = index $authorName 0 -}}
+{{- end -}}
 {{ $imgName := printf "images/authors/%s.webp" $authorName }}
 {{ $imgPath := $imgName | absURL }}
 
