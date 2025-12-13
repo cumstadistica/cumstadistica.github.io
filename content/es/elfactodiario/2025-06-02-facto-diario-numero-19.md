@@ -1,6 +1,7 @@
 ---
 author: j
-categories: ["elfactodiario", "musicote"]
+categories: ["elfactodiario"]
+tags: ["musicote"]
 date: "2025-06-02T00:00:00Z"
 title: Facto diario número 19.
 ---

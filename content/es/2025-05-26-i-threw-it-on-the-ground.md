@@ -1,8 +1,7 @@
 ---
 author: c
-categories: ["musicote"]
 date: "2025-05-26T00:00:00Z"
-tags: ["thelonelyisland"]
+tags: ["thelonelyisland", "musicote"]
 title: 'Esenciales de Cumstadística: I threw it on the ground'
 ---
 

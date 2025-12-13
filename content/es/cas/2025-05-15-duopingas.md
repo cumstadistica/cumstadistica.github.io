@@ -1,6 +1,5 @@
 ---
 author: j
-categories: [cas]
 date: "2025-05-15T00:00:00Z"
 title: Alcancé los 700 días de racha en duo pingas
 ---

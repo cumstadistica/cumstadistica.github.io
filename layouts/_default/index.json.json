@@ -6,9 +6,14 @@
 
 {{- /* 1. Process Categories */ -}}
 {{- if .Site.Taxonomies.categories -}}
-  {{- range $name, $taxonomy := .Site.Taxonomies.categories -}}
+  {{- range $name, $taxonomy := $.Site.Taxonomies.categories -}}
+    {{- $catPage := site.GetPage (printf "%s/categories/%s" $.Site.Language.Lang $name) -}}
+    {{- if not $catPage -}}
+      {{- $catPage = site.GetPage (printf "categories/%s" $name) -}}
+    {{- end -}}
     {{- $details := dict 
-        "name" ($name | humanize | title) 
+        "name" ($catPage.Title | default ($name | humanize | title)) 
+        "description" ($catPage.Params.description)
         "slug" ($name | urlize)
         "count" (len $taxonomy) 
         "url" (printf "/categories/%s/" ($name | urlize) | absURL)
@@ -16,7 +21,6 @@
     {{- $categoriesList = $categoriesList | append $details -}}
   {{- end -}}
 {{- end -}}
-
 {{- if .Site.Taxonomies.tags -}}
   {{- range $name, $taxonomy := .Site.Taxonomies.tags -}}
     {{- $details := dict 

@@ -1,0 +1,1 @@
+content/es/categories/archivo/_index.md

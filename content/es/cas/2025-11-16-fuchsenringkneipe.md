@@ -2,7 +2,6 @@
 title: Representé a mi Fraternidad por primera vez
 date: "2025-11-16T00:00:00Z"
 author: c
-categories: ["cas"]
 tags: ["verbindung"]
 ---
 

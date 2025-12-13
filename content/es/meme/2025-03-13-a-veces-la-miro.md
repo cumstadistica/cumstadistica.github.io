@@ -1,6 +1,5 @@
 ---
 author: c
-categories: ["meme"]
 date: "2025-03-13T00:00:00Z"
 title: A veces la miro
 ---
