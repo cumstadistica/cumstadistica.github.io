@@ -4,7 +4,7 @@ categories: ['meme']
 tags: ['horny bird', 'angry bird', 'anécdotas', 'citas', 'humor']
 author: ['j']
 
-date: 2025-12-13 07:40:26 +01:00
+date: 2025-11-25 07:40:26 +01:00
 ---
 Pues no que estabamos dando un paseo una chiquilla y yo
 
