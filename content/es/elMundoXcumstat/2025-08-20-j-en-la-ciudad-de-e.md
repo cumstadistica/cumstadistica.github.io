@@ -1,9 +1,8 @@
 ---
-title: Día 0. Bélmez internacional: Madrid vs Barcelona
-categories: ['elfactodiario']
+title: "J en la ciudad de E"
 tags: ['viaje', 'madrid', 'barcelona', 'belmez', 'bitacora', 'tren']
 author: ['j']
-date: 2025-12-13 15:59:14 +01:00
+date: 2025-08-20T00:00:00Z
 ---
 {{< figure src="/images/2025_12_13_14_58_53_untitled-1.webp" alt="{2025_12_13_14_58_53_untitled-1}" >}}
 
@@ -14,6 +13,23 @@ date: 2025-12-13 15:59:14 +01:00
 {{< figure src="/images/2025_12_13_14_58_53_untitled-4.webp" alt="{2025_12_13_14_58_53_untitled-4}" >}}
 
 {{< figure src="/images/2025_12_13_14_58_53_untitled-5.webp" alt="{2025_12_13_14_58_53_untitled-5}" >}}
+
+Pues cogemos el tren y nos bajamos en Atocha y el señor x y el paco están un poco aweonaos porque nunca han pillado un tren y Atocha se les queda un poco grande.
+
+Pese a todo salimos y los panas que hice en Madrid cuando se reunieron los consejos de civil nos hacen un tour por la ciudad más o menos *chill*. Vemos Sol, la Plaza Mayor, las cuatro torres, las torres Kio, una estación antigua, el edificio España, el Palacio Real, la Gran Vía y El Retiro y la Puerta de Alcalá.
+
+Realmente está casi todo bastante pegado, se puede ir a pie. A lo demás hay que pillar metro por huevos. Quizás me faltó ver El Prado y El Escorial, pero realmente ya los vi en otras visitas. Me voy satisfecho.
+
+**Conclusiones sobre Madrid**
+
+Coincido con el u en que merece ser la capital de España. Todo en Madrid está hecho a lo grande, y lo que es más importante, está muy bien cuidado. Es como Murcia en el sentido de que todo está muy limpio y al detalle pero todo es más grande. Las fachadas, mayormente por lo que es el centro, están súper cuidadas y tienen esculturas y demás. Muy bien, Madrid.
+
+**Conclusión final final: Madrid > Barcelona??? (Eterno debate)**
+
+Evidentemente Bélmez les gana a ambos, pero porque juega en otra liga. Entre Madrid y Barcelona yo honestamente pienso que ambos son capitales de sus respectivos mundos. Madrid es el baluarte de España. Barcelona tiene un estilo diferente y su propia cultura y su propia idiosincrasia.
+
+Si tuviera que quedarme con una, creo que sorpresivamente me quedaría con Barcelona, mayormente porque es más pequeña, más cálida. Madrid es enorme. Y aunque en arquitectura, rascacielos, historia y economía claramente gana, Barcelona tiene encanto, es más acogedora. Madrid es como más imponente, más grandilocuente, más fría. Y personalmente prefiero Barcelona por esto.
+
 
 {{< figure src="/images/2025_12_13_14_58_53_untitled-6.webp" alt="{2025_12_13_14_58_53_untitled-6}" >}}
 
@@ -132,19 +148,3 @@ date: 2025-12-13 15:59:14 +01:00
 {{< figure src="/images/2025_12_13_14_58_53_untitled-63.webp" alt="{2025_12_13_14_58_53_untitled-63}" >}}
 
 {{< figure src="/images/2025_12_13_14_58_53_untitled-64.webp" alt="{2025_12_13_14_58_53_untitled-64}" >}}
-
-Pues cogemos el tren y nos bajamos en Atocha y el señor x y el paco están un poco aweonaos porque nunca han pillado un tren y Atocha se les queda un poco grande.
-
-Pese a todo salimos y los panas que hice en Madrid cuando se reunieron los consejos de civil nos hacen un tour por la ciudad más o menos *chill*. Vemos Sol, la Plaza Mayor, las cuatro torres, las torres Kio, una estación antigua, el edificio España, el Palacio Real, la Gran Vía y El Retiro y la Puerta de Alcalá.
-
-Realmente está casi todo bastante pegado, se puede ir a pie. A lo demás hay que pillar metro por huevos. Quizás me faltó ver El Prado y El Escorial, pero realmente ya los vi en otras visitas. Me voy satisfecho.
-
-**Conclusiones sobre Madrid**
-
-Coincido con el u en que merece ser la capital de España. Todo en Madrid está hecho a lo grande, y lo que es más importante, está muy bien cuidado. Es como Murcia en el sentido de que todo está muy limpio y al detalle pero todo es más grande. Las fachadas, mayormente por lo que es el centro, están súper cuidadas y tienen esculturas y demás. Muy bien, Madrid.
-
-**Conclusión final final: Madrid > Barcelona??? (Eterno debate)**
-
-Evidentemente Bélmez les gana a ambos, pero porque juega en otra liga. Entre Madrid y Barcelona yo honestamente pienso que ambos son capitales de sus respectivos mundos. Madrid es el baluarte de España. Barcelona tiene un estilo diferente y su propia cultura y su propia idiosincrasia.
-
-Si tuviera que quedarme con una, creo que sorpresivamente me quedaría con Barcelona, mayormente porque es más pequeña, más cálida. Madrid es enorme. Y aunque en arquitectura, rascacielos, historia y economía claramente gana, Barcelona tiene encanto, es más acogedora. Madrid es como más imponente, más grandilocuente, más fría. Y personalmente prefiero Barcelona por esto.

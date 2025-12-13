@@ -2,7 +2,7 @@
 title: J en Nueva Jovenlandia
 tags: ['viaje', 'malaga', 'caterpillar', 'algeciras', 'puerto', 'fiesta', 'diario']
 author: ['j']
-date: 2025-12-13 15:04:26 +01:00
+date: 2025-10-13T00:00:00Z
 ---
 {{< figure src="/images/2025_12_13_14_04_16_untitled-1.webp" alt="{2025_12_13_14_04_16_untitled-1}" >}}
 
