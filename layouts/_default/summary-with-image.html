@@ -1,7 +1,12 @@
 {{/* Warning: Keep the original warning if this is called as a partial */}}
 {{ partials.Include "func/warn.html" `You are currently using 'partial "summary-with-image"'...` }}
 
-{{ $authorName := .Params.author | default "default" | lower }}
+{{- $authorName := .Params.author -}}
+{{- if (reflect.IsSlice $authorName) -}}
+  {{- $authorName = index $authorName 0 -}}
+{{- end -}}
+{{ $imgName := printf "images/authors/%s.webp" $authorName }}
+{{ $imgPath := $imgName | absURL }}
 {{ $imgName := printf "images/authors/%s.webp" $authorName }}
 {{ $imgPath := $imgName | absURL }}
 
