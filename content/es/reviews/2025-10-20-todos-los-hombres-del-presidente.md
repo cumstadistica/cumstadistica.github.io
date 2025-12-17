@@ -6,7 +6,7 @@ tags: ["cine"]
 title: Todos los hombres del presidente
 ---
 
-{{< figure src="/reviews/images/todos-los-hombres-del-presidente.png" alt="Todos los hombres del presidente" >}}
+{{< figure src="/images/todos-los-hombres-del-presidente.png" alt="Todos los hombres del presidente" >}}
 
 Es una película basada en hechos reales que narra la investigación de dos periodistas del Washington Post (Robert Redford y Dustin Hoffman) sobre el escándalo Watergate, que llevó a la dimisión del presidente Nixon.
 
