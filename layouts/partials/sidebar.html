@@ -32,6 +32,29 @@
     <p class="f6 silver lh-copy measure center">
       {{ $slogan | default "Aquí debe ir el lema del autor" }}
     </p>
+
+          {{/* 2. Categories */}}
+      {{ with .Params.categories }}
+        <div class="mt3 f7 ttu tracked silver">
+          {{ range . }}
+            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="link silver dim db mb2">
+              {{ . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{/* 3. Tags */}}
+      {{ with .Params.tags }}
+        <div class="mt2 flex flex-wrap justify-center">
+          {{ range . }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="f7 link white-80 bg-white-10 br2 ph2 pv1 mb1 mr1 dim">
+              #{{ . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+      
   </div>
 
 

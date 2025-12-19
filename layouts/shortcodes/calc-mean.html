@@ -1,0 +1,88 @@
+{{/* layouts/shortcodes/calc-mean.html */}}
+
+{{/* --- 1. Initialize Variables --- */}}
+{{ $globalSum := 0.0 }}
+{{ $globalRatedCount := 0 }}  {{/* Count of posts that actually have a nota */}}
+{{ $totalPosts := len .Page.Pages }}
+
+{{/* We use Scratch to store data dynamically inside the loop */}}
+{{ $data := newScratch }}
+{{ $uniqueAuthors := slice }}
+
+{{/* --- 2. Process Data --- */}}
+{{ range .Page.Pages }}
+  {{/* Get Author (default to "Unknown" if missing) */}}
+  {{ $author := .Params.author | default "Unknown" }}
+
+  {{/* Add to unique author list if not present */}}
+  {{ if not (in $uniqueAuthors $author) }}
+    {{ $uniqueAuthors = $uniqueAuthors | append $author }}
+  {{ end }}
+
+  {{/* Increment total articles for this author */}}
+  {{ $data.Add (printf "%s_count" $author) 1 }}
+
+  {{/* Check if Note exists */}}
+  {{ with .Params.nota }}
+    {{ $val := float . }}
+
+    {{/* Update Global Stats */}}
+    {{ $globalSum = add $globalSum $val }}
+    {{ $globalRatedCount = add $globalRatedCount 1 }}
+
+    {{/* Update Author Stats */}}
+    {{ $data.Add (printf "%s_sum" $author) $val }}
+    {{ $data.Add (printf "%s_rated_count" $author) 1 }}
+  {{ end }}
+{{ end }}
+
+{{/* --- 3. Output Global Summary --- */}}
+<div class="stats-summary">
+  <p><strong>Número de posts:</strong> {{ $totalPosts }}</p>
+  <p><strong>Nota media global:</strong> 
+    {{ if gt $globalRatedCount 0 }}
+      {{ div $globalSum $globalRatedCount | printf "%.2f" }} 
+      <small> (basado en {{ $globalRatedCount }} posts con nota)</small>
+    {{ else }}
+      N/A
+    {{ end }}
+  </p>
+</div>
+
+<hr>
+
+{{/* --- 4. Output Author Table --- */}}
+<table>
+  <thead>
+    <tr>
+      <th>Autor</th>
+      <th>Artículos</th>
+      <th>Nota Media</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $uniqueAuthors }}
+      {{ $count := $data.Get (printf "%s_count" .) }}
+      {{ $sum := $data.Get (printf "%s_sum" .) }}
+      {{ $ratedCount := $data.Get (printf "%s_rated_count" .) }}
+
+      <tr>
+        <td><strong>{{ . }}</strong></td>
+        <td>
+        {{ $count }} 
+        ({{ if gt $totalPosts 0 }}{{ div (mul $count 100.0) $totalPosts | printf "%.2f" }}
+        {{ else }}
+            0.00
+        {{ end }}%)
+        </td>
+        <td>
+          {{ if gt $ratedCount 0 }}
+            {{ div $sum $ratedCount | printf "%.2f" }}
+          {{ else }}
+            —
+          {{ end }}
+        </td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>
