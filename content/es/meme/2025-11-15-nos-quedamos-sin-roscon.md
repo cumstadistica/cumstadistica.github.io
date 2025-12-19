@@ -6,4 +6,8 @@ categories: ["meme"]
 tags: ["roscon-de-reyes", "navidad"]
 ---
 
-[text](https://www.youtube.com/watch?v=x2scuEGKLmo)
+{{< figure src="/images/photo_2025-12-19_11-05-15.jpg" alt="Nos quedamos sin roscón" >}}
+
+El vídeo en cuestión:
+
+{{< youtube id="x2scuEGKLmo" >}}

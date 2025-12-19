@@ -1,0 +1,34 @@
+{{/* Quote shortcode - displays a blockquote with optional attribution */}}
+{{ $text := .Get "text" | default (.Get 0) }}
+{{ $authorCode := .Get "author" | default "" }}
+
+<div class="flex mv3">
+    {{ if $authorCode }}
+        {{ $authorPage := site.GetPage (printf "/author/%s" $authorCode) }}
+        {{ if $authorPage }}
+            {{ with $authorPage.Params.image }}
+                <div class="flex-shrink-0 mr4">
+                    <img src="{{ . }}" alt="{{ $authorPage.Title }}" class="w5 h-auto br-100 object-cover">
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    
+    <blockquote class="bl bw3 b--light-blue pl3 pv2 i flex-auto">
+        <p class="lh-copy">{{ $text }}</p>
+        {{ if $authorCode }}
+            {{ $authorPage := site.GetPage (printf "/author/%s" $authorCode) }}
+            {{ if $authorPage }}
+                <footer class="mt2 i i-reset f6 silver">
+                    <a href="{{ $authorPage.RelPermalink }}" class="link light-blue">{{ $authorPage.Title }}</a>
+                </footer>
+            {{ else if strings.Contains $authorCode "://" }}
+                <footer class="mt2 i i-reset f6 silver">
+                    <a href="{{ $authorCode }}" class="link light-blue" target="_blank">{{ $authorCode }}</a>
+                </footer>
+            {{ else }}
+                <footer class="mt2 i i-reset f6 silver">— {{ $authorCode }}</footer>
+            {{ end }}
+        {{ end }}
+    </blockquote>
+</div>
