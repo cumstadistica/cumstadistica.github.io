@@ -1,6 +1,5 @@
 ---
 title: En peores plazas hemos toreado
-categories: ['cas']
 tags: ['expresiones españolas', 'refranes', 'taurino', 'coloquial']
 author: ['j']
 date: 2025-12-13 10:13:53 +01:00

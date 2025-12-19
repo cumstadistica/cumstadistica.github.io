@@ -70,7 +70,7 @@
 
       {{/* Summary Text */}}
       <div class="f6 f5-l lh-copy white-80 mb3">
-        {{ .Summary }}
+        {{ .Summary | truncate 400 }}
       </div>
 
       {{/* Author & Date Metadata */}}

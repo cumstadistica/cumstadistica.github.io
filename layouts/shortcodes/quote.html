@@ -7,15 +7,17 @@
         {{ $authorPage := site.GetPage (printf "/author/%s" $authorCode) }}
         {{ if $authorPage }}
             {{ with $authorPage.Params.image }}
-                <div class="flex-shrink-0 mr4">
-                    <img src="{{ . }}" alt="{{ $authorPage.Title }}" class="w5 h-auto br-100 object-cover">
+                <div class="flex-shrink-0 mr3 mt4 ml4">
+                    <a href="{{ $authorPage.RelPermalink }}">
+                        <img src="{{ . }}" alt="{{ $authorPage.Title }}" class="br3 object-cover" style="width: 80px; height: 80px;">
+                    </a>
                 </div>
             {{ end }}
         {{ end }}
     {{ end }}
     
     <blockquote class="bl bw3 b--light-blue pl3 pv2 i flex-auto">
-        <p class="lh-copy">{{ $text }}</p>
+        <div class="lh-copy">{{ $text | markdownify }}</div>
         {{ if $authorCode }}
             {{ $authorPage := site.GetPage (printf "/author/%s" $authorCode) }}
             {{ if $authorPage }}
