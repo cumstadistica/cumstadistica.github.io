@@ -77,6 +77,7 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
+
       - name: Build the site
         run: |
           hugo \
@@ -84,6 +85,18 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+
+      - name: Install Python dependencies
+        run: pip install feedparser tweepy
+
+      - name: Post update to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python .github/scripts/tweet_rss.py
+
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v4
