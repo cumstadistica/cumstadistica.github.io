@@ -5,4 +5,6 @@ Gemfile.lock
 __pycache__/
 .public/
 public/
-.vscode/settings.json
+.vscode/
+.hugo_build.lock
+resources/
