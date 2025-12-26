@@ -1,4 +1,15 @@
+{{ $src := .Get 0 }}
+{{ $ext := path.Ext $src }}
+{{ $type := "audio/mpeg" }} {{/* Default fallback */}}
+
+{{/* Check file extension to set correct type */}}
+{{ if eq $ext ".ogg" }}
+  {{ $type = "audio/ogg" }}
+{{ else if eq $ext ".wav" }}
+  {{ $type = "audio/wav" }}
+{{ end }}
+
 <audio controls>
-  <source src="{{ .Get 0 }}" type="audio/mpeg">
-  Dein Browser unterstützt das Audio-Element nicht.
+  <source src="{{ $src }}" type="{{ $type }}">
+  Your browser does not support the audio element.
 </audio>

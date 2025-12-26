@@ -1,5 +1,5 @@
 ---
-title: Recopilación de fotos del grupo Cumstadística
+title: Repositorio de fotos del grupo Cumstadística
 author: c
 ---
 
