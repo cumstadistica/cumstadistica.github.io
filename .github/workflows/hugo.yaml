@@ -86,10 +86,11 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
 
-      - name: Build Pagefind index
-        run: |
-          python -m pip install 'pagefind[extended]'
-          python -m pagefind --site public --serve
+      - name: Install Pagefind
+        run: pip install pagefind
+
+      - name: Index with Pagefind
+        run: python -m pagefind --site public
 
       - name: Install Python dependencies
         run: pip install feedparser tweepy
