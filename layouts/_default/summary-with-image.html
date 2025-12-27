@@ -26,7 +26,7 @@
           <img src="{{ $authorImage }}" 
           onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
           class="br0 h4 br3 w4 object-fill"
-          alt="{{ $authorName }}">
+          alt="{{ $authorName }}" data-pagefind-meta="image[author]">
         </a>
       {{ end }}
 
@@ -73,12 +73,11 @@
         {{ .Summary | truncate 400 }}
       </div>
 
-      {{/* Author & Date Metadata */}}
-
-      {{/* Read More Button */}}
-      <a href="{{.RelPermalink}}" class="dib f6 fw6 ba b--white-20 bg-white-10 white br2 ph3 pv2 link dim">
-        {{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }} &rarr;
-      </a>
+      {{ if .Truncated }}
+        <a href="{{.RelPermalink}}" class="dib f6 fw6 ba b--white-20 bg-white-10 white br2 ph3 pv2 link dim">
+          {{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }} &rarr;
+        </a>
+      {{ end }}
       
     </div>
 
