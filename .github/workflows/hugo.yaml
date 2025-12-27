@@ -87,7 +87,7 @@ jobs:
             --cacheDir "${{ runner.temp }}/hugo_cache"
 
       - name: Install Pagefind
-        run: pip install pagefind
+        run: pip install 'pagefind[extended]'
 
       - name: Index with Pagefind
         run: python -m pagefind --site public
