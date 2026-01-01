@@ -6,4 +6,4 @@ tags: ["j", "la vida de"]
 title: La vida de J
 ---
 
-{{< figure src="/assets/j-greentext.jpg" alt="j greentext" >}}
+{{< figure src="/images/j-greentext.jpg" alt="j greentext" >}}
