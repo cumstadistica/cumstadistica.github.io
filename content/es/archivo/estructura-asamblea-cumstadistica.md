@@ -1,17 +1,23 @@
 ---
-title: Estructura de la Asamblea General Cumstadística
+title: Estructura de la Asamblea General Ordinaria de Cumstadística
 author: c
+date: 2025-12-26
+tags: [asamblea, estructura, cumstadística, asociación] 
 ---
 
+> Lugar: Kalmachicha | Las Delicias
+> Fecha: 26 Diciembre
+> Hora: Almuerzo 14:30 | Asamblea 16:00
+
 ## Apertura y formalidades
+
+### Constitución de la Mesa
+
+    Designación de los miembros de la mesa de la asamblea: elección del Maestro Mayor (presidente), Plumilla Mayor (Secretario) y Judío Mayor (tesorero).
 
 ### Comprobación del Quórum
 
     Recuento de asistentes presentes y representados.
-
-### Constitución de la Mesa
-
-    Designación de los miembros de la mesa de la asamblea: elección del Maestro Mayor (presidente) y Plumilla Mayor (Secretario).
 
 ### Lectura y aprobación del acta anterior
 
@@ -19,17 +25,17 @@ author: c
 
 ## Balance de actividades y estado de Cumstadística
 
-### Discurso del Maestro Mayor
+### Informe Plumillero
 
-    Informe corto sobre las actividades realizadas por Cumstadística desde la última asamblea.
+    Presentación del informe del Plumilla Mayor sobre las actividades realizadas durante el período anterior.
 
 ### Memoria de actividades
 
     Presentación del Presiensammlung y otras actividades relevantes.
 
-### Informe financiero
+### Informe Tesorería
 
-    Presentación del estado financiero de Cumstadística, incluyendo ingresos, gastos y saldo actual.
+    Presentación del informe del Judío Mayor sobre el estado financiero de Cumstadística, incluyendo ingresos, gastos y saldo actual.
 
 ## Planificación del nuevo ejercicio
 
