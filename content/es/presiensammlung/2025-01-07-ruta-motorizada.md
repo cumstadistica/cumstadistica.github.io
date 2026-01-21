@@ -2,6 +2,7 @@
 title: Mi catastrófica ruta en moto
 author: c
 tags: ["motos", "anécdotas", "papote", "la montiela"]
+date: "2025-01-07T00:00:00Z"
 ---
 
 
