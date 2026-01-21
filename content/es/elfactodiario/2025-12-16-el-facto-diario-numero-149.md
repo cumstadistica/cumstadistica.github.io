@@ -2,7 +2,6 @@
 title: 'Facto diario número 149: A vueltas con los permisos de Android'
 tags: ['android', 'wifi', 'privacidad', 'alexa']
 author: ['c']
-date: 2025-12-14 17:32:41 +01:00
 ---
 
 Estoy seguro de que alguna vez han intentado configurar una bombilla inteligente o cualquier aparato con WiFi. Para ello, a priori, sólo habría que instalar la App del fabricante y darle acceso al Bluetooth y Wifi de nuestro teléfono.

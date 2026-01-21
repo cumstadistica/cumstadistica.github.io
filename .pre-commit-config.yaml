@@ -9,3 +9,10 @@ repos:
         files: \.(jpg|jpeg|JPG|JPEG)$
         # Pass the filenames to the script
         pass_filenames: true
+      - id: check-date-match
+        name: Sync Filename Date and Metadata
+        entry: python3 scripts/check-dates.py
+        language: python
+        # Only run on markdown files
+        files: \.md$
+        pass_filenames: true
