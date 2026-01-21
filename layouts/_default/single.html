@@ -3,7 +3,10 @@
 {{ define "main" }}
   <div class="flex-l mt2 mw9 center ph3">
 
-    {{ partial "sidebar.html" . }}
+    {{- $hideSidebar := $.Param "hide_sidebar" | compare.Default false -}}
+    {{- if not $hideSidebar -}}
+      {{ partial "sidebar.html" . }}
+    {{- end -}}
 
     <article class="w-100 w-80-l ml4-l pv5 ph3 ph4-ns bg-custom-card br3 shadow-4">
       <header>

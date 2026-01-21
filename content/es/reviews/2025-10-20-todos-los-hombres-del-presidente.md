@@ -6,7 +6,7 @@ tags: ["cine"]
 title: Todos los hombres del presidente
 ---
 
-{{< figure src="/images/todos-los-hombres-del-presidente.png" alt="Todos los hombres del presidente" >}}
+{{< figure src="/images/todos-los-hombres-del-presidente.webp" alt="Todos los hombres del presidente" >}}
 
 Es una película basada en hechos reales que narra la investigación de dos periodistas del Washington Post (Robert Redford y Dustin Hoffman) sobre el escándalo Watergate, que llevó a la dimisión del presidente Nixon.
 
@@ -16,7 +16,7 @@ Los periodistas de investigación, Bob Woodward y Carl Bernstein, fueron interpr
 
 Apunte: La peli es muy fiel a la realidad, los verdaderos Woodward y Bernstein ayudaron a escribir el guion.
 
-{{< figure src="/reviews/images/dustin-hoffman.png" alt="Dustin Hoffman" >}}
+{{< figure src="/reviews/images/dustin-hoffman.webp" alt="Dustin Hoffman" >}}
 Dustin Hoffman hoy en día
 
 A pesar de que la película tiene ya sus años, no ha envejecido nada mal y es muy disfrutable.

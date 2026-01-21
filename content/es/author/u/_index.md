@@ -2,7 +2,7 @@
 title: Ugo Bugo
 telegram: Ugo_Bugo
 slogan: la voz de la Razón (y la Pachamama)
-image: "/images/authors/u.jpg"
+image: "/images/authors/u.webp"
 ---
 
 {{< authorbio >}}

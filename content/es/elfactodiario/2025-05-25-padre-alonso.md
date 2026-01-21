@@ -12,4 +12,4 @@ Cuando Fernando Alonso corrió por primera vez en F1, su padre sabiamente le dij
 
 Su padre no llegaría a ver el día en que Fernando se convirtiera en el piloto con más Grandes Premios disputados.
 
-{{< figure src="/assets/alonso-padre.jpg" alt="alonso padre" >}}
+{{< figure src="/assets/alonso-padre.webp" alt="alonso padre" >}}

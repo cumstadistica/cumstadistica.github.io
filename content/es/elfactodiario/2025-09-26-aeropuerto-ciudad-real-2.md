@@ -8,7 +8,7 @@ title: Facto diario número 136
 
 ## El aeropuerto fantasma
 
-{{< figure src="/images/aeropuerto-ciudad-real.png" alt="Aeropuerto de Ciudad Real" >}}
+{{< figure src="/images/aeropuerto-ciudad-real.webp" alt="Aeropuerto de Ciudad Real" >}}
 
 En un lugar de la mancha donde el semen no mancha vivía juan de troya con sus tres metros de polla. O algo así.
 

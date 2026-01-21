@@ -7,7 +7,7 @@ tags: ["cine"]
 title: Una mente maravillosa (C)
 ---
 
-{{< figure src="/images/una-mente-maravillosa.jpg" alt="Una mente maravillosa" >}}
+{{< figure src="/images/una-mente-maravillosa.webp" alt="Una mente maravillosa" >}}
 
 La película narra la vida de John Nash, conocido por ser el creador la incertidumbre de Nash (y la teoría de juegos). Russel Crowe se encarna en el papel del célebre matemático, mientras que la buenorra de Jennifer Connelly hace de su mujer, Alicia.
 

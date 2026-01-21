@@ -1,6 +1,6 @@
 ---
 title: Calvo Cuñao
-image: /images/wolverine-calvo.jpg
+image: /images/wolverine-calvo.webp
 ---
 
 {{< authorbio >}}

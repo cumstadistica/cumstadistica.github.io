@@ -5,7 +5,7 @@ author: c
 tags: ["elección libre", "ilusiones", "theillusionoffreechoice"]
 ---
 
-{{< figure src="/images/the_illusion_of_free_choice.jpg" alt="La ilusión de la elección libre" >}}
+{{< figure src="/images/the_illusion_of_free_choice.webp" alt="La ilusión de la elección libre" >}}
 
 Contexto:
 

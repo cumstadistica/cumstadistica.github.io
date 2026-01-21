@@ -6,7 +6,7 @@ nota: 7.6
 tags: ["cine", "kevin spacey", "paco", "charo"]
 ---
 
-{{< figure src="/images/american-beauty.jpg" alt="American Beauty" >}}
+{{< figure src="/images/american-beauty.webp" alt="American Beauty" >}}
 
 Kevin Spacey es un Paco de mediana edad y vive una vida que es una puta mierda. Es un currito 9-5 en un trabajo de oficina por un cuenco de arroz, su [Charo](https://es.wikipedia.org/wiki/Charo_(t%C3%A9rmino)) lo ningunea y su hija adolescente lo desprecia. Un día, ve a la amiga de su hija, una chavala buenorra y se le pone la picha como un tanque apuntando a un campanario, y decide que va a cambiar su vida radicalmente.
 

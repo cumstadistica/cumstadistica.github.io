@@ -1,7 +1,7 @@
 {{/* Warning: Keep the original warning if this is called as a partial */}}
 {{ partials.Include "func/warn.html" `You are currently using 'partial "summary-with-image"'...` }}
 
-{{- $authorName := .Params.author -}}
+{{- $authorName := .Params.author | default .Site.Params.author -}}
 {{- if (reflect.IsSlice $authorName) -}}
   {{- $authorName = index $authorName 0 -}}
 {{- end -}}
@@ -19,10 +19,10 @@
     <div class="w-100 w-20-ns mr3-ns mb3 mb0-ns flex flex-column items-center tc">
       
       {{/* 1. Avatar Image */}}
-      {{ $avatar := .Params.avatar | default .Params.featured_image }}
+      {{ $avatar := .Params.avatar | default .Params.featured_image}}
       {{ if $avatar }}
         <a href="/author/{{ $authorName }}" class="db grow">
-              {{ $defaultImg := "images/authors/default.jpg" | absURL }}
+              {{ $defaultImg := "images/authors/default.webp" | absURL }}
           <img src="{{ $authorImage }}" 
           onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
           class="br0 h4 br3 w4 object-fill"

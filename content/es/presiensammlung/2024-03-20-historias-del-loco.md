@@ -64,7 +64,7 @@ Y a esto que agarra su sartén y se va para su cuarto. Gritando VIVA ESPANIA a t
 
 {{< audio "/audios/20240320-loco-pescao.ogg" >}}
 
-{{< figure src="/images/loco-pescao.jpg" alt="pescado" caption="Jajajaja mirad lo que me ha regalado el loco jaja" >}}
+{{< figure src="/images/loco-pescao.webp" alt="pescado" caption="Jajajaja mirad lo que me ha regalado el loco jaja" >}}
 
 ## Este loco está muy loco
 

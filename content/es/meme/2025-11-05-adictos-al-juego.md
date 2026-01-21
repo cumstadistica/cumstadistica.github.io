@@ -7,4 +7,4 @@ categories: ["meme"]
 
 Sabes que has llegado a tu peak en la vida cuando te meten en este grupo.
 
-{{< figure src="/images/adictos-al-juego.jpg" alt="Adictos al Juego" >}}
+{{< figure src="/images/adictos-al-juego.webp" alt="Adictos al Juego" >}}

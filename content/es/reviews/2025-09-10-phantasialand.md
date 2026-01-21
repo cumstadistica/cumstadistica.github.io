@@ -9,7 +9,7 @@ title: Phantasialand
 
 ## Honesta review de Phantasialand
 
-{{< figure src="../images/phantasialand.jpg" alt="Panoramic view of Phantasialand theme park featuring dramatic roller coaster tracks weaving through a medieval-themed village, with a prominent tall tower structure in the background against a dramatic sunset sky, showcasing both thrilling rides and detailed themed architecture throughout the park landscape" >}}
+{{< figure src="../images/phantasialand.webp" alt="Panoramic view of Phantasialand theme park featuring dramatic roller coaster tracks weaving through a medieval-themed village, with a prominent tall tower structure in the background against a dramatic sunset sky, showcasing both thrilling rides and detailed themed architecture throughout the park landscape" >}}
 
 Phantasialand es un parque temático y de atracciones situado a las afueras de Colonia. El otro día tuve el gusto de visitarlo, aquí van mis reflexiones:
 
@@ -21,7 +21,7 @@ Phantasialand es un parque temático y de atracciones situado a las afueras de C
 
 - La atracción en la que "vuelas" está muy guay, nunca había visto algo parecido.
 
-{{< figure src="../images/phantasialand-mex.jpg" alt="Vibrant Mexican-themed area at Phantasialand featuring colorful buildings with traditional architecture, decorative elements, and possibly water features set against rocky formations, showcasing the immersive themed environment described as the authors favorite area of the park" >}}
+{{< figure src="../images/phantasialand-mex.webp" alt="Vibrant Mexican-themed area at Phantasialand featuring colorful buildings with traditional architecture, decorative elements, and possibly water features set against rocky formations, showcasing the immersive themed environment described as the authors favorite area of the park" >}}
 
 ### Lo feo
 
