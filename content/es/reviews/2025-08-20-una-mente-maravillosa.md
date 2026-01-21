@@ -17,4 +17,4 @@ La película se toma **muchas** licencias artísticas para hacer la historia má
 
 Le doy un **7**, para compensar que en [IMDB](https://www.imdb.com/de/title/tt0268978/) tiene un 8.2 y ya me parece fliparse.
 
-[Link a la review de J](/reviews/_posts/2025-10-15-una-mente-maravillosa.md)
+[Link a la review de J](/reviews/2025-10-15-una-mente-maravillosa)

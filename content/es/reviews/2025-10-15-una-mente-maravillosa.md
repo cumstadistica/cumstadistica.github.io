@@ -12,4 +12,4 @@ title: Una mente maravillosa
 
 Nota: 10/10
 
-[Link a la review de C](/reviews/_posts/2025-08-20-una-mente-maravillosa.md)
+[Link a la review de C](2025-08-20-una-mente-maravillosa.md)

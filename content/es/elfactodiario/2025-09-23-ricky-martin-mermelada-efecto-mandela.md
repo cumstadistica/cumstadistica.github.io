@@ -9,7 +9,7 @@ title: Facto diario número 133
 Según San Google:
 "El efecto Mandela es un fenómeno social y psicológico en el que un grupo de personas recuerda un evento o hecho de manera diferente a cómo ocurrió en la realidad. Este fenómeno se originó debido a una confusión generalizada en la que muchas personas afirmaban recordar que el político sudafricano Nelson Mandela había muerto en prisión en la década de 1980, aunque en realidad falleció en 2013."
 
-Hoy en [www.cumstadistica.com](https://www.cumstadistica.com) analizaremos **el mayor "efecto Mandela" de la historia de España**, agarrense porque vienen curvas. Desde esta humilde tribuna les presentaré una surrealista leyenda urbana que se esparció como _galletas dinosaurus_ a finales de los 90 y que, a día de hoy, sigue siendo recordada por muchos como un hecho verídico.
+Hoy en [www.cumstadistica.es](https://www.cumstadistica.es) analizaremos **el mayor "efecto Mandela" de la historia de España**, agarrense porque vienen curvas. Desde esta humilde tribuna les presentaré una surrealista leyenda urbana que se esparció como _galletas dinosaurus_ a finales de los 90 y que, a día de hoy, sigue siendo recordada por muchos como un hecho verídico.
 
 La historia comienza con un programa de televisión llamado _**Sorpresa, sorpresa**_, que trataba de llevar a famosos a la casa de algún fan y grabar su reacción (o algo así, no hice la EGB).
 
