@@ -6,7 +6,7 @@ tags: ["comentarioliterario", "libro"]
 title: El árbol de la ciencia, Pío Baroja.
 ---
 
-{{< figure src="/assets/arbol-ciencia.webp" alt="El Árbol de la Ciencia" >}}
+{{< figure src="/images/arbol-ciencia.webp" alt="El Árbol de la Ciencia" >}}
 
 ## Reseñas literarias de U
 

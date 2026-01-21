@@ -6,6 +6,6 @@ tags: ["fernandoalonso"]
 title: Facto diario número 27.
 ---
 
-{{< figure src="/assets/fernando-autonso.webp" alt="fernando autonso" >}}
+{{< figure src="/images/fernando-autonso.webp" alt="fernando autonso" >}}
 
 Fernando Autonso es real, sale en cars 2.

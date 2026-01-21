@@ -7,6 +7,6 @@ title: Facto diario número 4.
 
 Más tiran dos tetas que dos carretas
 
-{{< figure src="/assets/tetas-carretas.gif" alt="Tetas" >}}
+{{< figure src="/images/tetas-carretas.gif" alt="Tetas" >}}
 
-#### Simplemente hipnótico
+## Simplemente hipnótico

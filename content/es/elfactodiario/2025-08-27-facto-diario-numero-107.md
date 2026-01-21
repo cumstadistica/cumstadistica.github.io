@@ -6,7 +6,7 @@ title: Facto diario número 107.
 ---
 El mejor sitio para abrir un nuevo bar
 
-{{< figure src="/assets/2025_07_27_10_11_56_untitled-1.webp" alt="2025_07_27_10_11_56_untitled-1.webp" >}}
+{{< figure src="/images/2025_07_27_10_11_56_untitled-1.webp" alt="2025_07_27_10_11_56_untitled-1.webp" >}}
 
 Aunque parezca contraintuitivo, lo cierto es que el mejor lugar para montar un negocio es en un sitio donde ya haya más negocios del mismo tipo. Es verdad que tienes que competir con los demás, pero los beneficios de la agregacción comercial superan con creces los contras, porque hay más tráfico de gente interesada y además está relacionado con un interesante efecto psicologico.
 

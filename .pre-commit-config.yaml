@@ -16,3 +16,9 @@ repos:
         # Only run on markdown files
         files: \.md$
         pass_filenames: true
+      - id: update-image-ext
+        name: Update Markdown JPG refs to WebP
+        entry: python3 scripts/extensions-jpg-to-webp.py
+        language: python
+        files: ^content/.*\.md$
+        pass_filenames: true

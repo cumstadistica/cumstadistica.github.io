@@ -6,7 +6,7 @@ title: Facto diario número 114.
 ---
 Del Mito al Facto: Bolívar al desnudo
 
-{{< figure src="/assets/2025_07_27_17_20_51_untitled-1.webp" alt="2025_07_27_17_20_51_untitled-1.webp" >}}
+{{< figure src="/images/2025_07_27_17_20_51_untitled-1.webp" alt="2025_07_27_17_20_51_untitled-1.webp" >}}
 
 Simón Bolívar ha sido elevado al panteón de los héroes latinoamericanos como el gran Libertador, el hombre que libró a América del yugo español y soñó con una gran unión continental. Sin embargo, detrás de esta imagen mítica se oculta una historia mucho más oscura, plagada de contradicciones, errores estratégicos y un despotismo disfrazado de idealismo.
 
