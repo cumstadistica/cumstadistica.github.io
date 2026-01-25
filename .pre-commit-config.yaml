@@ -1,4 +1,22 @@
 repos:
+  - repo: https://github.com/lycheeverse/lychee
+    rev: lychee-v0.18.1
+    hooks:
+      - id: lychee
+        name: Check links with Lychee
+        args:
+          - --offline
+          - --no-progress
+          - --include-fragments
+          - --root-dir=.
+          - --fallback-extensions=md,html
+          - "--remap=/assets/(.*) static/assets/$1"
+          - "--remap=/images/(.*) static/images/$1"
+          - "--remap=/videos/(.*) static/videos/$1"
+          - "--remap=/audios/(.*) static/audios/$1"
+          - "content/"
+        files: ^content/.*\.(md|html)$
+
   - repo: local
     hooks:
       - id: jpg-to-webp
