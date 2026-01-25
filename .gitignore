@@ -2,6 +2,7 @@ _site/
 Gemfile.lock
 .sass-cache/
 .venv/
+.env
 __pycache__/
 .public/
 public/
@@ -9,5 +10,6 @@ public/
 .hugo_build.lock
 resources/
 .markdownlint.json
+.tweeted_posts.txt
 
 GEMINI.md

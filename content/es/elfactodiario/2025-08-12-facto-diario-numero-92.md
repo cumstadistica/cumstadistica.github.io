@@ -6,7 +6,7 @@ title: Facto diario número 92.
 ---
 La nicotina, tan popular entre algunos, es en realidad el mecanismo de defensa de la planta de tabaco. Es un alcaloide tóxico que se produce en las raíces y se transporta a las hojas para protegerse de herbívoros, como insectos y mamíferos.
 
-{{< figure src="/images/2025_07_27_09_58_08_untitled-1.webp" alt="2025_07_27_09_58_08_untitled-1.webp" >}}
+{{< figure src="/images/elfactodiario/nicotina-planta-tabaco.webp" alt="nicotina-planta-tabaco" >}}
 
 En los insectos, su principal objetivo, la nicotina es altamente letal. Funciona como un insecticida natural al interferir en su sistema nervioso: se une a los receptores nicotínicos en las sinapsis, provocando parálisis y, finalmente, la muerte. Por esta razón, muchos pesticidas modernos están basados en compuestos similares o derivados de la nicotina.
 

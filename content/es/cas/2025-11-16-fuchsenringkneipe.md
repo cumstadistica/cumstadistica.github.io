@@ -7,7 +7,7 @@ tags: ["verbindung"]
 
 Tras 2 meses vivendo en una [fraternidad alemana](https://makaria.org), el pasado fin de semana tuve la oportunidad de representarla en un evento de las fraternidades de mi ciudad. Fue mi primera vez llevando el traje que veis en la imagen y la verdad es que fue una experiencia increíble.
 
-{{< figure src="/images/cusa-fuchs.webp" alt="Fuchsenringkneipe 2025" caption="😐😐😀" >}}
+{{< figure src="/images/general/cusa-fuchs.webp" alt="Fuchsenringkneipe 2025" caption="😐😐😀" >}}
 
 ---
 
@@ -15,7 +15,7 @@ Tras 2 meses vivendo en una [fraternidad alemana](https://makaria.org), el pasad
 
 Aquí os dejo otra foto mía en otra ocasión, en la que llevo un gorro fachero facherito. Como veis, estaba reventado de la vida.
 
-{{< figure src="/images/cusa-reventao.webp" >}}
+{{< figure src="/images/general/cusa-reventao.webp" >}}
 
 ## Puñetas, otra vez borracho
 

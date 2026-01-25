@@ -7,4 +7,4 @@ categories: ["meme"]
 
 Aquí lo vieron primero.
 
-{{< figure src="/images/nintendo-psoe.webp" alt="Nintendo y PSOE" >}}
+{{< figure src="/images/meme/nintendo-psoe.webp" alt="Nintendo y PSOE" >}}

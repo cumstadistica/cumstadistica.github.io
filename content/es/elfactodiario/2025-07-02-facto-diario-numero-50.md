@@ -6,7 +6,7 @@ title: Facto diario número 50.
 ---
 El Milagro de la Catedral de Colonia
 
-{{< figure src="/images/2025_07_27_09_25_57_untitled-1.webp" alt="2025_07_27_09_25_57_untitled-1.webp" >}}
+{{< figure src="/images/elfactodiario/catedral-colonia-segunda-guerra-mundial.webp" alt="catedral-colonia-segunda-guerra-mundial" >}}
 
 Durante la SGM, Colonia fue bombardeada 262 veces. Y como se ve en la imagen, todos los edificios fueron reducidos a escombros excepto la catedral
 

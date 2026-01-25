@@ -5,6 +5,6 @@ author: j
 tags: ["epsb", "consejo"]
 ---
 
-{{< figure src="/images/mojatangas.webp" alt="Presidente del consejo de estudiantes de la EPSB" >}}
+{{< figure src="/images/general/mojatangas.webp" alt="Presidente del consejo de estudiantes de la EPSB" >}}
 
 Yo, Jose Angel aka. Presio457, fui nombrado presidente del consejo de estudiantes de la EPSB.

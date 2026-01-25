@@ -4,17 +4,17 @@ tags: ['viaje', 'malaga', 'caterpillar', 'algeciras', 'puerto', 'fiesta', 'diari
 author: ['j']
 date: 2025-10-13T00:00:00Z
 ---
-{{< figure src="/images/2025_12_13_14_04_16_untitled-1.webp" alt="{2025_12_13_14_04_16_untitled-1}" >}}
+{{< figure src="/images/cronicas/j-en-nueva-jovenlandia-1.webp" alt="{j-en-nueva-jovenlandia-1}" >}}
 
-{{< figure src="/images/2025_12_13_14_04_16_untitled-2.webp" alt="{2025_12_13_14_04_16_untitled-2}" >}}
+{{< figure src="/images/cronicas/j-en-nueva-jovenlandia-2.webp" alt="{j-en-nueva-jovenlandia-2}" >}}
 
-{{< figure src="/images/2025_12_13_14_04_16_untitled-3.webp" alt="{2025_12_13_14_04_16_untitled-3}" >}}
+{{< figure src="/images/cronicas/j-en-nueva-jovenlandia-3.webp" alt="{j-en-nueva-jovenlandia-3}" >}}
 
-{{< figure src="/images/2025_12_13_14_04_16_untitled-4.webp" alt="{2025_12_13_14_04_16_untitled-4}" >}}
+{{< figure src="/images/cronicas/j-en-nueva-jovenlandia-4.webp" alt="{j-en-nueva-jovenlandia-4}" >}}
 
-{{< figure src="/images/2025_12_13_14_04_16_untitled-5.webp" alt="{2025_12_13_14_04_16_untitled-5}" >}}
+{{< figure src="/images/cronicas/j-en-nueva-jovenlandia-5.webp" alt="{j-en-nueva-jovenlandia-5}" >}}
 
-{{< figure src="/images/2025_12_13_14_04_16_untitled-6.webp" alt="{2025_12_13_14_04_16_untitled-6}" >}}
+{{< figure src="/images/cronicas/j-en-nueva-jovenlandia-6.webp" alt="{j-en-nueva-jovenlandia-6}" >}}
 
 {{< video src="/videos/video_2025-12-13_15-10-52.mp4" >}}
 

@@ -12,4 +12,4 @@ Churchill creía que era necesario tratar justamente a los enemigos derrotados, 
 
 Foto adjunta para mayor comprensión del intercambio.
 
-{{< figure src="/images/2025_07_27_16_48_28_untitled-1.webp" alt="2025_07_27_16_48_28_untitled-1.webp" >}}
+{{< figure src="/images/elfactodiario/conferencia-teheran-stalin-churchill-roosevelt.webp" alt="conferencia-teheran-stalin-churchill-roosevelt" >}}

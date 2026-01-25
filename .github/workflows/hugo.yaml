@@ -78,6 +78,15 @@ jobs:
           restore-keys:
             hugo-
 
+      - name: Cache restore tweeted posts
+        id: cache-tweeted
+        uses: actions/cache/restore@v4
+        with:
+          path: .github/scripts/.tweeted_posts.txt
+          key: tweeted-posts-${{ github.run_id }}
+          restore-keys:
+            tweeted-posts-
+
       - name: Build the site
         run: |
           hugo \
@@ -109,6 +118,13 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+
+      - name: Cache save tweeted posts
+        uses: actions/cache/save@v4
+        with:
+          path: .github/scripts/.tweeted_posts.txt
+          key: tweeted-posts-${{ github.run_id }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

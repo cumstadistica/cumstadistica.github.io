@@ -8,7 +8,7 @@ Por qué son tan dramáticos los juicios en EEUU?
 
 El juicio a Michael Jackson
 
-{{< figure src="/images/el_juicio_a_michael_jackson-1.webp" alt="el_juicio_a_michael_jackson-1.webp" >}}
+{{< figure src="/images/elfactodiario/el_juicio_a_michael_jackson-1.webp" alt="el_juicio_a_michael_jackson-1.webp" >}}
 
 En Estados Unidos, el sistema judicial se basa en el Common Law, que viene del derecho consuetudinario inglés. Grosso modo, en Inglaterra, EEUU y paises de esa calaña no tienen un código civil per se donde todos los delitos estan tipificados, así que cuando un juez toma una decision en un tema nuevo, se crea un precedente y los próximos jueces que tengan que decidir en algo similar se tienen que orientar en torno a las resoluciones anteriores.
 Tambien es importante comentar que un tribunal superior dicta una sentencia, los tribunales inferiores tienen que seguir esa interpretación en casos similares.

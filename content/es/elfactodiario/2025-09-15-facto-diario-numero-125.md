@@ -6,7 +6,7 @@ title: Facto diario 125.
 ---
 Posiblemente el mayor fraude de la música comercial
 
-{{< figure src="/images/2025_07_27_17_15_27_untitled-1.webp" alt="2025_07_27_17_15_27_untitled-1.webp" >}}
+{{< figure src="/images/elfactodiario/milli-vanilli.webp" alt="milli-vanilli" >}}
 
 En 1988, dos negros alemanes fundan el grupo Milli Vanilli, auspiciados por el productor Frank Farian (que también inventó Boney M). Los reclutó porque estaban bastante buenos (no homo), eran unos negratas pero tenían el hack de tener ojos verdes, lo único que no tenían era... VOZ.
 

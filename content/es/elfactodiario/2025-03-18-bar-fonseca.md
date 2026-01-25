@@ -9,6 +9,6 @@ title: Facto diario número 2.
 
 Créditos al pa de fonseca
 
-{{< figure src="/images/solo-fonseca.webp" alt="Solo Fonseca" >}}
+{{< figure src="/images/elfactodiario/solo-fonseca.webp" alt="Solo Fonseca" >}}
 
 <small>el video más calmado de fonseca</small>

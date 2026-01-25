@@ -5,7 +5,7 @@ author: c
 tags: ["cocina", "sibarita"]
 ---
 
-{{< figure src="/images/taller-paella-1.webp" alt="Taller de paellas" >}}
+{{< figure src="/images/general/taller-paella-1.webp" alt="Taller de paellas" >}}
 
 Asistí a un taller de arroces y paellas impartido por mi primo (el de blanco).
 
@@ -20,6 +20,6 @@ Los 4 platos se hacen paralelamente, tú como participante no haces ningún plat
 
 Se aprende bastante, y es para todos los niveles, yo no tenía ni idea de arroz y me quedé con la copla. Es un poco caro, eso sí, fueron 55€ (barra libre incluida y la comida q preparamos). Para regalar una experiencia está genial, hay una gran variedad de cursos.
 
-{{< figure src="/images/taller-paella-2.webp" alt="Taller de paellas" >}}
+{{< figure src="/images/general/taller-paella-2.webp" alt="Taller de paellas" >}}
 
-{{< figure src="/images/taller-paella-3.webp" alt="Taller de paellas" >}}
+{{< figure src="/images/general/taller-paella-3.webp" alt="Taller de paellas" >}}

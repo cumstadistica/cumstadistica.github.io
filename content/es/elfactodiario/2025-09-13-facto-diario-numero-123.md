@@ -6,7 +6,7 @@ title: Facto diario número 123.
 ---
 En 1976, Ramsés II, el faraón del antiguo Egipto, recibió un pasaporte egipcio oficial para poder ser transportado a París y recibir tratamiento de conservación contra el deterioro de su momia. En el pasaporte, bajo “Profesión”, rezaba: “Rey (fallecido)”.
 
-{{< figure src="/images/2025_07_27_17_13_07_untitled-1.webp" alt="2025_07_27_17_13_07_untitled-1.webp" >}}
+{{< figure src="/images/elfactodiario/pasaporte-ramses-ii.webp" alt="pasaporte-ramses-ii" >}}
 
 Los franceses, típico de ellos, exigían que hasta una momia más vieja que Matusalén necesitara documentación oficial para entrar al país. En fin, franceses 🚬
 Así que el faraón viajó en primera clase, con todos los honores militares correspondientes a un jefe de Estado.

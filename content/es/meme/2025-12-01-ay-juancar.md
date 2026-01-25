@@ -5,4 +5,4 @@ author: c
 tags: ["juancar", "rey emérito", "videokilledtheradiostar"]
 ---
 
-{{< figure src="/images/video_killed_the_radio_star.webp" alt="Ay Juancar" >}}
+{{< figure src="/images/meme/video_killed_the_radio_star.webp" alt="Ay Juancar" >}}

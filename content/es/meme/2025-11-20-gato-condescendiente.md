@@ -5,4 +5,4 @@ author: u
 tags: ["gato", "condescendiente"]
 ---
 
-{{< figure src="/images/gato_condescendiente.webp" alt="Gato condescendiente" >}}
+{{< figure src="/images/meme/gato_condescendiente.webp" alt="Gato condescendiente" >}}

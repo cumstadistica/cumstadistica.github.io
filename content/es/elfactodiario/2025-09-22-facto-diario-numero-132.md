@@ -8,4 +8,4 @@ Tanto el uso de tablas de plástico como de madera está contraindicado. Siendo 
 
 Los expertos recomiendan tablas de vidrio o metal.
 
-{{< figure src="/images/2025_07_27_17_20_02_untitled-1.webp" alt="2025_07_27_17_20_02_untitled-1.webp" >}}
+{{< figure src="/images/elfactodiario/tablas-cortar-microplasticos.webp" alt="tablas-cortar-microplasticos" >}}

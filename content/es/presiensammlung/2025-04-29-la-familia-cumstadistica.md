@@ -4,7 +4,7 @@ author: j
 date: "2025-04-29T00:00:00Z"
 ---
 
-{{< figure src="/images/photo_2025-12-26_22-34-52.webp" alt="La familia Cumstadística" caption="😱😎🍺👶" >}}
+{{< figure src="/images/presiensammlung/la-familia-cumstadistica.webp" alt="La familia Cumstadística" caption="😱😎🍺👶" >}}
 
 {{< quote text=`La vida nos hizo amigos,
 

@@ -6,6 +6,6 @@ categories: ["meme"]
 tags: ["bob-esponja"]
 ---
 
-{{< figure src="/images/calamardo-mirando-a-bob-patricio.webp" alt="La verdadera cumstadistica" >}}
+{{< figure src="/images/meme/calamardo-mirando-a-bob-patricio.webp" alt="La verdadera cumstadistica" >}}
 
-{{< figure src="/images/alexby-rubius-willyrex.webp" alt="La verdadera cumstadistica 2" >}}
+{{< figure src="/images/meme/alexby-rubius-willyrex.webp" alt="La verdadera cumstadistica 2" >}}

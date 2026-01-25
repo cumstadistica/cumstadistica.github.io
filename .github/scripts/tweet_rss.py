@@ -2,6 +2,10 @@ import feedparser
 import tweepy
 import os
 import sys
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # 1. Configuración de credenciales
 api_key = os.getenv("X_API_KEY")
@@ -16,6 +20,24 @@ client = tweepy.Client(
     access_token=access_token,
     access_token_secret=access_token_secret,
 )
+
+# Archivo para registrar posts ya tuiteados
+TWEETED_FILE = Path(__file__).parent / ".tweeted_posts.txt"
+
+
+def load_tweeted_urls() -> set[str]:
+    """Carga las URLs de posts ya tuiteados desde el archivo local."""
+    if not TWEETED_FILE.exists():
+        return set()
+
+    with open(TWEETED_FILE, "r", encoding="utf-8") as f:
+        return set(line.strip() for line in f if line.strip())
+
+
+def save_tweeted_url(url: str) -> None:
+    """Guarda una URL como ya tuiteada."""
+    with open(TWEETED_FILE, "a", encoding="utf-8") as f:
+        f.write(url + "\n")
 
 
 def check_and_post():
@@ -37,34 +59,23 @@ def check_and_post():
 
     print(f"Procesando: {new_post_title}")
 
-    # 3. Obtener tu propio ID de usuario y el último tweet
-    try:
-        me = client.get_me()
-        user_id = me.data.id
+    # 3. Verificar si ya fue tuiteado usando archivo local
+    tweeted_urls = load_tweeted_urls()
+    if new_post_url in tweeted_urls:
+        print(f"El post '{new_post_title}' ya fue publicado anteriormente. Saltando...")
+        return
 
-        # Obtenemos el último tweet que publicaste
-        last_tweets = client.get_users_tweets(id=user_id, max_results=5)
-
-        if last_tweets.data:
-            for tweet in last_tweets.data:
-                # Si el link del post ya aparece en alguno de tus últimos 5 tweets, abortamos
-                if new_post_url in tweet.text:
-                    print(
-                        f"El post '{new_post_title}' ya fue publicado anteriormente. Saltando..."
-                    )
-                    return
-
-    except Exception as e:
-        print(f"Error al verificar el historial de X: {e}")
-        # En caso de error de lectura, podemos decidir si seguir o no.
-        # Aquí seguimos por si es la primera vez que publicas.
-
-    # 4. Publicar si es nuevo
+    # 4. Publicar el tweet
     message = f"¡Nuevo Facto! 🚀\n\n{new_post_title}\n\nLéelo aquí: {new_post_url}"
 
     try:
-        client.create_tweet(text=message)
-        print("¡Tweet publicado con éxito!")
+        response = client.create_tweet(text=message)
+        print(f"✓ ¡Tweet publicado con éxito! Tweet ID: {response.data['id']}")
+
+        # Guardar la URL como tuiteada
+        save_tweeted_url(new_post_url)
+        print(f"✓ URL registrada en {TWEETED_FILE}")
+
     except tweepy.errors.Forbidden as e:
         print(
             f"Error 403: Revisa que tus tokens tengan permiso de 'Read and Write'.\n{e}"

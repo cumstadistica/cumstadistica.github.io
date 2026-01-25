@@ -7,8 +7,8 @@ title: Facto diario numero 43.
 ---
 Datos. No opiniones.
 
-{{< figure src="/images/2025_07_27_08_59_33_untitled-1.webp" alt="2025_07_27_08_59_33_untitled-1.webp" >}}
+{{< figure src="/images/elfactodiario/duolingo-stats-1.webp" alt="duolingo-stats-1" >}}
 
-{{< figure src="/images/2025_07_27_08_59_33_untitled-2.webp" alt="2025_07_27_08_59_33_untitled-2.webp" >}}
+{{< figure src="/images/elfactodiario/duolingo-stats-2.webp" alt="duolingo-stats-2" >}}
 
 No hace falta decir nada más
