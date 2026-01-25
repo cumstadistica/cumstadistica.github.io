@@ -1,0 +1,117 @@
+{{- $context := .Context -}}
+{{- $isSingle := .IsSingle | default false -}}
+{{- $authorName := $context.Params.author | default $context.Site.Params.author -}}
+{{- if (reflect.IsSlice $authorName) -}}
+  {{- $authorName = index $authorName 0 -}}
+{{- end -}}
+{{- $authorPage := site.GetPage (printf "author/%s" $authorName) -}}
+{{- $authorImage := "" -}}
+{{- $slogan := "" -}}
+{{- if $authorPage -}}
+  {{- $authorImage = $authorPage.Params.image -}}
+  {{- $slogan = $authorPage.Params.slogan -}}
+{{- end -}}
+
+<article class="mb4">
+  <div class="flex flex-column flex-row-ns bg-custom-card br3 shadow-4 pa3 pa4-ns">
+    
+    {{/* --- SIDEBAR (Left) --- */}}
+    <div class="w-100 w-20-ns mr3-ns mb3 mb0-ns flex flex-column items-center tc">
+      
+      {{/* 1. Avatar Image */}}
+      {{ $avatar := $context.Params.avatar | default $context.Params.featured_image}}
+      {{ if $avatar }}
+        <a href="/author/{{ $authorName }}" class="db grow">
+              {{ $defaultImg := "images/authors/default.webp" | absURL }}
+          <img src="{{ $authorImage }}" 
+          onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
+          class="br0 h4 br3 w4 object-fill"
+          alt="{{ $authorName }}" data-pagefind-meta="image[author]">
+        </a>
+      {{ end }}
+
+      {{/* 2. Author Name */}}
+      <h3 class="f4 fw6 mv2 white">
+        <a href="/author/{{ $authorName }}" class="link white dim">
+          {{ if $authorPage }}{{ $authorPage.Title }}{{ else }}{{ $authorName }}{{ end }}
+        </a>
+      </h3>
+
+      {{/* 3. Slogan */}}
+      {{ with $slogan }}
+        <p class="f6 silver lh-copy measure center mv2 i">
+          {{ . }}
+        </p>
+      {{ end }}
+      
+      {{/* 4. Date */}}
+      <div class="f7 silver mb3">
+        {{ $context.Date.Format "Jan 2, 2006" }}
+      </div>
+
+      {{/* 5. Categories */}}
+      {{ with $context.Params.categories }}
+        <div class="mt3 f7 ttu tracked silver">
+          {{ range . }}
+            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="link silver dim db mb2">
+              {{ . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{/* 6. Tags */}}
+      {{ with $context.Params.tags }}
+        <div class="mt2 flex flex-wrap justify-center">
+          {{ range . }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="f7 link white-80 bg-white-10 br2 ph2 pv1 mb1 mr1 dim">
+              #{{ . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+      
+    </div>
+
+    {{/* --- CONTENT (Right) --- */}}
+    <div class="w-100 w-80-ns pl3-ns bl-ns b--white-10">
+      
+      {{/* Title */}}
+      <h1 class="f3 fw6 mt0 lh-title">
+        <a href="{{ $context.RelPermalink }}" class="color-inherit dim link white" data-pagefind-meta="title">
+          {{ $context.Title }}
+        </a>
+      </h1>
+
+      {{/* Full Content */}}
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $context.Param "text_color" | compare.Default "white" }} mb3">
+        {{ $context.Content }}
+      </div>
+
+      {{/* Recommendations (Single Post Only) */}}
+      {{ if $isSingle }}
+        <div class="mt4 pt3 bt b--white-10">
+          {{ $section := where $context.Site.RegularPages "Section" $context.Section }}
+          
+          <h1 class="f5 fw6 ttu tracked silver mb3">{{ i18n "more" | default "More Posts" }}</h1>
+          
+          <ul class="list pl0">
+            {{/* Range through the first 5 posts in this section */}}
+            {{ range first 5 $section }}
+              {{/* Exclude the current post from the list */}}
+              {{ if ne .Permalink $context.Permalink }}
+                <li class="mb3 pb2 bb b--white-10">
+                  <a href="{{ .RelPermalink }}" class="link white dim f6 lh-title">
+                    {{ .Title }}
+                  </a>
+                </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+      
+    </div>
+
+  </div>
+</article>
