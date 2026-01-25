@@ -1,0 +1,38 @@
+{{- $quotes := slice -}}
+{{- $currentAuthor := . -}}
+{{- $backtick := "`" -}}
+{{- range site.RegularPages -}}
+  {{- $page := . -}}
+  {{- $content := .RawContent -}}
+  {{- /* Find all quote shortcodes */ -}}
+  {{- $matches := findRE `(?s)\{\{<\s*quote\s+.*?>\}\}` $content -}}
+  {{- range $matches -}}
+    {{- $quoteTag := . -}}
+    {{- /* Extract author */ -}}
+    {{- $authorRaw := replaceRE `(?s).*author="([^"]+)".*` "$1" $quoteTag -}}
+    {{- if ne $authorRaw $quoteTag -}}
+      {{- $authorPage := site.GetPage (printf "/author/%s" $authorRaw) -}}
+      {{- if eq $authorPage $currentAuthor -}}
+        {{- $text := "" -}}
+        {{- /* Try backticks for text */ -}}
+        {{- $pattern := printf `(?s).*text=%s([^%s]+)%s.*` $backtick $backtick $backtick -}}
+        {{- $textBackticks := replaceRE $pattern "$1" $quoteTag -}}
+        {{- if ne $textBackticks $quoteTag -}}
+          {{- $text = $textBackticks -}}
+        {{- else -}}
+          {{- /* Try double quotes for text */ -}}
+          {{- $textQuotes := replaceRE `(?s).*text="([^"]+)".*` "$1" $quoteTag -}}
+          {{- if ne $textQuotes $quoteTag -}}
+            {{- $text = $textQuotes -}}
+          {{- end -}}
+        {{- end -}}
+        
+        {{- if ne $text "" -}}
+          {{- $quoteObj := dict "text" ($text | markdownify | plainify | chomp) "source" $page.Permalink "source_title" $page.Title -}}
+          {{- $quotes = $quotes | append $quoteObj -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $quotes | jsonify -}}

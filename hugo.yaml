@@ -45,6 +45,13 @@ outputs:
   taxonomy: ['html', 'rss']
   term: ['html', 'rss']
 
+outputFormats:
+  Citas:
+    mediaType: "application/json"
+    baseName: "citas"
+    isPlainText: true
+    notAlternative: true
+
 
 params:
   description: "El sitio web de Cumstadística"
