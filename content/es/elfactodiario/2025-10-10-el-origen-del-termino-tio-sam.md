@@ -1,12 +1,10 @@
 ---
-title: 'El origen del término "Tío Sam"'
+title: 'Facto diario número 144.'
 tags: ['tio-sam', 'origen-de-expresiones', 'historia', 'estados-unidos', 'guerra-de-1812']
 author: ['j']
 date: 2025-10-10 17:29:41 +01:00
 ---
-**Facto diario número 144**
-
-### El origen del término "Tío Sam"
+## El origen del término Tío Sam
 
 Pues resulta que en la guerra de 1812, que enfrentó a los recién formados Estados Unidos de América con su rencoroso padre, el Reino Unido, (no contentos con que les pintaran la cara, los *brits* se encararon de nuevo con los americanos, llegando a quemarles la Casa Blanca en 1814, y de nuevo salieron retratados) los cargamentos que se enviaban de carne a las tropas tenían el sello "U. S".
 
