@@ -9,11 +9,11 @@ repos:
           - --no-progress
           - --include-fragments
           - --root-dir=.
-          - --fallback-extensions=md,html
-          - "--remap=/assets/(.*) static/assets/$1"
-          - "--remap=/images/(.*) static/images/$1"
-          - "--remap=/videos/(.*) static/videos/$1"
-          - "--remap=/audios/(.*) static/audios/$1"
+          - --fallback-extensions=md,html,_index.md
+          - "--remap=/assets/(.*) /static/assets/$1"
+          - "--remap=/images/(.*) /static/images/$1"
+          - "--remap=/videos/(.*) /static/videos/$1"
+          - "--remap=/audios/(.*) /static/audios/$1"
           - "content/"
         files: ^content/.*\.(md|html)$
 

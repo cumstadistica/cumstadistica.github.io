@@ -9,6 +9,6 @@ date: 2025-12-13 09:45:35 +01:00
 
 Jeeser we need to go fishing
 
-La versión de [Jota](/author/j):
+La versión de [Jota](/content/es/author/j):
 
 {{< figure src="/images/meme/flequillo-1.webp" alt="{asset_path.stem}" >}}

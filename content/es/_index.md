@@ -9,4 +9,5 @@ cascade:
 
 ## Estás más perdido que un ciego en un tiroteo?</h2>
 
-Clica [aquí](acercade) o [aquí](/tags).
+<!-- lychee-ignore -->
+Clica [aquí](acercade) o [aquí](tags/).
