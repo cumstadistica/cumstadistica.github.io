@@ -1,36 +1,51 @@
-{{/* Quote shortcode - displays a blockquote with optional attribution */}}
+{{/* Quote shortcode - Professional Layout */}}
 {{ $text := .Get "text" | default (.Get 0) }}
 {{ $authorCode := .Get "author" | default "" }}
+{{ $defaultImg := "/images/authors/default.webp" | absURL }}
 
-<div class="flex mv3">
+<figure class="mv4 pa3 pa4-ns bg-custom-card br3 relative overflow-hidden">
+    {{/* Decorative Quote Mark */}}
+    <div class="absolute top-0 right-0 f-headline georgia o-10 white mr2 mtn3 select-none">”</div>
+
+    {{/* Author Section (Top Left) */}}
     {{ if $authorCode }}
-        {{ $authorPage := site.GetPage (printf "/author/%s" $authorCode) }}
-        {{ if $authorPage }}
-            {{ with $authorPage.Params.image }}
-                <div class="flex-shrink-0 mr3 mt4 ml4">
-                    <a href="{{ $authorPage.RelPermalink }}">
-                        <img src="{{ . }}" alt="{{ $authorPage.Title }}" class="br3 object-cover" style="width: 80px; height: 80px;">
-                    </a>
-                </div>
-            {{ end }}
-        {{ end }}
-    {{ end }}
-    
-    <blockquote class="bl bw3 b--light-blue pl3 pv2 i flex-auto">
-        <div class="lh-copy">{{ $text | markdownify }}</div>
-        {{ if $authorCode }}
+        <figcaption class="flex items-center mb3 relative z-1">
             {{ $authorPage := site.GetPage (printf "/author/%s" $authorCode) }}
+            
+            {{/* Author Avatar */}}
             {{ if $authorPage }}
-                <footer class="mt2 i i-reset f6 silver">
-                    <a href="{{ $authorPage.RelPermalink }}" class="link light-blue">{{ $authorPage.Title }}</a>
-                </footer>
-            {{ else if strings.Contains $authorCode "://" }}
-                <footer class="mt2 i i-reset f6 silver">
-                    <a href="{{ $authorCode }}" class="link light-blue" target="_blank">{{ $authorCode }}</a>
-                </footer>
-            {{ else }}
-                <footer class="mt2 i i-reset f6 silver">— {{ $authorCode }}</footer>
+                {{ $img := $authorPage.Params.image | default $defaultImg }}
+                <a href="{{ $authorPage.RelPermalink }}" class="db grow flex-shrink-0 mr3">
+                    <img src="{{ $img }}" 
+                         alt="{{ $authorPage.Title }}" 
+                         class="br3 h3 w3 object-cover b--white-20 ba bw1 shadow-1"
+                         style="min-width: 3rem; min-height: 3rem;"
+                         onerror="this.src='{{ $defaultImg }}'">
+                </a>
             {{ end }}
-        {{ end }}
+
+            {{/* Author Info Text */}}
+            <div class="tl">
+                {{ if $authorPage }}
+                    <cite class="fs-normal">
+                        <a href="{{ $authorPage.RelPermalink }}" class="link white fw6 f5 dim db normal">{{ $authorPage.Title }}</a>
+                    </cite>
+                    {{ with $authorPage.Params.slogan }}
+                        <span class="f7 silver db i mt1">{{ . | truncate 50 }}</span>
+                    {{ end }}
+                {{ else if strings.Contains $authorCode "://" }}
+                    <cite class="fs-normal">
+                        <a href="{{ $authorCode }}" class="link white fw6 f5 dim db normal" target="_blank">Fuente</a>
+                    </cite>
+                {{ else }}
+                    <cite class="white fw6 f5 fs-normal normal">{{ $authorCode }}</cite>
+                {{ end }}
+            </div>
+        </figcaption>
+    {{ end }}
+
+    {{/* Quote Text */}}
+    <blockquote class="relative z-1 f4-ns f5 lh-copy i white-90 measure-wide mt2 mb2 pl1">
+        {{ $text | markdownify }}
     </blockquote>
-</div>
+</figure>

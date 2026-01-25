@@ -1,5 +1,6 @@
 ---
 title: Cusa
+weight: 10
 telegram: gonperezramirez
 slogan: el maquiavélico mini-hombre
 image: "/images/authors/c.webp"
@@ -13,5 +14,13 @@ Su plato favorito es el arroz a la cubana, no por falta de paladar, sino porque 
 
 C olvida, pero no perdona. Guarda agravios como quien colecciona estampitas, esperando el momento exacto para devolvértelo con intereses. Vive desconectado del mundo moderno, como un monje medieval con Wi-Fi, y cree que TikTok y el Anime es una prueba de que el mundo merece caer.
 
-En resumen: C no grita, susurra. No ataca, planea. No folla, se masturba. Y cuando te des cuenta, ya es demasiado tarde.
+En resumen:
+
+C no grita, susurra.
+
+No ataca, planea.
+
+No folla, se masturba.
+
+Y cuando te des cuenta, ya es demasiado tarde.
 La máquina de la lógica. Si hay una forma óptima de hacer algo, la encontrará, la criticará y luego te dirá que eres un inútil por no haberlo visto antes.

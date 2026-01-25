@@ -5,4 +5,5 @@ cascade:
     - html 
     - rss
     - Citas
+    - json
 ---

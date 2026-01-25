@@ -1,5 +1,6 @@
 ---
 title: Jota
+weight: 20
 telegram: Presio6151
 slogan: Maestro y Señor de las Galletas Dinosaurus y las picsas prosiuto
 image: "/images/authors/j.webp"
@@ -15,6 +16,13 @@ Si C es la lógica pura, J es la comunicación encarnada. Sabe cómo hablar con 
 
 Antes era un nerd solitario, pero Belmez lo transformó en un hombre del pueblo, un tipo capaz de conectar con cualquiera.
 
-Su debilidad: el Sputnik (vodka con cerveza), las galletas Dinosaurus y su fidelidad ciega a la pizza prosciutto.
+Su debilidad:
 
-En lo académico, J tiene la extraña habilidad de absorber conocimientos sin parecer que estudia, lo que le ha valido el respeto (y la envidia) de sus compañeros. También es un firme defensor del derecho a ligar en cualquier circunstancia, porque “el que perdona, murió en la cruz” y “ninguna mujer es fea por donde se mea” son principios fundamentales en su doctrina.
+* El Sputnik (vodka con cerveza).
+* Las galletas Dinosaurus.
+* Su fidelidad ciega a la pizza prosciutto.
+
+En lo académico, J tiene la extraña habilidad de absorber conocimientos sin parecer que estudia, lo que le ha valido el respeto (y la envidia) de sus compañeros. También es un firme defensor del derecho a ligar en cualquier circunstancia, porque son principios fundamentales en su doctrina:
+
+* “El que perdona, murió en la cruz”
+* “Ninguna mujer es fea por donde se mea”
