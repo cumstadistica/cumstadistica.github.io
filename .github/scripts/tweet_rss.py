@@ -3,9 +3,6 @@ import tweepy
 import os
 import sys
 from pathlib import Path
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # 1. Configuración de credenciales
 api_key = os.getenv("X_API_KEY")
@@ -66,7 +63,7 @@ def check_and_post():
         return
 
     # 4. Publicar el tweet
-    message = f"¡Nuevo Facto! 🚀\n\n{new_post_title}\n\nLéelo aquí: {new_post_url}"
+    message = f"{new_post_title}\n\nLéelo en exclusiva aquí: {new_post_url}"
 
     try:
         response = client.create_tweet(text=message)
