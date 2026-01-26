@@ -4,7 +4,12 @@ tags: ['canon', 'pachelbel', 'teoría musical', 'música clásica', 'cepsa', 'mo
 author: ['j', 'calvo']
 date: 2025-11-12 17:32:25 +01:00
 ---
-"Ee nombre lo puso el autor en plan como para decir; superalo, no se puede, es la norma, es el ejemplo a seguir" decía calbo cuñao con "Canon in D" de Pachellbel sonando en un anuncio de la recientemente rebrandeada "MOEVE", antigua "Compañía Española del Petróleo Sociedad Anónima CEPSA".
+
+Mientras suena el "Canon en D" de Pachelbel en un anuncio de la recién estrenada
+*MOEVE* —la marca que jubila a la antigua Cepsa
+(Compañía Española de Petróleos, S.A.)—, calvo cuñao sentencia con aire de superioridad:
+
+{{< quote text="El nombre lo puso el autor en plan como para decir; superalo, no se puede, es la norma, es el ejemplo a seguir" author="calvo" />}}
 
 ¿Tenía razón?
 

@@ -16,13 +16,13 @@ La forma en que hablan los personajes es anacrónica, de hecho me atrevería a d
 
 Lot se ve presionado hasta la extenuación por su casero y por su jefe, ambos usureros (crítica social) y que maltratan a Lot, aunque Segundo lo trate mejor. Ante esto, lot decide matar a alvelino. Aquí viene mi segunda crítica:
 
-2. La decisión de Lot es precipitada. A raíz de un sueño Lot decide que debe matar a su casero, cuando esto no hace sino complicar más aun su precaria situación. ¿Matar a su casero? ¿No seria el el principal sospechoso? ¿En que le ayudaría? Porque desde luego que, aún con alvelino muerto, seguiría necesitando dinero, y segundo no se lo daba.
+1. La decisión de Lot es precipitada. A raíz de un sueño Lot decide que debe matar a su casero, cuando esto no hace sino complicar más aun su precaria situación. ¿Matar a su casero? ¿No seria el el principal sospechoso? ¿En que le ayudaría? Porque desde luego que, aún con alvelino muerto, seguiría necesitando dinero, y segundo no se lo daba.
 
 A Lot lo investiga Iruela, un policía local, y aquí viene mi tercera y última crítica:
 
-3. Iruela es policía, no filósofo. Si se quería que hubiera disertaciones filosóficas sobre el crimen o sobre lo que fuera, quizás hubiera pegado más meterlas a través de Hipólito que es un drogata empedernido, no de un policía de Andújar, que debería asemejarse más a torrente que a Sócrates.`
+1. Iruela es policía, no filósofo. Si se quería que hubiera disertaciones filosóficas sobre el crimen o sobre lo que fuera, quizás hubiera pegado más meterlas a través de Hipólito que es un drogata empedernido, no de un policía de Andújar, que debería asemejarse más a torrente que a Sócrates.`
 
-author="j">}}
+author="j" />}}
 
 ## Constructiva crítica de contructiva crítica de Quimeras de un Crímen, de J, por C
 
@@ -39,7 +39,7 @@ Pero Iruela me parece buen personaje, maestro. Si te fijas, Iruela tampoco habla
 
 4. Me parece que has dejado algunas cosas fuera, J. Estoy seguro que algo más te ha llamado la atención`
 
-author="c">}}
+author="c" />}}
 
 ## Constructiva crítica de constructiva crítica de constructiva crítica de Quimeras de un Crimen, de C, por J
 
@@ -48,11 +48,11 @@ author="c">}}
 text=`
 2. Si c, quizás es justificable que a Lot se le vaya la olla, pero echo en falta algún elemento que le dé más peso a la idea de matar a alguien, que no es ninguna tontería per se
 
-3. Entiendo, c, pero a mí como personaje no me termina de convencer. Quizás es cierto que sus pajas mentales son un truco o algo.
+1. Entiendo, c, pero a mí como personaje no me termina de convencer. Quizás es cierto que sus pajas mentales son un truco o algo.
 
-4. Si c, pero son ya temas para hablar tranquilamente en persona. Aquí remarco lo principal.
+2. Si c, pero son ya temas para hablar tranquilamente en persona. Aquí remarco lo principal.
 `
-author="j">}}
+author="j" />}}
 
 ## Constructiva crítica de Constructiva crítica de constructiva crítica de constructiva crítica de Quimeras de un Crimen de J y C por U
 
@@ -68,7 +68,7 @@ text=`
 
 4. Bonus: C haz el epílogo!!!!!
 `
-author="u">}}
+author="u" />}}
 
 ## Constructiva crítica de constructiva crítica de constructiva crítica de constructiva crítica de constructiva crítica de Quimeras de un Crimen de U, por J
 
@@ -79,4 +79,4 @@ text=`
 1. Podrías al final en vez de poner plot poner p(Lot)
 `
 
-author="j">}}
+author="j" />}}

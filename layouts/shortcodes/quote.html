@@ -1,7 +1,12 @@
 {{/* Quote shortcode - Professional Layout */}}
 {{ $text := .Get "text" | default (.Get 0) }}
 {{ $authorCode := .Get "author" | default "" }}
+{{ $date := .Get "date" | default (.Page.Date.Format "Jan 2, 2006") }}
 {{ $defaultImg := "/images/authors/default.webp" | absURL }}
+{{ $content := $text }}
+{{ if .Inner }}
+    {{ $content = .Inner }}
+{{ end }}
 
 <figure class="mv4 pa3 pa4-ns bg-custom-card br3 relative overflow-hidden">
     {{/* Decorative Quote Mark */}}
@@ -40,12 +45,13 @@
                 {{ else }}
                     <cite class="white fw6 f5 fs-normal normal">{{ $authorCode }}</cite>
                 {{ end }}
+                <span class="f7 silver db mt1">{{ $date }}</span>
             </div>
         </figcaption>
     {{ end }}
 
     {{/* Quote Text */}}
     <blockquote class="relative z-1 f4-ns f5 lh-copy i white-90 measure-wide mt2 mb2 pl1">
-        {{ $text | markdownify }}
+        {{ $content | markdownify }}
     </blockquote>
 </figure>

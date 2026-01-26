@@ -18,7 +18,7 @@ Le saludo y tal, pero no le doy conversación (Me da un poco de palo, es bien ra
 
 {{< quote
 text=`Hey Bruder (No me se su nombre), es geht gut.👍`
-author="u">}}
+author="u" />}}
 
 
 No se bien como llegamos a esto, pero me dice el trol:
@@ -27,13 +27,13 @@ No se bien como llegamos a esto, pero me dice el trol:
 
 {{< quote
 text=`Wer, Bob Marley? Der ist geil Bruder! Ich liebe seine Lieder!😳`
-author="u">}}
+author="u" />}}
 
 >O O, GUT GUT😄. Also,.... magst du...? (Me hace mímica de fumarse un porrete)
 
 {{< quote
 text=`Nein bro, das mach ich nicht😬`
-author="u">}}
+author="u" />}}
 
 >Okeu JUGO, BESSER. ESPANIOL (Me pega un buen manotazo en la espalda)
 
@@ -43,19 +43,19 @@ Le sonrío y sigo con lo mío.
 
 {{< quote
 text=`Asiento con la cabeza (No se que decir)👍`
-author="u">}}
+author="u" />}}
 
 >Ja Bruder. SPANIER können gut ficken JUGO. 😼
 
 {{< quote
 text=`Asiento de nuevo👍`
-author="u">}}
+author="u" />}}
 
 >Aber ich will sie ficken JUGO😏. Verstehst du mich?
 
 {{< quote
 text=`Ja, ich verstehe dich.`
-author="u">}}
+author="u" />}}
 
 Y a esto que agarra su sartén y se va para su cuarto. Gritando VIVA ESPANIA a toda voz por el pasillo.
 

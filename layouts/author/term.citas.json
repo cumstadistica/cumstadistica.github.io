@@ -27,8 +27,15 @@
           {{- end -}}
         {{- end -}}
         
+        {{- /* Extract date */ -}}
+        {{- $dateRaw := replaceRE `(?s).*date="([^"]+)".*` "$1" $quoteTag -}}
+        {{- $date := $page.Date.Format "Jan 2, 2006" -}}
+        {{- if ne $dateRaw $quoteTag -}}
+          {{- $date = $dateRaw -}}
+        {{- end -}}
+
         {{- if ne $text "" -}}
-          {{- $quoteObj := dict "text" ($text | markdownify | plainify | chomp) "source" $page.Permalink "source_title" $page.Title -}}
+          {{- $quoteObj := dict "text" ($text | markdownify | plainify | chomp) "source" $page.Permalink "source_title" $page.Title "date" $date -}}
           {{- $quotes = $quotes | append $quoteObj -}}
         {{- end -}}
       {{- end -}}
