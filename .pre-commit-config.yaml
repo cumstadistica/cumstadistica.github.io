@@ -1,4 +1,28 @@
 repos:
+  - repo: local
+    hooks:
+      - id: jpg-to-webp
+        name: Convert JPG to WebP
+        entry: scripts/image-to-webp.sh
+        language: script
+        # Only trigger on jpg/jpeg files
+        files: \.(png|jpg|jpeg|JPG|JPEG)$
+        # Pass the filenames to the script
+        pass_filenames: true
+      - id: check-date-match
+        name: Sync Filename Date and Metadata
+        entry: python3 scripts/check-dates.py
+        language: python
+        # Only run on markdown files
+        files: \.md$
+        pass_filenames: true
+      - id: update-image-ext
+        name: Update Markdown JPG refs to WebP
+        entry: python3 scripts/extensions-jpg-to-webp.py
+        language: python
+        files: ^content/.*\.md$
+        pass_filenames: true
+
   - repo: https://github.com/lycheeverse/lychee
     rev: lychee-v0.18.1
     hooks:
@@ -17,26 +41,3 @@ repos:
           - "content/"
         files: ^content/.*\.(md|html)$
 
-  - repo: local
-    hooks:
-      - id: jpg-to-webp
-        name: Convert JPG to WebP
-        entry: scripts/jpg-to-webp.sh
-        language: script
-        # Only trigger on jpg/jpeg files
-        files: \.(jpg|jpeg|JPG|JPEG)$
-        # Pass the filenames to the script
-        pass_filenames: true
-      - id: check-date-match
-        name: Sync Filename Date and Metadata
-        entry: python3 scripts/check-dates.py
-        language: python
-        # Only run on markdown files
-        files: \.md$
-        pass_filenames: true
-      - id: update-image-ext
-        name: Update Markdown JPG refs to WebP
-        entry: python3 scripts/extensions-jpg-to-webp.py
-        language: python
-        files: ^content/.*\.md$
-        pass_filenames: true
