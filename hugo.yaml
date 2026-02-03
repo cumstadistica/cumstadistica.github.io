@@ -21,6 +21,11 @@ SectionPagesMenu: "main"
 googleAnalytics: ""
 enableRobotsTXT: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 pagination:
   pagerSize: 20
 
