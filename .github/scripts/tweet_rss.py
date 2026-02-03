@@ -63,7 +63,7 @@ def check_and_post():
         return
 
     # 4. Publicar el tweet
-    message = f"{new_post_title}\n\nLéelo en exclusiva aquí: {new_post_url}"
+    message = f"{new_post_title}\n\nLéelo en exclusiva aquí:\n\n{new_post_url}"
 
     try:
         response = client.create_tweet(text=message)
