@@ -2,7 +2,7 @@
 title: J en la ciudad de la Pepa
 author: j
 categories: [cronicas]
-tags: [cadiz negro puente]
+tags: [cadiz puente negro]
 date: 2025-07-21 00:00:00 
 ---
 
