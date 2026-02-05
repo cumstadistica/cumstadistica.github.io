@@ -9,7 +9,7 @@ date: 2024-08-06 00:00:00
 
 Día cero. El vuelo es de AirMaroc. Temo por nuestras vidas.
 
-{{< figure src="/images/j-en-jovenlandia-1.webp" >}}
+{{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-1.webp" >}}
 
 Cuaderno de bitácora. Día o.
 
@@ -62,13 +62,13 @@ Madre mía pusieron musica típica marroquí (párese de ritual satánico)
 Top 10 cosas que puedes hacer en marruecos:
 Número un: irte 😀👍
 
-{{< figure src="/images/j-en-jovenlandia-2.webp" >}}
+{{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-2.webp" >}}
 
 Día 1. Derrame una botella de 1 litro de Pepsi en los asientos traseros del coche de alquiler 
 Pa: subnorma
 Tambie entendí pq en marruecos menos e más: como las carreteras son un peligro y nadie obedece nada la gente está más atenta al volante pq se juegan la vida.
 
-{{< video src="/videos/j-en-jovenlandia-3.mp4" >}}
+{{< video src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-3.mp4" >}}
 
 Video from Jose
 
@@ -80,9 +80,9 @@ Ostia putos moros
 
 Resulta q el mismo lugar donde los moros van a bañarse (la playa) es el mismo sitio donde entierran a los muertos
 
-{{< figure src="/images/j-en-jovenlandia-4.webp" >}}
+{{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-4.webp" >}}
 
-{{< video src="/videos/j-en-jovenlandia-5.mp4" >}}
+{{< video src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-5.mp4" >}}
 
 Video from Jose
 
@@ -94,12 +94,12 @@ Me como una y tiene plástico
 
 Me corto el dedo sacando el plástico
 
-{{< figure src="/images/j-en-jovenlandia-6.webp" >}}
+{{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-6.webp" >}}
 
 Cuaderno de bitácora. Día 2. Hoy resulta ser el último día de mi estancia en Marruecos. He acabado con un contacto en el móvil que se llama AAAAAAAA, cuatro dihrams en el bolsillo y el corazon prendado de una mora que trabaja en una tienda de nose que de rabat y que habla inglés.
 
-{{< figure src="/images/j-en-jovenlandia-7.webp" >}}
+{{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-7.webp" >}}
 
-{{< figure src="/images/j-en-jovenlandia-8.webp" >}}
+{{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-8.webp" >}}
 
-{{< figure src="/images/j-en-jovenlandia-9.webp" >}}
+{{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-9.webp" >}}
