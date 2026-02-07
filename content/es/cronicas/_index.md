@@ -9,6 +9,6 @@ Bienvenidos a la sección de crónicas de Cumstadística, donde documentamos nue
 
 ## Posts recomendados (_cremita fina_)
 
-- [J en Marruecos](2024-08-06-j-en-jovenlandia.md)
+[J en Marruecos](2024-08-06-j-en-jovenlandia.md)
 
-- [Viaje cumstadístico a Bavaria](2025-08-28-bavaria.md)
+[Viaje cumstadístico a Bavaria](2025-08-28-bavaria.md)

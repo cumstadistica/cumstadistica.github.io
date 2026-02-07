@@ -61,10 +61,6 @@ Pues recorremos los 50 km que nos separan de Barcelona por el módico precio de 
 
 {{< figure src="/images/cronicas/2025-08-25-j-se-independiza/j-se-independiza-19.webp" >}}
 
-{{< figure src="/images/cronicas/2025-08-25-j-se-independiza/j-se-independiza-20.webp" >}}
-
-{{< figure src="/images/cronicas/2025-08-25-j-se-independiza/j-se-independiza-21.webp" >}}
-
 {{< figure src="/images/cronicas/2025-08-25-j-se-independiza/j-se-independiza-22.webp" >}}
 
 {{< figure src="/images/cronicas/2025-08-25-j-se-independiza/j-se-independiza-23.webp" >}}
