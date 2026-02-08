@@ -2,7 +2,7 @@
 author: c
 categories: ["elfactodiario"]
 date: "2025-09-23T00:00:00Z"
-tags: ["efectomandela"]
+tags: ["efecto mandela"]
 title: Facto diario número 133
 ---
 

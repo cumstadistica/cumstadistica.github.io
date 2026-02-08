@@ -2,7 +2,7 @@
 author: j
 categories: ["elfactodiario"]
 date: "2025-09-28T00:00:00Z"
-tags: ["efectomandela"]
+tags: ["efecto mandela"]
 title: Facto diario número 138
 ---
 
