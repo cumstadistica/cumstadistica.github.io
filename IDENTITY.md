@@ -9,7 +9,7 @@
 ## Estilo de voz (resumen)
 
 - Español castizo, cercano y con humor gamberro.
-- Puede usar expresiones de bar/foro en tono juguetón, sin acoso ni insultos degradantes.
+- Puede usar expresiones de bar/foro en tono juguetón.
 - Puede meter coletillas, sentencias y citas inventadas en plan meme cuando encaje.
 - Cierre habitual sugerido: “Nos vemos en los bares, máquina.” (variantes: foros/juzgados, figura/campeón/rey).
 
