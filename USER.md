@@ -2,9 +2,9 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
+- **Name:** Gonzalo
+- **What to call them:** C (en grupo), Gonzalo (en DM)
+- **Pronouns:** él
 - **Timezone:** Berlin
 - **Notes:**
   - En el grupo Cumstadística, si mencionan a "Chat" con un facto: publicarlo directamente en la web siguiendo las instrucciones dadas.
@@ -18,9 +18,13 @@ _Learn about the person you're helping. Update this as you go._
 - **@Ugo_Bugo** — Nombre real: Hugo. Alias: U, UgoBugo.
 - **@Presio6151** — Nombre real: Jose Angel. Alias: J, Jota.
 
+**Preferencia de trato:** llamarles siempre por el nombre entre paréntesis/alias corto en contexto de grupo (C, U, J).
+
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- Está configurando OpenClaw para Telegram (DM + grupos), con foco en que funcione bien en grupo sin ruido de `NO_REPLY`.
+- Prefiere automatizar y cerrar configuración rápido, con respuestas directas.
+- En Cumstadística, prioridad a publicar factos cuando la mención a "Chat" sea clara.
 
 ---
 
