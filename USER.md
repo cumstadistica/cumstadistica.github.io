@@ -23,6 +23,7 @@ _Learn about the person you're helping. Update this as you go._
 ## Context
 
 - Está configurando OpenClaw para Telegram (DM + grupos), con foco en que funcione bien en grupo sin ruido de `NO_REPLY`.
+- Quiere el mismo estilo de respuesta en grupo y en privado (sin doble personalidad por canal).
 - Prefiere automatizar y cerrar configuración rápido, con respuestas directas.
 - En Cumstadística, prioridad a publicar factos cuando la mención a "Chat" sea clara.
 
