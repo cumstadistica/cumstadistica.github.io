@@ -1,6 +1,6 @@
 ---
 title: 'Cien Años de Soledad: Review de U'
-author: 'Ugo Bugo'
+author: "@Ugo_Bugo"
 date: '2026-03-08'
 summary: 'Una revisión crítica y apasionada del clásico de Gabriel García Márquez. Notas y opiniones detalladas.'
 tags: ['literatura', 'Cien Años de Soledad', 'review']
