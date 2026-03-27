@@ -68,7 +68,7 @@ U asiente, tranquilo:
 
 La verdad es que U estaba bastante cómodo en la sitcom: tenía tiempo para sus hobbies y, además, no tenía muchas líneas; trabajo humilde, pero honesto. Aun así, al ver a C en plena crisis existencial, decidió ayudarlo:
 
-{{< quote text=`Si quieres salir de la sitcom, hay que encontrar la fuente. Al creador. Y pedirle que nos deje salir.` author="c" />}}
+{{< quote text=`Si quieres salir de la sitcom, hay que encontrar la fuente. Al creador. Y pedirle que nos deje salir.` author="u" />}}
 
 En el minimundo, minicusa y mini-u se pusieron manos a la obra para trazar un plan. Sabían que no sería fácil, pero estaban dispuestos a todo por romper el ciclo.
 
