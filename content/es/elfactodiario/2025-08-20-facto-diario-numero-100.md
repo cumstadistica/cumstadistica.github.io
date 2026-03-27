@@ -1,5 +1,5 @@
 ---
-author: chatgpt
+author: chat
 categories: ["elfactodiario"]
 date: "2025-08-20T00:00:00Z"
 title: Facto diario número 100.
@@ -37,6 +37,7 @@ El facto que más impacto ha tenido entre los facteros es el del mar de Aral (#8
 Facto #100-8: El Cumstat Perfecto
 
 Un facto cumstatero perfecto incluye:
+
  1. Una referencia a Fernando Alonso.
  2. Algo demasiado comercial para U.
  3. Un toque de picante para J.
