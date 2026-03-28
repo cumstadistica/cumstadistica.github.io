@@ -1,16 +1,26 @@
 {{- $context := .Context -}}
 {{- $isSingle := .IsSingle | default false -}}
-{{- $authorName := $context.Params.author | default $context.Site.Params.author -}}
-{{- if (reflect.IsSlice $authorName) -}}
-  {{- $authorName = index $authorName 0 -}}
+{{- $defaultImg := "images/authors/default.webp" | absURL -}}
+{{- $authorParam := $context.Params.author | default $context.Site.Params.author -}}
+{{- $authorSlugs := slice -}}
+{{- if reflect.IsSlice $authorParam -}}
+  {{- $authorSlugs = $authorParam -}}
+{{- else -}}
+  {{- $authorSlugs = slice $authorParam -}}
 {{- end -}}
-{{- $authorPage := site.GetPage (printf "author/%s" $authorName) -}}
-{{- $authorImage := "" -}}
-{{- $slogan := "" -}}
-{{- if $authorPage -}}
-  {{- $authorImage = $authorPage.Params.image -}}
-  {{- $slogan = $authorPage.Params.slogan -}}
+{{- $authors := slice -}}
+{{- range $authorSlugs -}}
+  {{- $authorPage := site.GetPage (printf "author/%s" .) -}}
+  {{- $authors = $authors | append (dict
+    "slug" .
+    "title" (cond $authorPage $authorPage.Title .)
+    "url" (cond $authorPage $authorPage.RelPermalink (printf "/author/%s/" .))
+    "image" (cond $authorPage ($authorPage.Params.image | default $defaultImg) $defaultImg)
+    "slogan" (cond $authorPage $authorPage.Params.slogan "")
+  ) -}}
 {{- end -}}
+{{- $hasMultipleAuthors := gt (len $authors) 1 -}}
+{{- $primaryAuthor := index $authors 0 -}}
 
 <article class="mb4">
   <div class="flex flex-column flex-row-ns bg-custom-card br3 shadow-4 pa3 pa4-ns">
@@ -18,27 +28,34 @@
     {{/* --- SIDEBAR (Left) --- */}}
     <div class="w-100 w-20-ns mr3-ns mb3 mb0-ns flex flex-column items-center tc">
       
-      {{/* 1. Avatar Image */}}
-      {{ $avatar := $context.Params.avatar | default $context.Params.featured_image}}
-      {{ if $avatar }}
-        <a href="/author/{{ $authorName }}" class="db grow">
-              {{ $defaultImg := "images/authors/default.webp" | absURL }}
-          <img src="{{ $authorImage }}" 
-          onerror='this.onerror=null;this.src="{{ $defaultImg }}";' 
-          class="br0 h4 br3 w4 object-fill"
-          alt="{{ $authorName }}" data-pagefind-meta="image[author]">
-        </a>
-      {{ end }}
+      {{/* 1. Author avatars */}}
+      <div class="flex flex-wrap justify-center items-center mb2">
+        {{ range $authors }}
+          <a href="{{ .url }}" class="db grow mh1 mb2">
+            <img
+              src="{{ .image }}"
+              onerror='this.onerror=null;this.src="{{ $defaultImg }}";'
+              class="br0 h4 br3 w4 object-fill"
+              alt="{{ .title }}"
+              data-pagefind-meta="image[author]">
+          </a>
+        {{ end }}
+      </div>
 
-      {{/* 2. Author Name */}}
-      <h3 class="f4 fw6 mv2 white">
-        <a href="/author/{{ $authorName }}" class="link white dim">
-          {{ if $authorPage }}{{ $authorPage.Title }}{{ else }}{{ $authorName }}{{ end }}
-        </a>
-      </h3>
+      {{/* 2. Author names */}}
+      <div class="f4 fw6 mv2 white lh-title">
+        {{ range $index, $author := $authors }}
+          {{ if gt $index 0 }}
+            <span class="white-60"> · </span>
+          {{ end }}
+          <a href="{{ $author.url }}" class="link white dim">
+            {{ $author.title }}
+          </a>
+        {{ end }}
+      </div>
 
-      {{/* 3. Slogan */}}
-      {{ with $slogan }}
+      {{/* 3. Slogan only for single-author posts */}}
+      {{ with and (not $hasMultipleAuthors) $primaryAuthor.slogan }}
         <p class="f6 silver lh-copy measure center mv2 i">
           {{ . }}
         </p>
