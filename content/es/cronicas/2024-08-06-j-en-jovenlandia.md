@@ -3,7 +3,7 @@ title: J en Jovenlandia 🇲🇦
 date: "2024-08-06T00:00:00Z"
 author: j
 categories: [cronicas]
-tags: [moros marruecos]
+tags: ["moros", "marruecos", "segunda guerra mundial", "bitacora"]
 ---
 
 
@@ -64,7 +64,7 @@ Número un: irte 😀👍
 
 {{< figure src="/images/cronicas/2024-08-06-j-en-jovenlandia/j-en-jovenlandia-2.webp" >}}
 
-Día 1. Derrame una botella de 1 litro de Pepsi en los asientos traseros del coche de alquiler 
+Día 1. Derrame una botella de 1 litro de Pepsi en los asientos traseros del coche de alquiler
 Pa: subnorma
 Tambie entendí pq en marruecos menos e más: como las carreteras son un peligro y nadie obedece nada la gente está más atenta al volante pq se juegan la vida.
 

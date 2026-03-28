@@ -2,8 +2,7 @@
 title: Este C(ura) no es mi padre - Skite de San Espiridión ☦️
 date: "2025-05-08T00:00:00Z"
 author: c
-categories: [cronicas]
-tags: [monasterio ruso loco]
+tags: ["monasterio", "ruso", "loco", "fanegas"]
 ---
 
 
