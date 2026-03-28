@@ -5,6 +5,6 @@ permalink: /contacto
 ---
 
         
-Puedes contactarnos a través de nuestro correo: **cumstadistica@gmail.com**
+Puedes contactarnos a través de nuestro correo: **[cumstadistica@gmail.com](mailto:cumstadistica@gmail.com)**
 
 O seguirnos en [redes sociales](https://youtu.be/gra-sIV1n4U?si=wfgocfaeR-GKYkA6).

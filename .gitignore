@@ -11,8 +11,3 @@ public/
 resources/
 .markdownlint.json
 .tweeted_posts.txt
-
-
-# Gemini files
-GEMINI.md
-.geminiignore
