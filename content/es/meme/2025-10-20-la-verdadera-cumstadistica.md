@@ -10,4 +10,4 @@ tags: ["bob-esponja", "minions"]
 
 {{< figure src="/images/meme/alexby-rubius-willyrex.webp" alt="La verdadera cumstadistica 2" >}}
 
-{{< figure src="/images/meme/cumstadistica-minions.webp" alt="La verdadera cumstadistica 3" >}}
+{{< figure src="/images/meme/cumstat-minions.webp" alt="La verdadera cumstadistica 3" >}}
