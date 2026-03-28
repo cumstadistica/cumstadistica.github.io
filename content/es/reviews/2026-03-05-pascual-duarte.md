@@ -1,7 +1,7 @@
 ---
 title: La familia de Pascual Duarte
+date: "2026-03-05T00:00:00Z"
 author: u
-date: "2026-03-05"
 nota: 7.4
 ---
 

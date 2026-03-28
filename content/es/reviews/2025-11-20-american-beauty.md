@@ -1,7 +1,7 @@
 ---
 title: American Beauty
-author: c
 date: "2025-11-20T00:00:00Z"
+author: c
 nota: 7.6
 tags: ["cine", "kevin spacey", "paco", "charo"]
 ---

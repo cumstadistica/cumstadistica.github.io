@@ -1,9 +1,9 @@
 ---
 title: A POR LO QUE QUEDA YA
+date: "2025-12-13T00:00:00Z"
 categories: ['meme']
 tags: ['forocoches', 'troleo', 'queja formal', 'laureano']
 author: ['c']
-date: 2025-12-13 09:08:28 +01:00
 ---
 {{< figure src="/images/presiensammlung/asunto_a_por_lo_que_queda_ya-1.webp" alt="asunto_a_por_lo_que_queda_ya-1" >}}
 

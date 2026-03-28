@@ -1,9 +1,9 @@
 ---
 title: J en la ciudad boabdileña 🧕
+date: "2024-11-30T00:00:00Z"
 author: j
 categories: [cronicas]
 tags: [granada]
-date: 2024-11-30 00:00:00 
 ---
 
 ## Día 0. El CREIC (Conjunto de representantes de estudiantes de ingeniería de caminos)

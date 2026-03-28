@@ -1,7 +1,7 @@
 ---
 title: Estoy en mi prime
-author: j
 date: "2025-11-05T00:00:00Z"
+author: j
 categories: ["meme"]
 ---
 

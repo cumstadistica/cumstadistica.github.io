@@ -1,8 +1,8 @@
 ---
 title: "La Montiela"
+date: "2026-01-20T00:00:00Z"
 author: c
 tags: [lugares]
-date: "2026-01-20T00:00:00Z"
 nota: 7.9
 ---
 

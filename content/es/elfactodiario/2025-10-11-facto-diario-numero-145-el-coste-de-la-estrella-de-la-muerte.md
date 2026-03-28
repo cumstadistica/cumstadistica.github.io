@@ -1,8 +1,8 @@
 ---
 title: 'Facto diario número 144+1: El coste de la Estrella de la Muerte'
+date: "2025-10-11T00:00:00Z"
 tags: ['star wars', 'estrella de la muerte', 'economía', 'PIB mundial', 'armas de destrucción masiva', 'espacio exterior']
 author: ['j']
-date: 2025-10-11 17:31:16 +01:00
 ---
 El coste de la estrella de la muerte
 

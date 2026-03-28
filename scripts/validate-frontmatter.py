@@ -6,6 +6,7 @@ import sys
 
 ROOT = os.path.join("content", "es")
 AUTHOR_ROOT = os.path.join(ROOT, "author")
+DATED_FILENAME_REGEX = re.compile(r"(\d{4}-\d{2}-\d{2})-[^/\\]+\.md$")
 
 
 def load_valid_authors():
@@ -78,6 +79,13 @@ def validate_file(path, valid_authors):
     date_match = re.search(r"^date:\s*(.+)$", frontmatter, re.MULTILINE)
     if not date_match or not date_match.group(1).strip():
         errors.append(f"{relpath}: missing date")
+    else:
+        filename_match = DATED_FILENAME_REGEX.search(path.replace("\\", "/"))
+        if filename_match:
+            expected = f'"{filename_match.group(1)}T00:00:00Z"'
+            actual = date_match.group(1).strip()
+            if actual != expected:
+                errors.append(f"{relpath}: date must be {expected} for dated filenames")
 
     return errors
 

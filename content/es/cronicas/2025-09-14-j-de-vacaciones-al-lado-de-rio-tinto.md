@@ -1,9 +1,9 @@
 ---
 title: J de vacaciones al lado de Río Tinto
+date: "2025-09-14T00:00:00Z"
 author: j
 categories: [cronicas]
 tags: [vacaciones huelva nazi riotinto playa negocios]
-date: 2025-09-14 00:00:00 
 ---
 
 

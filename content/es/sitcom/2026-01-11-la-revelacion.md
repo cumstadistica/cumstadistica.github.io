@@ -1,7 +1,7 @@
 ---
 title: "La Revelación"
-author: [c, chat]
 date: "2026-01-11T00:00:00Z"
+author: [c, chat]
 ---
 
 Un día, Cusa se levantó y gritó:

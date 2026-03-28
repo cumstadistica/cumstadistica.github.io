@@ -1,7 +1,7 @@
 ---
 title: "Obra maestra gastronómica de C"
-author: c
 date: "2025-10-15T00:00:00Z"
+author: c
 tags: ["delicatessen", "comida", "sibarita"]
 ---
 

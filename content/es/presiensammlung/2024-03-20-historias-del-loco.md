@@ -1,8 +1,8 @@
 ---
 title: Historias del loco de la residencia
+date: "2024-03-20T00:00:00Z"
 author: u
 tags: ["anécdotas", "residencia", "loco", "búlgaro", "champis"]
-date: "2024-03-20T00:00:00Z"
 ---
 
 

@@ -1,8 +1,8 @@
 ---
 title: 'Facto diario número 146: Canon in D'
+date: "2025-11-12T00:00:00Z"
 tags: ['canon', 'pachelbel', 'teoría musical', 'música clásica', 'cepsa', 'moeve']
 author: ['j', 'calvo']
-date: 2025-11-12 17:32:25 +01:00
 ---
 
 Mientras suena el "Canon en D" de Pachelbel en un anuncio de la recién estrenada

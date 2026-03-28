@@ -1,9 +1,9 @@
 ---
 title: J en Extrema y Dura 🚂
+date: "2024-07-06T00:00:00Z"
 author: j
 categories: [cronicas]
 tags: [extremadura]
-date: 2024-07-06 00:00:00 
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: El profesor Layton y la máscara de los prodigios
-author: c
 date: "2026-01-05T00:00:00Z"
+author: c
 tags: ["videojuegos", "nintendo", "layton", "aventura", "puzzle"]
 nota: 8.2
 ---

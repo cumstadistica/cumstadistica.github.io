@@ -1,10 +1,10 @@
 ---
 title: De horny bird a angry bird
+date: "2025-11-25T00:00:00Z"
 categories: ['meme']
 tags: ['horny bird', 'angry bird', 'anécdotas', 'citas', 'humor']
 author: ['j']
 
-date: 2025-11-25 07:40:26 +01:00
 ---
 Pues no que estabamos dando un paseo una chiquilla y yo
 

@@ -1,7 +1,7 @@
 ---
 title: El viaje de Chulin
+date: "2026-03-21T00:00:00Z"
 author: c
-date: "2026-03-21"
 ---
 
 ## Antecedentes

@@ -1,9 +1,9 @@
 ---
 title: J en Reunión del CREIC en Belmez
+date: "2025-04-06T00:00:00Z"
 author: j
 categories: [cronicas]
 tags: []
-date: 2025-04-06 00:00:00 
 ---
 
 

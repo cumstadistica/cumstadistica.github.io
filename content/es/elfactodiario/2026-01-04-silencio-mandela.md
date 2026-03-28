@@ -1,7 +1,7 @@
 ---
 title: Facto diario número 152.
-author: j
 date: "2026-01-04T00:00:00Z"
+author: j
 tags: ["curiosidades", "cine", "hannah lecter", "el silencio de los corderos", "efecto mandela"]
 ---
 

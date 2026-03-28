@@ -1,7 +1,7 @@
 ---
 title: La familia Cumstadística
-author: j
 date: "2025-04-29T00:00:00Z"
+author: j
 ---
 
 {{< figure src="/images/presiensammlung/la-familia-cumstadistica.webp" alt="La familia Cumstadística" caption="😱😎🍺👶" >}}

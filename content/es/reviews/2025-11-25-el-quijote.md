@@ -1,7 +1,7 @@
 ---
 title: "El Quijote"
-author: u
 date: "2025-11-25T00:00:00Z"
+author: u
 nota: 10
 tags: ["libros", "cervantes", "clásicos", "españa"]
 ---

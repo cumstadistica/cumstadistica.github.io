@@ -1,7 +1,7 @@
 ---
 title: "La franqueza te convierte en un inadaptado (o en un buen amigo)"
-author: [c, j, u, dilan]
 date: "2026-01-15T00:00:00Z"
+author: [c, j, u, dilan]
 tags: ["ardido", "quevuelvalamili", "ace attorney", "videobola"]
 ---
 

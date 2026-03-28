@@ -1,7 +1,7 @@
 ---
 title: Anna Karénina de Lev Tolstói
-author: u
 date: "2026-01-15T00:00:00Z"
+author: u
 nota: 9.8
 tags: ["libros", "tolstoi", "clásicos", "literatura"]
 ---

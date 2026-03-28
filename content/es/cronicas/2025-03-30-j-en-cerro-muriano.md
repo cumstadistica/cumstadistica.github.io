@@ -1,9 +1,9 @@
 ---
 title: J en Cerro Muriano
+date: "2025-03-30T00:00:00Z"
 author: j
 categories: [cronicas]
 tags: [jornadas]
-date: 2025-03-30 00:00:00 
 ---
 
 

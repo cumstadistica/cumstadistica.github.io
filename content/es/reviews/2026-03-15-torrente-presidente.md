@@ -1,8 +1,8 @@
 ---
 title: Torrente Presidente
+date: "2026-03-15T00:00:00Z"
 author: u
 tags: ['cine', 'torrente', 'review', 'santiago segura']
-date: "2026-03-15"
 nota: 7.8
 ---
 
