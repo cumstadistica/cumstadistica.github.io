@@ -1,19 +1,15 @@
 ---
-title: "mysterious meow"
-date: "2025-02-01T10:00:00-03:00"
-tags: ["meow",]
-title-images: ["/photo6.png",]
-ending-images: []
-author: "mochi"
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+date: "{{ .Date.Format "2006-01-02T00:00:00Z" }}"
+author: "REPLACE_ME"
+categories: []
+tags: []
 draft: false
-table-of-contents: true
-toc-auto-numbering: true
 ---
-<!-- introduction -->
-## meow
-meow... meow rawr, meow meow meow!
+
+Resumen breve.
+
 <!--more-->
-<!-- rest of the content -->
-### rawr
-rawr meow, meow meow rawr, rawr meow meow. meow rawr meow meow, rawr rawr rawr meow rawr, rawr meow meow.
+
+Contenido.
 meow rawr, meow rawr meow!

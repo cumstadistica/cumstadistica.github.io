@@ -16,6 +16,12 @@ repos:
         # Only run on markdown files
         files: \.md$
         pass_filenames: true
+      - id: validate-frontmatter
+        name: Validate required front matter
+        entry: python3 scripts/validate-frontmatter.py
+        language: python
+        files: ^content/es/.*\.md$
+        pass_filenames: true
       - id: update-image-ext
         name: Update Markdown JPG refs to WebP
         entry: python3 scripts/extensions-jpg-to-webp.py
@@ -40,4 +46,3 @@ repos:
           - "--remap=/audios/(.*) /static/audios/$1"
           - "content/"
         files: ^content/.*\.(md|html)$
-

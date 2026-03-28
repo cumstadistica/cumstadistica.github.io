@@ -1,6 +1,6 @@
 ---
 title: "La Revelación"
-author: c chat
+author: [c, chat]
 date: "2026-01-11T00:00:00Z"
 ---
 

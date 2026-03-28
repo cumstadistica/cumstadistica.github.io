@@ -2,6 +2,8 @@
 layout: page
 title: Acerca De
 permalink: /acercade
+author: cumstadistica
+date: "2025-03-15T10:16:46+01:00"
 ---
 
 <p>Bienvenido a Cumstadística, el único sitio web donde la estadística y la lógica se mezclan con insultos gratuitos, referencias culturales fuera de lugar y consejos de vida que probablemente arruinen la tuya.</p>

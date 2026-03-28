@@ -1,4 +1,5 @@
 ---
+author: [c, chat]
 categories: ["sitcom"]
 date: "2025-03-10T00:00:00Z"
 title: 'Episodio Piloto: Una hora menos en Canarias, una hora más en J'
