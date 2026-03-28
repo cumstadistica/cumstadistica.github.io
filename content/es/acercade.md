@@ -2,6 +2,7 @@
 title: Acerca De
 date: "2025-03-15T10:16:46+01:00"
 author: cumstadistica
+tags: ["cumstadística"]
 layout: page
 permalink: /acercade
 ---
@@ -16,4 +17,4 @@ permalink: /acercade
 
 <p><strong>U:</strong> La memoria encarnada y el más pachamamesco del grupo (aunque lo niegue). Cree que todo lo comercial es basura y que el arte de verdad es una película muda serbo-croata de 12 horas sobre la pesca artesanal.</p>
 
-## [Personajes](/content/es/author/)
+## [Personajes](author/)

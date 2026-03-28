@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center w-50-l lh-copy nested-links white-80">
+    {{- .Content -}}
+  </section>
+
+  {{- $terms := .Data.Terms.Alphabetical -}}
+  <div class="pa3 pa4-ns w-100 w-80-l center">
+    <header class="tc mb4">
+      <h1 class="f2 fw6 white">{{ .Title }}</h1>
+      {{ with .Description }}
+        <p class="f5 white-80 measure center">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    {{ if gt (len $terms) 0 }}
+      <section class="flex flex-wrap justify-center gap-2">
+        {{ range $terms }}
+          {{- $count := .Count -}}
+          {{- $sizeClass := "f6" -}}
+          {{- if ge $count 10 -}}
+            {{- $sizeClass = "f4" -}}
+          {{- else if ge $count 5 -}}
+            {{- $sizeClass = "f5" -}}
+          {{- end -}}
+          <a
+            href="{{ .Page.RelPermalink }}"
+            class="{{ $sizeClass }} link white bg-white-10 hover-bg-white-20 br-pill ph3 pv2 ma2 dib"
+          >
+            {{ .Page.Title }}
+            <span class="white-60">({{ $count }})</span>
+          </a>
+        {{ end }}
+      </section>
+    {{ else }}
+      <p class="tc white-80">No hay tags todavía.</p>
+    {{ end }}
+  </div>
+{{ end }}
