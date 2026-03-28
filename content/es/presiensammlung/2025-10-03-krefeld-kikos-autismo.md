@@ -2,7 +2,7 @@
 title: El Niño, Los Kikos y La Madre Soltera
 date: "2025-10-03T00:00:00Z"
 author: c
-tags: ["alemania", "experiencias", "surrealistas", "kikos", "krefeld", "viajes"]
+tags: ["alemania", "surrealista", "kikos", "krefeld", "viaje", "tren"]
 ---
 
 Había una tarde de mierda esperando el tren en la estación de Krefeld, Alemania. De esas tardes en las que no pasa nada y el tiempo se arrastra como una babosa cuesta arriba. Me siento en un banco y, sorpresa, a mi lado: una madre (que tenía aura de soltera) fumando como un carretero con un niño pequeño en el carrito de bebé.
