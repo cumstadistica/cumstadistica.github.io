@@ -3,7 +3,7 @@
       {{- .Content -}}
     </section>
 
-  {{ $paginator := .Paginate (where .Pages ".Params.unlisted" "!=" "true") }}
+  {{ $paginator := .Paginate .Pages }}
 
   
   <div class="pa3 pa4-ns w-100 w-70-ns center">
