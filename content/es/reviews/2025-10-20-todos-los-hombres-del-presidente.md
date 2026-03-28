@@ -1,9 +1,9 @@
 ---
-author: c
-date: "2025-10-20T00:00:00Z"
-nota: 7.7
-tags: ["cine"]
 title: Todos los hombres del presidente
+date: "2025-10-20T00:00:00Z"
+author: c
+tags: ["cine"]
+nota: 7.7
 ---
 
 {{< figure src="/images/general/todos-los-hombres-del-presidente.webp" alt="Todos los hombres del presidente" >}}

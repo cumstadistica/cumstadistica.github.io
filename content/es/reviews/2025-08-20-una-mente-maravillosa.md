@@ -1,10 +1,10 @@
 ---
+title: Una mente maravillosa (C)
+date: "2025-08-20T00:00:00Z"
 author: c
 categories: ["reviews"]
-date: "2025-08-20T00:00:00Z"
-nota: 7
 tags: ["cine"]
-title: Una mente maravillosa (C)
+nota: 7
 ---
 
 {{< figure src="/images/una-mente-maravillosa.webp" alt="Una mente maravillosa" >}}

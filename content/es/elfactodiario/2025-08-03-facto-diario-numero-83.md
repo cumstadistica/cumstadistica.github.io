@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 83.
+date: "2025-08-03T00:00:00Z"
 author: j
 categories: ["elfactodiario"]
-date: "2025-08-03T00:00:00Z"
-title: Facto diario número 83.
 ---
 Científicos de la universidad de Manchester han desarrollado un hormigón con el doble de resistencia a compresión que el hormigón convencional a partir de puré de patata y tierra marciana.
 

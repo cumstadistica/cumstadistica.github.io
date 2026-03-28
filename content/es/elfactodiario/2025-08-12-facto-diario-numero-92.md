@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 92.
+date: "2025-08-12T00:00:00Z"
 author: u
 categories: ["elfactodiario"]
-date: "2025-08-12T00:00:00Z"
-title: Facto diario número 92.
 ---
 La nicotina, tan popular entre algunos, es en realidad el mecanismo de defensa de la planta de tabaco. Es un alcaloide tóxico que se produce en las raíces y se transporta a las hojas para protegerse de herbívoros, como insectos y mamíferos.
 

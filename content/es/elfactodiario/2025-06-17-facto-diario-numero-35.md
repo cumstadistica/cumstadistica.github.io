@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 35.
+date: "2025-06-17T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-06-17T00:00:00Z"
-title: Facto diario número 35.
 ---
 Observando el ajetreo de las pizzerías cercanas al pentágono se puede saber lo chunga que está la situación geopolítica, porque los trabajadores se quedan hasta más tarde y piden comida para llevar. Pasó por ejemplo en los ataques de Irán a Israel
 

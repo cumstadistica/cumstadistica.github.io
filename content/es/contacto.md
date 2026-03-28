@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Contacto
-permalink: /contacto
-author: cumstadistica
 date: "2025-03-13T21:18:13+01:00"
+author: cumstadistica
+layout: page
+permalink: /contacto
 ---
 
         

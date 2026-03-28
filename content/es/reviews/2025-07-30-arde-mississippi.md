@@ -1,10 +1,10 @@
 ---
+title: Arde Mississippi
+date: "2025-07-30T00:00:00Z"
 author: c
 categories: ["reviews"]
 tags: ["cine", "drama", "racismo"]
-date: "2025-07-30T00:00:00Z"
 nota: 8.1
-title: Arde Mississippi
 ---
 O para los amigos, un Nerdi y Jose Luis Ábalos solucionan el racismo.
 

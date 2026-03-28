@@ -1,9 +1,9 @@
 ---
+title: Facto diario número 14.
+date: "2025-05-25T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-05-25T00:00:00Z"
 tags: ["fernandoalonso"]
-title: Facto diario número 14.
 ---
 
 Cuando Fernando Alonso corrió por primera vez en F1, su padre sabiamente le dijo:

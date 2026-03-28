@@ -1,9 +1,9 @@
 ---
+title: Facto diario número 102.
+date: "2025-08-22T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-08-22T00:00:00Z"
 tags: ["musicote"]
-title: Facto diario número 102.
 ---
 Qué tienen en común, el vocalista de Triana, Camarón y Ray Heredia?
 Los 3 eran unos genios del flamenco y murieron trágicamente y muy jóvenes

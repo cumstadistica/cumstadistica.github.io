@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 114.
+date: "2025-09-04T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-09-04T00:00:00Z"
-title: Facto diario número 114.
 ---
 Del Mito al Facto: Bolívar al desnudo
 

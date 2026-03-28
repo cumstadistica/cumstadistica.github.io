@@ -1,9 +1,9 @@
 ---
+title: El árbol de la ciencia, Pío Baroja.
+date: "2025-04-10T00:00:00Z"
 author: u
 categories: ["reviews"]
-date: "2025-04-10T00:00:00Z"
 tags: ["comentarioliterario", "libro"]
-title: El árbol de la ciencia, Pío Baroja.
 ---
 
 {{< figure src="/images/general/arbol-ciencia.webp" alt="El Árbol de la Ciencia" >}}

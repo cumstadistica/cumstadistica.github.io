@@ -1,10 +1,10 @@
 ---
+title: La Terminal
+date: "2025-09-15T00:00:00Z"
 author: c
 categories: ["reviews"]
-date: "2025-09-15T00:00:00Z"
-nota: 9
 tags: ["cine"]
-title: La Terminal
+nota: 9
 ---
 
 La Terminal es una película que narra la historia de Viktor Navorski, un ciudadano de una república soviética ficticia que queda varado en el aeropuerto JFK de Nueva York cuando su país sufre un golpe de estado. Tom Hanks interpreta a Navorski, mientras que Catherine Zeta-Jones hace de la azafata buenorra que se enamora de él.

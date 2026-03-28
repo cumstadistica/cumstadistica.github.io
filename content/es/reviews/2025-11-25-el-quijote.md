@@ -2,8 +2,8 @@
 title: "El Quijote"
 date: "2025-11-25T00:00:00Z"
 author: u
-nota: 10
 tags: ["libros", "cervantes", "clásicos", "españa"]
+nota: 10
 ---
 
 ![Lobo Estepario en Armadura Castellana](/images/reviews/lobo-quijote.webp)

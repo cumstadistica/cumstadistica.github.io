@@ -1,7 +1,7 @@
 ---
 title: Estructura de la Asamblea General Ordinaria de Cumstadística
-author: c
 date: 2025-12-26
+author: c
 tags: [asamblea, estructura, cumstadística, asociación] 
 ---
 

@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 124.
+date: "2025-09-14T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-09-14T00:00:00Z"
-title: Facto diario número 124.
 ---
 Por qué son tan dramáticos los juicios en EEUU?
 

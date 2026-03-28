@@ -1,9 +1,9 @@
 ---
-author: j
-date: "2025-09-30T00:00:00Z"
-nota: 9.4
-tags: ["nolan", "cine"]
 title: El caballero oscuro
+date: "2025-09-30T00:00:00Z"
+author: j
+tags: ["nolan", "cine"]
+nota: 9.4
 ---
 
 Peliculón de Christopher Nolan,

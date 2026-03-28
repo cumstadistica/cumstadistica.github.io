@@ -1,8 +1,8 @@
 ---
 title: 'Facto diario número 148: ¿De verdad “Hacienda se lleva 20 napos”?'
 date: "2025-12-14T00:00:00Z"
-tags: ['iva', 'hacienda', 'factura simplificada', 'impuestos', 'consumo', 'perro sanxe', 'calbo cuñao']
 author: ['j', 'calvo']
+tags: ['iva', 'hacienda', 'factura simplificada', 'impuestos', 'consumo', 'perro sanxe', 'calbo cuñao']
 ---
 "¡Perro sanxe se acaba de llevar 20 napos!" —clamaba Calbo cuñao en la comida familiar al ver **IVA** el ticket.
 

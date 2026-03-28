@@ -1,8 +1,8 @@
 ---
+title: Facto diario numero 42.
+date: "2025-06-24T00:00:00Z"
 author: u
 categories: ["elfactodiario"]
-date: "2025-06-24T00:00:00Z"
-title: Facto diario numero 42.
 ---
 En un cine de León, mientras se emitía la famosa película "Garfield", un hombre estaba abusando físicamente de su pareja, llegando incluso a golpear a una niña pequeña.
 

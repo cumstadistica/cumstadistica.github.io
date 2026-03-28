@@ -1,9 +1,9 @@
 ---
-author: u
-date: "2025-09-25T00:00:00Z"
-nota: 7.5
-tags: ["libro"]
 title: La crisálida
+date: "2025-09-25T00:00:00Z"
+author: u
+tags: ["libro"]
+nota: 7.5
 ---
 
 

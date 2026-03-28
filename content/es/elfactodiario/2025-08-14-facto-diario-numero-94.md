@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 94.
+date: "2025-08-14T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-08-14T00:00:00Z"
-title: Facto diario número 94.
 ---
 La carrera por alcanzar la Antártida  
 

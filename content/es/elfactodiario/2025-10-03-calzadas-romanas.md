@@ -1,9 +1,9 @@
 ---
+title: Facto diario número 143.
+date: "2025-10-03T00:00:00Z"
 author: ['j', 'calvo']
 categories: ["elfactodiario"]
-date: "2025-10-03T00:00:00Z"
 tags: ["imperioromano", "renfe", "adif", "ingenieriacivil"]
-title: Facto diario número 143.
 ---
 
 Por qué hoy se conservan calzadas, acueductos, sistemas de saneamiento, anfiteatros, edificios y demas infraestructura romana?

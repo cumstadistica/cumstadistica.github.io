@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 51.
+date: "2025-07-03T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-07-03T00:00:00Z"
-title: Facto diario número 51.
 ---
 Un bro japonés de 57 años acaba de fichar por un nuevo equipo, el Atlético Sakura de 4ª División Japonesa 
 

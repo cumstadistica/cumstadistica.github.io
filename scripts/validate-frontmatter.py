@@ -48,20 +48,37 @@ def extract_frontmatter(path):
     return parts[1]
 
 
+def top_level_keys(frontmatter):
+    keys = []
+    for line in frontmatter.splitlines():
+        if not line.strip() or line.startswith((" ", "\t")) or line.lstrip().startswith("- "):
+            continue
+        match = re.match(r"^([A-Za-z0-9_-]+):", line)
+        if match:
+            keys.append(match.group(1))
+    return keys
+
+
 def validate_file(path, valid_authors):
     relpath = os.path.relpath(path)
 
     if not path.endswith(".md") or os.path.basename(path) == "_index.md":
-        return []
+        return [], []
 
     if not path.startswith(ROOT):
-        return []
+        return [], []
 
     frontmatter = extract_frontmatter(path)
     if frontmatter is None:
-        return [f"{relpath}: missing YAML front matter"]
+        return [f"{relpath}: missing YAML front matter"], []
 
     errors = []
+    warnings = []
+
+    keys = top_level_keys(frontmatter)
+    duplicates = sorted({key for key in keys if keys.count(key) > 1})
+    if duplicates:
+        errors.append(f"{relpath}: duplicate front matter keys: {', '.join(duplicates)}")
 
     author_match = re.search(r"^author:\s*(.+)$", frontmatter, re.MULTILINE)
     if not author_match:
@@ -87,16 +104,34 @@ def validate_file(path, valid_authors):
             if actual != expected:
                 errors.append(f"{relpath}: date must be {expected} for dated filenames")
 
-    return errors
+    section = path.replace("\\", "/").split("/", 2)[2].split("/", 1)[0]
+    categories_match = re.search(r"^categories:\s*(.+)$", frontmatter, re.MULTILINE)
+    if categories_match and section not in {"author", "categories", "tags"}:
+        raw_categories = categories_match.group(1).strip()
+        if raw_categories.startswith("[") and raw_categories.endswith("]"):
+            categories = [part.strip().strip("\"'") for part in raw_categories[1:-1].split(",") if part.strip()]
+            if len(categories) == 1 and categories[0] == section:
+                warnings.append(f"{relpath}: categories duplicates the section name '{section}'")
+
+    return errors, warnings
 
 
 def main():
     valid_authors = load_valid_authors()
     all_errors = []
+    all_warnings = []
 
     for path in sys.argv[1:]:
         normalized = path.replace("\\", "/")
-        all_errors.extend(validate_file(normalized, valid_authors))
+        errors, warnings = validate_file(normalized, valid_authors)
+        all_errors.extend(errors)
+        all_warnings.extend(warnings)
+
+    if all_warnings:
+        print("Front matter warnings:")
+        for warning in all_warnings:
+            print(f"  - {warning}")
+        print()
 
     if all_errors:
         print("Front matter validation failed:")

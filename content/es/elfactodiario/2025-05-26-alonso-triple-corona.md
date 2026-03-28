@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 15.
+date: "2025-05-26T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-05-26T00:00:00Z"
-title: Facto diario número 15.
 ---
 
 Fernando Alonso intentó conseguir la triple corona, es decir tener Mundial de Fórmula 1, las 24 Horas de Le Mans y las 500 millas de Indianápolis.

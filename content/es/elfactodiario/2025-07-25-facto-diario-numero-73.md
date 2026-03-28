@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 73.
+date: "2025-07-25T00:00:00Z"
 author: j
 categories: ["elfactodiario"]
-date: "2025-07-25T00:00:00Z"
-title: Facto diario número 73.
 ---
 El 73 es el número de Sheldon Cooper.
 Esta vez facto chambero.

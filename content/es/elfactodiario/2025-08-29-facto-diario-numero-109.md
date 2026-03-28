@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 109.
+date: "2025-08-29T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-08-29T00:00:00Z"
-title: Facto diario número 109.
 ---
 Quieres caer mejor a la gente? Llámales por su nombre
 Dale Carnegie, el autor del libro de auto-ayuda más popular de la historia, decía que una de las cosas más importantes para mejorar nuestro don de gentes es llamar a la gente por su nombre, porque es la palabra que más nos gusta escuchar. Es algo bastante fácil de hacer, que la mayoría de gente no hace y muestra a la otra persona que le importamos, especialmente en las primeras fases de la relación

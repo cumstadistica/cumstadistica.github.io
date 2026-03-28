@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 129.
+date: "2025-09-19T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-09-19T00:00:00Z"
-title: Facto diario número 129.
 ---
 Acabar con la caspa es fácil, en verdad.
 

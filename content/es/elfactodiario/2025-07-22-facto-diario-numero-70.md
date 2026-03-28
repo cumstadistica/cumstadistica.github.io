@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 70.
+date: "2025-07-22T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-07-22T00:00:00Z"
-title: Facto diario número 70.
 ---
 La planta siderúrgica de ArcelorMittal que explotó recientemente en Gijón, es la única en Europa que hace todo el proceso desde el mineral al acero.
 

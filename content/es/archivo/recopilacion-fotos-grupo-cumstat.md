@@ -1,7 +1,7 @@
 ---
 title: Repositorio de fotos del grupo Cumstadística
-author: c
 date: "2025-12-13T15:07:47+01:00"
+author: c
 ---
 
 {{< figure src="/images/general/cumstat-grupo-1.webp" alt="Foto del grupo Cumstadística 1" caption="Foto del grupo Cumstadística 1" >}}

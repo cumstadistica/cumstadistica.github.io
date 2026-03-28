@@ -1,9 +1,9 @@
 ---
+title: Facto diario numero 43.
+date: "2025-06-25T00:00:00Z"
 author: j
 categories: ["elfactodiario"]
-date: "2025-06-25T00:00:00Z"
 tags: ["duolingo"]
-title: Facto diario numero 43.
 ---
 Datos. No opiniones.
 

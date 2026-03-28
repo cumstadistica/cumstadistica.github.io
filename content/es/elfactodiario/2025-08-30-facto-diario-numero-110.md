@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 110.
+date: "2025-08-30T00:00:00Z"
 author: u
 categories: ["elfactodiario"]
-date: "2025-08-30T00:00:00Z"
-title: Facto diario número 110.
 ---
 En Teherán, ciudad en la parte de Irán ocupada por los aliados en 1943, se reunieron Joseph Stalin, Franklin D. Roosevelt y Winston Churchill. Aquí se pactaría la apertura de un segundo frente apoyado por los países aliados, así como la estrategia que seguirían hasta el final de la guerra, conocida como "Operación Overlord".
 

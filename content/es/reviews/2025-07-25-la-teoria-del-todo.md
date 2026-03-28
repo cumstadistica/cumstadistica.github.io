@@ -1,10 +1,10 @@
 ---
+title: La teoría del todo
+date: "2025-07-25T00:00:00Z"
 author: j
 categories: ["reviews"]
-date: "2025-07-25T00:00:00Z"
-nota: 8.7
 tags: ["reviewsdej", "cine"]
-title: La teoría del todo
+nota: 8.7
 ---
 
 

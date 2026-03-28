@@ -1,9 +1,9 @@
 ---
-author: j
-date: "2025-10-15T00:00:00Z"
-nota: 10
-tags: ["cine"]
 title: Una mente maravillosa
+date: "2025-10-15T00:00:00Z"
+author: j
+tags: ["cine"]
+nota: 10
 ---
 
 {{< figure src="/images/general/una-mente-maravillosa.webp" alt="Una mente maravillosa" >}}

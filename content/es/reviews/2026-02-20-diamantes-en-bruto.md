@@ -1,10 +1,10 @@
 ---
+title: Diamantes en bruto (2019)
+date: "2026-02-20T00:00:00Z"
 author: u
 categories: ["reviews"]
-date: "2026-02-20T00:00:00Z"
-nota: 8.0
 tags: ["cine", "thriller", "adam sandler"]
-title: Diamantes en bruto (2019)
+nota: 8.0
 ---
 
 ## Reviews de U: Diamantes en bruto (2019)

@@ -1,8 +1,8 @@
 ---
 title: En peores plazas hemos toreado
 date: "2025-12-13T00:00:00Z"
-tags: ['expresiones españolas', 'refranes', 'taurino', 'coloquial']
 author: ['j']
+tags: ['expresiones españolas', 'refranes', 'taurino', 'coloquial']
 ---
 {{< figure src="/images/meme/en-peores-plazas-hemos-toreado.webp" alt="{asset_path.stem}" >}}
 

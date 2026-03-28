@@ -1,9 +1,9 @@
 ---
+title: Facto diario número 10.
+date: "2025-05-21T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-05-21T00:00:00Z"
 tags: ["fernandoalonso"]
-title: Facto diario número 10.
 ---
 
 Fernando Alonso ostenta la vuelta rápido del circuito de karts (y museo) Fernando Alonso.

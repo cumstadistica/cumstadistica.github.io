@@ -2,8 +2,8 @@
 title: American Beauty
 date: "2025-11-20T00:00:00Z"
 author: c
-nota: 7.6
 tags: ["cine", "kevin spacey", "paco", "charo"]
+nota: 7.6
 ---
 
 {{< figure src="/images/general/american-beauty.webp" alt="American Beauty" >}}

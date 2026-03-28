@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 99.
+date: "2025-08-19T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-08-19T00:00:00Z"
-title: Facto diario número 99.
 ---
 Querido cumstatero, si no sabes quién es NENA, cierra telegrama y vete a comprar cultura a granel, que no somos una ONG para la ignorancia. NENA, esa musa alemana que cantó 99 Luftballons, no es solo la voz de una generación, es la prueba viviente de que los 80 fueron un experimento científico que salió regulero, pero nos dejó temazos.
 

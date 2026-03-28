@@ -1,9 +1,9 @@
 ---
-author: j
-date: "2025-10-10T00:00:00Z"
-nota: 8
-tags: ["cine"]
 title: El Contable
+date: "2025-10-10T00:00:00Z"
+author: j
+tags: ["cine"]
+nota: 8
 ---
 
 

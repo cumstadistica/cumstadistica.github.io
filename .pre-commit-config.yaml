@@ -1,20 +1,23 @@
 repos:
   - repo: local
     hooks:
-      - id: jpg-to-webp
-        name: Convert JPG to WebP
+      - id: raster-to-webp
+        name: Convert PNG/JPG to WebP
         entry: scripts/image-to-webp.sh
         language: script
-        # Only trigger on jpg/jpeg files
         files: \.(png|jpg|jpeg|JPG|JPEG)$
-        # Pass the filenames to the script
         pass_filenames: true
       - id: check-date-match
         name: Sync Filename Date and Metadata
         entry: python3 scripts/check-dates.py
         language: python
-        # Only run on markdown files
         files: \.md$
+        pass_filenames: true
+      - id: reorder-frontmatter
+        name: Reorder front matter
+        entry: python3 scripts/reorder-frontmatter.py
+        language: python
+        files: ^content/es/.*\.md$
         pass_filenames: true
       - id: validate-frontmatter
         name: Validate required front matter
@@ -22,9 +25,9 @@ repos:
         language: python
         files: ^content/es/.*\.md$
         pass_filenames: true
-      - id: update-image-ext
-        name: Update Markdown JPG refs to WebP
-        entry: python3 scripts/extensions-jpg-to-webp.py
+      - id: update-raster-refs
+        name: Update Markdown PNG/JPG refs to WebP
+        entry: python3 scripts/update-raster-refs-to-webp.py
         language: python
         files: ^content/.*\.md$
         pass_filenames: true

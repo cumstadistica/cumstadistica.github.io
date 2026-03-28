@@ -1,8 +1,8 @@
 ---
+title: Facto diario 125.
+date: "2025-09-15T00:00:00Z"
 author: j
 categories: ["elfactodiario"]
-date: "2025-09-15T00:00:00Z"
-title: Facto diario 125.
 ---
 Posiblemente el mayor fraude de la música comercial
 

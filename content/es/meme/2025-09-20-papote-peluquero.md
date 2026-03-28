@@ -1,8 +1,8 @@
 ---
+title: El corte de Papote
+date: "2025-09-20T00:00:00Z"
 author: j
 categories: [meme]
-date: "2025-09-20T00:00:00Z"
-title: El corte de Papote
 ---
 
 Qué buen corte me hizo Papote 😎😎😎

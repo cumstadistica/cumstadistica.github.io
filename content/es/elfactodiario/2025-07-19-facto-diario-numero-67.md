@@ -1,8 +1,8 @@
 ---
+title: Facto diario número 67.
+date: "2025-07-19T00:00:00Z"
 author: u
 categories: ["elfactodiario"]
-date: "2025-07-19T00:00:00Z"
-title: Facto diario número 67.
 ---
 Moisés, el elegido por Dios para llevar a Israel a la tierra prometida, era tartamudo y nunca hablaba en público. Todo lo decía su hermano, Aron, que hacía de portavoz. 
 

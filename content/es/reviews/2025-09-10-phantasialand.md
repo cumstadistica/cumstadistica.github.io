@@ -1,10 +1,10 @@
 ---
+title: Phantasialand
+date: "2025-09-10T00:00:00Z"
 author: c
 categories: ["reviews"]
-date: "2025-09-10T00:00:00Z"
-nota: 7.5
 tags: ["lugar"]
-title: Phantasialand
+nota: 7.5
 ---
 
 ## Honesta review de Phantasialand

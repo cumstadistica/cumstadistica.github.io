@@ -1,9 +1,9 @@
 ---
+title: Facto diario número 133
+date: "2025-09-23T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
-date: "2025-09-23T00:00:00Z"
 tags: ["efecto mandela"]
-title: Facto diario número 133
 ---
 
 Según San Google:
