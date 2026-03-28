@@ -2,12 +2,12 @@
 title: 'Facto diario número 148: ¿De verdad “Hacienda se lleva 20 napos”?'
 date: "2025-12-14T00:00:00Z"
 author: ['j', 'calvo']
-tags: ['iva', 'hacienda', 'factura simplificada', 'impuestos', 'consumo', 'perro sanxe', 'calbo cuñao']
+tags: ['iva', 'hacienda', 'factura simplificada', 'impuestos', 'consumo', 'perro sanxe']
 ---
 "¡Perro sanxe se acaba de llevar 20 napos!" —clamaba Calbo cuñao en la comida familiar al ver **IVA** el ticket.
 
 Pero, ¿tenía razón?
- 
+
 Pues no.
 
 Para empezar, no se llama "ticket", sino **factura simplificada**, y es aquella a la que se pueden atener todos los movimientos de naturaleza mercantil de cargo inferior a 1000 euros.

@@ -2,7 +2,6 @@
 title: Acerca De
 date: "2025-03-15T10:16:46+01:00"
 author: cumstadistica
-tags: ["cumstadística"]
 layout: page
 permalink: /acercade
 ---

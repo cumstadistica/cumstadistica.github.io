@@ -2,8 +2,7 @@
 title: "#calvocuñao es Heisenberg #flequillo"
 date: "2025-12-13T00:00:00Z"
 author: ['calvo','j']
-categories: ['meme']
-tags: ['calvocuñao', 'heisenberg', 'breaking-bad', 'flequillo', 'meme']
+tags: ['heisenberg', 'breaking-bad', 'flequillo', 'meme']
 ---
 {{< figure src="/images/meme/calvocunao-heisenberg-flequillo.webp" alt="{asset_path.stem}" >}}
 
