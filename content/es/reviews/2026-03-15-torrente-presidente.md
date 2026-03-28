@@ -2,7 +2,7 @@
 title: Torrente Presidente
 date: "2026-03-15T00:00:00Z"
 author: u
-tags: ['cine', 'torrente', 'review', 'santiago segura']
+tags: ["cine", "torrente", "santiago segura", "kevin spacey", "loco"]
 nota: 7.8
 ---
 

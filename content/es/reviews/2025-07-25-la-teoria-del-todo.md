@@ -2,8 +2,7 @@
 title: La teoría del todo
 date: "2025-07-25T00:00:00Z"
 author: j
-categories: ["reviews"]
-tags: ["reviewsdej", "cine"]
+tags: ["cine", "la vida de"]
 nota: 8.7
 ---
 

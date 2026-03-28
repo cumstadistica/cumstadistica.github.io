@@ -7,6 +7,15 @@ import sys
 ROOT = os.path.join("content", "es")
 AUTHOR_ROOT = os.path.join(ROOT, "author")
 DATED_FILENAME_REGEX = re.compile(r"(\d{4}-\d{2}-\d{2})-[^/\\]+\.md$")
+DISALLOWED_TAGS = {
+    "j",
+    "ma",
+    "review",
+    "reviewsdej",
+    "diario",
+    "lugar",
+    "lugares",
+}
 
 
 def load_valid_authors():
@@ -20,6 +29,25 @@ def load_valid_authors():
 
 
 def parse_author_value(raw):
+    raw = raw.strip()
+    if not raw:
+        return []
+
+    if raw.startswith("[") and raw.endswith("]"):
+        inner = raw[1:-1].strip()
+        if not inner:
+            return []
+        values = []
+        for part in inner.split(","):
+            value = part.strip().strip("\"'")
+            if value:
+                values.append(value)
+        return values
+
+    return [raw.strip("\"'")]
+
+
+def parse_list_value(raw):
     raw = raw.strip()
     if not raw:
         return []
@@ -112,6 +140,13 @@ def validate_file(path, valid_authors):
             categories = [part.strip().strip("\"'") for part in raw_categories[1:-1].split(",") if part.strip()]
             if len(categories) == 1 and categories[0] == section:
                 warnings.append(f"{relpath}: categories duplicates the section name '{section}'")
+
+    tags_match = re.search(r"^tags:\s*(.+)$", frontmatter, re.MULTILINE)
+    if tags_match:
+        tags = parse_list_value(tags_match.group(1))
+        disallowed = sorted({tag for tag in tags if tag.lower() in DISALLOWED_TAGS})
+        if disallowed:
+            errors.append(f"{relpath}: disallowed tag(s): {', '.join(disallowed)}")
 
     return errors, warnings
 

@@ -3,7 +3,7 @@ title: Dead Poets Society
 date: "2025-07-05T00:00:00Z"
 author: j
 categories: ["reviews"]
-tags: ["reviewsdej", "cine"]
+tags: ["cine"]
 nota: 8.6
 ---
 

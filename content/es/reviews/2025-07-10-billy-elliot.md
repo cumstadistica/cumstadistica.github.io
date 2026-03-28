@@ -2,8 +2,7 @@
 title: Billy Elliot
 date: "2025-07-10T00:00:00Z"
 author: j
-categories: ["reviews"]
-tags: ["reviewsdej", "cine"]
+tags: ["cine"]
 nota: 8.2
 ---
 

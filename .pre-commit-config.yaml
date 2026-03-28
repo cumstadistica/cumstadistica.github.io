@@ -13,6 +13,12 @@ repos:
         language: python
         files: \.md$
         pass_filenames: true
+      - id: auto-add-tags
+        name: Auto-add matching tags
+        entry: python3 scripts/auto-add-tags.py
+        language: python
+        files: ^content/es/.*\.md$
+        pass_filenames: true
       - id: reorder-frontmatter
         name: Reorder front matter
         entry: python3 scripts/reorder-frontmatter.py

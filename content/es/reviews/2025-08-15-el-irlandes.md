@@ -2,8 +2,7 @@
 title: El Irlandés
 date: "2025-08-15T00:00:00Z"
 author: j
-categories: ["reviews"]
-tags: ["reviewsdej", "cine", "scorsese", "deniro"]
+tags: ["cine", "scorsese", "deniro", "breaking-bad"]
 nota: 9
 ---
 

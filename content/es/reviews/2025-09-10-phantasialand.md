@@ -3,7 +3,6 @@ title: Phantasialand
 date: "2025-09-10T00:00:00Z"
 author: c
 categories: ["reviews"]
-tags: ["lugar"]
 nota: 7.5
 ---
 
