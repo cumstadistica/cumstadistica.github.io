@@ -7,7 +7,4 @@ cascade:
 theme_version: '2.8.2'
 ---
 
-## Estás más perdido que un ciego en un tiroteo?</h2>
-
-<!-- lychee-ignore -->
-Clica [aquí](acercade) o [aquí](tags/).
+## [Estás más perdido que un ciego en un tiroteo? Click aquí](acercade)
