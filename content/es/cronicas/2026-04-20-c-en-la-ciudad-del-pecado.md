@@ -2,7 +2,7 @@
 title: "C en la ciudad del pecado"
 date: "2026-04-20T00:00:00Z"
 author: [c, j]
-tags: ["belmez", "la vida de", "duisburg", "cerveza", "cordoba", "cocina", "españa"]
+tags: ["belmez", "la vida de", "duisburg", "cerveza", "cordoba", "cocina", "españa", "okei"]
 ---
 
 ## Un día en la vida de J
@@ -60,7 +60,7 @@ La lasaña estaba realmente muy buena. Tener obesidad mórbida definitivamente t
 
 ## La peli: *El Graduado*
 
-Después de cenar vimos la película para la que Cusa tanta expectación había creado: *El Graduado*. No me voy a exceder aquí porque haré review aparte, pero adelanto que Jose se ardió de sobremanera.
+Después de cenar vimos la película para la que Cusa tanta expectación había creado: *El Graduado*. No me voy a exceder aquí porque hice [review](/content/es/reviews/2026-03-30-el-graduado.md), pero adelanto que Jose se ardió de sobremanera.
 
 ## Un nuevo día
 
