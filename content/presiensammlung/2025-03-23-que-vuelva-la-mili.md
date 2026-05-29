@@ -6,7 +6,7 @@ tags: ["quevuelvalamili"]
 ---
 
 
-## Memoria de ocasiones en las que la madre de [U](/content/es/author/u/) ha utilizado el siguiente sticker
+## Memoria de ocasiones en las que la madre de [U](/content/author/u/) ha utilizado el siguiente sticker
 
 {{< figure src="/images/presiensammlung/que-vuelva-la-mili.webp" >}}
 

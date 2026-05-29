@@ -17,19 +17,19 @@ repos:
         name: Auto-add matching tags
         entry: python3 scripts/auto-add-tags.py
         language: python
-        files: ^content/es/.*\.md$
+        files: ^content/.*\.md$
         pass_filenames: true
       - id: reorder-frontmatter
         name: Reorder front matter
         entry: python3 scripts/reorder-frontmatter.py
         language: python
-        files: ^content/es/.*\.md$
+        files: ^content/.*\.md$
         pass_filenames: true
       - id: validate-frontmatter
         name: Validate required front matter
         entry: python3 scripts/validate-frontmatter.py
         language: python
-        files: ^content/es/.*\.md$
+        files: ^content/.*\.md$
         pass_filenames: true
       - id: update-raster-refs
         name: Update Markdown PNG/JPG refs to WebP
@@ -39,7 +39,7 @@ repos:
         pass_filenames: true
 
   - repo: https://github.com/lycheeverse/lychee
-    rev: lychee-v0.18.1
+    rev: nightly
     hooks:
       - id: lychee
         name: Check links with Lychee

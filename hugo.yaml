@@ -1,22 +1,18 @@
-baseURL: https://cumstadistica.github.io
-disablePathToLower: true
-languageCode: es-ES
-title: Cumstadística
-
-taxonomies:
-  category: categories
-  tag: tags
-  author: author
-
-
+baseURL: "https://cumstadistica.github.io/"
+title: "Cumstadística"
 theme: "ananke"
 
+defaultContentLanguage: "es"
+locale: "es-ES"
+disablePathToLower: true
+enableRobotsTXT: true
+sectionPagesMenu: "main"
 resourceDir: "../resources"
 
-DefaultContentLanguage: "es"
-SectionPagesMenu: "main"
-googleAnalytics: ""
-enableRobotsTXT: true
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  author: "author"
 
 markup:
   goldmark:
@@ -26,41 +22,44 @@ markup:
 pagination:
   pagerSize: 20
 
-languages:
-  es:
-    title: "Cumstadística"
-    weight: 1
-    contentDir: "content/es"
-    languageName: "Español"
-    # languageDirection = 'rtl' for Right-To-Left languages
-
 sitemap:
   changefreq: "monthly"
   priority: 0.5
   filename: "sitemap.xml"
 
 outputs:
-  home: ['html', 'rss', 'json']
-  page: ['html']
-  rss: ['rss']
-  section: ['html', 'rss']
-  taxonomy: ['html', 'rss']
-  term: ['html', 'rss']
+  home:
+    - html
+    - rss
+    - json
+  page:
+    - html
+  section:
+    - html
+    - rss
+  taxonomy:
+    - html
+    - rss
+  term:
+    - html
+    - rss
 
 outputFormats:
-  Citas:
+  citas:
     mediaType: "application/json"
     baseName: "citas"
     isPlainText: true
     notAlternative: true
 
-
 params:
   description: "El sitio web de Cumstadística"
-  custom_css: ["css/custom.css"]
-  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class: "bg-black"
   recent_posts_number: 20
+
+  ananke:
+    custom_css:
+      - "css/custom.css"
+
   author:
     name: "Cumstadística"
     email: "cumstadistica.es"

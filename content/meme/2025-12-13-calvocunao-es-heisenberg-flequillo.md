@@ -8,6 +8,6 @@ tags: ['heisenberg', 'breaking-bad', 'flequillo', 'meme']
 
 Jeeser we need to go fishing
 
-La versión de [Jota](/content/es/author/j):
+La versión de [Jota](/content/author/j):
 
 {{< figure src="/images/meme/flequillo-1.webp" alt="{asset_path.stem}" >}}

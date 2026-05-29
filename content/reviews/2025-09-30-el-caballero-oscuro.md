@@ -15,6 +15,6 @@ y muy bueno el debate que la peli te plantea sobre la moral y la correctitud
 y sobre si el fin justifica o no los medios.
 
 Dicho sea de paso, Nicolás Maquiavello nunca pronuncio está frase realmente.
-Es un efecto Mandela. Concateno con [facto](/content/es/elfactodiario/2025-09-28-maquiavello)
+Es un efecto Mandela. Concateno con [facto](/content/elfactodiario/2025-09-28-maquiavello)
 
 Nota: 9.4/10

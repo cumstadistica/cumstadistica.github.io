@@ -13,4 +13,4 @@ Lo sorprendente es que DeVito no hablaba ninguno de estos idiomas antes de comen
 
 {{< youtube id="8iIPdqnNOhs" >}}
 
-Al igual que [Phil Collins](/content/es/tags/phil-collins), quien también dobló las canciones de Hermano Oso y Tarzán en varios idiomas sólo aprendiendolas fonéticamente, Danny DeVito demostró una gran habilidad para adaptar su registro a diferentes idiomas y culturas, lo que contribuyó al éxito de la película en todo el mundo.
+Al igual que [Phil Collins](/content/tags/phil-collins), quien también dobló las canciones de Hermano Oso y Tarzán en varios idiomas sólo aprendiendolas fonéticamente, Danny DeVito demostró una gran habilidad para adaptar su registro a diferentes idiomas y culturas, lo que contribuyó al éxito de la película en todo el mundo.

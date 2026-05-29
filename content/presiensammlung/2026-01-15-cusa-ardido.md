@@ -9,6 +9,6 @@ tags: ["ardido", "quevuelvalamili", "ace attorney", "videobola"]
 
 ## Referencias
 
-- [El artículo de la leche que menciona J](/content/es/elfactodiario/2025-10-01-leche.md)
+- [El artículo de la leche que menciona J](/content/elfactodiario/2025-10-01-leche.md)
 
-- [Dilan, mencionado por U](/content/es/author/dilan/)
+- [Dilan, mencionado por U](/content/author/dilan/)
