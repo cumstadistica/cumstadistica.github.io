@@ -8,6 +8,7 @@ __pycache__/
 public/
 .vscode/
 .hugo_build.lock
+.lycheecache
 resources/
 .markdownlint.json
 .tweeted_posts.txt

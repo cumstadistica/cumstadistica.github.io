@@ -8,9 +8,9 @@ permalink: /acercade
 
 Bienvenido a Cumstadística, el único sitio web donde la estadística y la lógica se mezclan con insultos gratuitos, referencias culturales fuera de lugar y consejos de vida que probablemente arruinen la tuya.
 
-| ## [Personajes](author)
+## [Personajes](/author)
 
-## [Tags](tags)
+## [Tags](/tags)
 
 ## No te pierdas ninguna de nuestras actualizaciones
 

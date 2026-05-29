@@ -16,6 +16,9 @@ taxonomies:
 
 markup:
   goldmark:
+    renderHooks:
+      link:
+        useEmbedded: always
     renderer:
       unsafe: true
 

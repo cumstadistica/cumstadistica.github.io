@@ -37,6 +37,13 @@ repos:
         language: python
         files: ^content/.*\.md$
         pass_filenames: true
+      - id: hugo-build-for-lychee-full
+        name: Build Hugo site for Lychee
+        entry: hugo --destination public --cleanDestinationDir
+        language: system
+        files: ^(content|layouts|static|assets|hugo\.yaml|lychee\.toml|\.pre-commit-config\.yaml)
+        pass_filenames: false
+        stages: [manual]
 
   - repo: https://github.com/lycheeverse/lychee
     rev: lychee-v0.24.2
@@ -44,14 +51,17 @@ repos:
       - id: lychee
         name: Check links with Lychee
         args:
+          - --config=lychee.toml
           - --offline
-          - --no-progress
-          - --include-fragments
-          - --root-dir=.
-          - --fallback-extensions=md,html,_index.md
-          - "--remap=/assets/(.*) /static/assets/$1"
-          - "--remap=/images/(.*) /static/images/$1"
-          - "--remap=/videos/(.*) /static/videos/$1"
-          - "--remap=/audios/(.*) /static/audios/$1"
-          - "content/"
+          - --root-dir=public
         files: ^content/.*\.(md|html)$
+      - id: lychee
+        alias: lychee-full
+        name: Check generated site links with Lychee
+        args:
+          - --config=lychee.toml
+          - --root-dir=public
+          - public
+        files: ^(content|layouts|static|assets|hugo\.yaml|lychee\.toml|\.pre-commit-config\.yaml)
+        pass_filenames: false
+        stages: [manual]

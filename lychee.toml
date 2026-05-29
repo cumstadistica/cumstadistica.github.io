@@ -1,0 +1,53 @@
+# Lychee configuration for the generated Hugo site.
+# Run after building with:
+# hugo && lychee --config lychee.toml --root-dir "$PWD/public" public
+
+verbose = "info"
+format = "detailed"
+mode = "emoji"
+no_progress = true
+
+# Hugo emits pretty URLs as directories with index.html files. Pass --root-dir
+# at runtime so absolute links such as /reviews/foo/ are checked locally.
+base_url = "https://cumstadistica.github.io/"
+index_files = ["index.html"]
+extensions = ["html"]
+
+# External sites occasionally block CI bots or rate-limit link checkers.
+method = "get"
+timeout = 30
+max_retries = 2
+retry_wait_time = 2
+max_redirects = 10
+max_concurrency = 8
+host_concurrency = 2
+accept = ["100..=103", "200..=299", "403", "429"]
+cache = true
+max_cache_age = "1d"
+cache_exclude_status = "500.."
+
+user_agent = "curl/8.0 (compatible; lychee link checker for cumstadistica.github.io)"
+
+# Do not inspect generated search indexes, feeds, sourcemaps or static media.
+exclude_path = [
+  "(^|/)public/pagefind/",
+  "\\.xml$",
+  "\\.json$",
+  "\\.map$",
+  "\\.(avif|gif|ico|jpe?g|m3u|mp3|mp4|ogg|png|svg|webm|webp)$",
+]
+
+# Services that commonly reject automated checks or return bot-specific errors.
+exclude = [
+  "^mailto:",
+  "^tel:",
+  "^https?://[^/]+/playlists/.*\\.m3u$",
+  "^https?://(www\\.)?twitter\\.com/",
+  "^https?://(www\\.)?x\\.com/",
+  "^https?://(www\\.)?tiktok\\.com/",
+  "^https?://maps\\.app\\.goo\\.gl/",
+  "^https?://g\\.co/",
+  "^https?://(www\\.)?reddit\\.com/",
+  "^https?://(m\\.)?youtube\\.com/",
+  "^https?://youtu\\.be/",
+]
