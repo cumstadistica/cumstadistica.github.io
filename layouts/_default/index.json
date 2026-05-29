@@ -56,12 +56,4 @@
 {{- end -}}
 
 
-{{ range .Site.Languages }}
-    {{- $details := dict 
-        "code" $.Lang
-    -}}
-{{- $langList = $langList | append $details -}}
-{{ end }}
-
-
 {{- dict "category" $categoriesList "tag" $tagsList "author" $authorList "lang" $langList | jsonify -}}
