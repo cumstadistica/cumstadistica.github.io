@@ -39,7 +39,7 @@ repos:
         pass_filenames: true
 
   - repo: https://github.com/lycheeverse/lychee
-    rev: nightly
+    rev: lychee-v0.24.2
     hooks:
       - id: lychee
         name: Check links with Lychee
