@@ -46,7 +46,7 @@ Mientras tanto, el Cusa Primigenio se reía a carcajadas viendo las desventuras 
 
 El minicusa seguía con sed de respuestas, así que decidió buscar otras fuentes de información que pudieran ayudarle a entender su situación. Y entonces leyó:
 
-{{< quote text=`Emmm, aquí dice que Dios no castiga dos veces… entonces ¿por qué cojones soy feo y enano? No me jodas` author="c" />}}
+{{< quote text=`Emmm, aquí dice que [Dios](/content/tags/dios) no castiga dos veces… entonces ¿por qué cojones soy feo y enano? No me jodas` author="c" />}}
 
 A esto que sale U de su habitación y suelta:
 

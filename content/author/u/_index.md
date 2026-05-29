@@ -16,5 +16,5 @@ Si has hecho, haces, o harás algo que U considere bajo, indigno, malo, humillan
 
 Su sueño es apartarse de toda sociedad y vivir una vida de asceta con un huerto, gallinas y dos perros a los que llamará Ortega y Gasset. Es fan de la filosofía, aunque desdeñe a los filósofos. Además:
 
-* No soporta que la gente no capitalice la «D» en «Dios», aun siendo ateo.
+* [No soporta que la gente no capitalice la «D» en «Dios»](/content/tags/dios), aun siendo ateo.
 * Aboga por un mundo donde todo el mundo mee sentado (dice, con toda razón, que es muchísimo mejor para la próstata, y además no hace ruido). Sus opiniones totalmente fundadas pero amargas para el hombre de a pie le ganan los reproches y los abucheos de los cumstadísticos, pero no por eso desiste en su deber de hacer saber la verdad.

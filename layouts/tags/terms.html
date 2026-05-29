@@ -1,9 +1,5 @@
 <meta name="pagefind:exclude" content="all">
 {{ define "main" }}
-  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center w-50-l lh-copy nested-links white-80">
-    {{- .Content -}}
-  </section>
-
   {{- $terms := .Data.Terms.Alphabetical -}}
   <div class="pa3 pa4-ns w-100 w-80-l center">
     <header class="tc mb4">
@@ -12,6 +8,10 @@
         <p class="f5 white-80 measure center">{{ . }}</p>
       {{ end }}
     </header>
+
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center w-50-l lh-copy nested-links white-80">
+      {{- .Content -}}
+    </section>
 
     {{ if gt (len $terms) 0 }}
       <section class="flex flex-wrap justify-center gap-2">
