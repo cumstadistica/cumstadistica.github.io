@@ -3,8 +3,8 @@
   {{- $terms := .Data.Terms.Alphabetical -}}
   <div class="pa3 pa4-ns w-100 w-80-l center">
     <header class="tc mb4">
-      <h1 class="f2 fw6 white">{{ .Title }}</h1>
-      {{ with .Description }}
+      <h1 class="f2 fw6 white">{{ .Page.Title }}</h1>
+      {{ with .Page.Description }}
         <p class="f5 white-80 measure center">{{ . }}</p>
       {{ end }}
     </header>
