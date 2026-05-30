@@ -24,6 +24,33 @@ body, html, .bg-white, .bg-near-white, .bg-light-gray {
    2. TYPOGRAPHY (Fixing Readability)
    ========================================= */
 
+html,
+body,
+.avenir,
+button,
+input,
+select,
+textarea {
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif !important;
+}
+
+body * {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+.navbar-brand,
+.site-navigation-title,
+.site-navigation-menu {
+  font-family: "Space Grotesk", system-ui, sans-serif !important;
+}
+
 /* Primary Text: Force Black text to White */
 .black, .black-90, .black-80, .near-black, .dark-gray {
   color: #ffffff !important;
