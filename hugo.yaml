@@ -73,9 +73,9 @@ params:
         profilelink: "/index.xml"
       networks:
         twitter:
-          icon: ""
+          icon: "twitter"
         email:
-          icon: ""
+          icon: "envelope"
       follow:
         networks: [
           "twitter",
