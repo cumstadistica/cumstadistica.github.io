@@ -54,7 +54,7 @@ Rollo:
 - tenía como un pequeño delay al moverme o al cambiar la perspectiva, como si mi cerebro llegara medio segundo después que mis ojos
 - y todo iba como a cámara lenta, pero no en plan agobiante, sino bastante tranquilo, bastante *chill*
 
-Eso sí, lo curioso es que, pese a ir un poco en modo NPC premium, podía hacer perfectamente todas mis funciones vitales. Andar, hablar, pensar, existir en sociedad, todo correcto. No estaba yo tirado en el suelo descubriendo los secretos del mercurio rojo ni intentando comunicarme con los ummitas de la cuarta dimensión. De hecho, el Chulin debía esperar que me convirtiera en [el loco del fornite](/content/author/el_loco_de_fortnite/) y al final me quedé con Cusa con dos 2L de cerveza en sangre.
+Eso sí, lo curioso es que, pese a ir un poco en modo NPC premium, podía hacer perfectamente todas mis funciones vitales. Andar, hablar, pensar, existir en sociedad, todo correcto. No estaba yo tirado en el suelo descubriendo los secretos del mercurio rojo ni intentando comunicarme con los ummitas de la cuarta dimensión. De hecho, el Chulin debía esperar que me convirtiera en [el loco del fornite](/author/el_loco_de_fortnite/) y al final me quedé con Cusa con dos 2L de cerveza en sangre.
 
 Así que nada, con el porillo ya asentado en nuestros pulmones, nos pusimos a ver un episodio de El joven Sheldon. Dos notas recién fumados viendo al niño nerdi y luego, a dormir como dos marqueses del Ingreso Mínimo Vital. Una escena de una decadencia tranquila, de una paz rara, de una Europa que aún merece ser salvada.
 
