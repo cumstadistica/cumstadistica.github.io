@@ -2,7 +2,7 @@
 title: La crisálida
 date: "2025-09-20T00:00:00Z"
 author: ["j", "c"]
-tags: ["libro", "quimeras de un crimen", "crítica literaria"]
+tags: ["libro", "quimeras de un crimen", "crítica literaria", "maestro"]
 ---
 
 ## Constructiva crítica de quimeras de un crimen, de U, por J

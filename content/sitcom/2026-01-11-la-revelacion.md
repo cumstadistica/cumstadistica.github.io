@@ -23,7 +23,7 @@ Don Chat, con su infinita sabiduría, le respondió:
 
 Pero Cusa sabía que Chat estaba financiado por Perro Sanxe y la élite judeomasónica, así que decidió preguntarle al que nunca falla: su amigo J, que justo salía de su cuarto y procedía a comerse una pizza prostituto que llevaba dos días en la encimera.
 
-J era un maestro, aunque sus gustos culinarios fueran, como mínimo, cuestionables. Aun así, su criterio era innegable, así que Cusa le planteó su teoría sobre la sitcom.
+J era un [maestro](/tags/maestro/), aunque sus gustos culinarios fueran, como mínimo, cuestionables. Aun así, su criterio era innegable, así que Cusa le planteó su teoría sobre la sitcom.
 
 J, después de darle un buen bocado a la pizza, respondió:
 

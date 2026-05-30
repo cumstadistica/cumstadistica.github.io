@@ -3,6 +3,7 @@ title: Facto diario número 129.
 date: "2025-09-19T00:00:00Z"
 author: c
 categories: ["elfactodiario"]
+tags: ["caspa", "maestro", "lactosa", "salud"]
 ---
 Acabar con la caspa es fácil, en verdad.
 
@@ -15,7 +16,8 @@ Buscando por YT encontré el video de este maestro:
 {{< youtube SVqDO3PSeG0 >}}
 
 Básicamente dice:
-   - no comas azúcares, harinas y mierdas
-   - estate 5 minutos al sol
+
+- no comas azúcares, harinas y mierdas
+- estate 5 minutos al sol
 
 Los resultados han sido impresionantes, no me los creo ni yo, a partir del segundo día dejé de tener caspa. Algo de vez en cuando cae, pero ni punto de comparación de como era antes. Qué fácil era, Dios mío
