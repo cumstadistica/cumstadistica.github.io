@@ -65,6 +65,58 @@ header, nav, .bg-black {
   background-color: #000F1D !important;
 }
 
+.site-navigation-inner {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  min-height: 2.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.site-navigation-title {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.site-navigation-menu {
+  margin: 0 auto !important;
+}
+
+.site-navigation-social {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+}
+
+.site-navigation-social .ananke-socials {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.site-navigation-social .ananke-social-link {
+  padding-top: 0 !important;
+}
+
+@media screen and (max-width: 35em) {
+  .site-navigation-inner {
+    flex-direction: column;
+  }
+
+  .site-navigation-title,
+  .site-navigation-social {
+    position: static;
+    transform: none;
+  }
+}
+
 /* --- Profile Sidebar Colors --- */
 /* Matches your _post.scss logic */
 

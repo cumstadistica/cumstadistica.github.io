@@ -62,7 +62,26 @@ params:
   ananke:
     custom_css:
       - "css/custom.css"
-
+    social:
+      twitter:
+        profile: true
+        username: "cumstadistica"
+      email:
+        profile: true
+        profilelink: "mailto:cumstadistica@gmail.com"
+      rss:
+        profilelink: "/index.xml"
+      networks:
+        twitter:
+          icon: ""
+        email:
+          icon: ""
+      follow:
+        networks: [
+          "twitter",
+          "email",
+          "rss"
+        ]
   author:
     name: "Cumstadística"
     email: "cumstadistica.es"
