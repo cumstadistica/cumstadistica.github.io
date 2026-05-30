@@ -135,12 +135,42 @@ header, nav, .bg-black {
 @media screen and (max-width: 35em) {
   .site-navigation-inner {
     flex-direction: column;
+    gap: 0.5rem;
   }
 
   .site-navigation-title,
   .site-navigation-social {
     position: static;
     transform: none;
+  }
+
+  .site-navigation-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: clamp(0.85rem, 4vw, 1rem);
+    gap: clamp(0.25rem, 2vw, 0.6rem);
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .site-navigation-menu li {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .site-navigation-social .ananke-socials {
+    gap: 0.35rem;
+  }
+
+  .site-navigation-social .ananke-social-link {
+    font-size: 0.9rem;
+    margin-right: 0 !important;
+  }
+
+  .site-navigation-social .icon svg {
+    height: 1rem;
+    width: 1rem;
   }
 }
 
