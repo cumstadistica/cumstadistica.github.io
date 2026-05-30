@@ -1,22 +1,20 @@
 {{ define "main" }}
+  {{ $paginator := .Paginate .Pages }}
+
+  {{ if eq $paginator.PageNumber 1 }}
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center w-40 lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
       {{- .Content -}}
     </section>
-
-  {{ $paginator := .Paginate .Pages }}
+  {{ end }}
 
   
   <div class="pa3 pa4-ns w-100 w-70-ns center">
-    
-    {{/* Section Header */}}
-    <header class="tc mb4">
-      <h1 class="f2 fw6 white" data-pagefind-meta="title">{{ .Title }}</h1>
-      {{ with .Description }}
-        <p class="f5 white-80 measure center">{{ . }}</p>
-      {{ end }}
-    </header>
-
     {{ if gt $paginator.TotalNumberOfElements 0 }}
+      {{/* Pagination */}}
+      <div class="flex justify-center">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+
       <section class="w-100 mw8 center mb5">
         {{ range $paginator.Pages }}
           <div class="w-100 mb4 relative">
