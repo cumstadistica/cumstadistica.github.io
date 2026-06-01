@@ -36,7 +36,7 @@ He de resaltar q no sólo la sona de nuestro piso está llena de mierda, toda ro
 
 Por la tarde teníamos un tour por las catacumbas de san Calixto, a razón de 30 euros por cabeza o por ahí. A c se le ocurre la maravillosa idea de coger un autobús 🤓. Spoiler: Nunca llega el autobús 😂😂😂😂🚌🚌🚌
 
-Al final papote senior llama a un uber y llegamos 45 min más tarde del inicio de dicho tour. Gracias a [Dios](/content/tags/dios) nos hicieron un cambio y pudimos disfrutar el tour 👍.
+Al final papote senior llama a un uber y llegamos 45 min más tarde del inicio de dicho tour. Gracias a [Dios](/tags/dios) nos hicieron un cambio y pudimos disfrutar el tour 👍.
 
 La verdad es que estuvo bastante bien, el guía era un cura panchito q me hacía mucha gracia. Recomendable a pesar del presio, nada más que comentar 👍
 

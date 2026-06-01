@@ -11,7 +11,7 @@ J, en un arranque de generosidad que todavía investiga la Guardia Civil, invit�
 
 ![Okei](/images/okei.webp)
 
-El Jose le dijo a Cusa que estuviera a las 8:30 en el Rectorado. DOS (2) veces. Pero el cusalillo que es más cabezón que un melón, no se enteró y se plantó allí a las 8:00, al que madruga [Dios](/content/tags/dios) le ayuda supongo.
+El Jose le dijo a Cusa que estuviera a las 8:30 en el Rectorado. DOS (2) veces. Pero el cusalillo que es más cabezón que un melón, no se enteró y se plantó allí a las 8:00, al que madruga [Dios](/tags/dios) le ayuda supongo.
 
 Indirectamente hizo un servicio a la comunidad, porque solo gracias a su llamada de coordinación, J se levantó de la cama. El trolaco llegó a las 6AM de Zaragoza y aprovechó esas 2 horas para dormir un poco.
 
@@ -23,7 +23,7 @@ Por lo menos aprendí algo: ya sé pasar de latitud y longitud a coordenadas car
 
 La clase fue más larga que un día sin pan y más densa que las lentejas del cusa. Empezaba a las 10, eran como tres horas de presentación y luego había una práctica/ejercicio. A mi juicio, con 45 minutos de lectura y 1,25 horas de ejercicio aquello iba más que servido, pero la universidad pública tiene esa manía tan suya de confundir duración con profundidad.
 
-El ejercicio era después de comer. Yo hice pellas. Si me quedaba un poco más me convertiría en Don Gerhard Mercator, cartógrafo y comerciante ilustre e hijo pródigo de Duisburg (/content/tags/duisburg). No, gracias. Prefiero ser un cusalillo feliz que un cartógrafo amargado.
+El ejercicio era después de comer. Yo hice pellas. Si me quedaba un poco más me convertiría en Don Gerhard Mercator, cartógrafo y comerciante ilustre e hijo pródigo de Duisburg (/tags/duisburg). No, gracias. Prefiero ser un cusalillo feliz que un cartógrafo amargado.
 
 ## La comida
 

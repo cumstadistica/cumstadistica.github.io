@@ -7,7 +7,7 @@ categories: ["elfactodiario", "fonseca"]
 
 *"De aquel que de su barrio no conoce ni un bar, no te puedes fiar."*
 
-Créditos al pa de [fonseca](/content/tags/fonseca)
+Créditos al pa de [fonseca](/tags/fonseca)
 
 {{< figure src="/images/elfactodiario/solo-fonseca.webp" alt="Solo Fonseca" >}}
 

@@ -48,7 +48,7 @@ Durante toda la peli suenan temazos, aunque en la segunda mitad se empiezan a re
 
 {{<youtube 9C1BCAgu2I8 >}}
 
-Eso sí, por culpa de esta película me ha dado el venazo de meterme en la música de esta gente y madre mía. Paul Simon es un genio, pero lo que [Dios](/content/tags/dios) le dio de talento se lo quitó de altura. Mide 10 centímetros menos que yo, lo cual implica que un Umpa Lumpa le funde al baloncesto.
+Eso sí, por culpa de esta película me ha dado el venazo de meterme en la música de esta gente y madre mía. Paul Simon es un genio, pero lo que [Dios](/tags/dios) le dio de talento se lo quitó de altura. Mide 10 centímetros menos que yo, lo cual implica que un Umpa Lumpa le funde al baloncesto.
 
 ### La historia
 
