@@ -29,7 +29,7 @@ Por la tarde vino el Sesa. Compramos nachos para recordar los viejos tiempos y n
 
 También abrimos el vinito y la verdad es que estaba bastante bien. El trol de la enoteca le supo.
 
-![Admin](/images/cronicas/2026-06-07-u-en-gladbach/vinate.webp)
+![Vinate](/images/cronicas/2026-06-07-u-en-gladbach/vinate.webp)
 
 Con Sesa jugamos al Brotato y a las cartas, al julepe. Todo eso mientras nos alcoholizábamos y nos zampábamos sendas pipsas como gordos.
 
@@ -55,7 +55,13 @@ Estuve todo el camino de vuelta intentando disuadir al Cusa, pero se mantenía f
 
 Al final fuimos y estuvo muy chulo. Adjunto foto.
 
+![XWing](/images/cronicas/2026-06-07-u-en-gladbach/xwing.webp)
+
 ![Admin](/images/cronicas/2026-06-07-u-en-gladbach/admin.webp)
+
+![Han Solo](/images/cronicas/2026-06-07-u-en-gladbach/hansolo.webp)
+
+![Vader](/images/cronicas/2026-06-07-u-en-gladbach/vader.webp)
 
 Luego nos fuimos a Duisburg, que habíamos quedado con los compas de la carrera. Estuvo bien verlos, la verdad. Sobre todo al Kumar, que, por cierto, es el único aparte de nosotros que ha terminado la carrera. Los demás van pisando güevos, los troles.
 
