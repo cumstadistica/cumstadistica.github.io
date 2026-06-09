@@ -2,7 +2,7 @@
 title: U en Gladbach
 date: "2026-06-07T00:00:00Z"
 author: ["u", "c"]
-tags: ["mönchengladbach"]
+tags: ["moenchengladbach"]
 ---
 
 ## Capítulo 0
@@ -51,7 +51,7 @@ Nos damos la vuelta para recogerlas y, por el camino, miro en internet el precio
 
 Estuve todo el camino de vuelta intentando disuadir al Cusa, pero se mantenía férreo en su posición: me iba a invitar.
 
-{{< quote text=`No sois conscientes de la tabarra que me dio por 14€ de mierda, que ni siquiera iba a pagar él. Como maniobra de sabotaje, intentó convencerme de ir a un Minigolf que estaba a tomar por culo (y que encima era más caro). Yo ya conozco al U (y su tacañería extrema) y simplemente sudé.` author=c >}}
+{{< quote text=`No sois conscientes de la tabarra que me dio por 14€ de mierda, que ni siquiera iba a pagar él. Como maniobra de sabotaje, intentó convencerme de ir a un Minigolf que estaba a tomar por culo (y que encima era más caro). Yo ya conozco al U (y su tacañería extrema) y simplemente sudé.` author=c />}}
 
 Al final fuimos y estuvo muy chulo. Adjunto foto.
 
@@ -103,7 +103,7 @@ Comimos barbacoa y Sesa estuvo todo el tiempo dándome la chapa con que él hab�
 
 Nos quisimos meter en la sauna, pero el pa de Sesa no nos dejó. Dijo que estaba húmeda (??) o algo. No sé. Está duro y el Sesa con su pa tiene sero (0️⃣) posibilidades de negociación.
 
-{{< quote text=`U, lo que pasó es que le explotó una válvula de agua y se inundó un poco una parte del sótano` author=c >}}
+{{< quote text=`U, lo que pasó es que le explotó una válvula de agua y se inundó un poco una parte del sótano` author=c />}}
 
 En fin. Nos bañamos en la piscina, que está genial.
 
@@ -125,7 +125,7 @@ Pero la verdad es que estaba muy bueno todo. Eso sí.
 
 Al final me cobraron 70 ñapos, que es dinero, pero bueno. Como me estuvieron metiendo miedo todo el día me esperaba más, así que me pareció razonable.
 
-{{< quote text=`U, a estas alturas de la vida no sabes q Sesa es un dramático?` author= c >}}
+{{< quote text=`U, a estas alturas de la vida no sabes q Sesa es un dramático?` author= c />}}
 
 Luego, como se podrá imaginar, con la barriga llena y más sobrios que un cura en un entierro, a Cusa y a mí se nos quitaron las ganas de hacer algo como no fuera irnos a su casa a jugar al Brotato.
 
@@ -159,7 +159,7 @@ Sin nada que hacer, hijos de su chingada madre.
 
 Pasamos el día jugando a jueguitos y viendo [vídeos de NEGROGAYMER](https://www.youtube.com/@NEGROGAYMER54).
 
-{{< video /videos/negrogaymer.webm >}}
+{{< video src="/videos/negrogaymer.webm" >}}
 
 Nos dimos un paseo y nos encontramos un Monopoly grati en la calle.
 
