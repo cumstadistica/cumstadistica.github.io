@@ -30,11 +30,6 @@ sitemap:
   priority: 0.5
   filename: "sitemap.xml"
 
-
-services:
-  googleAnalytics:
-    ID: "G-H0EDYQYHXR"
-
 outputs:
   home:
     - html
