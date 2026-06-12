@@ -3,6 +3,7 @@ title: El árbol de la ciencia, Pío Baroja.
 date: "2025-04-10T00:00:00Z"
 author: u
 tags: ["literatura", "la vida de", "historia", "libro"]
+nota: 7.75
 ---
 
 {{< figure src="/images/general/arbol-ciencia.webp" alt="El Árbol de la Ciencia" >}}
@@ -20,6 +21,8 @@ La historia se divide en dos partes principales, divididas por un interludio fil
 *Si Pío Baroja le hubiera dado este libro a C para que lo corrigiera, este le hubiera dicho que pasara la tijera.*
 
 En general, me ha gustado la manera en la que el personaje de Andrés evoluciona, y me parece realmente excelente la manera en la que se cuenta. Bien es cierto que hubiera agradecido un poco más de trama y menos rodeos, pero al final tengo que darle mis respetos a don Pío Baroja.
+
+NOTA FINAL: 7.75/10
 
 ### Apunte de C
 
