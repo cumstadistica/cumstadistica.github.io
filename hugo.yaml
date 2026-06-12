@@ -30,6 +30,11 @@ sitemap:
   priority: 0.5
   filename: "sitemap.xml"
 
+
+services:
+  googleAnalytics:
+    ID: "G-H0EDYQYHXR"
+
 outputs:
   home:
     - html
@@ -56,6 +61,10 @@ outputFormats:
 
 params:
   description: "El sitio web de Cumstadística"
+  images:
+    - "/images/CUMSTAT.webp"
+  social:
+    twitter: "cumstadistica"
   background_color_class: "bg-black"
   recent_posts_number: 20
 

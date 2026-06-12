@@ -13,12 +13,14 @@
     {{ else }}
       <meta name="robots" content="noindex, nofollow">
     {{ end }}
-    {{ with .Params.author | compare.Default .Site.Params.author }}
-      {{- $author := . -}}
-      {{- if reflect.IsSlice . -}}
-        {{- $author = collections.Delimit . ", " | transform.Plainify -}}
+    {{ with .Params.author | compare.Default .Site.Params.author.name }}
+      {{- $authorNames := slice -}}
+      {{- $authorValues := cond (reflect.IsSlice .) . (slice .) -}}
+      {{- range $authorValues -}}
+        {{- $authorPage := site.GetPage (printf "author/%s" .) -}}
+        {{- $authorNames = $authorNames | append (cond $authorPage $authorPage.Title .) -}}
       {{- end -}}
-      <meta name="author" content="{{ $author }}">
+      <meta name="author" content="{{ collections.Delimit $authorNames ", " | transform.Plainify }}">
     {{ end }}
 
     {{ partials.Include "site-style.html" . }}
@@ -41,14 +43,13 @@
       <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}
 
-    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
-    {{/* former internal templates */}}
+    {{/* Social previews and structured metadata. Configure defaults in hugo.yaml. */}}
     {{ partial "opengraph.html" . -}}
     {{ partial "schema.html" . -}}
     {{ partial "twitter_cards.html" . -}}
 
     {{ if hugo.IsProduction }}
-      {{/* former internal template */}}
+      {{/* Enabled when services.googleAnalytics.ID is set in hugo.yaml. */}}
       {{ partial "google_analytics.html" . }}
     {{ end }}
 	{{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
