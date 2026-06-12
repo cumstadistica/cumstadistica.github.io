@@ -2,7 +2,6 @@
 title: J en la región que no existe
 date: "2025-04-25T00:00:00Z"
 author: j
-categories: [cronicas]
 tags: [murcia]
 ---
 

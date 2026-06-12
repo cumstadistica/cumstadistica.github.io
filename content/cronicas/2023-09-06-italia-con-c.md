@@ -2,7 +2,6 @@
 title: Italia con C 🍕
 date: "2023-09-06T00:00:00Z"
 author: c
-categories: [cronicas]
 tags: ["italia", "roma", "florencia", "milan", "pisa", "pizza", "vacaciones", "papote", "viaje", "tren"]
 ---
 

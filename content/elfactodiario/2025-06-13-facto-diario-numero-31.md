@@ -2,7 +2,6 @@
 title: Facto diario número 31.
 date: "2025-06-13T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 El lore de lorem ipsum:
 Está escrito en pseudo latín y parte de un tratado de Cicerón, "Sobre los límites del bien y del mal"

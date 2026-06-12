@@ -2,7 +2,6 @@
 title: Estoy en mi prime
 date: "2025-11-05T00:00:00Z"
 author: j
-categories: ["meme"]
 ---
 
 Sabes que has llegado a tu peak en la vida cuando te meten en este grupo.

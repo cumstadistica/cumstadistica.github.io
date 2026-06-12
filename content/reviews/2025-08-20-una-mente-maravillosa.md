@@ -2,7 +2,6 @@
 title: Una mente maravillosa (C)
 date: "2025-08-20T00:00:00Z"
 author: c
-categories: ["reviews"]
 tags: ["cine"]
 nota: 7
 ---

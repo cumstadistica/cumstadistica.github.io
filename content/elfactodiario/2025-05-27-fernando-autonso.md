@@ -2,7 +2,6 @@
 title: Facto diario número 27.
 date: "2025-05-27T00:00:00Z"
 author: c
-categories: ["elfactodiario", "meme"]
 tags: ["fernandoalonso"]
 ---
 

@@ -2,7 +2,6 @@
 title: Facto diario número 14.
 date: "2025-05-25T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 tags: ["fernandoalonso"]
 ---
 

@@ -2,7 +2,6 @@
 title: Facto diario número 12.
 date: "2025-05-23T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 
 // MEJORAR FACTO

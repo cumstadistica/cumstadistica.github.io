@@ -2,7 +2,6 @@
 title: Facto diario número 140.
 date: "2025-09-30T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 Los alemanes tienen un teletexto completamente funcional al que se puede acceder desde la Red.
 

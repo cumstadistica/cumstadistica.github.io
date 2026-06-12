@@ -2,7 +2,6 @@
 title: Facto diario número 50.
 date: "2025-07-02T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 El Milagro de la Catedral de Colonia
 

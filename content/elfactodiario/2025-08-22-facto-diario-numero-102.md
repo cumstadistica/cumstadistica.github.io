@@ -2,7 +2,6 @@
 title: Facto diario número 102.
 date: "2025-08-22T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 tags: ["musicote"]
 ---
 Qué tienen en común, el vocalista de Triana, Camarón y Ray Heredia?

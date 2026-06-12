@@ -2,7 +2,6 @@
 title: Facto diario número 9.
 date: "2025-05-20T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 tags: ["fernandoalonso"]
 ---
 

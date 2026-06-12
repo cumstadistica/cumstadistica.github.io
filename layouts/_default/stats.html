@@ -1,0 +1,173 @@
+{{ define "header" }}{{ partials.Include "site-navigation.html" . }}{{ end }}
+
+{{ define "main" }}
+  {{ $pages := where site.RegularPages "RelPermalink" "ne" .RelPermalink }}
+  {{ $datedPages := where $pages "Date" "!=" nil }}
+  {{ $latest := index (sort $datedPages "Date" "desc") 0 }}
+  {{ $first := index (sort $datedPages "Date" "asc") 0 }}
+  {{ $currentYear := now.Format "2006" }}
+  {{ $currentMonth := now.Format "2006-01" }}
+  {{ $postsThisYear := 0 }}
+  {{ $postsThisMonth := 0 }}
+  {{ $wordCount := 0 }}
+
+  {{ range $pages }}
+    {{ $wordCount = add $wordCount .WordCount }}
+    {{ if eq (.Date.Format "2006") $currentYear }}
+      {{ $postsThisYear = add $postsThisYear 1 }}
+    {{ end }}
+    {{ if eq (.Date.Format "2006-01") $currentMonth }}
+      {{ $postsThisMonth = add $postsThisMonth 1 }}
+    {{ end }}
+  {{ end }}
+
+  {{ $reviewPages := where $pages "Section" "reviews" }}
+  {{ $reviewSum := 0.0 }}
+  {{ $ratedReviews := 0 }}
+  {{ range $reviewPages }}
+    {{ with .Params.nota }}
+      {{ $reviewSum = add $reviewSum (float .) }}
+      {{ $ratedReviews = add $ratedReviews 1 }}
+    {{ end }}
+  {{ end }}
+
+  {{ $sectionRows := slice }}
+  {{ range $pages.GroupBy "Section" }}
+    {{ $sectionPage := site.GetPage (printf "%s/_index.md" .Key) }}
+    {{ $title := cond $sectionPage $sectionPage.Title (.Key | humanize | title) }}
+    {{ $sectionRows = $sectionRows | append (dict "name" .Key "title" $title "count" (len .Pages) "url" (printf "/%s/" .Key)) }}
+  {{ end }}
+  {{ $sectionRows = sort $sectionRows "count" "desc" }}
+
+  {{ $authorRows := slice }}
+  {{ range $name, $taxonomy := site.Taxonomies.author }}
+    {{ $authorPage := site.GetPage (printf "author/%s" $name) }}
+    {{ $title := cond $authorPage $authorPage.Title $name }}
+    {{ $authorRows = $authorRows | append (dict "name" $name "title" $title "count" (len $taxonomy) "url" (printf "/author/%s/" $name)) }}
+  {{ end }}
+  {{ $authorRows = sort $authorRows "count" "desc" }}
+
+  {{ $tagRows := slice }}
+  {{ range $name, $taxonomy := site.Taxonomies.tags }}
+    {{ $tagRows = $tagRows | append (dict "name" $name "title" ($name | humanize) "count" (len $taxonomy) "url" (printf "/tags/%s/" ($name | urlize))) }}
+  {{ end }}
+  {{ $tagRows = sort $tagRows "count" "desc" }}
+
+  <div class="stats-dashboard w-100 w-80-l center ph3 ph4-ns pv3">
+    <header class="stats-header mb4">
+      <h1 class="f2 f1-ns fw7 mv0">{{ .Title }}</h1>
+      <p class="f4 silver lh-copy measure-wide">
+        Radiografia automatica del sitio: volumen, autores, secciones, tags y el termometro de las reviews.
+      </p>
+    </header>
+
+    <section class="stats-grid stats-grid-kpis mb4">
+      <article class="stats-card">
+        <span class="stats-label">Piezas publicadas</span>
+        <strong class="stats-number">{{ len $pages }}</strong>
+      </article>
+      <article class="stats-card">
+        <span class="stats-label">Palabras totales</span>
+        <strong class="stats-number">{{ lang.FormatNumber 0 $wordCount }}</strong>
+      </article>
+      <article class="stats-card">
+        <span class="stats-label">Autores</span>
+        <strong class="stats-number">{{ len site.Taxonomies.author }}</strong>
+      </article>
+      <article class="stats-card">
+        <span class="stats-label">Tags</span>
+        <strong class="stats-number">{{ len site.Taxonomies.tags }}</strong>
+      </article>
+    </section>
+
+    <section class="stats-grid stats-grid-kpis mb4">
+      <article class="stats-card">
+        <span class="stats-label">Este anio</span>
+        <strong class="stats-number">{{ $postsThisYear }}</strong>
+      </article>
+      <article class="stats-card">
+        <span class="stats-label">Este mes</span>
+        <strong class="stats-number">{{ $postsThisMonth }}</strong>
+      </article>
+      <article class="stats-card">
+        <span class="stats-label">Primera pieza</span>
+        <strong class="stats-number stats-number-date">{{ $first.Date.Format "02/01/2006" }}</strong>
+      </article>
+      <article class="stats-card">
+        <span class="stats-label">Ultima pieza</span>
+        <strong class="stats-number stats-number-date">{{ $latest.Date.Format "02/01/2006" }}</strong>
+      </article>
+    </section>
+
+    <section class="stats-grid stats-grid-main">
+      <article class="stats-panel">
+        <h2>Secciones</h2>
+        <div class="stats-list">
+          {{ range first 8 $sectionRows }}
+            {{ $pct := div (mul .count 100.0) (len $pages) }}
+            <a class="stats-row" href="{{ .url }}">
+              <span>{{ .title }}</span>
+              <strong>{{ .count }}</strong>
+              <i style="width: {{ $pct }}%"></i>
+            </a>
+          {{ end }}
+        </div>
+      </article>
+
+      <article class="stats-panel">
+        <h2>Autores</h2>
+        <div class="stats-list">
+          {{ range first 8 $authorRows }}
+            {{ $pct := div (mul .count 100.0) (len $pages) }}
+            <a class="stats-row" href="{{ .url }}">
+              <span>{{ .title }}</span>
+              <strong>{{ .count }}</strong>
+              <i style="width: {{ $pct }}%"></i>
+            </a>
+          {{ end }}
+        </div>
+      </article>
+
+      <article class="stats-panel">
+        <h2>Reviews</h2>
+        <div class="stats-review-score">
+          {{ if gt $ratedReviews 0 }}
+            <strong>{{ div $reviewSum $ratedReviews | printf "%.2f" }}</strong>
+            <span>nota media en {{ $ratedReviews }} reviews puntuadas</span>
+          {{ else }}
+            <strong>N/A</strong>
+            <span>todavia no hay reviews puntuadas</span>
+          {{ end }}
+        </div>
+        <dl class="stats-mini">
+          <div><dt>Total reviews</dt><dd>{{ len $reviewPages }}</dd></div>
+          <div><dt>Sin nota</dt><dd>{{ sub (len $reviewPages) $ratedReviews }}</dd></div>
+        </dl>
+      </article>
+
+      <article class="stats-panel">
+        <h2>Ultimas piezas</h2>
+        <ol class="stats-recent">
+          {{ range first 7 (sort $pages "Date" "desc") }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <time>{{ .Date.Format "02/01/2006" }}</time>
+            </li>
+          {{ end }}
+        </ol>
+      </article>
+    </section>
+
+    <section class="stats-grid stats-grid-main mt4">
+      <article class="stats-panel stats-panel-wide">
+        <h2>Tags mas usados</h2>
+        <div class="stats-tags">
+          {{ range first 24 $tagRows }}
+            <a href="{{ .url }}">{{ .title }} <span>{{ .count }}</span></a>
+          {{ end }}
+        </div>
+      </article>
+
+    </section>
+  </div>
+{{ end }}

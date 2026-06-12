@@ -2,7 +2,6 @@
 title: La Terminal
 date: "2025-09-15T00:00:00Z"
 author: c
-categories: ["reviews"]
 tags: ["cine"]
 nota: 9
 ---

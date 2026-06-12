@@ -2,7 +2,6 @@
 title: Adolescence
 date: "2025-07-20T00:00:00Z"
 author: j
-categories: ["reviews"]
 tags: ["cine"]
 nota: 9.9
 ---

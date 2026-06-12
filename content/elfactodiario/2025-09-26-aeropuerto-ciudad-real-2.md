@@ -2,7 +2,6 @@
 title: Facto diario número 136
 date: "2025-09-26T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 tags: ["CiudadReal"]
 ---
 

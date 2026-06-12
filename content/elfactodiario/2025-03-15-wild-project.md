@@ -2,7 +2,6 @@
 title: Facto diario número 1.
 date: "2025-03-15T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 ---
 
 El proyecto salvaje de jorge el salvaje estaría wapo si Jorge el salvaje dejara hablar a sus invitados

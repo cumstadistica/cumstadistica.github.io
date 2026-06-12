@@ -2,7 +2,6 @@
 title: Facto diario número 107.
 date: "2025-08-27T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 El mejor sitio para abrir un nuevo bar
 

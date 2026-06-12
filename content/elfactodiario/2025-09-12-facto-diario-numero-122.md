@@ -2,7 +2,6 @@
 title: Facto diario número 122.
 date: "2025-09-12T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 ---
 En Cloudy with a Chance of Meatballs (2009), el diseño del protagonista Flint Lockwood está inspirado en una patilla de cassette de los 90... literalmente. Los creadores dijeron que querían que pareciera "un nerd tan intenso que incluso su peinado desafiara la gravedad, como sus inventos". Y de ahí ese pelucón que parece que metió los dedos en un enchufe mientras se tomaba un Monster.
 

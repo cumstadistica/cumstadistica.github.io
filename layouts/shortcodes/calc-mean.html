@@ -11,16 +11,24 @@
 
 {{/* --- 2. Process Data --- */}}
 {{ range .Page.Pages }}
-  {{/* Get Author (default to "Unknown" if missing) */}}
-  {{ $author := .Params.author | default "Unknown" }}
-
-  {{/* Add to unique author list if not present */}}
-  {{ if not (in $uniqueAuthors $author) }}
-    {{ $uniqueAuthors = $uniqueAuthors | append $author }}
+  {{/* Normalize author front matter so both "j" and ["j", "c"] work. */}}
+  {{ $authorParam := .Params.author | default "Unknown" }}
+  {{ $authors := slice }}
+  {{ if reflect.IsSlice $authorParam }}
+    {{ $authors = $authorParam | uniq }}
+  {{ else }}
+    {{ $authors = slice $authorParam }}
   {{ end }}
 
-  {{/* Increment total articles for this author */}}
-  {{ $data.Add (printf "%s_count" $author) 1 }}
+  {{ range $author := $authors }}
+    {{/* Add to unique author list if not present */}}
+    {{ if not (in $uniqueAuthors $author) }}
+      {{ $uniqueAuthors = $uniqueAuthors | append $author }}
+    {{ end }}
+
+    {{/* Increment total articles for this author */}}
+    {{ $data.Add (printf "%s_count" $author) 1 }}
+  {{ end }}
 
   {{/* Check if Note exists */}}
   {{ with .Params.nota }}
@@ -31,58 +39,62 @@
     {{ $globalRatedCount = add $globalRatedCount 1 }}
 
     {{/* Update Author Stats */}}
-    {{ $data.Add (printf "%s_sum" $author) $val }}
-    {{ $data.Add (printf "%s_rated_count" $author) 1 }}
+    {{ range $author := $authors }}
+      {{ $data.Add (printf "%s_sum" $author) $val }}
+      {{ $data.Add (printf "%s_rated_count" $author) 1 }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
-{{/* --- 3. Output Global Summary --- */}}
-<div class="stats-summary">
-  <p><strong>Número de posts:</strong> {{ $totalPosts }}</p>
-  <p><strong>Nota media global:</strong> 
-    {{ if gt $globalRatedCount 0 }}
-      {{ div $globalSum $globalRatedCount | printf "%.2f" }} 
-      <small> (basado en {{ $globalRatedCount }} posts con nota)</small>
-    {{ else }}
-      N/A
-    {{ end }}
-  </p>
-</div>
+<div class="calc-mean">
+  {{/* --- 3. Output Global Summary --- */}}
+  <div class="stats-summary">
+    <p><strong>Número de posts:</strong> {{ $totalPosts }}</p>
+    <p><strong>Nota media global:</strong> 
+      {{ if gt $globalRatedCount 0 }}
+        {{ div $globalSum $globalRatedCount | printf "%.2f" }} 
+        <small> (basado en {{ $globalRatedCount }} posts con nota)</small>
+      {{ else }}
+        N/A
+      {{ end }}
+    </p>
+  </div>
 
-<hr>
+  <hr>
 
-{{/* --- 4. Output Author Table --- */}}
-<table>
-  <thead>
-    <tr>
-      <th>Autor</th>
-      <th>Artículos</th>
-      <th>Nota Media</th>
-    </tr>
-  </thead>
-  <tbody>
-    {{ range $uniqueAuthors }}
-      {{ $count := $data.Get (printf "%s_count" .) }}
-      {{ $sum := $data.Get (printf "%s_sum" .) }}
-      {{ $ratedCount := $data.Get (printf "%s_rated_count" .) }}
-
+  {{/* --- 4. Output Author Table --- */}}
+  <table>
+    <thead>
       <tr>
-        <td><strong>{{ . }}</strong></td>
-        <td>
-        {{ $count }} 
-        ({{ if gt $totalPosts 0 }}{{ div (mul $count 100.0) $totalPosts | printf "%.2f" }}
-        {{ else }}
-            0.00
-        {{ end }}%)
-        </td>
-        <td>
-          {{ if gt $ratedCount 0 }}
-            {{ div $sum $ratedCount | printf "%.2f" }}
-          {{ else }}
-            —
-          {{ end }}
-        </td>
+        <th>Autor</th>
+        <th>Artículos</th>
+        <th>Nota Media</th>
       </tr>
-    {{ end }}
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      {{ range $uniqueAuthors }}
+        {{ $count := $data.Get (printf "%s_count" .) }}
+        {{ $sum := $data.Get (printf "%s_sum" .) }}
+        {{ $ratedCount := $data.Get (printf "%s_rated_count" .) }}
+
+        <tr>
+          <td><strong>{{ . }}</strong></td>
+          <td>
+          {{ $count }} 
+          ({{ if gt $totalPosts 0 }}{{ div (mul $count 100.0) $totalPosts | printf "%.2f" }}
+          {{ else }}
+              0.00
+          {{ end }}%)
+          </td>
+          <td>
+            {{ if gt $ratedCount 0 }}
+              {{ div $sum $ratedCount | printf "%.2f" }}
+            {{ else }}
+              —
+            {{ end }}
+          </td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>

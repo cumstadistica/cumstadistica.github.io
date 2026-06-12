@@ -2,7 +2,6 @@
 title: Facto diario número 142.
 date: "2025-10-02T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 ---
 Cuanto más come Brad Pitt on-screen, más exitosa es la película.
 

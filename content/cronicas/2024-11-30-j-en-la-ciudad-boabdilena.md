@@ -2,7 +2,6 @@
 title: J en la ciudad boabdileña 🧕
 date: "2024-11-30T00:00:00Z"
 author: j
-categories: [cronicas]
 tags: [granada]
 ---
 

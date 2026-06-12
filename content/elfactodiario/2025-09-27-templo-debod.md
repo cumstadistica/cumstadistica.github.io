@@ -2,7 +2,6 @@
 title: Facto diario número 137
 date: "2025-09-27T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 ---
 
 **Cuando Franco se llevó una pirámide a España.**

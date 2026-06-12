@@ -2,7 +2,6 @@
 title: Chip caminando al ritmo de Bee Gees
 date: "2025-09-27T00:00:00Z"
 author: c
-categories: ["meme"]
 tags: ["musicote"]
 ---
 

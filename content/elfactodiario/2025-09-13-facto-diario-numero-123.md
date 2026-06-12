@@ -2,7 +2,6 @@
 title: Facto diario número 123.
 date: "2025-09-13T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 En 1976, Ramsés II, el faraón del antiguo Egipto, recibió un pasaporte egipcio oficial para poder ser transportado a París y recibir tratamiento de conservación contra el deterioro de su momia. En el pasaporte, bajo “Profesión”, rezaba: “Rey (fallecido)”.
 

@@ -2,7 +2,6 @@
 title: Facto diario número 120.
 date: "2025-09-10T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 Brevísima historia de los límites de velocidad en España
 

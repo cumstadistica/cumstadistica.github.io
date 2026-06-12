@@ -2,7 +2,6 @@
 title: Facto diario número 134
 date: "2025-09-24T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 tags: ["efecto mandela"]
 ---
 

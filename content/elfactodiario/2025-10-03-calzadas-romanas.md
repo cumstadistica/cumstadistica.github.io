@@ -2,7 +2,6 @@
 title: Facto diario número 143.
 date: "2025-10-03T00:00:00Z"
 author: ['j', 'calvo']
-categories: ["elfactodiario"]
 tags: ["imperioromano", "renfe", "adif", "ingenieriacivil"]
 ---
 

@@ -2,7 +2,6 @@
 title: V de Vendetta
 date: "2026-02-22T00:00:00Z"
 author: j
-categories: ["reviews"]
 tags: ["cine", "thriller", "politica", "accion"]
 nota: 9
 ---

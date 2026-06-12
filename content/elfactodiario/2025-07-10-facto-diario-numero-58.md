@@ -2,7 +2,6 @@
 title: Facto diario número 58.
 date: "2025-07-10T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 ---
 "Good vibrations", de "The beach boys" (los mismos de "I get around") es considerada según estudios la canción más alegre del mundo.
 

@@ -2,7 +2,6 @@
 title: La vita e bella
 date: "2025-06-10T00:00:00Z"
 author: j
-categories: ["reviews"]
 tags: ["cine"]
 nota: 9.2
 ---

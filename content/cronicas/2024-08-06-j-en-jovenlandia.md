@@ -2,7 +2,6 @@
 title: J en Jovenlandia 🇲🇦
 date: "2024-08-06T00:00:00Z"
 author: j
-categories: [cronicas]
 tags: ["moros", "marruecos", "segunda guerra mundial", "bitacora"]
 ---
 

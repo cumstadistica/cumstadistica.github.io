@@ -66,18 +66,7 @@
         {{ $context.Date.Format "Jan 2, 2006" }}
       </div>
 
-      {{/* 5. Categories */}}
-      {{ with $context.Params.categories }}
-        <div class="mt3 f7 ttu tracked silver">
-          {{ range . }}
-            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="link silver dim db mb2">
-              {{ . }}
-            </a>
-          {{ end }}
-        </div>
-      {{ end }}
-
-      {{/* 6. Tags */}}
+      {{/* 5. Tags */}}
       {{ with $context.Params.tags }}
         <div class="mt2 flex flex-wrap justify-center">
           {{ range . }}

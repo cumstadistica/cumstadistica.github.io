@@ -2,7 +2,6 @@
 title: The Hangover
 date: "2025-06-15T00:00:00Z"
 author: j
-categories: ["reviews"]
 tags: ["cine", "comedia"]
 nota: 6
 ---

@@ -2,7 +2,6 @@
 title: Facto diario numero 45.
 date: "2025-06-27T00:00:00Z"
 author: j
-categories: ["elfactodiario"]
 ---
 Mortadelo y Filemón contra Jimmy el cachondo es una de las obras maestras del cine español.
 

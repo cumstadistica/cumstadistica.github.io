@@ -2,7 +2,6 @@
 title: Facto diario numero 64(2⁶).
 date: "2025-07-16T00:00:00Z"
 author: c
-categories: ["elfactodiario"]
 ---
 A pesar de lo duro de la ruptura de fonseca y visualpolitik, según los siguientes datos el calvo cuñao está ganando ahora más bolos q si se hubiera quedado en visualpolitik.
 
