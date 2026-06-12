@@ -5,4 +5,4 @@ author: ["c"]
 tags: ["lobo estepario"]
 ---
 
-![Horario](/videos/meme/lobo_daily_schedule.mp4)
+{{< videos/meme/lobo_daily_schedule.mp4 >}}
