@@ -19,7 +19,14 @@
       {{- range $authorValues -}}
         {{- $authorPage := site.GetPage (printf "author/%s" .) -}}
         {{- $authorNames = $authorNames | append (cond $authorPage $authorPage.Title .) -}}
+    {{ with .Params.author | compare.Default .Site.Params.author.name }}
+      {{- $authorNames := slice -}}
+      {{- $authorValues := cond (reflect.IsSlice .) . (slice .) -}}
+      {{- range $authorValues -}}
+        {{- $authorPage := site.GetPage (printf "author/%s" .) -}}
+        {{- $authorNames = $authorNames | append (cond $authorPage $authorPage.Title .) -}}
       {{- end -}}
+      <meta name="author" content="{{ collections.Delimit $authorNames ", " | transform.Plainify }}">
       <meta name="author" content="{{ collections.Delimit $authorNames ", " | transform.Plainify }}">
     {{ end }}
 
@@ -44,14 +51,11 @@
     {{ end }}
 
     {{/* Social previews and structured metadata. Configure defaults in hugo.yaml. */}}
+    {{/* Social previews and structured metadata. Configure defaults in hugo.yaml. */}}
     {{ partial "opengraph.html" . -}}
     {{ partial "schema.html" . -}}
     {{ partial "twitter_cards.html" . -}}
 
-    {{ if hugo.IsProduction }}
-      {{/* Enabled when services.googleAnalytics.ID is set in hugo.yaml. */}}
-      {{ partial "google_analytics.html" . }}
-    {{ end }}
 	{{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
   </head>
 
