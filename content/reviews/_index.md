@@ -4,4 +4,4 @@ description: Reseñas y opiniones, generalmente sobre películas o libros.
 emoji: "📚"
 ---
 
-The average note score for posts in this category is **{{< calc-mean >}}**.
+Nota media de los posts **{{< calc-mean >}}**.

@@ -1,14 +1,16 @@
-{{ define "main" }}
-
+{{ define "head" }}
+  {{ partials.Include "head-additions.html" . }}
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<div class="mw7 center" id="search"></div>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
+  <script src="/pagefind/pagefind-ui.js" defer></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      new PagefindUI({ element: "#search", showSubResults: true });
     });
   </script>
+{{ end }}
 
+{{ define "main" }}
+  <div class="mw7 center" id="search"></div>
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "white" }}">
     {{ .Content }}
   </article>
