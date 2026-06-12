@@ -19,14 +19,7 @@
       {{- range $authorValues -}}
         {{- $authorPage := site.GetPage (printf "author/%s" .) -}}
         {{- $authorNames = $authorNames | append (cond $authorPage $authorPage.Title .) -}}
-    {{ with .Params.author | compare.Default .Site.Params.author.name }}
-      {{- $authorNames := slice -}}
-      {{- $authorValues := cond (reflect.IsSlice .) . (slice .) -}}
-      {{- range $authorValues -}}
-        {{- $authorPage := site.GetPage (printf "author/%s" .) -}}
-        {{- $authorNames = $authorNames | append (cond $authorPage $authorPage.Title .) -}}
       {{- end -}}
-      <meta name="author" content="{{ collections.Delimit $authorNames ", " | transform.Plainify }}">
       <meta name="author" content="{{ collections.Delimit $authorNames ", " | transform.Plainify }}">
     {{ end }}
 
@@ -50,7 +43,6 @@
       <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}
 
-    {{/* Social previews and structured metadata. Configure defaults in hugo.yaml. */}}
     {{/* Social previews and structured metadata. Configure defaults in hugo.yaml. */}}
     {{ partial "opengraph.html" . -}}
     {{ partial "schema.html" . -}}
