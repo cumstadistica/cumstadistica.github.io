@@ -311,30 +311,49 @@ header, nav, .bg-black {
 
 .site-navigation-inner {
   align-items: center;
-  display: flex;
+  display: grid;
   gap: 1rem;
-  justify-content: center;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   min-height: 2.5rem;
-  position: relative;
   width: 100%;
 }
 
 .site-navigation-title {
-  left: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  justify-self: start;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform: none;
+  white-space: nowrap;
 }
 
 .site-navigation-menu {
+  display: flex;
+  font-size: clamp(1.05rem, 1.35vw, 1.35rem);
+  gap: clamp(0.25rem, 1vw, 1rem);
+  grid-column: 2;
+  justify-self: center;
   margin: 0 auto !important;
 }
 
+.site-navigation-menu li {
+  line-height: 1;
+  padding-left: clamp(0.35rem, 1vw, 1rem) !important;
+  padding-right: clamp(0.35rem, 1vw, 1rem) !important;
+}
+
+.site-navigation-menu a {
+  display: block;
+  padding: 0.15rem 0;
+}
+
 .site-navigation-social {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  justify-self: end;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  transform: none;
   white-space: nowrap;
 }
 
@@ -369,6 +388,11 @@ header, nav, .bg-black {
     gap: 0.5rem;
   }
 
+  .site-navigation {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
   .site-navigation-title,
   .site-navigation-social {
     display: none;
@@ -379,16 +403,22 @@ header, nav, .bg-black {
   .site-navigation-menu {
     display: flex;
     flex-wrap: nowrap;
-    font-size: clamp(0.85rem, 4vw, 1rem);
-    gap: clamp(0.25rem, 2vw, 0.6rem);
+    font-size: clamp(1.45rem, 7.2vw, 1.9rem);
+    gap: clamp(0.05rem, 0.8vw, 0.2rem);
     justify-content: center;
     max-width: 100%;
     overflow: hidden;
   }
 
   .site-navigation-menu li {
+    line-height: 1;
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+
+  .site-navigation-menu a {
+    display: block;
+    padding: 0.12rem clamp(0.08rem, 0.8vw, 0.2rem);
   }
 
   .site-navigation-social .ananke-socials {

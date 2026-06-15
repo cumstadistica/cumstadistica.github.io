@@ -135,15 +135,17 @@
     .ma0{margin:0}.pa0{padding:0}.tc{text-align:center}.dib{display:inline-block}.db{display:block}.list{list-style-type:none}
     .center{margin-left:auto;margin-right:auto}.mw7{max-width:48rem}.measure-wide{max-width:34em}.lh-copy{line-height:1.5}
     .ph3{padding-left:1rem;padding-right:1rem}.pv3{padding-top:1rem;padding-bottom:1rem}.pb7{padding-bottom:16rem}
-    .site-navigation-inner{align-items:center;display:flex;gap:1rem;justify-content:center;min-height:2.5rem;position:relative;width:100%}
-    .site-navigation-title{font-family:"Space Grotesk",system-ui,sans-serif!important;left:0;position:absolute;top:50%;transform:translateY(-50%)}
-    .site-navigation-menu{font-family:"Space Grotesk",system-ui,sans-serif!important;margin:0 auto!important}
-    .site-navigation-social{position:absolute;right:0;top:50%;transform:translateY(-50%);white-space:nowrap}
+    .site-navigation-inner{align-items:center;display:grid;gap:1rem;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);min-height:2.5rem;width:100%}
+    .site-navigation-title{font-family:"Space Grotesk",system-ui,sans-serif!important;justify-self:start;max-width:100%;min-width:0;overflow:hidden;text-overflow:ellipsis;transform:none;white-space:nowrap}
+    .site-navigation-menu{display:flex;font-family:"Space Grotesk",system-ui,sans-serif!important;font-size:clamp(1.05rem,1.35vw,1.35rem);gap:clamp(.25rem,1vw,1rem);grid-column:2;justify-self:center;margin:0 auto!important}
+    .site-navigation-menu li{line-height:1;padding-left:clamp(.35rem,1vw,1rem)!important;padding-right:clamp(.35rem,1vw,1rem)!important}
+    .site-navigation-menu a{display:block;padding:.15rem 0}
+    .site-navigation-social{justify-self:end;max-width:100%;min-width:0;overflow:hidden;transform:none;white-space:nowrap}
     .site-navigation-social .ananke-socials{align-items:center;display:flex;gap:.5rem;justify-content:flex-end}
     .site-navigation-social .ananke-social-link{padding-top:0!important}
     @media screen and (min-width:30em){.ph4-ns{padding-left:2rem;padding-right:2rem}.f4-ns{font-size:1.25rem}}
     @media screen and (min-width:60em){.ph5-l{padding-left:4rem;padding-right:4rem}.pv4-l{padding-top:2rem;padding-bottom:2rem}.tc-l{text-align:center}}
-    @media screen and (max-width:35em){.site-navigation-inner{flex-direction:column;gap:.5rem}.site-navigation-title,.site-navigation-social{display:none;position:static;transform:none}.site-navigation-menu{display:flex;flex-wrap:nowrap;font-size:clamp(.85rem,4vw,1rem);gap:clamp(.25rem,2vw,.6rem);justify-content:center;max-width:100%;overflow:hidden}.site-navigation-menu li{padding-left:0!important;padding-right:0!important}}
+    @media screen and (max-width:35em){.site-navigation{padding-left:0!important;padding-right:0!important}.site-navigation-inner{flex-direction:column;gap:.5rem}.site-navigation-title,.site-navigation-social{display:none;position:static;transform:none}.site-navigation-menu{display:flex;flex-wrap:nowrap;font-size:clamp(1.45rem,7.2vw,1.9rem);gap:clamp(.05rem,.8vw,.2rem);justify-content:center;max-width:100%;overflow:hidden}.site-navigation-menu li{line-height:1;padding-left:0!important;padding-right:0!important}.site-navigation-menu a{display:block;padding:.12rem clamp(.08rem,.8vw,.2rem)}}
   </style>
   <link rel="preload" href="{{ .RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'"{{ with .Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }}>
   <noscript><link rel="stylesheet" href="{{ .RelPermalink }}"{{ with .Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }}></noscript>
