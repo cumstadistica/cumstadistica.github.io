@@ -6,4 +6,4 @@ author: c
 
 Aquí lo vieron primero.
 
-{{< figure src="/images/meme/nintendo-psoe.webp" alt="Nintendo y PSOE" >}}
+{{< figure src="/meme/nintendo-psoe.webp" alt="Nintendo y PSOE" >}}

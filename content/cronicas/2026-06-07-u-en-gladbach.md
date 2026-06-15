@@ -29,7 +29,7 @@ Por la tarde vino el Sesa. Compramos nachos para recordar los viejos tiempos y n
 
 También abrimos el vinito y la verdad es que estaba bastante bien. El trol de la enoteca le supo.
 
-![Vinate](/images/cronicas/2026-06-07-u-en-gladbach/vinate.webp)
+![Vinate](/cronicas/2026-06-07-u-en-gladbach/vinate.webp)
 
 Con Sesa jugamos al Brotato y a las cartas, al julepe. Todo eso mientras nos alcoholizábamos y nos zampábamos sendas pipsas como gordos.
 
@@ -55,13 +55,13 @@ Estuve todo el camino de vuelta intentando disuadir al Cusa, pero se mantenía f
 
 Al final fuimos y estuvo muy chulo. Adjunto foto.
 
-![XWing](/images/cronicas/2026-06-07-u-en-gladbach/xwing.webp)
+![XWing](/cronicas/2026-06-07-u-en-gladbach/xwing.webp)
 
-![Admin](/images/cronicas/2026-06-07-u-en-gladbach/admin.webp)
+![Admin](/cronicas/2026-06-07-u-en-gladbach/admin.webp)
 
-![Han Solo](/images/cronicas/2026-06-07-u-en-gladbach/hansolo.webp)
+![Han Solo](/cronicas/2026-06-07-u-en-gladbach/hansolo.webp)
 
-![Vader](/images/cronicas/2026-06-07-u-en-gladbach/vader.webp)
+![Vader](/cronicas/2026-06-07-u-en-gladbach/vader.webp)
 
 Luego nos fuimos a Duisburg, que habíamos quedado con los compas de la carrera. Estuvo bien verlos, la verdad. Sobre todo al Kumar, que, por cierto, es el único aparte de nosotros que ha terminado la carrera. Los demás van pisando güevos, los troles.
 
@@ -95,15 +95,15 @@ En casa de Sesa vi a Cusa borracho. Qué locura. Esto no me pasaba desde hace mu
 
 Bebimos lo justo para no ponernos como para no disfrutar. También les enseñé algunas biches de Bayreuth y se pusieron ferales. Pero les dije que tuvieran cuidado, que eran malvadas.
 
-{{< video src="/images/cronicas/2026-06-07-u-en-gladbach/borrachin.mp4" >}}
+{{< video src="/cronicas/2026-06-07-u-en-gladbach/borrachin.mp4" >}}
 
-{{< video src="/images/cronicas/2026-06-07-u-en-gladbach/maquiavelismo.mp4" >}}
+{{< video src="/cronicas/2026-06-07-u-en-gladbach/maquiavelismo.mp4" >}}
 
-{{< video src="/images/cronicas/2026-06-07-u-en-gladbach/pelito.mp4" >}}
+{{< video src="/cronicas/2026-06-07-u-en-gladbach/pelito.mp4" >}}
 
-{{< video src="/images/cronicas/2026-06-07-u-en-gladbach/u-llorando-cerveza.mp4" >}}
+{{< video src="/cronicas/2026-06-07-u-en-gladbach/u-llorando-cerveza.mp4" >}}
 
-{{< video src="/images/cronicas/2026-06-07-u-en-gladbach/casoplon-sesa.mp4" >}}
+{{< video src="/cronicas/2026-06-07-u-en-gladbach/casoplon-sesa.mp4" >}}
 
 Comimos barbacoa y Sesa estuvo todo el tiempo dándome la chapa con que él había pagado la comida y que no sé qué, que aceptara lo de invitarlos a una cena de SIEN (1️⃣0️⃣0️⃣) bolos. Le dije q ok, pero en verdad estaba cagado todavía.
 
@@ -113,7 +113,7 @@ Nos quisimos meter en la sauna, pero el pa de Sesa no nos dejó. Dijo que estaba
 
 En fin. Nos bañamos en la piscina, que está genial.
 
-![Piscina](/images/cronicas/2026-06-07-u-en-gladbach/piscina.webp)
+![Piscina](/cronicas/2026-06-07-u-en-gladbach/piscina.webp)
 
 Cómo vive el Sesa.
 
@@ -125,7 +125,7 @@ Sesa nos convenció para que dejásemos las cosas en su casa para poder salir a 
 
 La comida bien. Eso está bastante chulo, pero, en fin, me parece una pijada y una estrategia de los chinos para que te cocines tú tu propia comida. Además lo pedias todo por una tablet. Literalmente los trabajadores estaban de adorno. Putos chinos.
 
-![Hot Pot](/images/cronicas/2026-06-07-u-en-gladbach/hotpot.webp)
+![Hot Pot](/cronicas/2026-06-07-u-en-gladbach/hotpot.webp)
 
 Pero la verdad es que estaba muy bueno todo. Eso sí.
 

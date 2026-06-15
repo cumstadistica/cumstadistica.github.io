@@ -4,7 +4,7 @@ date: "2025-12-13T00:00:00Z"
 author: ['j']
 tags: ['expresiones españolas', 'refranes', 'taurino', 'coloquial']
 ---
-{{< figure src="/images/meme/en-peores-plazas-hemos-toreado.webp" alt="{asset_path.stem}" >}}
+{{< figure src="/meme/en-peores-plazas-hemos-toreado.webp" alt="{asset_path.stem}" >}}
 
 **En peores plazas hemos toreado** es una expresión coloquial española, de origen **taurino**, que significa básicamente:
 

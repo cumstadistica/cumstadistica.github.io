@@ -14,7 +14,7 @@ Para los despistados, la iglesia católica y ortodoxa eran una hasta que separar
 
 A día de hoy, la iglesia católica ha tenido muchas reformas mientras que la ortodoxa, como indica el nombre, es mucho más parecida a la iglesia de los primeros cristianos
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-1.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-1.webp" >}}
 
 La iconografía ortodoxa es muy particular, esta es la Virgen de las 3 Manos. Se encuentra en el Monte Athos, es uno de los sitios más sagrados de la iglesia ortodoxa
 
@@ -22,25 +22,25 @@ La iconografía ortodoxa es muy particular, esta es la Virgen de las 3 Manos. Se
 
 El ruso me recogió de mi casa para eso de las 2 y a las 4 llegamos a Bad Ems, la ciudad dónde veraneaban los zares rusos
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-2.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-2.webp" >}}
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-3.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-3.webp" >}}
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-4.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-4.webp" >}}
 
 Primero fuimos a la iglesia ortodoxa dónde rezaban los zares (segunda foto). Lo que mas loco que vi fue un cuadro del ultimo zar de rusia pintado como un santo, bastante bisarro. Se ve que lo canonizaron
 
 Luego fuimos a los baños termales de la ciudad, madre mia q caros chaval, 20 euros por 2 horas. Ademas tuve q pagar 5 bolos mas pq se me olvido la toalla (soy tonto)
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-5.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-5.webp" >}}
 
 Tras 20 minutos de trayecto llegamos a Geilnau (primera foto), un pueblo muy pequeño donde esta la Skite de San Espiridión (Skite significa pequeño monasterio en griego) (<https://spyridon-skite.de/index.html>).
 
 Fue fundada en el 1989 por el padre Basilio(izda), un monje de origen suizo que estuvo viviendo en el monte Athos, del que hablaré más adelante y Justin Rauer (dcha). Foto de 2004
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-6.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-6.webp" >}}
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-7.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-7.webp" >}}
 
 Entramos en la Skite y me encuentro con el padre Nil, el que maneja el cotarro. Me pregunto un par de cosas y me dio la sensacion de estar hablando con u, pero a un nivel espiritual, no se si me explico. El tio es un genio, fue profesor de teologia universidad de Moscú. Adjunto vídeo del bro hablando de su libro en una conferencia:
 
@@ -50,7 +50,7 @@ Luego hable un poco con el padre Maksym, del que desgraciadamente no he sido cap
 
 Luego cogimos nuestras cosas y nos enseñaron nuestra habitación. Era en el ático, y dormiamos con 2 tios más en dos literal. El ruso me dijo que normalmente tenía la habitación sola para él y su mujer, pero ese fin de semana vino un montón de gente. Tuvieron q poner colchones en el pasillo pq no daban a basto.
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-8.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-8.webp" >}}
 
 Despues estuvimos en la misa verspertina, que duraba de 8 a 12 de la noche, watafa. Ahí vi la iglesia por primera vez, y me parecio bastante loco pq no se parece en casi nada a las iglesias catolicas actuales. Era una sala bastante pequeña llena de cuadros y con bancos solo en la pared.
 
@@ -58,7 +58,7 @@ De hecho los feligreses estan todo el rato de pie en la misa, y los bancos son s
 
 La misa fue un pestiño, me sali unas cuantas veces a dar un paseo por el pueblo pq eso no habia quien se lo tragara. Cuando termino, nos dibujaron una cruz con un pincel mojado de aceite en la frente
 
-{{< figure src="/images/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-9.webp" >}}
+{{< figure src="/cronicas/2025-05-08-este-c-ura-no-es-mi-padre-skite-de-san-espiridion/ste-c-ura-no-es-mi-padre-skite-de-san-espiridion-9.webp" >}}
 
 Tras eso, nos fuimos a dormir y se abrieron las puertas del infierno. En mi habitación dormíamos, el ruso, un gordo, un random y yo. Al gordo a partir de ahora lo llamaré "el fanegas", por lo que sea.
 Bueno el caso es que nos echamos todos a dormir y a eso de media después tanto el ruso como el fanegas empiezan a roncar estruendosamente.

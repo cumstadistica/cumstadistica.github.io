@@ -6,7 +6,7 @@ tags: ["libros", "cervantes", "clásicos", "españa"]
 nota: 10
 ---
 
-![Lobo Estepario en Armadura Castellana](/images/reviews/lobo-quijote.webp)
+![Lobo Estepario en Armadura Castellana](/reviews/lobo-quijote.webp)
 
 > Don Quijote de la Mancha es considerado por muchos la novela más influyente de la historia detrás de la Biblia, con lo cual estoy totalmente de acuerdo. Es la primera novela moderna, en la que Cervantes como todo un capo se mete con lo que era costumbre en ese entonces: las novelas de caballería.
 

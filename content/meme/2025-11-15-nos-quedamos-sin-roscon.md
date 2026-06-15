@@ -5,7 +5,7 @@ author: c
 tags: ["roscon-de-reyes", "navidad"]
 ---
 
-{{< figure src="/images/meme/nos-quedamos-sin-roscon.webp" alt="Nos quedamos sin roscón" >}}
+{{< figure src="/meme/nos-quedamos-sin-roscon.webp" alt="Nos quedamos sin roscón" >}}
 
 El vídeo en cuestión:
 

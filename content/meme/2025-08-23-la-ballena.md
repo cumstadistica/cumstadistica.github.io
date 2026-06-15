@@ -9,4 +9,4 @@ Mi ma: El pan no esta tan duro
 
 El pan:
 
-{{< figure src="/images/meme/la-ballena.webp" alt="La ballena" >}}
+{{< figure src="/meme/la-ballena.webp" alt="La ballena" >}}

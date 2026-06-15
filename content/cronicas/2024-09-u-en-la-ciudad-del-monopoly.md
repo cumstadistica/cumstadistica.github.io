@@ -17,17 +17,17 @@ Nos bajamos en Atocha del tren y nos recoge un taxi a casa de E. El taxista era 
 
 El piso de E es to grande. Está en la glorieta cuatro caminos del monopoly. Tiene un monton de cuadros y cosas raras (Ver imagen 1).
 
-{{< figure src="/images/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-1.webp" >}}
+{{< figure src="/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-1.webp" >}}
 
 El piso puede tener perfectamente 300 metros cuadrados, una locura.
 
 E nos llevó a comprar por si queríamos algo para desayunar y yo me pille unos chokoflakes buenísimos (ver imagen 2)
 
-{{< figure src="/images/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-2.webp" >}}
+{{< figure src="/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-2.webp" >}}
 
 Y después nos fuimos a comer a un sitio americano de ham berguers (invitó E) (ver imagen 3 para la ham bergesaca)
 
-{{< figure src="/images/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-3.webp" >}}
+{{< figure src="/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-3.webp" >}}
 
 Total, volvemos a casa y nos acostamos todos, que mañana queremos levantarnos temprano para ir al prado.
 
@@ -43,7 +43,7 @@ No había tanta gente como pensábamos, y gracias a Dios no nos pidieron el DNI.
 
 El museo chulísimo, me tiré como tres o cuatro horas para verlo todo. Vi este cuadro guapisimo de Velasques que tenia de foto de pantalla (ver imagen 4)
 
-{{< figure src="/images/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-4.webp" >}}
+{{< figure src="/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-4.webp" >}}
 
 así como aproximadamente unos 100000 cuadros de Goya. Hijoputa cuantos cuadros hizo el mamon. Sin exagerar el 10% de todos los cuadros q hay pueden ser de él. Locura.
 
@@ -53,7 +53,7 @@ También entramos a un centro comercial de lujo, y mi hermano y yo nos echamos d
 
 Después me comí tremendo bocata de calamares en la playa mayor (ver imagen 4+1)
 
-{{< figure src="/images/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-5.webp" >}}
+{{< figure src="/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-5.webp" >}}
 
 Aquí la gente tiene muchas pelas, o al menos se esfuerza mucho por que así se aparente. Hay cada pijo q no me veas. Ojalá existiera una manera de abofetear a alguien sin consecuencias.
 
@@ -66,11 +66,11 @@ Lo segundo y más importante, es que en Madrid se siente en el bello, se palpa e
 
 Q bonita la plaza de Cibeles joder, con SIETE (7) Banderas de ESPAÑA en la rotonda nada más (ver imagen 6).
 
-{{< figure src="/images/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-6.webp" >}}
+{{< figure src="/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-6.webp" >}}
 
 Además, por primera vez en mi vida me he sentido orgulloso de nuestra monarquía, al ver lo chulo que esta el palacio real (foto 7).
 
-{{< figure src="/images/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-7.webp" >}}
+{{< figure src="/cronicas/2024-09-u-en-la-ciudad-del-monopoly/u-en-la-ciudad-del-monopoly-7.webp" >}}
 
 En fin, q madrit esta muy chula y es, a modo de colofón diría yo, digna, ante todo, de ser la capital de España 🇪🇸.
 

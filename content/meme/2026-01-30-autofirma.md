@@ -5,7 +5,7 @@ author: c
 tags: [autofirma, psoe, hijosdelagranputa, ardido, dni]
 ---
 
-![Peruano fuego profesor](/images/meme/fuego-estudiante-profesor.webp)
+![Peruano fuego profesor](/meme/fuego-estudiante-profesor.webp)
 
 Basado en hechos reales:
 Ayer tuve que luchar a muerte con Autofirma para leer el DNIe digital en Firefox.

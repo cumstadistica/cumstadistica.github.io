@@ -15,19 +15,19 @@ Pillamos el tren a las 9 (de nuevo retraso cortesía de Renfe) total que vamos y
 Llegamos. Una puta mierda. Osea la ciudad está bien pero el consejo de granada y el de Madrid y especialmente el de valencia son puta mierda. Ojalá el valenciano se fuera ahogado en una cochera intentando rescatar su Fiat Cupra. Total que comida y cena de grupo. Belmez queda muy lejos 🥹.
 Total que cae la noche y me pillo una litros de Alhambra pa ahogar las penas y nos vamos a el piso del de valencia (800 bolos la noche, parecía un palacio, de nuevo a valencia le sobra pasta), ahí conozco al de la politecnica de linares, Jaén. Cuñao de manual. De pueblo, gordo y espabilao. No se le escapa una. Conozco también a los d Madrid. Chavales raros. Pendientes de estudio. Conozco también al resto de los que haré un análisis más adelante.
 
-{{< video src="/images/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-1.mp4" >}}
+{{< video src="/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-1.mp4" >}}
 
 ## Día 2. Motril
 
 Fuimos al puerto de Motril. Pequeñito pero molón. Había palas de aerogeneradores; bichacos de 90 m y además de los nuevos de estos que generan la friolera 4 MWH. También hicimos un pequeño experimento físico visitando una presa. Debia salirnos q la altura era de 26 m pero nos salen 67. Total que regresamos a la Boabdil city y nos tragamos una chapa espectacular y luego nos vamos a cenar y me tomo unas buenas croquetas y luego vamos de fiesta al bar este famoso de granada donde los precios de los cubatas varían en función de un videomarcador que simula la bolsa. (Osea pone por ejemplo Larios como si fuera una empresa y el precio como si fueran sus acciones y suben y bajan los precios según quiere el video ese y está chulo pq hay buena música y futbolín y de repente todos los precios caen y la gente se vuelve loca comprando está chulo wall street (del lobo) se llama por si les interesa. Después nos fuimos a un karaoke que estaba chill de cojones y luego a dormir.
 
-{{< figure src="/images/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-2.webp" >}}
+{{< figure src="/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-2.webp" >}}
 
-{{< figure src="/images/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-3.webp" >}}
+{{< figure src="/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-3.webp" >}}
 
-{{< figure src="/images/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-4.webp" >}}
+{{< figure src="/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-4.webp" >}}
 
-{{< figure src="/images/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-5.webp" >}}
+{{< figure src="/cronicas/2024-11-30-j-en-la-ciudad-boabdilena/j-en-la-ciudad-boabdilena-30-11-2024-5.webp" >}}
 
 Madre mía hicimos un menti
 

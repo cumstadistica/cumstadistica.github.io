@@ -6,4 +6,4 @@ author: j
 
 Sabes que has llegado a tu peak en la vida cuando te meten en este grupo.
 
-{{< figure src="/images/meme/adictos-al-juego.webp" alt="Adictos al Juego" >}}
+{{< figure src="/meme/adictos-al-juego.webp" alt="Adictos al Juego" >}}

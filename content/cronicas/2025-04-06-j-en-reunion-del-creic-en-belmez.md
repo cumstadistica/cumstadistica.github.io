@@ -18,12 +18,12 @@ A la mañana siguiente y como es costumbre en esta clase de eventos me levanto a
 
 La asamblea general se celebra y Bardi, un chaval de granada que me cae muy bien, se corona como nuevo y flamante presidente del Colectivo. De ahí pasamos a 1000 euros de cena de gala en Córdoba con barra libre (me bebí hasta el agua de las macetas, no sé cómo sigo vivo) cortesía del ministerio de universidades.
 
-{{< figure src="/images/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-1.webp" >}}
+{{< figure src="/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-1.webp" >}}
 
-{{< figure src="/images/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-2.webp" >}}
+{{< figure src="/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-2.webp" >}}
 
-{{< figure src="/images/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-3.webp" >}}
+{{< figure src="/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-3.webp" >}}
 
-{{< figure src="/images/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-4.webp" >}}
+{{< figure src="/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-4.webp" >}}
 
-{{< figure src="/images/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-5.webp" >}}
+{{< figure src="/cronicas/2025-04-06-j-en-reunion-del-creic-en-belmez/j-en-reunion-del-creic-en-belmez-5.webp" >}}

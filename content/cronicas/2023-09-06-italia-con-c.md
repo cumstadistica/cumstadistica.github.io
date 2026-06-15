@@ -21,9 +21,9 @@ Cuando finalmente llegamos, ma c propone salir a comer por la zona de nuestro pi
 
 Finalmente comemos en casa 😋
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-1.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-1.webp" >}}
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-2.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-2.webp" >}}
 
 ## Día 2
 
@@ -49,17 +49,17 @@ Familia c y un montón de catetos españoles nos quedamos tirados a 1h andando d
 
 Ni corto ni perezoso, pa c se acerca a un bro taxista y accede a llevarnos. Casi mata a dos chavalas y a un ciclista. Mi pa (virgin) iba diciendole q le parecía muy peligrosa la conducción italiana, mientras el peseto continuaba yendo a 80 por una calzada limitada a 30. Llegamos en menos de la mitad del tiempo esperado. Seguramente el taxista fuera el pa de j con una careta
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-3.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-3.webp" >}}
 
 ## Día 3: Vaticano (Lunes)
 
 Vimos el Vaticano. Lo mejor de roma
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-4.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-4.webp" >}}
 
 Piña 🍍
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-5.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-5.webp" >}}
 
 Después del desastre de los autobuses del día anterior, ambos papotes y c no tuvieron ganas de salir por la noche para reponer fuersas 💪
 
@@ -67,11 +67,11 @@ Después del desastre de los autobuses del día anterior, ambos papotes y c no t
 
 Vimos el coliseo por dentro
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-6.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-6.webp" >}}
 
 Y una colina random en medio de roma llena de ruinas
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-7.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-7.webp" >}}
 
 Foto épica
 
@@ -85,7 +85,7 @@ Por la tarde fuimos a la galería de los Uffizi, donde está la venus  esa de la
 
 Para cenar, se me antojo una ensalada y decidí echarle una lata de atún. Juzguen por ustedes mismos
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-8.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-8.webp" >}}
 
 Josie la pared 😰
 
@@ -97,11 +97,11 @@ Luego fuimos a recoger a la ciudad al resto de la familia c y partimos hacia Sie
 
 Había una iglesia bastante chula pero yasta, ahí se acaba el pueblo
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-9.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-9.webp" >}}
 
 Después fuimos a Picsa
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-10.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-10.webp" >}}
 
 Grande papot sacando la foto 👏
 
@@ -117,25 +117,25 @@ Pa c: Tienes rason 👍
 
 Al final solo le dimos 20 bolos por avarisioso 🤠🐓
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-11.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-11.webp" >}}
 
 Una casa chula
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-12.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-12.webp" >}}
 
 ## Día 8: Burano y Góndola (Sábado)
 
 Por la mañana fuimos a Burano, una isla cerca de Venecia. Parecía una mezcla entre Venecia y Cuba, muy chula. Vaya clavada nos metieron para comer
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-13.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-13.webp" >}}
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-14.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-14.webp" >}}
 
 Una tortuga, le llamé Paco Luque
 
 Por la tarde cogimos una góndola. Es una turistada sim, pero a mi ma le hacía ilu
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-15.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-15.webp" >}}
 
 ## Día 9: Sirmione y Milan (Domingo)
 
@@ -147,17 +147,17 @@ Entre medias pasamos por Simeone, un pueblo en medio de un lago MASIVO. Estaba f
 
 La verdad es q el lago estaba épico, entiendo pq hay tanto alemanes
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-16.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-16.webp" >}}
 
 Picha
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-17.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-17.webp" >}}
 
 Llegamos a Milán a las 4. Mis pas me dieron chance y fuimos toda la familia a ver el museo de alfa romeo. Aber estaba bien pero se me iso corto
 
 Por la noche fuimos a ver el centro de milan, esta chulo. Me iso grasia la réplica de la catedral en la legotienda👏👏
 
-{{< figure src="/images/cronicas/2023-09-06-italia-con-c/italia-con-c-18.webp" >}}
+{{< figure src="/cronicas/2023-09-06-italia-con-c/italia-con-c-18.webp" >}}
 
 ## Día 10: Berga y Vuelta (Lunes)
 

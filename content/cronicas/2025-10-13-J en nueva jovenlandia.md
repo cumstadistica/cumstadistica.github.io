@@ -4,19 +4,19 @@ date: "2025-10-13T00:00:00Z"
 author: ['j']
 tags: ['viaje', 'malaga', 'caterpillar', 'algeciras', 'puerto', 'fiesta']
 ---
-{{< figure src="/images/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-1.webp" alt="{j-en-nueva-jovenlandia-1}" >}}
+{{< figure src="/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-1.webp" alt="{j-en-nueva-jovenlandia-1}" >}}
 
-{{< figure src="/images/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-2.webp" alt="{j-en-nueva-jovenlandia-2}" >}}
+{{< figure src="/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-2.webp" alt="{j-en-nueva-jovenlandia-2}" >}}
 
-{{< figure src="/images/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-3.webp" alt="{j-en-nueva-jovenlandia-3}" >}}
+{{< figure src="/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-3.webp" alt="{j-en-nueva-jovenlandia-3}" >}}
 
-{{< figure src="/images/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-4.webp" alt="{j-en-nueva-jovenlandia-4}" >}}
+{{< figure src="/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-4.webp" alt="{j-en-nueva-jovenlandia-4}" >}}
 
-{{< figure src="/images/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-5.webp" alt="{j-en-nueva-jovenlandia-5}" >}}
+{{< figure src="/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-5.webp" alt="{j-en-nueva-jovenlandia-5}" >}}
 
-{{< figure src="/images/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-6.webp" alt="{j-en-nueva-jovenlandia-6}" >}}
+{{< figure src="/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-6.webp" alt="{j-en-nueva-jovenlandia-6}" >}}
 
-{{< video src="/images/cronicas/2025-10-13-J en nueva jovenlandia/video_2025-12-13_15-10-52.mp4" >}}
+{{< video src="/cronicas/2025-10-13-J en nueva jovenlandia/video_2025-12-13_15-10-52.mp4" >}}
 
 ## Día 0. Máquinas
 

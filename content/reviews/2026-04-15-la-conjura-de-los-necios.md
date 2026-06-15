@@ -6,7 +6,7 @@ tags: ["ignatius farray", "libro"]
 nota: 8.2
 ---
 
-![La conjura de los necios](/images/reviews/la-conjura-de-los-necios.webp)
+![La conjura de los necios](/reviews/la-conjura-de-los-necios.webp)
 
 {{< quote text=`«Cuando en el mundo aparece un verdadero genio, puede identificársele por este signo: todos los necios conjuran contra él».` author="Jonathan Swift" /quote >}}
 
@@ -16,7 +16,7 @@ Ignatius J. Reilly es el protagonista de esta obra: un tío gordo, bigotudo, enf
 
 En fin. El libro va de las desventuras de este tío, que vive con su madre, cuando esta le obliga a buscarse un trabajo para pagar los gastos de un cierto accidente. Ignatius, sin embargo, no está preparado para la vida laboral —y, en general, cualquier vida fuera de su cuarto—, así que las consecuencias de esta tentativa dan pie a los escenarios más graciosos que se puedan imaginar. Tira los documentos a la basura cuando le piden que los archive, se come las salchichas que le mandan vender, etc.
 
-![Ignatius en Linkedin](/images/reviews/ignatius-linkedin.webp)
+![Ignatius en Linkedin](/reviews/ignatius-linkedin.webp)
 
 Pero además de Ignatius, que obviamente se lleva el oro, el libro cuenta con muchos personajes dignos de analizar, cada cual más ridículo. Las historias que siguen a unos y a otros son verdaderas gemas. Ahí te das cuenta del daño que le hace la sociedad al nerdi, y el nerdi a la sociedad.
 

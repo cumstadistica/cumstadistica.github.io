@@ -16,7 +16,7 @@ Los periodistas de investigación, Bob Woodward y Carl Bernstein, fueron interpr
 
 Apunte: La peli es muy fiel a la realidad, los verdaderos Woodward y Bernstein ayudaron a escribir el guion.
 
-{{< figure src="/reviews/images/dustin-hoffman.webp" alt="Dustin Hoffman" >}}
+{{< figure src="/images/dustin-hoffman.webp" alt="Dustin Hoffman" >}}
 Dustin Hoffman hoy en día
 
 A pesar de que la película tiene ya sus años, no ha envejecido nada mal y es muy disfrutable.

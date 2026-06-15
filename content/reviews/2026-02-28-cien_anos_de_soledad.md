@@ -6,7 +6,7 @@ tags: ["literatura", "historia", "libro"]
 nota: 8.1
 ---
 
-![Cien Años de Soledad](/images/reviews/100-anos-soledad.webp)
+![Cien Años de Soledad](/reviews/100-anos-soledad.webp)
 
 > “(…), porque las estirpes condenadas a cien años de soledad no tienen una segunda oportunidad sobre la tierra”.
 

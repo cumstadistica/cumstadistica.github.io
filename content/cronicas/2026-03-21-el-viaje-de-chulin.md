@@ -12,7 +12,7 @@ Un colega del instituto, al que a partir de ahora llamaremos Chulin, se fue a Ho
 
 Total, que en Navidades el Pedro me suelta que Chulin estaba de nuevo en Holanda, así que retomé contacto con él. Entre una cosa y otra, acabamos cuadrando que este finde me iba a pasar a visitarlo: sábado 21 de marzo por la tarde hasta el domingo, quedándome a dormir en su casa.
 
-![Trayecto](/images/cronicas/2026-03-21-el-viaje-de-chulin/trayecto.webp)
+![Trayecto](/cronicas/2026-03-21-el-viaje-de-chulin/trayecto.webp)
 
 Lo bueno es que el trayecto es muy corto: una hora y veinte en tren desde Mönchengladbach a Eindhoven.
 
@@ -24,7 +24,7 @@ Lo malo es que la planificación, dio mucho que desear. Yo le pregunté al Chat 
 
 Bueno, el caso es que llego a Eindhoven sobre las seis y media de la tarde y allí estaba el Chulin esperándome, como un padre recogiendo a su hijo en la salida del CEIP Salvador Vinuesa.
 
-![Hot Pot](/images/cronicas/2026-03-21-el-viaje-de-chulin/hotpot.webp)
+![Hot Pot](/cronicas/2026-03-21-el-viaje-de-chulin/hotpot.webp)
 
 Vamos a cenar al restaurante de Hot Pot de Eindhoven. Porque digo yo, coño, si alguien sabrá manejarse en este sitio será Chulin, que es chino, así yo sólo me tengo que preocupar de comer.
 
@@ -36,7 +36,7 @@ En mitad de la cena, entre bocado y bocado, me suelta el Chulin así, full nonch
 
 Así que después de la comilona nos fuimos para su casa. Y oye, la casa estaba muy bien. Una de estas casas unifamiliares típicas de Holanda, con su jardincito y sus cositas, muy apañada, para gente no reventada de la vida. La compartía con otros 3 estudiantes y pagaba 400 euros al mes, que me parece tirado de precio, ahí lavan dinero negro seguro. Vamos, que por ese precio en normalmente te alquilan una caja de zapatos con humedad y un chamán tocando la flauta dulce.
 
-![Casa](/images/cronicas/2026-03-21-el-viaje-de-chulin/casa-chulin.webp)
+![Casa](/cronicas/2026-03-21-el-viaje-de-chulin/casa-chulin.webp)
 
 Y ya allí fue cuando sacamos lo que no hace daño, la droga, los porros. Aunque, como me corrigió amablemente Mr. Chulin, aquello no eran “porros” así en genérico, sino “verdes”, porque llevaban solo maría. Todo natural.
 
@@ -64,7 +64,7 @@ Así que nada, con el porillo ya asentado en nuestros pulmones, nos pusimos a ve
 
 Nos levantamos con los rayos del sol dándonos en toda la cara a las 8:30 de la mañana, en plan despertar bucólico, como si fuéramos pastores de la serie Heidi en vez de dos notas que se habían pimplado unos verdes la noche anterior. Nos duchamos y nos fuimos al Lidl a por el desayuno. Punto curioso: en Holanda casi todo abre los domingos. Capitalismo sin control, para que 2 reventados se puedan comprar su desayuno en el día del Señor.
 
-![Red Velvet](/images/cronicas/2026-03-21-el-viaje-de-chulin/red-velvet.webp)
+![Red Velvet](/cronicas/2026-03-21-el-viaje-de-chulin/red-velvet.webp)
 
 Para desayunar pillamos unas ensaimadas con crema de avellana por dentro, que estaban bastante buenas. Marranada dulce, de esa que entra de lujo y luego te deja las tripas bailando el aserejé. Ahí me di cuenta de que a Chulin es un fan de la diabetis tipo 2, le encantan los dulzajos; hasta un punto que no es ni medio normal. El tío me contó que se había ventilado como cuatro paquetes de magdalenas “red velvet” en una semana. CUATRO (4) paquetes de SEIS (6) MADALENAS. En SIETE (7) días. Realmente para J son números de principiante pero para mi son números de un ayatolá del azúcar.
 

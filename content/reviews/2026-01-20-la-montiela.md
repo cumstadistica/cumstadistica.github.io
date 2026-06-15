@@ -12,7 +12,7 @@ nota: 7.9
 
 ## El Pueblo en sí
 
-![La Montiela](/images/reviews/lamontiela.webp)
+![La Montiela](/reviews/lamontiela.webp)
 
 La Montiela es una pedanía de Santaella (Córdoba) que se fundó como poblado de colonización en los años 60, en otras palabras, la invención de la tarjeta de crédito tiene más solera y años que el asfalto de este pueblo. Son apenas 1000 almas allí metidas.
 

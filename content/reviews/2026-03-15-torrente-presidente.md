@@ -6,7 +6,7 @@ tags: ["cine", "torrente", "santiago segura", "kevin spacey", "loco"]
 nota: 7.8
 ---
 
-![Torrente Presidente](/images/reviews/torrente-presidente.webp)
+![Torrente Presidente](/reviews/torrente-presidente.webp)
 
 ## Torrente ha vuelto baby
 

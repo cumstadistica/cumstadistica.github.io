@@ -6,7 +6,7 @@ tags: ["libros", "kafka", "clásicos", "literatura"]
 nota: 7.2
 ---
 
-![Será cuestion de tiempo](/images/reviews/sera-cuestion-de-tiempo.webp)
+![Será cuestion de tiempo](/reviews/sera-cuestion-de-tiempo.webp)
 
 El Proceso es un libro algo curioso, porque el trolaco depresivo de Kafka nunca lo terminó, y si lo hizo destruyó el final como tantas otras obras suyas. La edición que me he leído se hacía llamar «definitiva», en la que el editor se volvía LOCO y hacía un estudio de la hostia sobre cómo el Proceso seguía la trama de Crimen y Castigo pero en diferente orden (Kafka era fan de Tostonyeski). A mi me pareció que bueno, podría ser, pero q no merecía la pena hacer tantas investigaciones. El tío tendría q estar aburrido.
 

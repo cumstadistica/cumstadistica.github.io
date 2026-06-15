@@ -6,7 +6,7 @@ tags: ["libros", "tolstoi", "clásicos", "literatura"]
 nota: 9.8
 ---
 
-![Anna Karénina](/images/reviews/karenina.webp)
+![Anna Karénina](/reviews/karenina.webp)
 
 Cómo empezar con este librazo. Sin lugar a dudas es uno de los libros mejores escritos que he leído en mi vida. Tan solo lo situaría por debajo del Quijote pero porque soy fanboy del Quijote. Aparte de toda trama, el lenguaje que usa Tolstói es perfecto: a la vez elegante y musical pero también sencillo, natural y eficiente. La manera en la que muestra los pensamientos de todos los personajes, sus emociones, sus inquietudes, es algo que no admite corrección: no concibo manera en la que algo pueda mejorarse en la escritura y el estilo que Tolstói usa en Anna Karénina.
 

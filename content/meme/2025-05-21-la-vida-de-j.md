@@ -5,4 +5,4 @@ author: ["u", "j"]
 tags: ["la vida de"]
 ---
 
-{{< figure src="/images/meme/j-greentext.webp" alt="j greentext" >}}
+{{< figure src="/meme/j-greentext.webp" alt="j greentext" >}}

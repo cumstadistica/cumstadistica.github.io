@@ -8,7 +8,7 @@ nota: 8.15
 
 Te voy a decir una palabra: **PLÁSTICOS**
 
-![El Graduado](/images/reviews/elgraduado.webp)
+![El Graduado](/reviews/elgraduado.webp)
 
 ## Sinopsis
 
