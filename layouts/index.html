@@ -1,7 +1,8 @@
 {{ define "head" }}
   {{ partials.Include "head-additions.html" . }}
-  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-  <script src="/pagefind/pagefind-ui.js" defer></script>
+  <link href="{{ "/pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="{{ "/pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet"></noscript>
+  <script src="{{ "/pagefind/pagefind-ui.js" | relURL }}" defer></script>
   <script>
     window.addEventListener('DOMContentLoaded', () => {
       new PagefindUI({ element: "#search", showSubResults: true });

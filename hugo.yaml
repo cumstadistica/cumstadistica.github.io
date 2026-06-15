@@ -65,7 +65,7 @@ params:
 
   ananke:
     custom_css:
-      - "css/custom.css"
+      - "custom.css"
     social:
       twitter:
         profile: true
