@@ -12,3 +12,4 @@ public/
 resources/
 .markdownlint.json
 .tweeted_posts.txt
+Taskfile.yml

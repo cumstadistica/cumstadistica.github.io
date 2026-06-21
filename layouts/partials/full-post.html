@@ -1,7 +1,8 @@
 {{- $context := .Context -}}
 {{- $isSingle := .IsSingle | default false -}}
 {{- $defaultImg := "images/authors/default.webp" | absURL -}}
-{{- $authorParam := $context.Params.author | default $context.Site.Params.author -}}
+{{- $defaultAuthor := $context.Site.Params.author.slug | default $context.Site.Params.author.name -}}
+{{- $authorParam := $context.Params.author | default $defaultAuthor -}}
 {{- $authorSlugs := slice -}}
 {{- if reflect.IsSlice $authorParam -}}
   {{- $authorSlugs = $authorParam -}}
@@ -70,7 +71,8 @@
       {{ with $context.Params.tags }}
         <div class="mt2 flex flex-wrap justify-center">
           {{ range . }}
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="f7 link white-80 bg-white-10 br2 ph2 pv1 mb1 mr1 dim">
+            {{ $tagPage := site.GetPage (printf "tags/%s" .) }}
+            <a href="{{ cond $tagPage $tagPage.RelPermalink (printf "%s%s" ("/tags/" | relLangURL) (. | urlize)) }}" class="f7 link white-80 bg-white-10 br2 ph2 pv1 mb1 mr1 dim">
               #{{ . }}
             </a>
           {{ end }}

@@ -1,4 +1,4 @@
-baseURL: "https://cumstadistica.github.io/"
+baseURL: "https://cumstadistica.es/"
 title: "Cumstadística"
 theme: "ananke"
 
@@ -87,5 +87,6 @@ params:
           "rss"
         ]
   author:
+    slug: "cumstadistica"
     name: "Cumstadística"
     email: "cumstadistica.es"

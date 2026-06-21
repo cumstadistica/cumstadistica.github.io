@@ -14,4 +14,4 @@ Las autoridades europeas quieren reemplazar el coque por el arco eléctrico porq
 
 El dueño indio de arcelor Gijón dice que no le renta. 😰
 
-⛲️: [🌐 https://www.epe.es/es/asturias/20220322/siderurgia-integral-asturias-arcelor-precio-luz-13411012](https://www.epe.es/es/asturias/20220322/siderurgia-integral-asturias-arcelor-precio-luz-13411012)
+⛲️: El Periódico, sobre la siderurgia integral en Asturias y Arcelor.

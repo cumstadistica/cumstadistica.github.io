@@ -2,14 +2,12 @@
 # Run after building with:
 # hugo && lychee --config lychee.toml --root-dir "$PWD/public" public
 
-verbose = "info"
-format = "detailed"
 mode = "emoji"
 no_progress = true
 
 # Hugo emits pretty URLs as directories with index.html files. Pass --root-dir
 # at runtime so absolute links such as /reviews/foo/ are checked locally.
-base_url = "https://cumstadistica.github.io/"
+base_url = "https://cumstadistica.es/"
 index_files = ["index.html"]
 extensions = ["html"]
 
@@ -41,13 +39,15 @@ exclude_path = [
 exclude = [
   "^mailto:",
   "^tel:",
+  "^https?://(www\\.)?cumstadistica\\.(es|github\\.io)/",
   "^https?://[^/]+/playlists/.*\\.m3u$",
   "^https?://(www\\.)?twitter\\.com/",
   "^https?://(www\\.)?x\\.com/",
   "^https?://(www\\.)?tiktok\\.com/",
+  "^https?://(www\\.)?reuters\\.com/",
   "^https?://maps\\.app\\.goo\\.gl/",
   "^https?://g\\.co/",
   "^https?://(www\\.)?reddit\\.com/",
-  "^https?://(m\\.)?youtube\\.com/",
+  "^https?://(www\\.|m\\.)?youtube\\.com/",
   "^https?://youtu\\.be/",
 ]

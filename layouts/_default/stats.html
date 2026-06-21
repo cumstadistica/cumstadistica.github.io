@@ -49,7 +49,9 @@
 
   {{ $tagRows := slice }}
   {{ range $name, $taxonomy := site.Taxonomies.tags }}
-    {{ $tagRows = $tagRows | append (dict "name" $name "title" ($name | humanize) "count" (len $taxonomy) "url" (printf "/tags/%s/" ($name | urlize))) }}
+    {{ $tagPage := site.GetPage (printf "tags/%s" $name) }}
+    {{ $url := cond $tagPage $tagPage.RelPermalink (printf "/tags/%s/" ($name | urlize)) }}
+    {{ $tagRows = $tagRows | append (dict "name" $name "title" ($name | humanize) "count" (len $taxonomy) "url" $url) }}
   {{ end }}
   {{ $tagRows = sort $tagRows "count" "desc" }}
 

@@ -52,11 +52,18 @@ tasks:
       - '{{.PYTHON}} scripts/check_links.py'
 
   check:hooks:
-    desc: Run all pre-commit hooks
+    desc: Run fast pre-commit hooks
     deps:
       - python:venv
     cmds:
       - '{{.PREK}} run --all-files'
+
+  check:links:external:
+    desc: Check generated site links with Lychee, including external URLs
+    deps:
+      - python:venv
+    cmds:
+      - timeout 10m {{.PREK}} run --all-files --stage manual hugo-build-for-lychee-full lychee-full
 
   check:
     desc: Run local validation checks

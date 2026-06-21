@@ -15,6 +15,7 @@ Run `task --list` or `go-task --list` to see the command hub.
 - `task serve` starts the local Hugo server with drafts, future and expired content enabled.
 - `task build` creates a production Hugo build in `public`.
 - `task check` runs the local pre-commit hooks and internal link check.
+- `task check:links:external` checks the generated site with Lychee, including external URLs.
 - `task new -- <section> <title>` creates dated content in `content/<section>`.
 - `task new:post -- <category> <title>` creates dated content in an existing category.
 - `task new:review -- <title>` creates a dated review in `content/reviews`.
