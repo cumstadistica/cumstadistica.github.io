@@ -6,6 +6,6 @@ tags: ["fp", "jardineria"]
 draft: false
 ---
 
-![fp-jardineria](/images/meme/fp-jardineria.webp)
+![fp-jardineria](/meme/fp-jardineria.webp)
 
 {{< youtube "KVGlZJku3KI" >}}
