@@ -49,13 +49,6 @@ repos:
     rev: lychee-v0.24.2
     hooks:
       - id: lychee
-        name: Check links with Lychee
-        args:
-          - --config=lychee.toml
-          - --offline
-          - --root-dir=public
-        files: ^content/.*\.(md|html)$
-      - id: lychee
         alias: lychee-full
         name: Check generated site links with Lychee
         args:
