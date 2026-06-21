@@ -23,7 +23,7 @@
 {{- $hasMultipleAuthors := gt (len $authors) 1 -}}
 {{- $primaryAuthor := index $authors 0 -}}
 
-<article class="mb2">
+<article class="mb2{{ if $isSingle }} w-100{{ end }}">
   <div class="flex flex-column flex-row-ns bg-custom-card br3 shadow-4 pa3 pa4-ns">
     
     {{/* --- Author Meta (Left) --- */}}
