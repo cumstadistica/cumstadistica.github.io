@@ -137,3 +137,17 @@ tasks:
     cmds:
       - hugo --gc --minify --cleanDestinationDir {{.CLI_ARGS}}
       - '{{.PYTHON}} -m pagefind --site public'
+
+  tweet:
+    desc: Publish the latest RSS post to X; pass -- --dry-run to preview
+    deps:
+      - python:install
+    cmds:
+      - '{{.PYTHON}} .github/scripts/tweet_rss.py {{.CLI_ARGS}}'
+
+  tweet:dry-run:
+    desc: Build the site and preview the tweet for the latest RSS post
+    deps:
+      - ci:build
+    cmds:
+      - '{{.PYTHON}} .github/scripts/tweet_rss.py --dry-run {{.CLI_ARGS}}'

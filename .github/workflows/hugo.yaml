@@ -115,7 +115,7 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: .venv/bin/python .github/scripts/tweet_rss.py
+        run: task tweet
 
       - name: Cache save
         id: cache-save
