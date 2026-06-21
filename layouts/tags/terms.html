@@ -1,4 +1,8 @@
-<meta name="pagefind:exclude" content="all">
+{{ define "head" }}
+  {{ partials.Include "head-additions.html" . }}
+  <meta name="pagefind:exclude" content="all">
+{{ end }}
+
 {{ define "main" }}
   {{- $terms := .Data.Terms.Alphabetical -}}
   <div class="pa3 pa4-ns w-100 w-80-l center">
