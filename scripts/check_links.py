@@ -5,7 +5,23 @@ from urllib.parse import urlparse, unquote
 
 PUBLIC_DIR = os.path.join(os.getcwd(), "public")
 SITE_HOSTS = {"cumstadistica.es", "cumstadistica.github.io"}
-BROKEN_LINKS = []
+BROKEN_REFERENCES = []
+URL_SCHEMES_TO_SKIP = ("#", "mailto:", "tel:", "data:", "blob:", "javascript:")
+PATH_PREFIXES_TO_SKIP = ("/pagefind/",)
+
+
+REFERENCE_ATTRIBUTES = {
+    "a": ("href",),
+    "audio": ("src",),
+    "embed": ("src",),
+    "iframe": ("src",),
+    "img": ("src", "srcset"),
+    "link": ("href",),
+    "script": ("src",),
+    "source": ("src", "srcset"),
+    "track": ("src",),
+    "video": ("src", "poster"),
+}
 
 
 def resolve_path(source_file, link):
@@ -36,6 +52,29 @@ def check_file_exists(path):
     return False
 
 
+def srcset_urls(value):
+    for candidate in value.split(","):
+        parts = candidate.strip().split()
+        if parts:
+            yield parts[0]
+
+
+def attribute_urls(attribute, value):
+    if attribute == "srcset":
+        yield from srcset_urls(value)
+        return
+
+    yield value
+
+
+def should_skip_reference(url):
+    if not url or url.startswith(URL_SCHEMES_TO_SKIP):
+        return True
+
+    parsed = urlparse(url)
+    return parsed.path.startswith(PATH_PREFIXES_TO_SKIP)
+
+
 def process_file(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as handle:
@@ -44,16 +83,19 @@ def process_file(file_path):
         print(f"Error reading {file_path}: {e}")
         return
 
-    for a in soup.find_all('a', href=True):
-        href = a['href']
-        href = href.strip()
-        
-        if not href or href.startswith('#') or href.startswith('mailto:') or href.startswith('tel:'):
-            continue
+    for tag_name, attributes in REFERENCE_ATTRIBUTES.items():
+        for element in soup.find_all(tag_name):
+            for attribute in attributes:
+                if not element.has_attr(attribute):
+                    continue
 
-        target_path = resolve_path(file_path, href)
-        if target_path and not check_file_exists(target_path) and not check_file_exists(target_path + '.html'):
-            BROKEN_LINKS.append((file_path, href))
+                for url in attribute_urls(attribute, element[attribute].strip()):
+                    if should_skip_reference(url):
+                        continue
+
+                    target_path = resolve_path(file_path, url)
+                    if target_path and not check_file_exists(target_path) and not check_file_exists(target_path + '.html'):
+                        BROKEN_REFERENCES.append((file_path, tag_name, attribute, url))
 
 
 def main():
@@ -69,19 +111,19 @@ def main():
             if file.endswith('.html'):
                 html_files.append(os.path.join(root, file))
 
-    print(f"Found {len(html_files)} HTML files. Checking internal links...")
+    print(f"Found {len(html_files)} HTML files. Checking internal references...")
 
     for file_path in html_files:
         process_file(file_path)
 
-    if BROKEN_LINKS:
-        print(f"\nFound {len(BROKEN_LINKS)} broken internal links:")
-        for source, link in BROKEN_LINKS:
+    if BROKEN_REFERENCES:
+        print(f"\nFound {len(BROKEN_REFERENCES)} broken internal references:")
+        for source, tag_name, attribute, url in BROKEN_REFERENCES:
             rel_source = os.path.relpath(source, os.getcwd())
-            print(f"  In {rel_source}: {link}")
+            print(f"  In {rel_source}: <{tag_name} {attribute}> {url}")
         sys.exit(1)
     else:
-        print("\nNo broken internal links found.")
+        print("\nNo broken internal references found.")
 
 
 if __name__ == "__main__":
