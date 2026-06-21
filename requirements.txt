@@ -1,0 +1,6 @@
+beautifulsoup4
+feedparser
+pagefind[extended]
+prek
+requests
+tweepy

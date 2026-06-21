@@ -40,6 +40,9 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           check-latest: true
 
+      - name: Install Task
+        uses: go-task/setup-task@v1
+
       - name: Create directory for user-specific executable files
         run: mkdir -p "${HOME}/.local/bin"
 
@@ -103,22 +106,13 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build the site
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
-
-      - name: Install Pagefind
-        run: pip install 'pagefind[extended]'
-
-      - name: Index with Pagefind
-        run: python -m pagefind --site public
-
       - name: Install Python dependencies
-        run: pip install feedparser tweepy
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install -r requirements.txt
+
+      - name: Build and index the site
+        run: task ci:build -- --baseURL "${{ steps.pages.outputs.base_url }}/" --cacheDir "${{ runner.temp }}/hugo_cache"
 
       - name: Post update to X
         env:
@@ -126,7 +120,7 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: python .github/scripts/tweet_rss.py
+        run: .venv/bin/python .github/scripts/tweet_rss.py
 
       - name: Cache save
         id: cache-save

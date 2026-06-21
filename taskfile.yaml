@@ -1,0 +1,113 @@
+version: '3'
+
+vars:
+  TASK:
+    sh: command -v task || command -v go-task
+  PYTHON: .venv/bin/python
+  PREK: .venv/bin/prek
+
+tasks:
+  default:
+    desc: List available tasks
+    cmds:
+      - '{{.TASK}} --list'
+
+  build:
+    desc: Build the Hugo site
+    cmds:
+      - hugo --gc --minify {{.CLI_ARGS}}
+
+  serve:
+    desc: Serve the site locally with drafts, future and expired content
+    cmds:
+      - hugo server --buildDrafts --buildFuture --buildExpired --disableFastRender {{.CLI_ARGS}}
+
+  pagefind:
+    desc: Index the generated site with Pagefind
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} -m pagefind --site public {{.CLI_ARGS}}'
+
+  python:venv:
+    desc: Create the Python virtual environment if needed
+    cmds:
+      - test -x {{.PYTHON}} || python3 -m venv .venv
+    status:
+      - test -x {{.PYTHON}}
+
+  python:install:
+    desc: Install Python dependencies into the virtual environment
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} -m pip install -r requirements.txt'
+
+  check:links:
+    desc: Check internal links in the generated site
+    deps:
+      - build
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/check_links.py'
+
+  check:hooks:
+    desc: Run all pre-commit hooks
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PREK}} run --all-files'
+
+  check:
+    desc: Run local validation checks
+    cmds:
+      - task: check:hooks
+      - task: check:links
+
+  new:
+    desc: Create dated content; usage task new -- <section> <title>
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/new-content.py {{.CLI_ARGS}}'
+
+  new:review:
+    desc: Create a dated review; usage task new:review -- <title>
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/new-content.py reviews {{.CLI_ARGS}}'
+
+  new:post:
+    desc: Create a dated post in an existing category; usage task new:post -- <category> <title>
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/new-content.py --category {{.CLI_ARGS}}'
+
+  redate:
+    desc: Normalize a dated content file date from its filename
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/check-dates.py {{.CLI_ARGS}}'
+
+  format:frontmatter:
+    desc: Reorder front matter in Markdown files
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/reorder-frontmatter.py {{.CLI_ARGS}}'
+
+  update-mods:
+    desc: Update git submodules
+    cmds:
+      - git submodule update --init --recursive --remote
+
+  ci:build:
+    desc: Build and index the site for CI
+    deps:
+      - python:venv
+    cmds:
+      - hugo --gc --minify {{.CLI_ARGS}}
+      - '{{.PYTHON}} -m pagefind --site public'
