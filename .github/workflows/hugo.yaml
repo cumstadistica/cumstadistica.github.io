@@ -106,11 +106,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Install Python dependencies
-        run: |
-          python -m venv .venv
-          .venv/bin/python -m pip install -r requirements.txt
-
       - name: Build and index the site
         run: task ci:build -- --baseURL "${{ steps.pages.outputs.base_url }}/" --cacheDir "${{ runner.temp }}/hugo_cache"
 

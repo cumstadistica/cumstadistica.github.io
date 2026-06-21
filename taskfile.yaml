@@ -15,7 +15,7 @@ tasks:
   build:
     desc: Build the Hugo site
     cmds:
-      - hugo --gc --minify {{.CLI_ARGS}}
+      - hugo --gc --minify --cleanDestinationDir {{.CLI_ARGS}}
 
   serve:
     desc: Serve the site locally with drafts, future and expired content
@@ -25,7 +25,7 @@ tasks:
   pagefind:
     desc: Index the generated site with Pagefind
     deps:
-      - python:venv
+      - python:install
     cmds:
       - '{{.PYTHON}} -m pagefind --site public {{.CLI_ARGS}}'
 
@@ -42,34 +42,53 @@ tasks:
       - python:venv
     cmds:
       - '{{.PYTHON}} -m pip install -r requirements.txt'
+    status:
+      - test -x {{.PREK}}
 
   check:links:
     desc: Check internal links in the generated site
     deps:
       - build
-      - python:venv
+      - python:install
     cmds:
       - '{{.PYTHON}} scripts/check_links.py'
 
-  check:hooks:
+  lint:
     desc: Run fast pre-commit hooks
     deps:
-      - python:venv
+      - python:install
     cmds:
       - '{{.PREK}} run --all-files'
+
+  check:hooks:
+    desc: Alias for lint
+    cmds:
+      - task: lint
+
+  fix:
+    desc: Run autofixing content hooks
+    deps:
+      - python:install
+    cmds:
+      - '{{.PREK}} run --all-files check-date-match auto-add-tags reorder-frontmatter update-raster-refs'
 
   check:links:external:
     desc: Check generated site links with Lychee, including external URLs
     deps:
-      - python:venv
+      - python:install
     cmds:
       - timeout 10m {{.PREK}} run --all-files --stage manual hugo-build-for-lychee-full lychee-full
 
   check:
-    desc: Run local validation checks
+    desc: Build the site and check internal links
     cmds:
-      - task: check:hooks
       - task: check:links
+
+  verify:
+    desc: Run fast hooks and local validation checks
+    cmds:
+      - task: lint
+      - task: check
 
   new:
     desc: Create dated content; usage task new -- <section> <title>
@@ -114,7 +133,7 @@ tasks:
   ci:build:
     desc: Build and index the site for CI
     deps:
-      - python:venv
+      - python:install
     cmds:
-      - hugo --gc --minify {{.CLI_ARGS}}
+      - hugo --gc --minify --cleanDestinationDir {{.CLI_ARGS}}
       - '{{.PYTHON}} -m pagefind --site public'
