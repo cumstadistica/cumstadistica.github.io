@@ -45,7 +45,7 @@ La preocupación de fondo es razonable: quien controla los datos y la infraestru
 
 ## Comentario de Jose María Bellido Morillas, el troll de Andújar
 
-{{< quote text=`Está escrita por gente que sólo lee encíclicas, por papimaníacos que dan más vueltas a los Decretos que a los Evangelios, y se queda a medias de todo. León XIV es un Papa genérico de banco de imágenes y, si esta encíclica no la ha hecho una IA, lo parece. Prefiero mil veces el delirio carca de Clemente XIII o el delirio progre de Francisco a leer est`e tofu de cinco capítulos que no hace más que refreír lo que ya sabíamos sin aportar nada.` author="Jose María Bellido Morillas" >}}
+{{< quote text="Está escrita por gente que sólo lee encíclicas, por papimaníacos que dan más vueltas a los Decretos que a los Evangelios, y se queda a medias de todo. León XIV es un Papa genérico de banco de imágenes y, si esta encíclica no la ha hecho una IA, lo parece. Prefiero mil veces el delirio carca de Clemente XIII o el delirio progre de Francisco a leer este tofu de cinco capítulos que no hace más que refreír lo que ya sabíamos sin aportar nada." author="Jose María Bellido Morillas" />}}
 
 [Fuente](https://nitter.net/bellidomorillas/status/2059867229672391071#m)
 
