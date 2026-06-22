@@ -5,7 +5,7 @@ import sys
 import unicodedata
 
 
-ROOT = os.path.join("content", "es")
+ROOT = "content"
 TOP_LEVEL_KEY_REGEX = re.compile(r"^([A-Za-z0-9_-]+):")
 TAGS_LINE_REGEX = re.compile(r"^tags:\s*(.+)$")
 LINK_REGEX = re.compile(r"\[([^\]]+)\]\([^)]+\)")

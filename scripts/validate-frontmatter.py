@@ -4,7 +4,7 @@ import re
 import sys
 
 
-ROOT = os.path.join("content", "es")
+ROOT = "content"
 AUTHOR_ROOT = os.path.join(ROOT, "author")
 DATED_FILENAME_REGEX = re.compile(r"(\d{4}-\d{2}-\d{2})-[^/\\]+\.md$")
 DISALLOWED_TAGS = {
@@ -96,6 +96,10 @@ def validate_file(path, valid_authors):
     if not path.startswith(ROOT):
         return [], []
 
+    parts = path.replace("\\", "/").split("/")
+    if len(parts) < 3:
+        return [], []
+
     frontmatter = extract_frontmatter(path)
     if frontmatter is None:
         return [f"{relpath}: missing YAML front matter"], []
@@ -132,7 +136,7 @@ def validate_file(path, valid_authors):
             if actual != expected:
                 errors.append(f"{relpath}: date must be {expected} for dated filenames")
 
-    section = path.replace("\\", "/").split("/", 2)[2].split("/", 1)[0]
+    section = parts[1]
     categories_match = re.search(r"^categories:\s*(.+)$", frontmatter, re.MULTILINE)
     if categories_match and section not in {"author", "categories", "tags"}:
         raw_categories = categories_match.group(1).strip()

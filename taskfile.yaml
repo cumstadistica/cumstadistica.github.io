@@ -125,6 +125,32 @@ tasks:
     cmds:
       - '{{.PYTHON}} scripts/reorder-frontmatter.py {{.CLI_ARGS}}'
 
+  add-tags:
+    desc: Auto-add matching tags to Markdown files
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/auto-add-tags.py {{.CLI_ARGS}}'
+
+  validate:frontmatter:
+    desc: Validate required front matter in Markdown files
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/validate-frontmatter.py {{.CLI_ARGS}}'
+
+  update-raster-refs:
+    desc: Update Markdown PNG/JPG refs to WebP
+    deps:
+      - python:venv
+    cmds:
+      - '{{.PYTHON}} scripts/update-raster-refs-to-webp.py {{.CLI_ARGS}}'
+
+  images:webp:
+    desc: Convert PNG/JPG images to WebP; pass files after --
+    cmds:
+      - scripts/image-to-webp.sh {{.CLI_ARGS}}
+
   update-mods:
     desc: Update git submodules
     cmds:
