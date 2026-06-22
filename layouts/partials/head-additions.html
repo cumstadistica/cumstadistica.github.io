@@ -3,3 +3,6 @@
 {{- $fontStylesheet := "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" -}}
 <link href="{{ $fontStylesheet }}" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="{{ $fontStylesheet }}" rel="stylesheet"></noscript>
+{{- if or (strings.HasPrefix .RelPermalink "/author/") (strings.HasPrefix .RelPermalink "/tags/") (strings.HasPrefix .RelPermalink "/categories/") -}}
+	<meta name="pagefind:exclude" content="all">
+{{- end -}}
