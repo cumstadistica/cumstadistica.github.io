@@ -6,6 +6,9 @@ vars:
   PYTHON: .venv/bin/python
   PREK: .venv/bin/prek
 
+env:
+  PREK_HOME: .venv/prek-cache
+
 tasks:
   default:
     desc: List available tasks
@@ -58,19 +61,29 @@ tasks:
     deps:
       - python:install
     cmds:
-      - '{{.PREK}} run --all-files'
+      - '{{.PREK}} run --all-files --skip lychee'
 
   check:hooks:
     desc: Alias for lint
     cmds:
       - task: lint
 
+  hooks:install:
+    desc: Install Git hooks, including the pre-push build check
+    cmds:
+      - git config core.hooksPath .githooks
+
+  check:push:
+    desc: Run pre-push checks
+    cmds:
+      - task: build
+
   fix:
     desc: Run autofixing content hooks
     deps:
       - python:install
     cmds:
-      - '{{.PREK}} run --all-files check-date-match auto-add-tags reorder-frontmatter update-raster-refs'
+      - '{{.PREK}} run --all-files --skip lychee check-date-match auto-add-tags reorder-frontmatter update-raster-refs'
 
   check:links:external:
     desc: Check generated site links with Lychee, including external URLs

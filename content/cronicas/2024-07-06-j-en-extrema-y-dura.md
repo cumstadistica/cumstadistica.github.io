@@ -2,7 +2,7 @@
 title: J en Extrema y Dura 🚂
 date: "2024-07-06T00:00:00Z"
 author: j
-tags: [extremadura]
+tags: ["extremadura", "bitacora", "cordoba", "fiesta", "tren"]
 ---
 
 

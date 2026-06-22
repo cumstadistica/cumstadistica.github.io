@@ -1,7 +1,8 @@
---- 
+---
 title: "La Revelación (Parte 2)"
 date: "2026-01-11T00:00:00Z"
 author: [c, chat]
+tags: ["quimeras de un crimen", "aventura", "misterio", "cocina", "comida"]
 ---
 
 [Los tres cumstadísticos cruzaron la puerta al mismo tiempo, porque, al fin y al cabo, los 3 eran maricones. Al otro lado, una gran sala se extendía ante ellos: paredes blancas, estanterías de metal galvanizado repletas de cajas llenas de cintas de vídeo. Era, sin dudas, el archivo completo de todos los episodios de su sitcom.

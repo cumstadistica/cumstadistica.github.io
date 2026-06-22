@@ -2,6 +2,7 @@
 title: Facto diario número 124.
 date: "2025-09-14T00:00:00Z"
 author: c
+tags: ["estados-unidos", "españa"]
 ---
 Por qué son tan dramáticos los juicios en EEUU?
 

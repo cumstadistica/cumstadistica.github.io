@@ -2,7 +2,7 @@
 title: El caballero oscuro
 date: "2025-09-30T00:00:00Z"
 author: j
-tags: ["nolan", "cine"]
+tags: ["nolan", "cine", "efecto mandela"]
 nota: 9.4
 ---
 

@@ -2,7 +2,7 @@
 title: J se independiza
 date: "2025-08-25T00:00:00Z"
 author: j
-tags: ["puertollano", "cataluña", "barcelona", "nerdi", "CiudadReal", "perro sanxe", "aventura", "españa"]
+tags: ["puertollano", "cataluña", "barcelona", "nerdi", "CiudadReal", "perro sanxe", "aventura", "españa", "monasterio"]
 ---
 
 

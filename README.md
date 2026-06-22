@@ -15,6 +15,7 @@ Run `task --list` or `go-task --list` to see the command hub.
 - `task serve` starts the local Hugo server with drafts, future and expired content enabled.
 - `task build` creates a production Hugo build in `public`.
 - `task lint` runs the fast pre-commit hooks.
+- `task hooks:install` installs the Git hooks; pushes are blocked if `task build` fails.
 - `task fix` runs autofixing content hooks.
 - `task check` builds the site and checks internal links.
 - `task verify` runs `task lint` and `task check`.

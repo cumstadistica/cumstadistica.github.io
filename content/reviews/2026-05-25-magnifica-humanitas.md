@@ -5,13 +5,13 @@ author: c
 tagss: ["papa", "leon xiv", "ia", "inteligencia artificial", "enciclica", "dios"]
 ---
 
-Muy buenos días, tardes o noches a todos, depende de cuando me esten leyendo. Como UD han podido ver en el título, voy a hacer una review de la primera encíclica del Papa Leon XIV, sobre la IA.
+Muy buenos días, tardes o noches a todos, depende de cuando me estén leyendo. Como UD han podido leer en el título, voy a hacer una review de la primera encíclica del Papa Leon XIV, sobre la IA.
 
-Pero esta review va a ser distinta, porque la voy a hacer ayudandome de otros artículos, opiniones y demás que se han publicado sobre esta encíclica.
+Pero esta review va a ser distinta, porque la voy a hacer ayudándome de otros artículos, opiniones y demás que se han publicado sobre la misma.
 
 ## [Alberto Olmos - Me da igual lo que opine el Papa sobre la IA](https://blogs.elconfidencial.com/cultura/mala-fama/2026-05-30/papa-inteligencia-artificial-enciclica-humanidad-1hms_4363668/)
 
-Voy a utilizar este articulo para hablar de la primera mitad de la encíclica, esta escrito por Alberto Olmos, que es un columnista que escribe de todo sin saber de nada (es lo que tiene tener que escribir 2 o 3 columnas a la semana). Aquí nos da su opinión sobre la encíclica, seguramente sin habersela leido.
+Este articulo viene bien para hablar de la primera mitad de la encíclica, está escrito por Alberto Olmos, que es un columnista que escribe de todo sin saber de nada (es lo que tiene tener que escribir 2 o 3 columnas a la semana). Aquí nos da su opinión sobre la encíclica, seguramente sin habérsela leido.
 
 > Todo para decir, en cuarenta mil palabras, lo mismo que Zapatero.
 >
@@ -27,7 +27,7 @@ Otro puntazo de Olmos, el papa no para de decir que hay que permanecer siendo "p
 
 ## [Simon Willison - Notes on Pope Leo XIV’s encyclical on AI](https://simonwillison.net/2026/May/25/encyclical-on-ai)
 
-Continuamos con la segunda mitad de la encíclica, aquí deja de dar la matraca con los derechos humanos y comerle la polla a la socialdemocracia y se centra en criticar la IA. Me he decidido a usar este articulo de Simon Willison, que es un nerd que tiene un blog donde escribe sobre tecnología. No da muchos comentarios, pero si pone algunos highlights que voy a utilizar.
+Continuamos con la segunda mitad, aquí León XIV deja de dar la matraca con los derechos humanos y comerle la polla a la socialdemocracia y se centra en criticar la IA. Me he decidido por usar este artículo de Simon Willison, que es un nerd con un blog donde escribe sobre tecnología. No da muchos comentarios, pero si pone algunos highlights.
 
 ### Evidentemente el punto pachamámico no podía faltar
 

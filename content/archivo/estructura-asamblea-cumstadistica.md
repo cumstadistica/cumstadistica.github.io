@@ -2,7 +2,7 @@
 title: Estructura de la Asamblea General Ordinaria de Cumstadística
 date: 2025-12-26
 author: c
-tags: [asamblea, estructura, asociación] 
+tags: ["asamblea", "estructura", "asociación", "maestro"]
 ---
 
 > Lugar: Kalmachicha | Las Delicias

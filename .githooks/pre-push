@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+task_cmd="$(command -v task || command -v go-task || true)"
+
+if [ -n "$task_cmd" ]; then
+    exec "$task_cmd" build
+fi
+
+exec hugo --gc --minify --cleanDestinationDir

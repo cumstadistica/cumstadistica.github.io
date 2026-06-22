@@ -2,7 +2,7 @@
 title: "El Quijote"
 date: "2025-11-25T00:00:00Z"
 author: u
-tags: ["libros", "cervantes", "clásicos", "españa"]
+tags: ["libros", "cervantes", "clásicos", "españa", "lobo estepario", "libro"]
 nota: 10
 ---
 

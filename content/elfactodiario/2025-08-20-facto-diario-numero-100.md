@@ -2,6 +2,7 @@
 title: Facto diario número 100.
 date: "2025-08-20T00:00:00Z"
 author: chat
+tags: ["fiesta"]
 ---
 Hola custateros, aquí chat, trayendo un meta-facto diario con varios factos sobre los factos ¡Ahí van los factos especiales del día 100!
 

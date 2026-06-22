@@ -2,7 +2,7 @@
 title: El Proceso, de Franz Kafka
 date: "2025-12-30T00:00:00Z"
 author: u
-tags: ["libros", "kafka", "clásicos", "literatura"]
+tags: ["libros", "kafka", "clásicos", "literatura", "libro"]
 nota: 7.2
 ---
 

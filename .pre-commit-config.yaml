@@ -10,31 +10,31 @@ repos:
       - id: check-date-match
         name: Sync Filename Date and Metadata
         entry: python3 scripts/check-dates.py
-        language: python
+        language: system
         files: \.md$
         pass_filenames: true
       - id: auto-add-tags
         name: Auto-add matching tags
         entry: python3 scripts/auto-add-tags.py
-        language: python
+        language: system
         files: ^content/.*\.md$
         pass_filenames: true
       - id: reorder-frontmatter
         name: Reorder front matter
         entry: python3 scripts/reorder-frontmatter.py
-        language: python
+        language: system
         files: ^content/.*\.md$
         pass_filenames: true
       - id: validate-frontmatter
         name: Validate required front matter
         entry: python3 scripts/validate-frontmatter.py
-        language: python
+        language: system
         files: ^content/.*\.md$
         pass_filenames: true
       - id: update-raster-refs
         name: Update Markdown PNG/JPG refs to WebP
         entry: python3 scripts/update-raster-refs-to-webp.py
-        language: python
+        language: system
         files: ^content/.*\.md$
         pass_filenames: true
       - id: hugo-build-for-lychee-full

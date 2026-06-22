@@ -2,7 +2,7 @@
 title: J en Reunión del CREIC en Belmez
 date: "2025-04-06T00:00:00Z"
 author: j
-tags: []
+tags: ["ingenieria", "granada", "belmez"]
 ---
 
 

@@ -2,7 +2,7 @@
 title: U en Gladbach
 date: "2026-06-07T00:00:00Z"
 author: ["u", "c"]
-tags: ["moenchengladbach"]
+tags: ["moenchengladbach", "star wars", "maestro", "comida", "troleo"]
 ---
 
 ## Capítulo 0

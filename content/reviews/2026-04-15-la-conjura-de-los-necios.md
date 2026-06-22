@@ -2,7 +2,7 @@
 title: '"La conjura de los necios", de John Kennedy Toole'
 date: "2026-04-15T00:00:00Z"
 author: u
-tags: ["ignatius farray", "libro"]
+tags: ["ignatius farray", "libro", "nerdi"]
 nota: 8.2
 ---
 
