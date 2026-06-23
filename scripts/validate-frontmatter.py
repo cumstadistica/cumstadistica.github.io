@@ -7,6 +7,8 @@ import sys
 ROOT = "content"
 AUTHOR_ROOT = os.path.join(ROOT, "author")
 DATED_FILENAME_REGEX = re.compile(r"(\d{4}-\d{2}-\d{2})-[^/\\]+\.md$")
+TOP_LEVEL_KEY_REGEX = re.compile(r"^([A-Za-z0-9_-]+):")
+LIST_ITEM_REGEX = re.compile(r"^\s*-\s*(.+?)\s*$")
 DISALLOWED_TAGS = {
     "j",
     "ma",
@@ -28,25 +30,6 @@ def load_valid_authors():
     return authors
 
 
-def parse_author_value(raw):
-    raw = raw.strip()
-    if not raw:
-        return []
-
-    if raw.startswith("[") and raw.endswith("]"):
-        inner = raw[1:-1].strip()
-        if not inner:
-            return []
-        values = []
-        for part in inner.split(","):
-            value = part.strip().strip("\"'")
-            if value:
-                values.append(value)
-        return values
-
-    return [raw.strip("\"'")]
-
-
 def parse_list_value(raw):
     raw = raw.strip()
     if not raw:
@@ -66,6 +49,32 @@ def parse_list_value(raw):
     return [raw.strip("\"'")]
 
 
+def parse_frontmatter_list(frontmatter, key):
+    lines = frontmatter.splitlines()
+    prefix = f"{key}:"
+
+    for index, line in enumerate(lines):
+        if not line.startswith(prefix):
+            continue
+
+        raw = line.split(":", 1)[1].strip()
+        if raw:
+            return parse_list_value(raw)
+
+        values = []
+        for list_line in lines[index + 1 :]:
+            if TOP_LEVEL_KEY_REGEX.match(list_line):
+                break
+
+            match = LIST_ITEM_REGEX.match(list_line)
+            if match:
+                values.append(match.group(1).strip("\"'"))
+
+        return values
+
+    return None
+
+
 def extract_frontmatter(path):
     with open(path, "r", encoding="utf-8") as handle:
         content = handle.read()
@@ -81,7 +90,7 @@ def top_level_keys(frontmatter):
     for line in frontmatter.splitlines():
         if not line.strip() or line.startswith((" ", "\t")) or line.lstrip().startswith("- "):
             continue
-        match = re.match(r"^([A-Za-z0-9_-]+):", line)
+        match = TOP_LEVEL_KEY_REGEX.match(line)
         if match:
             keys.append(match.group(1))
     return keys
@@ -112,11 +121,10 @@ def validate_file(path, valid_authors):
     if duplicates:
         errors.append(f"{relpath}: duplicate front matter keys: {', '.join(duplicates)}")
 
-    author_match = re.search(r"^author:\s*(.+)$", frontmatter, re.MULTILINE)
-    if not author_match:
+    authors = parse_frontmatter_list(frontmatter, "author")
+    if authors is None:
         errors.append(f"{relpath}: missing author")
     else:
-        authors = parse_author_value(author_match.group(1))
         if not authors:
             errors.append(f"{relpath}: empty author")
         else:
@@ -145,9 +153,8 @@ def validate_file(path, valid_authors):
             if len(categories) == 1 and categories[0] == section:
                 warnings.append(f"{relpath}: categories duplicates the section name '{section}'")
 
-    tags_match = re.search(r"^tags:\s*(.+)$", frontmatter, re.MULTILINE)
-    if tags_match:
-        tags = parse_list_value(tags_match.group(1))
+    tags = parse_frontmatter_list(frontmatter, "tags")
+    if tags is not None:
         disallowed = sorted({tag for tag in tags if tag.lower() in DISALLOWED_TAGS})
         if disallowed:
             errors.append(f"{relpath}: disallowed tag(s): {', '.join(disallowed)}")

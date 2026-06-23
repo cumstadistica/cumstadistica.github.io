@@ -7,7 +7,7 @@ import unicodedata
 
 ROOT = "content"
 TOP_LEVEL_KEY_REGEX = re.compile(r"^([A-Za-z0-9_-]+):")
-TAGS_LINE_REGEX = re.compile(r"^tags:\s*(.+)$")
+LIST_ITEM_REGEX = re.compile(r"^\s*-\s*(.+?)\s*$")
 LINK_REGEX = re.compile(r"\[([^\]]+)\]\([^)]+\)")
 SHORTCODE_REGEX = re.compile(r"{{[%<].*?[>%]}}", re.DOTALL)
 URL_REGEX = re.compile(r"https?://\S+")
@@ -49,6 +49,31 @@ def parse_list_value(raw):
     return [raw.strip("\"'")]
 
 
+def parse_frontmatter_list(frontmatter_lines, key):
+    prefix = f"{key}:"
+
+    for index, line in enumerate(frontmatter_lines):
+        if not line.startswith(prefix):
+            continue
+
+        raw = line.split(":", 1)[1].strip()
+        if raw:
+            return parse_list_value(raw)
+
+        values = []
+        for list_line in frontmatter_lines[index + 1 :]:
+            if TOP_LEVEL_KEY_REGEX.match(list_line):
+                break
+
+            match = LIST_ITEM_REGEX.match(list_line)
+            if match:
+                values.append(match.group(1).strip("\"'"))
+
+        return values
+
+    return None
+
+
 def extract_parts(path):
     with open(path, "r", encoding="utf-8") as handle:
         lines = handle.readlines()
@@ -64,12 +89,30 @@ def extract_parts(path):
     return lines, lines[1:end_index], lines[end_index + 1 :]
 
 
-def frontmatter_value(frontmatter_lines, key):
+def frontmatter_key_range(frontmatter_lines, key):
     prefix = f"{key}:"
-    for line in frontmatter_lines:
-        if line.startswith(prefix):
-            return line.split(":", 1)[1].strip()
+
+    for start, line in enumerate(frontmatter_lines):
+        if not line.startswith(prefix):
+            continue
+
+        end = start + 1
+        while end < len(frontmatter_lines) and not TOP_LEVEL_KEY_REGEX.match(frontmatter_lines[end]):
+            end += 1
+
+        return start, end
+
     return None
+
+
+def frontmatter_uses_list(frontmatter_lines, key):
+    key_range = frontmatter_key_range(frontmatter_lines, key)
+    if key_range is None:
+        return False
+
+    start, end = key_range
+    raw = frontmatter_lines[start].split(":", 1)[1].strip()
+    return raw.startswith("[") or any(LIST_ITEM_REGEX.match(line) for line in frontmatter_lines[start + 1 : end])
 
 
 def is_eligible_tag(tag):
@@ -95,11 +138,11 @@ def collect_tag_pool(paths):
         if frontmatter_lines is None:
             continue
 
-        raw_tags = frontmatter_value(frontmatter_lines, "tags")
-        if raw_tags is None:
+        tags = parse_frontmatter_list(frontmatter_lines, "tags")
+        if tags is None:
             continue
 
-        for tag in parse_list_value(raw_tags):
+        for tag in tags:
             if not is_eligible_tag(tag):
                 continue
 
@@ -138,30 +181,49 @@ def detect_matching_tags(body_lines, pool, existing_tags):
     return matched
 
 
-def render_tags_line(tags):
-    rendered = ", ".join(f'"{tag}"' for tag in tags)
-    return f"tags: [{rendered}]\n"
+def quote_yaml_string(value):
+    escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{escaped}"'
 
 
-def merge_tags(frontmatter_lines, tags):
+def render_list_block(key, values):
+    lines = [f"{key}:\n"]
+    lines.extend(f"  - {quote_yaml_string(value)}\n" for value in values)
+    return lines
+
+
+def merge_list(frontmatter_lines, key, values, preceding_keys):
     updated = list(frontmatter_lines)
-    tags_line = render_tags_line(tags)
+    rendered_lines = render_list_block(key, values)
+    key_range = frontmatter_key_range(updated, key)
 
-    for index, line in enumerate(updated):
-        if TAGS_LINE_REGEX.match(line):
-            updated[index] = tags_line
-            return updated
+    if key_range is not None:
+        start, end = key_range
+        updated[start:end] = rendered_lines
+        return updated
 
     insert_at = len(updated)
     for index, line in enumerate(updated):
         if not TOP_LEVEL_KEY_REGEX.match(line):
             continue
-        key = line.split(":", 1)[0]
-        if key in {"title", "date", "author", "categories"}:
+        field = line.split(":", 1)[0]
+        if field in preceding_keys:
             insert_at = index + 1
 
-    updated.insert(insert_at, tags_line)
+    updated[insert_at:insert_at] = rendered_lines
     return updated
+
+
+def merge_tags(frontmatter_lines, tags):
+    return merge_list(frontmatter_lines, "tags", tags, {"title", "date", "author", "categories"})
+
+
+def normalize_author_list(frontmatter_lines):
+    authors = parse_frontmatter_list(frontmatter_lines, "author")
+    if authors is None or not frontmatter_uses_list(frontmatter_lines, "author"):
+        return frontmatter_lines
+
+    return merge_list(frontmatter_lines, "author", authors, {"title", "date"})
 
 
 def main():
@@ -187,14 +249,14 @@ def main():
         if frontmatter_lines is None:
             continue
 
-        raw_tags = frontmatter_value(frontmatter_lines, "tags")
-        existing_tags = parse_list_value(raw_tags) if raw_tags is not None else []
+        existing_tags = parse_frontmatter_list(frontmatter_lines, "tags") or []
         matched_tags = detect_matching_tags(body_lines, tag_pool, existing_tags)
         if not matched_tags:
             continue
 
         merged_tags = existing_tags + [tag for tag in matched_tags if tag not in existing_tags]
         updated_frontmatter = merge_tags(frontmatter_lines, merged_tags)
+        updated_frontmatter = normalize_author_list(updated_frontmatter)
         updated_lines = ["---\n", *updated_frontmatter, "---\n", *body_lines]
         if updated_lines == lines:
             continue
