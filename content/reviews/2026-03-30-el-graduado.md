@@ -1,8 +1,16 @@
 ---
 title: El Graduado
 date: "2026-03-30T00:00:00Z"
-author: c
-tags: ["dustin hoffmann", "milf", "simon&garfunkel", "la vida de", "historia", "pelicula", "cine"]
+author:
+  - "c"
+tags:
+  - "dustin hoffmann"
+  - "milf"
+  - "simon&garfunkel"
+  - "la vida de"
+  - "historia"
+  - "pelicula"
+  - "cine"
 nota: 8.15
 ---
 

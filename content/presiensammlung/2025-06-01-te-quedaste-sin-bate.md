@@ -1,7 +1,8 @@
 ---
 title: Te quedaste sin bate
 date: "2025-06-01T00:00:00Z"
-author: j
+author:
+  - "j"
 ---
 Acabo de tener la experiencia más random de mi vida.
 Comprende el baño del Eroski, un abuelo, un cargador y un segurata

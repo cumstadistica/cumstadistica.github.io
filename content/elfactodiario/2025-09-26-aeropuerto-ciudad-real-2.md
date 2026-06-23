@@ -1,8 +1,10 @@
 ---
 title: Facto diario número 136
 date: "2025-09-26T00:00:00Z"
-author: j
-tags: ["CiudadReal"]
+author:
+  - "j"
+tags:
+  - "CiudadReal"
 ---
 
 ## El aeropuerto fantasma

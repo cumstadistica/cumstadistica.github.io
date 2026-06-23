@@ -1,8 +1,10 @@
 ---
 title: Facto diario número 134
 date: "2025-09-24T00:00:00Z"
-author: j
-tags: ["efecto mandela"]
+author:
+  - "j"
+tags:
+  - "efecto mandela"
 ---
 
 ## Roro nunca dijo "Hoy a Pablo le apetecía..."

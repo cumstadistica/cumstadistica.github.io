@@ -1,8 +1,14 @@
 ---
 title: Facto diario número 154.
 date: "2026-02-21T00:00:00Z"
-author: j
-tags: ["historia", "segunda guerra mundial", "aviacion", "franz stigler", "charlie brown"]
+author:
+  - "j"
+tags:
+  - "historia"
+  - "segunda guerra mundial"
+  - "aviacion"
+  - "franz stigler"
+  - "charlie brown"
 ---
 
 ## La historia de Franz Stigler

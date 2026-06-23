@@ -1,8 +1,15 @@
 ---
 title: Facto diario número 153.
 date: "2026-02-20T00:00:00Z"
-author: j
-tags: ["curiosidades", "cine", "series", "breaking bad", "bryan cranston", "vince gilligan"]
+author:
+  - "j"
+tags:
+  - "curiosidades"
+  - "cine"
+  - "series"
+  - "breaking bad"
+  - "bryan cranston"
+  - "vince gilligan"
 ---
 
 ## Vince Gilligan peleó por Bryan Cranston para el papel de Walter White

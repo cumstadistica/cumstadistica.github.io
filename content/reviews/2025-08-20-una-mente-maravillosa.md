@@ -1,8 +1,12 @@
 ---
 title: Una mente maravillosa (C)
 date: "2025-08-20T00:00:00Z"
-author: c
-tags: ["cine", "la vida de", "pelicula"]
+author:
+  - "c"
+tags:
+  - "cine"
+  - "la vida de"
+  - "pelicula"
 nota: 7
 ---
 

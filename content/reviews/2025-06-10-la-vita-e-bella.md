@@ -1,8 +1,10 @@
 ---
 title: La vita e bella
 date: "2025-06-10T00:00:00Z"
-author: j
-tags: ["cine"]
+author:
+  - "j"
+tags:
+  - "cine"
 nota: 9.2
 ---
 Una película que te toca la fibra sensible y te hace ver de los horrores de la guerra, el odio y el genocidio, pero que también te enseña de como el amor y algo de suerte logran sobrevivir a veces incluso en los entornos más hinospitos.

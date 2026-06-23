@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 131.
 date: "2025-09-21T00:00:00Z"
-author: c
+author:
+  - "c"
 ---
 Existe una página web dónde se subastan todos los objetos incautados por la justicia en Alemania y Austria.
 

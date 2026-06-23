@@ -1,7 +1,8 @@
 --- 
 title: Magnifica Humanitas
 date: "2026-05-25T00:00:00Z"
-author: c
+author:
+  - "c"
 tagss: ["papa", "leon xiv", "ia", "inteligencia artificial", "enciclica", "dios"]
 ---
 

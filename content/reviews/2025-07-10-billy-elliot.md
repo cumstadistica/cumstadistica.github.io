@@ -1,8 +1,10 @@
 ---
 title: Billy Elliot
 date: "2025-07-10T00:00:00Z"
-author: j
-tags: ["cine"]
+author:
+  - "j"
+tags:
+  - "cine"
 nota: 8.2
 ---
 

@@ -1,8 +1,11 @@
 ---
 title: Todos los hombres del presidente
 date: "2025-10-20T00:00:00Z"
-author: c
-tags: ["cine", "pelicula"]
+author:
+  - "c"
+tags:
+  - "cine"
+  - "pelicula"
 nota: 7.7
 ---
 

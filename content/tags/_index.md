@@ -1,7 +1,8 @@
 ---
 title: "Tags"
 date: "2026-03-28T00:00:00Z"
-author: cumstadistica
+author:
+  - "cumstadistica"
 description: "Navega por todas las etiquetas usadas en el blog."
 ---
 

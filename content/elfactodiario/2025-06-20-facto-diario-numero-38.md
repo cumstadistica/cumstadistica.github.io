@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 38.
 date: "2025-06-20T00:00:00Z"
-author: j
+author:
+  - "j"
 ---
 A día de hoy, el 25 Abril de 2024, acabamos de recuperar el contacto con la Voyager I
 

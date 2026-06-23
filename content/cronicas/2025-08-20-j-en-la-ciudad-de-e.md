@@ -1,8 +1,16 @@
 ---
 title: "J en la ciudad de E"
 date: "2025-08-20T00:00:00Z"
-author: ['j']
-tags: ["viaje", "madrid", "barcelona", "belmez", "bitacora", "tren", "españa"]
+author:
+  - "j"
+tags:
+  - "viaje"
+  - "madrid"
+  - "barcelona"
+  - "belmez"
+  - "bitacora"
+  - "tren"
+  - "españa"
 ---
 {{< figure src="/cronicas/2025-08-20-j-en-la-ciudad-de-e/j-en-la-ciudad-de-e-1.webp" alt="{j-en-la-ciudad-de-e-1}" >}}
 

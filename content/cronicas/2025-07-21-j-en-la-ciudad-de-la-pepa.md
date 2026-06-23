@@ -1,8 +1,12 @@
 ---
 title: J en la ciudad de la Pepa
 date: "2025-07-21T00:00:00Z"
-author: j
-tags: [cadiz, puente, negro]
+author:
+  - "j"
+tags:
+  - "cadiz"
+  - "puente"
+  - "negro"
 ---
 
 

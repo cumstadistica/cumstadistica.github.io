@@ -1,8 +1,11 @@
 ---
 title: "La Montiela"
 date: "2026-01-20T00:00:00Z"
-author: c
-tags: ["la montiela", "cordoba"]
+author:
+  - "c"
+tags:
+  - "la montiela"
+  - "cordoba"
 nota: 7.9
 ---
 

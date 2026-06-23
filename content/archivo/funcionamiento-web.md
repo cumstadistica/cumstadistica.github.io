@@ -1,7 +1,8 @@
 ---
 title: "Cómo funciona la web de Cumstadística?"
 date: "2025-12-13T00:00:00Z"
-author: ["c"]
+author:
+  - "c"
 ---
 
 Estimado lector del sitio web de Cumstadística,

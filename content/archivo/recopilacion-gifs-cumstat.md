@@ -1,8 +1,10 @@
 ---
 title: Recopilación de GIFs del grupo Cumstadística
 date: "2025-12-26T17:36:50+01:00"
-author: c
-tags: ["repositorio"]
+author:
+  - "c"
+tags:
+  - "repositorio"
 ---
 
 {{< figure src="/images/general/vomita-resbala.gif" alt="Vomita y se resbala" caption="Vomita y se resbala" >}}

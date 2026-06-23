@@ -1,8 +1,14 @@
 ---
 title: 'Facto diario número 144.'
 date: "2025-10-10T00:00:00Z"
-author: ['j']
-tags: ['tio-sam', 'origen-de-expresiones', 'historia', 'estados-unidos', 'guerra-de-1812']
+author:
+  - "j"
+tags:
+  - "tio-sam"
+  - "origen-de-expresiones"
+  - "historia"
+  - "estados-unidos"
+  - "guerra-de-1812"
 ---
 ## El origen del término Tío Sam
 

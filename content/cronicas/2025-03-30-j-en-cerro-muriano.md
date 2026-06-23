@@ -1,8 +1,13 @@
 ---
 title: J en Cerro Muriano
 date: "2025-03-30T00:00:00Z"
-author: j
-tags: ["jornadas", "consejo", "cordoba", "belmez"]
+author:
+  - "j"
+tags:
+  - "jornadas"
+  - "consejo"
+  - "cordoba"
+  - "belmez"
 ---
 
 

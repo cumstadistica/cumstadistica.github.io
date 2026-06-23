@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 127.
 date: "2025-09-17T00:00:00Z"
-author: j
+author:
+  - "j"
 ---
 "Waterloo" fue la primera canción ganadora de Eurovisión interpretada en un idioma distinto al oficial del país participante. En 1974, el reglamento permitía temporalmente cantar en cualquier idioma, y ABBA optó por el inglés para ampliar su alcance internacional.  Este cambio estratégico no solo les dio la victoria, sino que también catapultó su carrera a nivel mundial.  
 

@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 68.
 date: "2025-07-20T00:00:00Z"
-author: c
+author:
+  - "c"
 ---
 En Alemania se pueden enviar abejas por correo
 

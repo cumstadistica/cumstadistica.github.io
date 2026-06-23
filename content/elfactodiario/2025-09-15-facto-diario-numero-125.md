@@ -1,7 +1,8 @@
 ---
 title: Facto diario 125.
 date: "2025-09-15T00:00:00Z"
-author: j
+author:
+  - "j"
 ---
 Posiblemente el mayor fraude de la música comercial
 

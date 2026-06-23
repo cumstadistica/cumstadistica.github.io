@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 87.
 date: "2025-08-07T00:00:00Z"
-author: c
+author:
+  - "c"
 ---
 La ciencia ha probado que el meme de "tolerala y listo" es cierto.
 Si un intolerante toma cantidades masivas de lactosa en un período de unas 2 semanas, llegado a cierto punto comienza a tolerarla de nuevo.

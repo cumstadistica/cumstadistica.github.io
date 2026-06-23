@@ -1,8 +1,11 @@
 ---
 title: La vida de J
 date: "2025-05-21T00:00:00Z"
-author: ["u", "j"]
-tags: ["la vida de"]
+author:
+  - "u"
+  - "j"
+tags:
+  - "la vida de"
 ---
 
 {{< figure src="/meme/j-greentext.webp" alt="j greentext" >}}

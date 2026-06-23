@@ -1,8 +1,11 @@
 ---
 title: La crisálida
 date: "2025-09-25T00:00:00Z"
-author: u
-tags: ["libro", "historia"]
+author:
+  - "u"
+tags:
+  - "libro"
+  - "historia"
 nota: 7.5
 ---
 

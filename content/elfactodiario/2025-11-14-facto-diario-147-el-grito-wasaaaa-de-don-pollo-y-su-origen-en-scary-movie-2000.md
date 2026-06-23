@@ -1,8 +1,15 @@
 ---
 title: 'Facto diario 147: El grito "Wasaaaa" de Don Pollo y su origen en Scary Movie (2000)'
 date: "2025-11-14T00:00:00Z"
-author: ['c']
-tags: ['Don Pollo', 'Scary Movie', 'Wasaaaa', 'meme', 'Ohio', 'viral']
+author:
+  - "c"
+tags:
+  - "Don Pollo"
+  - "Scary Movie"
+  - "Wasaaaa"
+  - "meme"
+  - "Ohio"
+  - "viral"
 ---
 
 {{< youtube id="NsJLhRGPv-M" >}}

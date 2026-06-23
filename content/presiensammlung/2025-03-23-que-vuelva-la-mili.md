@@ -1,8 +1,10 @@
 ---
 title: Que vuelva la mili
 date: "2025-03-23T00:00:00Z"
-author: u
-tags: ["quevuelvalamili"]
+author:
+  - "u"
+tags:
+  - "quevuelvalamili"
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 96.
 date: "2025-08-16T00:00:00Z"
-author: c
+author:
+  - "c"
 ---
 El artículo más raro del catálogo de Volkswagen
 

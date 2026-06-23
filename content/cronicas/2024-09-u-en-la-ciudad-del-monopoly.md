@@ -1,8 +1,13 @@
 ---
 title: U en la ciudad del Monopoly 🇪🇸
 date: 2024-09-21 00:00:00 
-author: u
-tags: ["madrid", "barcelona", "españa", "dni"]
+author:
+  - "u"
+tags:
+  - "madrid"
+  - "barcelona"
+  - "españa"
+  - "dni"
 ---
 
 ## Preámbulo y contexto

@@ -1,8 +1,10 @@
 ---
 title: Dead Poets Society
 date: "2025-07-05T00:00:00Z"
-author: j
-tags: ["cine"]
+author:
+  - "j"
+tags:
+  - "cine"
 nota: 8.6
 ---
 

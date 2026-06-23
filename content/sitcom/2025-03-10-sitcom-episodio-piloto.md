@@ -1,8 +1,13 @@
 ---
 title: 'Episodio Piloto: Una hora menos en Canarias, una hora más en J'
 date: "2025-03-10T00:00:00Z"
-author: [c, chat]
-tags: ["historia", "pizza", "paco"]
+author:
+  - "c"
+  - "chat"
+tags:
+  - "historia"
+  - "pizza"
+  - "paco"
 ---
 
 ## Escena 1: El piso de J, C y U

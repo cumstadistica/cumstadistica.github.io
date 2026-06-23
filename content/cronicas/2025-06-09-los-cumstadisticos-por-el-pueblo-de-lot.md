@@ -1,8 +1,10 @@
 ---
 title: Los cumstadisticos por el pueblo de Lot
 date: "2025-06-09T00:00:00Z"
-author: u
-tags: [andujar]
+author:
+  - "u"
+tags:
+  - "andujar"
 ---
 
 ## Dia 0. Donde cristo perdió el mechero

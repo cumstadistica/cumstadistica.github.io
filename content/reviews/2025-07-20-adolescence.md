@@ -1,8 +1,11 @@
 ---
 title: Adolescence
 date: "2025-07-20T00:00:00Z"
-author: j
-tags: ["cine", "pelicula"]
+author:
+  - "j"
+tags:
+  - "cine"
+  - "pelicula"
 nota: 9.9
 ---
 

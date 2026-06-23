@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 126.
 date: "2025-09-16T00:00:00Z"
-author: j
+author:
+  - "j"
 ---
 El día que Dinamarca invadió Canadá sin querer 
 Desde los años 70, Dinamarca y Canadá han estado inmersos en una guerra territorial por una isla de 1,3 km² sin población, ni recursos, ni importancia real: la Isla Hans, ubicada entre Groenlandia y el Ártico canadiense.

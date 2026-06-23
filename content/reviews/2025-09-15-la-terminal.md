@@ -1,8 +1,12 @@
 ---
 title: La Terminal
 date: "2025-09-15T00:00:00Z"
-author: c
-tags: ["cine", "historia", "pelicula"]
+author:
+  - "c"
+tags:
+  - "cine"
+  - "historia"
+  - "pelicula"
 nota: 9
 ---
 

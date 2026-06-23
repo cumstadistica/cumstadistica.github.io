@@ -1,8 +1,11 @@
 ---
 title: Al diablo con el diablo
 date: "2025-10-30T00:00:00Z"
-author: j
-tags: ["cine", "brendanfraser"]
+author:
+  - "j"
+tags:
+  - "cine"
+  - "brendanfraser"
 nota: 9
 ---
 

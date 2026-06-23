@@ -1,8 +1,10 @@
 ---
 title: Facto diario número 138
 date: "2025-09-28T00:00:00Z"
-author: j
-tags: ["efecto mandela"]
+author:
+  - "j"
+tags:
+  - "efecto mandela"
 ---
 
 ## Maquiavello nunca dijo "El fin justifica los medios"

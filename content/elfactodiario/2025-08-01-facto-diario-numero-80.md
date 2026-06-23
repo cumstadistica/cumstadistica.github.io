@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 80.
 date: "2025-08-01T00:00:00Z"
-author: c
+author:
+  - "c"
 ---
 El famoso "hotel" S'cándalo cerró por sentencia judicial.
 

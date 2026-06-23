@@ -1,8 +1,10 @@
 ---
 title: J en Boquerón City
 date: "2025-04-03T00:00:00Z"
-author: j
-tags: [malaga]
+author:
+  - "j"
+tags:
+  - "malaga"
 ---
 
 

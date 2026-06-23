@@ -1,8 +1,12 @@
 ---
 title: "Troleada a Sesa"
 date: "2025-04-10T00:00:00Z"
-author: ["u", "sesa"]
-tags: ["troleadas", "anécdotas"]
+author:
+  - "u"
+  - "sesa"
+tags:
+  - "troleadas"
+  - "anécdotas"
 ---
 
 

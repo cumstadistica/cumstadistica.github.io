@@ -1,8 +1,15 @@
 ---
 title: J en Nueva Jovenlandia
 date: "2025-10-13T00:00:00Z"
-author: ['j']
-tags: ['viaje', 'malaga', 'caterpillar', 'algeciras', 'puerto', 'fiesta']
+author:
+  - "j"
+tags:
+  - "viaje"
+  - "malaga"
+  - "caterpillar"
+  - "algeciras"
+  - "puerto"
+  - "fiesta"
 ---
 {{< figure src="/cronicas/2025-10-13-J en nueva jovenlandia/j-en-nueva-jovenlandia-1.webp" alt="{j-en-nueva-jovenlandia-1}" >}}
 

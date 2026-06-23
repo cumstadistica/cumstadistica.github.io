@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 59.
 date: "2025-07-11T00:00:00Z"
-author: j
+author:
+  - "j"
 ---
 Cada año, como parte del tratado de las tres vacas, Francia cede a España estos animales el 13 de julio.
 

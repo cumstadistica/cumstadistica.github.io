@@ -1,8 +1,19 @@
 ---
 title: "C en la ciudad del pecado"
 date: "2026-04-20T00:00:00Z"
-author: [c, j]
-tags: ["belmez", "la vida de", "duisburg", "cerveza", "cordoba", "cocina", "españa", "okei", "dios"]
+author:
+  - "c"
+  - "j"
+tags:
+  - "belmez"
+  - "la vida de"
+  - "duisburg"
+  - "cerveza"
+  - "cordoba"
+  - "cocina"
+  - "españa"
+  - "okei"
+  - "dios"
 ---
 
 ## Un día en la vida de J

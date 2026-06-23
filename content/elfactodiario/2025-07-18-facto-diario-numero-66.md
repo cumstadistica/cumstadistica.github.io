@@ -1,8 +1,10 @@
 ---
 title: Facto diario número 66(6).
 date: "2025-07-18T00:00:00Z"
-author: u
-tags: ["dios"]
+author:
+  - "u"
+tags:
+  - "dios"
 ---
 En la biblia, [Dios](/tags/dios) castiga a menudo actos que ahora reconocemos como normales, con desmesurada dureza. Dos ejemplos son los siguientes:
 

@@ -1,8 +1,10 @@
 ---
 title: The Curious Case of Benjamin Button
 date: "2025-08-25T00:00:00Z"
-author: j
-tags: ["cine"]
+author:
+  - "j"
+tags:
+  - "cine"
 nota: 9.1
 ---
 

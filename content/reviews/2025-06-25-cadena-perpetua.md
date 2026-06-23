@@ -1,8 +1,11 @@
 ---
 title: Cadena Perpetua
 date: "2025-06-25T00:00:00Z"
-author: j
-tags: ["cine", "pelicula"]
+author:
+  - "j"
+tags:
+  - "cine"
+  - "pelicula"
 nota: 8.9
 ---
 

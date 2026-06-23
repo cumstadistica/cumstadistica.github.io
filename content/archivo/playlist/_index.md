@@ -1,6 +1,7 @@
 ---
 title: "Playlists"
-author: cumstadistica
+author:
+  - "cumstadistica"
 description: "Recopilación de playlists cumstadísticas"
 ---
 

@@ -1,8 +1,14 @@
 ---
 title: Facto diario número 152.
 date: "2026-01-04T00:00:00Z"
-author: j
-tags: ["curiosidades", "cine", "hannah lecter", "el silencio de los corderos", "efecto mandela"]
+author:
+  - "j"
+tags:
+  - "curiosidades"
+  - "cine"
+  - "hannah lecter"
+  - "el silencio de los corderos"
+  - "efecto mandela"
 ---
 
 Hannibal lecter nunca dijo "hola, clarice" en el silencio de los corderos

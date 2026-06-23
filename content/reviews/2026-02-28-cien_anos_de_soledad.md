@@ -1,8 +1,12 @@
 ---
 title: 'Cien Años de Soledad'
 date: "2026-02-28T00:00:00Z"
-author: u
-tags: ["literatura", "historia", "libro"]
+author:
+  - "u"
+tags:
+  - "literatura"
+  - "historia"
+  - "libro"
 nota: 8.1
 ---
 

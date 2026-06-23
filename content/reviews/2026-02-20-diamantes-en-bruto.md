@@ -1,8 +1,13 @@
 ---
 title: Diamantes en bruto (2019)
 date: "2026-02-20T00:00:00Z"
-author: u
-tags: ["cine", "thriller", "adam sandler", "jaca"]
+author:
+  - "u"
+tags:
+  - "cine"
+  - "thriller"
+  - "adam sandler"
+  - "jaca"
 nota: 8.0
 ---
 

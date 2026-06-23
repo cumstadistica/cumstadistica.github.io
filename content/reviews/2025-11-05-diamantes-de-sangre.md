@@ -1,8 +1,12 @@
 ---
 title: Diamantes de sangre
 date: "2025-11-05T00:00:00Z"
-author: j
-tags: ["cine", "dicaprio", "diamantes"]
+author:
+  - "j"
+tags:
+  - "cine"
+  - "dicaprio"
+  - "diamantes"
 nota: 10
 ---
 

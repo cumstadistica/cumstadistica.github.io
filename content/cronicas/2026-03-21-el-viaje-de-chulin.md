@@ -1,8 +1,12 @@
 ---
 title: El viaje de Chulin
 date: "2026-03-21T00:00:00Z"
-author: c
-tags: ["españa", "loco", "tren"]
+author:
+  - "c"
+tags:
+  - "españa"
+  - "loco"
+  - "tren"
 ---
 
 ## Antecedentes

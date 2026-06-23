@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 135
 date: "2025-09-25T00:00:00Z"
-author: j
+author:
+  - "j"
 ---
 
 ## "Mi internet es malísimo Bro"

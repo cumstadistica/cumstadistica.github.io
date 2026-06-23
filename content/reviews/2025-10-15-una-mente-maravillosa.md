@@ -1,8 +1,10 @@
 ---
 title: Una mente maravillosa
 date: "2025-10-15T00:00:00Z"
-author: j
-tags: ["cine"]
+author:
+  - "j"
+tags:
+  - "cine"
 nota: 10
 ---
 

@@ -1,8 +1,19 @@
 ---
 title: Italia con C 🍕
 date: "2023-09-06T00:00:00Z"
-author: c
-tags: ["italia", "roma", "florencia", "milan", "pisa", "pizza", "vacaciones", "papote", "viaje", "tren"]
+author:
+  - "c"
+tags:
+  - "italia"
+  - "roma"
+  - "florencia"
+  - "milan"
+  - "pisa"
+  - "pizza"
+  - "vacaciones"
+  - "papote"
+  - "viaje"
+  - "tren"
 ---
 
 Hola, amigos del afamado canal Presiensammlung II. Abro este apartado a petición de Presio para narrar mis desventuras en Italia

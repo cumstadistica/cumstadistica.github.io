@@ -1,8 +1,10 @@
 ---
 title: "Calvo Cuñao Unchained"
 date: "2025-08-01T00:00:00Z"
-author: calvo
-tags: ["django", ]
+author:
+  - "calvo"
+tags:
+  - "django"
 ---
 
 {{< video "/videos/calvo_cunao_jaula.mp4" >}}  

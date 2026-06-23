@@ -1,7 +1,8 @@
 ---
 title: Phantasialand
 date: "2025-09-10T00:00:00Z"
-author: c
+author:
+  - "c"
 nota: 7.5
 ---
 

@@ -1,8 +1,11 @@
 ---
 title: (C)hef por un día
 date: "2025-07-12T00:00:00Z"
-author: c
-tags: ["cocina", "sibarita"]
+author:
+  - "c"
+tags:
+  - "cocina"
+  - "sibarita"
 ---
 
 {{< figure src="/images/general/taller-paella-1.webp" alt="Taller de paellas" >}}

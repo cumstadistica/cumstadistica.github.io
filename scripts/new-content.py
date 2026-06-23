@@ -44,14 +44,41 @@ def infer_section(category):
     raise SystemExit(f"Category '{category}' exists, but no matching content section was found")
 
 
+def parse_list_value(raw):
+    raw = raw.strip()
+    if not raw:
+        return []
+
+    if raw.startswith("[") and raw.endswith("]"):
+        inner = raw[1:-1].strip()
+        if not inner:
+            return []
+        return [part.strip().strip("\"'") for part in inner.split(",") if part.strip()]
+
+    return [raw.strip("\"'")]
+
+
+def quote_yaml_string(value):
+    escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{escaped}"'
+
+
+def render_list_block(key, values):
+    if not values:
+        return f"{key}: []\n"
+
+    rendered_values = "".join(f"  - {quote_yaml_string(value)}\n" for value in values)
+    return f"{key}:\n{rendered_values}"
+
+
 def render_frontmatter(title, today, author, draft, category=None):
     draft_value = "true" if draft else "false"
-    categories_line = f'categories: ["{category}"]\n' if category else ""
+    author_block = render_list_block("author", parse_list_value(author))
+    categories_block = render_list_block("categories", [category]) if category else ""
     return f"""---
 title: "{title}"
 date: "{today}T00:00:00Z"
-author: {author}
-{categories_line}tags: []
+{author_block}{categories_block}tags: []
 draft: {draft_value}
 ---
 

@@ -1,8 +1,11 @@
 ---
 title: Q surrealista. Aquí estoy en el salón de Jose, en el colchón hinchable. A mi lado, caótico duerme en el sofá.
 date: "2024-09-11T00:00:00Z"
-author: ["u"]
-tags: ["fanegas", "buenas noches"]
+author:
+  - "u"
+tags:
+  - "fanegas"
+  - "buenas noches"
 ---
 
 {{< audio "/audios/q-surrealista-1.mp3" >}}

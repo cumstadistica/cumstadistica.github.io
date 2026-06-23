@@ -1,8 +1,13 @@
 ---
 title: El Irlandés
 date: "2025-08-15T00:00:00Z"
-author: j
-tags: ["cine", "scorsese", "deniro", "breaking-bad"]
+author:
+  - "j"
+tags:
+  - "cine"
+  - "scorsese"
+  - "deniro"
+  - "breaking-bad"
 nota: 9
 ---
 

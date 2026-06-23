@@ -1,8 +1,10 @@
 ---
 title: Facto diario número 108.
 date: "2025-08-28T00:00:00Z"
-author: c
-tags: ["malaga"]
+author:
+  - "c"
+tags:
+  - "malaga"
 ---
 De como se redescubrió la Alcazaba de #malaga
 Tras la reconquista de Málaga, la Alcazaba pasa a manos de la corona hispánica, que básicamente no hacen nada con ella hasta que en 1749 la usaron como cárcel para mujeres gitanas en la Gran Redada.

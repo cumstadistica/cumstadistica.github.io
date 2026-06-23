@@ -1,7 +1,8 @@
 ---
 title: Facto diario número 52.
 date: "2025-07-04T00:00:00Z"
-author: c
+author:
+  - "c"
 ---
 Aunque todo el mundo conoce la catedral de Colonia como una construcción de piedra negra, originalmente esta era blanca, como se puede observar en la parte baja de los muros del templo católico.
 

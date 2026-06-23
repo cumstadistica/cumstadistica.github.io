@@ -1,8 +1,13 @@
 ---
 title: Facto diario número 152.
 date: "2026-01-05T00:00:00Z"
-author: c
-tags: ["danny devito", "lorax", "phil collins", "pelicula"]
+author:
+  - "c"
+tags:
+  - "danny devito"
+  - "lorax"
+  - "phil collins"
+  - "pelicula"
 ---
 
 ## Danny DeVito dobló al Lorax en inglés y en 4 idiomas más sin saber ninguno de ellos

@@ -220,7 +220,7 @@ def merge_tags(frontmatter_lines, tags):
 
 def normalize_author_list(frontmatter_lines):
     authors = parse_frontmatter_list(frontmatter_lines, "author")
-    if authors is None or not frontmatter_uses_list(frontmatter_lines, "author"):
+    if authors is None:
         return frontmatter_lines
 
     return merge_list(frontmatter_lines, "author", authors, {"title", "date"})

@@ -1,8 +1,12 @@
 ---
 title: "Obra maestra gastronómica de C"
 date: "2025-10-15T00:00:00Z"
-author: c
-tags: ["delicatessen", "comida", "sibarita"]
+author:
+  - "c"
+tags:
+  - "delicatessen"
+  - "comida"
+  - "sibarita"
 ---
 
 Delicia culinaria creada por C, una verdadera obra maestra de la gastronomía que deleita los sentidos y eleva el paladar a nuevas alturas. Inspirada en la serie de Jose Luis Ábalos: [El Pingüino](https://www.imdb.com/de/title/tt15435876/)

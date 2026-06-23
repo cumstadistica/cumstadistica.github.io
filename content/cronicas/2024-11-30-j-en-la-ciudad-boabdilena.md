@@ -1,8 +1,17 @@
 ---
 title: J en la ciudad boabdileña 🧕
 date: "2024-11-30T00:00:00Z"
-author: j
-tags: ["granada", "barcelona", "consejo", "belmez", "comida", "fiesta", "madrid", "tren"]
+author:
+  - "j"
+tags:
+  - "granada"
+  - "barcelona"
+  - "consejo"
+  - "belmez"
+  - "comida"
+  - "fiesta"
+  - "madrid"
+  - "tren"
 ---
 
 ## Día 0. El CREIC (Conjunto de representantes de estudiantes de ingeniería de caminos)
