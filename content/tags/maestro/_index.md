@@ -1,5 +1,7 @@
 ---
 title: Maestro
+tags:
+    - "diccionario"
 ---
 
 ![Maestro](/images/maestro.webp)

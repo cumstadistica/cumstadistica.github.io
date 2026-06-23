@@ -2,6 +2,8 @@
 title: Enjuto Mojamuto
 weight: 80
 image: "/images/authors/enjuto_mojamuto.webp"
+tags:
+    - "diccionario"
 ---
 
 {{< authorbio >}}
