@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+export PREK_HOME="${PREK_HOME:-.venv/prek-cache}"
+
+if [ -x .venv/bin/prek ]; then
+    exec .venv/bin/prek run --skip lychee
+fi
+
+exec prek run --skip lychee
