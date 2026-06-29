@@ -14,6 +14,7 @@ tags:
   - "papote"
   - "viaje"
   - "tren"
+  - "israel"
 ---
 
 Hola, amigos del afamado canal Presiensammlung II. Abro este apartado a petición de Presio para narrar mis desventuras en Italia

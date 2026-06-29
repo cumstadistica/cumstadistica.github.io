@@ -6,6 +6,7 @@ author:
 tags:
   - "dios"
   - "moises"
+  - israel
 ---
 Moisés, el elegido por [Dios](/tags/dios) para llevar a Israel a la tierra prometida, era tartamudo y nunca hablaba en público. Todo lo decía su hermano, Aron, que hacía de portavoz.
 
