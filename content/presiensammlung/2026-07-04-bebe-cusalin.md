@@ -7,7 +7,10 @@ author:
   - c
 tags:
   - bebe
+  - chino
 draft: false
 ---
 
 ![bebe cusalin](/meme/bebe-cusalin.webp)
+
+{{< youtube "S7BeQ1i3t-Y" >}}
