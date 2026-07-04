@@ -6,6 +6,7 @@ author:
 tags:
   - "pelicula"
   - "torrente"
+nota: 8.6
 draft: false
 ---
 
