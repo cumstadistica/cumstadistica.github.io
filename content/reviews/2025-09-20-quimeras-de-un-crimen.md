@@ -14,7 +14,7 @@ nota: 9
 
 ## Constructiva crítica de quimeras de un crimen, de U, por J
 
-{{< quote
+{{< conversation
 
 text=`En general el libro está bien, trata mayormente la desgracia, la frustración, la critica y la inmovilidad social, la iglesia, y en ultima instancia el crimen y de sus causas y consecuencias. El libro trata de reflejar la vida en el Andújar de después de la muerte de franco, y aquí viene mi primera crítica:
 
@@ -33,7 +33,7 @@ author="j" />}}
 
 ## Constructiva crítica de contructiva crítica de Quimeras de un Crímen, de J, por C
 
-{{< quote
+{{< conversation
 
 text=`La review de J está bien, trata mayormente algunos temas que ciertamente chirrían en el libro. Sin embargo creo que J ha pasado cosas por alto y daré mi opinión al respecto:
 
@@ -50,7 +50,7 @@ author="c" />}}
 
 ## Constructiva crítica de constructiva crítica de constructiva crítica de Quimeras de un Crimen, de C, por J
 
-{{< quote
+{{< conversation
 
 text=`
 2. Si c, quizás es justificable que a Lot se le vaya la olla, pero echo en falta algún elemento que le dé más peso a la idea de matar a alguien, que no es ninguna tontería per se
@@ -63,7 +63,7 @@ author="j" />}}
 
 ## Constructiva crítica de Constructiva crítica de constructiva crítica de constructiva crítica de Quimeras de un Crimen de J y C por U
 
-{{< quote
+{{< conversation
 
 text=`
 
@@ -79,7 +79,7 @@ author="u" />}}
 
 ## Constructiva crítica de constructiva crítica de constructiva crítica de constructiva crítica de constructiva crítica de Quimeras de un Crimen de U, por J
 
-{{< quote
+{{< conversation
 
 text=`
 

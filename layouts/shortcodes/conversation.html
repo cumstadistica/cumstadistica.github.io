@@ -1,0 +1,32 @@
+{{/* Conversation bubble shortcode */}}
+{{- $text := .Get "text" | default (.Get 0) | default "" -}}
+{{- $authorCode := .Get "author" | default "" | printf "%s" | strings.TrimSpace -}}
+{{- $side := .Get "side" | default "" | printf "%s" | strings.TrimSpace | urlize -}}
+{{- $defaultImg := "/images/authors/default.webp" | absURL -}}
+{{- $content := $text -}}
+{{- if .Inner -}}
+  {{- $content = .Inner -}}
+{{- end -}}
+{{- $authorSlug := $authorCode | urlize -}}
+{{- $authorPage := cond (ne $authorSlug "") (site.GetPage (printf "/author/%s" $authorSlug)) nil -}}
+{{- $authorName := cond $authorPage $authorPage.Title $authorCode -}}
+{{- $img := cond $authorPage ($authorPage.Params.image | default $defaultImg) $defaultImg -}}
+
+<figure class="cum-conversation{{ with $side }} cum-conversation--{{ . }}{{ end }}"{{ with $authorSlug }} data-conversation-author="{{ . }}"{{ end }}>
+  {{- if $authorCode -}}
+    <figcaption class="cum-conversation__speaker">
+      <img
+        class="cum-conversation__avatar"
+        src="{{ $img }}"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        onerror="this.onerror=null;this.src='{{ $defaultImg }}';">
+      <cite class="cum-conversation__name">{{ $authorName }}</cite>
+    </figcaption>
+  {{- end -}}
+
+  <blockquote class="cum-conversation__bubble">
+    {{- $content | markdownify -}}
+  </blockquote>
+</figure>

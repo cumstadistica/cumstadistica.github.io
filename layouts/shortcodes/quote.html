@@ -1,57 +1,59 @@
-{{/* Quote shortcode - Professional Layout */}}
-{{ $text := .Get "text" | default (.Get 0) }}
-{{ $authorCode := .Get "author" | default "" }}
-{{ $date := .Get "date" | default (.Page.Date.Format "Jan 2, 2006") }}
-{{ $defaultImg := "/images/authors/default.webp" | absURL }}
-{{ $content := $text }}
-{{ if .Inner }}
-    {{ $content = .Inner }}
-{{ end }}
+{{/* Quote shortcode */}}
+{{- $text := .Get "text" | default (.Get 0) | default "" -}}
+{{- $authorCode := .Get "author" | default "" | printf "%s" | strings.TrimSpace -}}
+{{- $sourceURL := .Get "source" | default (.Get "url") | default "" | printf "%s" | strings.TrimSpace -}}
+{{- $variant := .Get "variant" | default "" | printf "%s" | strings.TrimSpace -}}
+{{- $defaultImg := "/images/authors/default.webp" | absURL -}}
+{{- $content := $text -}}
+{{- if .Inner -}}
+  {{- $content = .Inner -}}
+{{- end -}}
+{{- if and (eq $sourceURL "") (strings.Contains $authorCode "://") -}}
+  {{- $sourceURL = $authorCode -}}
+  {{- $authorCode = "Fuente" -}}
+{{- end -}}
+{{- $authorSlug := $authorCode | urlize -}}
+{{- $authorPage := cond (ne $authorSlug "") (site.GetPage (printf "/author/%s" $authorSlug)) nil -}}
+{{- $hasMeta := or $authorCode $sourceURL -}}
 
-<figure class="mv4 pa3 pa4-ns bg-custom-card br3 relative overflow-hidden">
-    {{/* Decorative Quote Mark */}}
-    <div class="absolute top-0 right-0 f-headline georgia o-10 white mr2 mtn3 select-none">”</div>
+<figure class="cum-quote{{ with $variant }} cum-quote--{{ . | urlize }}{{ end }}"{{ with $authorSlug }} data-quote-author="{{ . }}"{{ end }}>
+  <div class="cum-quote__mark" aria-hidden="true">"</div>
 
-    {{/* Author Section (Top Left) */}}
-    {{ if $authorCode }}
-        <figcaption class="flex items-center mb3 relative z-1">
-            {{ $authorPage := site.GetPage (printf "/author/%s" $authorCode) }}
-            
-            {{/* Author Avatar */}}
-            {{ if $authorPage }}
-                {{ $img := $authorPage.Params.image | default $defaultImg }}
-                <a href="{{ $authorPage.RelPermalink }}" class="db grow flex-shrink-0 mr3">
-                    <img src="{{ $img }}" 
-                         alt="{{ $authorPage.Title }}" 
-                         class="br3 h3 w3 object-cover b--white-20 ba bw1 shadow-1"
-                         style="min-width: 3rem; min-height: 3rem;"
-                         onerror="this.src='{{ $defaultImg }}'">
-                </a>
-            {{ end }}
+  <blockquote class="cum-quote__text">
+    {{- $content | markdownify -}}
+  </blockquote>
 
-            {{/* Author Info Text */}}
-            <div class="tl">
-                {{ if $authorPage }}
-                    <cite class="fs-normal">
-                        <a href="{{ $authorPage.RelPermalink }}" class="link white fw6 f5 dim db normal">{{ $authorPage.Title }}</a>
-                    </cite>
-                    {{ with $authorPage.Params.slogan }}
-                        <span class="f7 silver db i mt1">{{ . | truncate 50 }}</span>
-                    {{ end }}
-                {{ else if strings.Contains $authorCode "://" }}
-                    <cite class="fs-normal">
-                        <a href="{{ $authorCode }}" class="link white fw6 f5 dim db normal" target="_blank">Fuente</a>
-                    </cite>
-                {{ else }}
-                    <cite class="white fw6 f5 fs-normal normal">{{ $authorCode }}</cite>
-                {{ end }}
-                <span class="f7 silver db mt1">{{ $date }}</span>
-            </div>
-        </figcaption>
-    {{ end }}
+  {{- if $hasMeta -}}
+    <figcaption class="cum-quote__meta">
+      {{- if $authorPage -}}
+        {{- $img := $authorPage.Params.image | default $defaultImg -}}
+        <a class="cum-quote__avatar-link" href="{{ $authorPage.RelPermalink }}" aria-label="{{ $authorPage.Title }}">
+          <img
+            class="cum-quote__avatar"
+            src="{{ $img }}"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="this.onerror=null;this.src='{{ $defaultImg }}';">
+        </a>
+      {{- end -}}
 
-    {{/* Quote Text */}}
-    <blockquote class="relative z-1 f4-ns f5 lh-copy i white-90 measure-wide mt2 mb2 pl1">
-        {{ $content | markdownify }}
-    </blockquote>
+      <span class="cum-quote__caption">
+        {{- if $authorPage -}}
+          <cite class="cum-quote__author">
+            <a href="{{ $authorPage.RelPermalink }}">{{ $authorPage.Title }}</a>
+          </cite>
+          {{- with $authorPage.Params.slogan -}}
+            <span class="cum-quote__slogan">{{ . | truncate 64 }}</span>
+          {{- end -}}
+        {{- else if $sourceURL -}}
+          <cite class="cum-quote__author">
+            <a href="{{ $sourceURL }}" target="_blank" rel="noopener noreferrer">{{ $authorCode | default "Fuente" }}</a>
+          </cite>
+        {{- else if $authorCode -}}
+          <cite class="cum-quote__author">{{ $authorCode }}</cite>
+        {{- end -}}
+      </span>
+    </figcaption>
+  {{- end -}}
 </figure>

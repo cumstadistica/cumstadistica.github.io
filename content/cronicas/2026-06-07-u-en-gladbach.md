@@ -58,7 +58,7 @@ Nos damos la vuelta para recogerlas y, por el camino, miro en internet el precio
 
 Estuve todo el camino de vuelta intentando disuadir al Cusa, pero se mantenía férreo en su posición: me iba a invitar.
 
-{{< quote text=`No sois conscientes de la tabarra que me dio por 14€ de mierda, que ni siquiera iba a pagar él. Como maniobra de sabotaje, intentó convencerme de ir a un Minigolf que estaba a tomar por culo (y que encima era más caro). Yo ya conozco al U (y su tacañería extrema) y simplemente sudé.` author=c />}}
+{{< conversation text=`No sois conscientes de la tabarra que me dio por 14€ de mierda, que ni siquiera iba a pagar él. Como maniobra de sabotaje, intentó convencerme de ir a un Minigolf que estaba a tomar por culo (y que encima era más caro). Yo ya conozco al U (y su tacañería extrema) y simplemente sudé.` author=c />}}
 
 Al final fuimos y estuvo muy chulo. Adjunto foto.
 
@@ -116,7 +116,7 @@ Comimos barbacoa y Sesa estuvo todo el tiempo dándome la chapa con que él hab�
 
 Nos quisimos meter en la sauna, pero el pa de Sesa no nos dejó. Dijo que estaba húmeda (??) o algo. No sé. Está duro y el Sesa con su pa tiene sero (0️⃣) posibilidades de negociación.
 
-{{< quote text=`U, lo que pasó es que le explotó una válvula de agua y se inundó un poco una parte del sótano` author=c />}}
+{{< conversation text=`U, lo que pasó es que le explotó una válvula de agua y se inundó un poco una parte del sótano` author=c />}}
 
 En fin. Nos bañamos en la piscina, que está genial.
 

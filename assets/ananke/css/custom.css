@@ -118,6 +118,205 @@ a:hover, .link:hover {
   text-align: center;
 }
 
+/* Quotes */
+.cum-quote,
+.content-blockquote {
+  border-radius: 6px;
+  color: #ffffff;
+  margin: 1.75rem auto;
+}
+
+.cum-quote {
+  background:
+    linear-gradient(135deg, rgba(53, 121, 153, 0.2), rgba(18, 33, 49, 0) 45%),
+    #122131;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.35rem solid #d5a11e;
+  box-shadow: 0 0.7rem 1.6rem rgba(0, 0, 0, 0.22);
+  max-width: 46rem;
+  overflow: hidden;
+  padding: clamp(1rem, 2vw, 1.35rem);
+  position: relative;
+}
+
+.cum-quote__mark {
+  color: rgba(255, 255, 255, 0.08);
+  font-family: Georgia, serif;
+  font-size: clamp(4rem, 12vw, 8rem);
+  line-height: 0.8;
+  pointer-events: none;
+  position: absolute;
+  right: 0.7rem;
+  top: 0.25rem;
+}
+
+.cum-quote__text {
+  border: 0;
+  font-size: clamp(1.05rem, 1.2vw, 1.3rem);
+  font-style: normal;
+  line-height: 1.55;
+  margin: 0;
+  max-width: 40rem;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.lh-copy .cum-quote__text {
+  border: 0;
+  font-size: clamp(1.05rem, 1.2vw, 1.3rem);
+  margin: 0;
+  padding: 0;
+}
+
+.cum-quote__text > :first-child,
+.content-blockquote > :first-child {
+  margin-top: 0;
+}
+
+.cum-quote__text > :last-child,
+.content-blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.cum-quote__meta {
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  position: relative;
+  z-index: 1;
+}
+
+.cum-quote__avatar {
+  aspect-ratio: 1;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  display: block;
+  height: 3rem;
+  object-fit: cover;
+  width: 3rem;
+}
+
+.cum-quote__caption {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.cum-quote__author {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.cum-quote__author a {
+  color: #ffffff !important;
+  text-decoration-color: rgba(213, 161, 30, 0.55);
+  text-underline-offset: 0.18em;
+}
+
+.cum-quote__author a:hover {
+  color: gold !important;
+}
+
+.cum-quote__slogan {
+  color: #d1d1d1;
+  font-size: 0.82rem;
+  font-style: italic;
+  line-height: 1.25;
+}
+
+.content-blockquote {
+  background: rgba(255, 255, 255, 0.045);
+  border-left: 0.28rem solid rgba(213, 161, 30, 0.8);
+  font-size: 0.98em;
+  padding: 0.9rem 1rem;
+}
+
+.lh-copy .content-blockquote {
+  border-left: 0.28rem solid rgba(213, 161, 30, 0.8);
+  margin-left: auto;
+  padding: 0.9rem 1rem;
+}
+
+/* Conversation bubbles */
+.cum-conversation {
+  display: grid;
+  gap: 0.45rem;
+  margin: 1.1rem 0;
+  max-width: 42rem;
+}
+
+.cum-conversation--right {
+  margin-left: auto;
+}
+
+.cum-conversation__speaker {
+  align-items: center;
+  display: flex;
+  gap: 0.55rem;
+}
+
+.cum-conversation--right .cum-conversation__speaker {
+  flex-direction: row-reverse;
+}
+
+.cum-conversation__avatar {
+  aspect-ratio: 1;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  display: block;
+  height: 2.35rem;
+  object-fit: cover;
+  width: 2.35rem;
+}
+
+.cum-conversation__name {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.cum-conversation__bubble {
+  background: rgba(255, 255, 255, 0.075);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  border-top-left-radius: 2px;
+  color: #ffffff;
+  line-height: 1.5;
+  margin: 0 0 0 2.9rem;
+  padding: 0.8rem 0.95rem;
+}
+
+.cum-conversation--right .cum-conversation__bubble {
+  background: rgba(53, 121, 153, 0.22);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 2px;
+  margin-left: 0;
+  margin-right: 2.9rem;
+}
+
+.lh-copy .cum-conversation__bubble {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.8rem 0.95rem;
+}
+
+.cum-conversation__bubble > :first-child {
+  margin-top: 0;
+}
+
+.cum-conversation__bubble > :last-child {
+  margin-bottom: 0;
+}
+
 /* Stats dashboard */
 .stats-dashboard {
   max-width: 72rem;
@@ -369,6 +568,15 @@ header, nav, .bg-black {
 }
 
 @media screen and (max-width: 35em) {
+  .cum-quote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cum-quote__text {
+    font-size: 1rem;
+  }
+
   .stats-grid-kpis,
   .stats-grid-main,
   .stats-mini {

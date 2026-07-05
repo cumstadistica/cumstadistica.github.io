@@ -4,40 +4,48 @@
 {{- range site.RegularPages -}}
   {{- $page := . -}}
   {{- $content := .RawContent -}}
-  {{- /* Find all quote shortcodes */ -}}
-  {{- $matches := findRE `(?s)\{\{<\s*quote\s+.*?>\}\}` $content -}}
+  {{- $matches := findRE `(?s)\{\{<\s*quote\b.*?(?:/?\s*>\}\}|\{\{<\s*/quote\s*>\}\})` $content -}}
   {{- range $matches -}}
     {{- $quoteTag := . -}}
-    {{- /* Extract author */ -}}
-    {{- $authorRaw := replaceRE `(?s).*author="([^"]+)".*` "$1" $quoteTag -}}
-    {{- if ne $authorRaw $quoteTag -}}
-      {{- $authorPage := site.GetPage (printf "/author/%s" $authorRaw) -}}
-      {{- if eq $authorPage $currentAuthor -}}
-        {{- $text := "" -}}
-        {{- /* Try backticks for text */ -}}
-        {{- $pattern := printf `(?s).*text=%s([^%s]+)%s.*` $backtick $backtick $backtick -}}
-        {{- $textBackticks := replaceRE $pattern "$1" $quoteTag -}}
-        {{- if ne $textBackticks $quoteTag -}}
-          {{- $text = $textBackticks -}}
+    {{- $authorRaw := "" -}}
+    {{- $authorQuoted := replaceRE `(?s).*author\s*=\s*"([^"]+)".*` "$1" $quoteTag -}}
+    {{- if ne $authorQuoted $quoteTag -}}
+      {{- $authorRaw = $authorQuoted -}}
+    {{- else -}}
+      {{- $authorBare := replaceRE `(?s).*author\s*=\s*([^\s>/}]+).*` "$1" $quoteTag -}}
+      {{- if ne $authorBare $quoteTag -}}
+        {{- $authorRaw = $authorBare -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $authorRaw = $authorRaw | strings.TrimSpace | urlize -}}
+    {{- $authorPage := cond (ne $authorRaw "") (site.GetPage (printf "/author/%s" $authorRaw)) nil -}}
+    {{- if eq $authorPage $currentAuthor -}}
+      {{- $text := "" -}}
+      {{- $backtickPattern := printf `(?s).*text\s*=\s*%s([^%s]+)%s.*` $backtick $backtick $backtick -}}
+      {{- $textBackticks := replaceRE $backtickPattern "$1" $quoteTag -}}
+      {{- if ne $textBackticks $quoteTag -}}
+        {{- $text = $textBackticks -}}
+      {{- else -}}
+        {{- $textQuotes := replaceRE `(?s).*text\s*=\s*"([^"]+)".*` "$1" $quoteTag -}}
+        {{- if ne $textQuotes $quoteTag -}}
+          {{- $text = $textQuotes -}}
         {{- else -}}
-          {{- /* Try double quotes for text */ -}}
-          {{- $textQuotes := replaceRE `(?s).*text="([^"]+)".*` "$1" $quoteTag -}}
-          {{- if ne $textQuotes $quoteTag -}}
-            {{- $text = $textQuotes -}}
+          {{- $inner := replaceRE `(?s).*>\}\}(.*)\{\{<\s*/quote\s*>\}\}` "$1" $quoteTag -}}
+          {{- if ne $inner $quoteTag -}}
+            {{- $text = $inner -}}
           {{- end -}}
         {{- end -}}
-        
-        {{- /* Extract date */ -}}
-        {{- $dateRaw := replaceRE `(?s).*date="([^"]+)".*` "$1" $quoteTag -}}
-        {{- $date := $page.Date.Format "Jan 2, 2006" -}}
-        {{- if ne $dateRaw $quoteTag -}}
-          {{- $date = $dateRaw -}}
-        {{- end -}}
+      {{- end -}}
 
-        {{- if ne $text "" -}}
-          {{- $quoteObj := dict "text" ($text | markdownify | plainify | chomp) "source" $page.Permalink "source_title" $page.Title "date" $date -}}
-          {{- $quotes = $quotes | append $quoteObj -}}
-        {{- end -}}
+      {{- $dateRaw := replaceRE `(?s).*date\s*=\s*"([^"]+)".*` "$1" $quoteTag -}}
+      {{- $date := $page.Date.Format "Jan 2, 2006" -}}
+      {{- if ne $dateRaw $quoteTag -}}
+        {{- $date = $dateRaw -}}
+      {{- end -}}
+
+      {{- if ne ($text | strings.TrimSpace) "" -}}
+        {{- $quoteObj := dict "text" ($text | markdownify | plainify | chomp) "source" $page.Permalink "source_title" $page.Title "date" $date -}}
+        {{- $quotes = $quotes | append $quoteObj -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}

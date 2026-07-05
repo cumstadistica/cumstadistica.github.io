@@ -22,22 +22,21 @@ Le saludo y tal, pero no le doy conversación (Me da un poco de palo, es bien ra
 
 > Hey, JUGO. ESPANIIOL, VIVA ESPANIA. ESPANIOL. WIE GEHT'S JUGO?????🤠🇪🇸
 
-{{< quote
+{{< conversation
 text=`Hey Bruder (No me se su nombre), es geht gut.👍`
 author="u" />}}
-
 
 No se bien como llegamos a esto, pero me dice el trol:
 
 >Kennst du Bob Marley JUGO??
 
-{{< quote
+{{< conversation
 text=`Wer, Bob Marley? Der ist geil Bruder! Ich liebe seine Lieder!😳`
 author="u" />}}
 
 >O O, GUT GUT😄. Also,.... magst du...? (Me hace mímica de fumarse un porrete)
 
-{{< quote
+{{< conversation
 text=`Nein bro, das mach ich nicht😬`
 author="u" />}}
 
@@ -47,24 +46,23 @@ Le sonrío y sigo con lo mío.
 
 >HEY JUGO -dice mientras me agarra el hombro- Es gibt eine FRAU Bruder. Ich will die ficken JUGO😌. Sie kommt aus Bulgarien Bruder😋. Aber sie sagt, dass ich nicht gut aussehe😠😤 (Se señala la mella). Und, du weisst, ich Bin kein SPANIER😢. Mann SPANIER SIND MONSTER MIT FRAUEN, du musst mir glauben. Und diese Frau JUGO, sie ist gerade jetzt mit einem Spanier Bruder.
 
-{{< quote
+{{< conversation
 text=`Asiento con la cabeza (No se que decir)👍`
 author="u" />}}
 
 >Ja Bruder. SPANIER können gut ficken JUGO. 😼
 
-{{< quote
+{{< conversation
 text=`Asiento de nuevo👍`
 author="u" />}}
 
 >Aber ich will sie ficken JUGO😏. Verstehst du mich?
 
-{{< quote
+{{< conversation
 text=`Ja, ich verstehe dich.`
 author="u" />}}
 
 Y a esto que agarra su sartén y se va para su cuarto. Gritando VIVA ESPANIA a toda voz por el pasillo.
-
 
 ## El loco me regala un pescado
 
