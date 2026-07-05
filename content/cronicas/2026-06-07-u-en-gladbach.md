@@ -138,7 +138,7 @@ Pero la verdad es que estaba muy bueno todo. Eso sí.
 
 Al final me cobraron 70 ñapos, que es dinero, pero bueno. Como me estuvieron metiendo miedo todo el día me esperaba más, así que me pareció razonable.
 
-{{< quote text=`U, a estas alturas de la vida no sabes q Sesa es un dramático?` author= c />}}
+{{< conversation text=`U, a estas alturas de la vida no sabes q Sesa es un dramático?` author= c />}}
 
 Luego, como se podrá imaginar, con la barriga llena y más sobrios que un cura en un entierro, a Cusa y a mí se nos quitaron las ganas de hacer algo como no fuera irnos a su casa a jugar al Brotato.
 

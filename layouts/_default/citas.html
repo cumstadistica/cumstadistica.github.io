@@ -1,0 +1,123 @@
+{{ define "header" }}{{ partials.Include "site-navigation.html" . }}{{ end }}
+
+{{ define "main" }}
+  {{- $quotes := slice -}}
+  {{- $backtick := "`" -}}
+  {{- $quotePattern := printf `(?s)\{\{<\s*quote\b(?:%s[^%s]*%s|"[^"]*"|[^>])*(?:/quote|/)?\s*>\}\}` $backtick $backtick $backtick -}}
+  {{- $quotePages := site.RegularPages | append site.Home -}}
+  {{- range sort $quotePages "Date" "desc" -}}
+    {{- $page := . -}}
+    {{- $content := .RawContent -}}
+    {{- $matches := findRE $quotePattern $content -}}
+    {{- range $matches -}}
+      {{- $quoteTag := . -}}
+      {{- $authorRaw := "" -}}
+      {{- $authorQuoted := replaceRE `(?s).*author\s*=\s*"([^"]+)".*` "$1" $quoteTag -}}
+      {{- if ne $authorQuoted $quoteTag -}}
+        {{- $authorRaw = $authorQuoted -}}
+      {{- else -}}
+        {{- $authorBare := replaceRE `(?s).*author\s*=\s*([^\s>/}]+).*` "$1" $quoteTag -}}
+        {{- if ne $authorBare $quoteTag -}}
+          {{- $authorRaw = $authorBare -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $authorRaw = $authorRaw | strings.TrimSpace -}}
+      {{- $authorSlug := $authorRaw | urlize -}}
+      {{- $authorPage := cond (ne $authorSlug "") (site.GetPage (printf "/author/%s" $authorSlug)) nil -}}
+
+      {{- $text := "" -}}
+      {{- $backtickPattern := printf `(?s).*text\s*=\s*%s([^%s]+)%s.*` $backtick $backtick $backtick -}}
+      {{- $textBackticks := replaceRE $backtickPattern "$1" $quoteTag -}}
+      {{- if ne $textBackticks $quoteTag -}}
+        {{- $text = $textBackticks -}}
+      {{- else -}}
+        {{- $textQuotes := replaceRE `(?s).*text\s*=\s*"([^"]+)".*` "$1" $quoteTag -}}
+        {{- if ne $textQuotes $quoteTag -}}
+          {{- $text = $textQuotes -}}
+        {{- else -}}
+          {{- $inner := replaceRE `(?s).*>\}\}(.*)\{\{<\s*/quote\s*>\}\}` "$1" $quoteTag -}}
+          {{- if ne $inner $quoteTag -}}
+            {{- $text = $inner -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+
+      {{- if ne ($text | strings.TrimSpace) "" -}}
+        {{- $authorName := $authorRaw -}}
+        {{- $authorURL := "" -}}
+        {{- $authorImage := "" -}}
+        {{- $authorSlogan := "" -}}
+        {{- if $authorPage -}}
+          {{- $authorName = $authorPage.Title -}}
+          {{- $authorURL = $authorPage.RelPermalink -}}
+          {{- $authorImage = $authorPage.Params.image -}}
+          {{- $authorSlogan = $authorPage.Params.slogan -}}
+        {{- end -}}
+        {{- if and (eq $authorName "") (strings.Contains $authorRaw "://") -}}
+          {{- $authorName = "Fuente" -}}
+          {{- $authorURL = $authorRaw -}}
+        {{- end -}}
+        {{- $quotes = $quotes | append (dict
+          "text" $text
+          "author" $authorName
+          "author_url" $authorURL
+          "author_image" $authorImage
+          "author_slogan" $authorSlogan
+          "author_slug" $authorSlug
+          "source_title" $page.Title
+          "source_url" $page.RelPermalink
+          "page_date" $page.Date
+        ) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  <div class="quotes-page w-100 w-80-l center ph3 ph4-ns pv3">
+    <header class="quotes-header mb4">
+      <h1 class="f2 f1-ns fw7 mv0">{{ .Title }}</h1>
+      <p class="f5 silver mv2">{{ len $quotes }} citas recopiladas</p>
+    </header>
+
+    <section class="quotes-list">
+      {{- $defaultImg := "/images/authors/default.webp" | absURL -}}
+      {{- range $quotes -}}
+        {{- $quote := . -}}
+        <article class="cum-quote quotes-list__item"{{ with $quote.author_slug }} data-quote-author="{{ . }}"{{ end }}>
+          <div class="cum-quote__mark" aria-hidden="true">"</div>
+
+          <blockquote class="cum-quote__text">
+            {{- $quote.text | markdownify -}}
+          </blockquote>
+
+          <footer class="cum-quote__meta">
+            {{- with $quote.author_image -}}
+              <img
+                class="cum-quote__avatar"
+                src="{{ . }}"
+                alt=""
+                loading="lazy"
+                decoding="async"
+                onerror="this.onerror=null;this.src='{{ $defaultImg }}';">
+            {{- end -}}
+
+            <span class="cum-quote__caption">
+              {{- with $quote.author -}}
+                <cite class="cum-quote__author">
+                  {{- if $quote.author_url -}}
+                    <a href="{{ $quote.author_url }}">{{ . }}</a>
+                  {{- else -}}
+                    {{ . }}
+                  {{- end -}}
+                </cite>
+              {{- end -}}
+              {{- with $quote.author_slogan -}}
+                <span class="cum-quote__slogan">{{ . | truncate 64 }}</span>
+              {{- end -}}
+              <a class="cum-quote__source" href="{{ $quote.source_url }}">{{ $quote.source_title }}</a>
+            </span>
+          </footer>
+        </article>
+      {{- end -}}
+    </section>
+  </div>
+{{ end }}

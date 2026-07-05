@@ -1,10 +1,12 @@
 {{- $quotes := slice -}}
 {{- $currentAuthor := . -}}
 {{- $backtick := "`" -}}
-{{- range site.RegularPages -}}
+{{- $quotePattern := printf `(?s)\{\{<\s*quote\b(?:%s[^%s]*%s|"[^"]*"|[^>])*(?:/quote|/)?\s*>\}\}` $backtick $backtick $backtick -}}
+{{- $quotePages := site.RegularPages | append site.Home -}}
+{{- range $quotePages -}}
   {{- $page := . -}}
   {{- $content := .RawContent -}}
-  {{- $matches := findRE `(?s)\{\{<\s*quote\b.*?(?:/?\s*>\}\}|\{\{<\s*/quote\s*>\}\})` $content -}}
+  {{- $matches := findRE $quotePattern $content -}}
   {{- range $matches -}}
     {{- $quoteTag := . -}}
     {{- $authorRaw := "" -}}

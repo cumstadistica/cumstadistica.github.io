@@ -230,6 +230,31 @@ a:hover, .link:hover {
   line-height: 1.25;
 }
 
+.cum-quote__source {
+  color: #d1d1d1 !important;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+  text-underline-offset: 0.18em;
+}
+
+.quotes-page {
+  max-width: 72rem;
+}
+
+.quotes-header {
+  text-align: center;
+}
+
+.quotes-list {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.quotes-list__item {
+  width: 100%;
+}
+
 .content-blockquote {
   background: rgba(255, 255, 255, 0.045);
   border-left: 0.28rem solid rgba(213, 161, 30, 0.8);
