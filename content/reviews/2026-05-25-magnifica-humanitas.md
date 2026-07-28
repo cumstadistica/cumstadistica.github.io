@@ -3,6 +3,7 @@ title: Magnifica Humanitas
 date: "2026-05-25T00:00:00Z"
 author:
   - "c"
+nota: 5.3
 tagss: ["papa", "leon xiv", "ia", "inteligencia artificial", "enciclica", "dios"]
 ---
 
@@ -56,3 +57,5 @@ Si a Pilar Alegría le parece bien lo que has escrito, es que lo has hecho muy m
 ![Tweet Bellido](/reviews/magnifica-humanitas-bellido.webp)
 
 [Fuente](https://nitter.net/bellidomorillas/status/2061398524651000085#m)
+
+Nota: 5.3/10
