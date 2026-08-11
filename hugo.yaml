@@ -68,6 +68,7 @@ params:
     custom_css:
       - "custom.css"
       - "interactions.css"
+      - "sitewide.css"
     social:
       twitter:
         profile: true
