@@ -53,14 +53,14 @@
   (() => {
     const dialog = document.querySelector('[data-contact-dialog]');
     if (!dialog) return;
-    const open = document.querySelector('[data-contact-open]');
+    const openButtons = document.querySelectorAll('[data-contact-open]');
     const close = dialog.querySelector('[data-contact-close]');
     const copy = dialog.querySelector('[data-copy-email]');
     const status = dialog.querySelector('[data-contact-status]');
-    open?.addEventListener('click', () => {
+    openButtons.forEach((open) => open.addEventListener('click', () => {
       if (typeof dialog.showModal === 'function') dialog.showModal();
       else dialog.setAttribute('open', '');
-    });
+    }));
     close?.addEventListener('click', () => dialog.close());
     dialog.addEventListener('click', (event) => {
       if (event.target === dialog) dialog.close();
