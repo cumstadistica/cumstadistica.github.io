@@ -1,0 +1,20 @@
+<div class="ananke-socials social-actions" aria-label="Enlaces de Cumstadística">
+  <a class="ananke-social-link social-action twitter link dib z-999 mr1"
+     href="https://x.com/cumstadistica" target="_blank" rel="noopener noreferrer"
+     title="Cumstadística en X" aria-label="Abrir Cumstadística en X en una pestaña nueva">
+    <span class="icon" aria-hidden="true">{{ (resources.Get "ananke/socials/twitter.svg").Content | safe.HTML }}</span>
+    <span class="social-action__label">X</span>
+  </a>
+  <button class="ananke-social-link social-action email link dib z-999 mr1"
+          type="button" data-contact-open title="Contactar con Cumstadística"
+          aria-label="Abrir opciones de contacto">
+    <span class="icon" aria-hidden="true">{{ (resources.Get "ananke/socials/envelope.svg").Content | safe.HTML }}</span>
+    <span class="social-action__label">Contacto</span>
+  </button>
+  <a class="ananke-social-link social-action rss link dib z-999"
+     href="{{ "/index.xml" | relURL }}" target="_blank" rel="noopener"
+     title="Suscribirse por RSS" aria-label="Abrir el canal RSS en una pestaña nueva">
+    <span class="icon" aria-hidden="true">{{ (resources.Get "ananke/socials/rss.svg").Content | safe.HTML }}</span>
+    <span class="social-action__label">RSS</span>
+  </a>
+</div>
