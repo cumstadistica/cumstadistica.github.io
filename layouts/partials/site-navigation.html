@@ -32,3 +32,48 @@
     </div>
   </div>
 </nav>
+
+<dialog class="contact-dialog" data-contact-dialog aria-labelledby="contact-title">
+  <div class="contact-dialog__bar">
+    <span>Canal abierto</span>
+    <button type="button" data-contact-close aria-label="Cerrar contacto">×</button>
+  </div>
+  <div class="contact-dialog__body">
+    <p class="contact-dialog__eyebrow">Contacto</p>
+    <h2 id="contact-title">¿Nos cuentas algo?</h2>
+    <p>Escríbenos a <strong>cumstadistica@gmail.com</strong>. Puedes abrir tu correo o copiar la dirección.</p>
+    <div class="contact-dialog__actions">
+      <a class="contact-dialog__primary" href="mailto:cumstadistica@gmail.com?subject=Hola%20Cumstad%C3%ADstica">Escribir correo <span aria-hidden="true">↗</span></a>
+      <button type="button" data-copy-email data-email="cumstadistica@gmail.com">Copiar dirección</button>
+    </div>
+    <p class="contact-dialog__status" data-contact-status role="status" aria-live="polite"></p>
+  </div>
+</dialog>
+<script>
+  (() => {
+    const dialog = document.querySelector('[data-contact-dialog]');
+    if (!dialog) return;
+    const open = document.querySelector('[data-contact-open]');
+    const close = dialog.querySelector('[data-contact-close]');
+    const copy = dialog.querySelector('[data-copy-email]');
+    const status = dialog.querySelector('[data-contact-status]');
+    open?.addEventListener('click', () => {
+      if (typeof dialog.showModal === 'function') dialog.showModal();
+      else dialog.setAttribute('open', '');
+    });
+    close?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    copy?.addEventListener('click', async () => {
+      const email = copy.dataset.email;
+      try {
+        await navigator.clipboard.writeText(email);
+        status.textContent = 'Dirección copiada. Ya puedes pegarla donde quieras.';
+        copy.textContent = '¡Copiada!';
+      } catch (_) {
+        status.textContent = email;
+      }
+    });
+  })();
+</script>
