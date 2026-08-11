@@ -1,32 +1,10 @@
 {{ define "main" }}
   {{ $paginator := .Paginate .Pages }}
-
-  <div class="w-100 w-70-ns center">
+  <div class="content-shell listing-page">
+    <header class="listing-hero"><p class="page-kicker">Archivo Cumstadístico · {{ $paginator.TotalNumberOfElements }} piezas</p><h1>{{ .Title }}</h1>{{ with .Description }}<p class="listing-description">{{ . }}</p>{{ end }}{{ if and (eq $paginator.PageNumber 1) .Content }}<div class="listing-intro">{{ .Content }}</div>{{ end }}</header>
     {{ if gt $paginator.TotalNumberOfElements 0 }}
-      {{ if and (eq $paginator.PageNumber 1) .Content }}
-        <section class="list-intro w-100 mw8 center mb4 ph3 ph4-ns f4 tc lh-copy nested-links {{ $.Param "text_color" | compare.Default "white" }}">
-          {{- .Content -}}
-        </section>
-      {{ end }}
-
-      {{/* Pagination */}}
-      <div class="list-pagination-top flex justify-center">
-        {{ template "_internal/pagination.html" . }}
-      </div>
-
-      <section class="w-100 mw8 center">
-        {{ range $paginator.Pages }}
-          {{ .Render "summary-with-image" }}
-        {{ end }}
-      </section>
-
-      {{/* Pagination */}}
-      <div class="flex justify-center">
-        {{ template "_internal/pagination.html" . }}
-      </div>
-    {{ else }}
-      <p class="tc white-80">No hay contenido en esta sección.</p>
-    {{ end }}
-    
+      <section class="post-grid" aria-label="Publicaciones de {{ .Title }}">{{ range $paginator.Pages }}{{ .Render "summary-with-image" }}{{ end }}</section>
+      <nav class="pagination-wrap" aria-label="Paginación">{{ template "_internal/pagination.html" . }}</nav>
+    {{ else }}<div class="empty-state"><strong>Aún no hay publicaciones.</strong><p>Vuelve pronto; seguro que alguien está preparando una barbaridad.</p></div>{{ end }}
   </div>
 {{ end }}
