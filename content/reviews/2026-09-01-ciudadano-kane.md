@@ -11,7 +11,7 @@ nota: 9.1
 
 [poster](/reviews/ciudadano-kane.webp)
 
-{{< quote author="c" text="«Ciudadano Kane es como su madre (de Vd., estimado lector): tiene más años que un bosque, pero está buena de cojones»." >}}
+{{< quote text=`«Ciudadano Kane es como su madre (de Vd., estimado lector): tiene más años que un bosque, pero está buena de cojones».` author="c" /quote >}}
 
 La peli sigue a unos periodistas que investigan la vida del magnate de la prensa Charles Foster Kane para descifrar que quiso decir con su última palabra: «Rosebud». Así vamos repasando la vida y obra del figura, inspirado principalmente en el magnate estadounidense William Randolph Hearst.
 
