@@ -9,7 +9,7 @@ tags:
 nota: 9.1
 ---
 
-[poster](/reviews/ciudadano-kane.webp)
+![poster](/reviews/ciudadano-kane.webp)
 
 {{< quote text=`«Ciudadano Kane es como su madre (de Vd., estimado lector): tiene más años que un bosque, pero está buena de cojones».` author="c" /quote >}}
 
